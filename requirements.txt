@@ -1,0 +1,4 @@
+dash
+dash_template_rendering
+flask
+pandas

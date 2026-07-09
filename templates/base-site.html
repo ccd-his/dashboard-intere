@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html lang="pt" dir="ltr">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="msapplication-TileColor" content="#2e498f">
+    <meta name="theme-color" content="#2e498f">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <link rel="icon" href="/static/assets/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" type="image/x-icon" href="/static/assets/favicon.ico" />
+
+    <title>
+      {% block title %}{% endblock %}{{title|safe}} | Guiaro
+    </title>
+
+    
+    <!-- Placeholders para substituir quando renderizar o template para dash -->
+    <!--dash-metas-->
+    <!--dash-css-->
+    <!--dash-config-->
+    <!--dash-scripts-->
+
+    <!-- Tabler Core -->
+    <script src="/static/assets/js/tabler.min.js"></script>
+    
+    <script src="/static/assets/js/require.min.js"></script>
+    <script>
+      requirejs.config({
+          baseUrl: '/static/'
+      });
+      moment.defaultFormat = 'YYYY-MM-DD HH:mm:ss'
+    </script>
+
+
+
+    <!-- Plotly locales -->
+    <script src="/static/assets/js/plotly-locale-pt-br-latest.js"></script>
+    <script src="/static/assets/js/plotly-locale-es-latest.js"></script>
+
+    <!-- CSS Tabler -->
+    <link href="/static/assets/css/tabler.min.css" rel="stylesheet">
+    <link href="/static/assets/css/tabler-vendors.min.css" rel="stylesheet">
+
+
+    <!-- CSS Guiaro -->
+    <link href="/static/assets/css/guiaro.css" rel="stylesheet" >
+
+
+  </head>
+  <body class="antialiased">
+    <div class="wrapper">
+      <div class="page-wrapper">
+        <div class="page-header d-print-none" aria-label="Page header">
+          <div class="container-xl">
+            <div class="row g-2 align-items-center">
+              <div class="col">
+                <!-- Page pre-title -->
+                <div class="page-pretitle">Overview</div>
+                <h2 class="page-title">Dashboard!</h2>
+              </div>
+              <!-- Page title actions -->
+              <div class="col-auto ms-auto d-print-none">
+                <div class="btn-list">
+                  <span class="d-none d-sm-inline">
+                    <a href="#" class="btn btn-1"> New view </a>
+                  </span>
+                  <a href="#" class="btn btn-primary btn-5 d-none d-sm-inline-block" data-bs-toggle="modal" data-bs-target="#modal-report">
+                    <!-- Download SVG icon from http://tabler.io/icons/icon/plus -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-2">
+                      <path d="M12 5l0 14"></path>
+                      <path d="M5 12l14 0"></path>
+                    </svg>
+                    Create new report
+                  </a>
+                  <a href="#" class="btn btn-primary btn-6 d-sm-none btn-icon" data-bs-toggle="modal" data-bs-target="#modal-report" aria-label="Create new report">
+                    <!-- Download SVG icon from http://tabler.io/icons/icon/plus -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-2">
+                      <path d="M12 5l0 14"></path>
+                      <path d="M5 12l14 0"></path>
+                    </svg>
+                  </a>
+                </div>
+                <!-- BEGIN MODAL -->
+                <!-- END MODAL -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="page-body">
+          <div class="container-xl">
+            <div class="row row-cards">
+              <div class="col-md-6 col-lg-6 col-sm-12">
+                <div class="card">
+                  <div class="card-header">
+                    <h3 class="card-title">Card title</h3>
+                  </div>
+                <!-- Placeholders para substituir quando renderizar o template para dash -->
+                  <div class="card-body"><!--dash-app_entry--></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    <!-- Specific Page JS goes HERE  -->
+    {% block javascripts %}{% endblock javascripts %}
+    
+    <!-- Placeholders para substituir quando renderizar o template para dash -->
+    <!--dash-renderer-->
+
+  </body>
+</html>

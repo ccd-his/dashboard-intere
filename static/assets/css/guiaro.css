@@ -1,0 +1,317 @@
+/** 
+
+Paleta de cores do guiaro
+
+**/
+
+:root {
+  --guiaro-roxo: #526cfd;
+  --guiaro-roxo-claro: #7589fd;
+  --guiaro-roxo-escuro: #483fe6;
+  --guiaro-azul-escuro: #2e498f;
+  --guiaro-azul-claro: #6fa7ea;
+  --guiaro-cinza: #8d99ae;
+  --guiaro-grafbin-vermelho: #d33c53;
+  --guiaro-grafbin-azul: #3e3fcb;
+  --guiaro-grafsemaf-vermelho: #ff3464;
+  --guiaro-grafsemaf-laranja: #fc883a;
+  --guiaro-grafsemaf-amarelo: #fff446;
+  --guiaro-grafsemaf-verde: #00f087;
+  --guiaro-1a: #00eddb;
+  --guiaro-1b: #26F0E0;
+  --guiaro-1c: #4CF2E6;
+  --guiaro-1d: #73f5eb;
+  --guiaro-1e: #99f8f1;
+  --guiaro-1f: #bffaf6;
+  --guiaro-1g: #e5fdfb;
+  --guiaro-2a: #0B8C9E;
+  --guiaro-2b: #2F9DAC;
+  --guiaro-2c: #54AEBB;
+  --guiaro-2d: #79C0CA;
+  --guiaro-2e: #9DD1D8;
+  --guiaro-2f: #C2E2E7;
+  --guiaro-2g: #E6F3F5;
+  --guiaro-3a: #103557;
+  --guiaro-3b: #345370;
+  --guiaro-3c: #577189;
+  --guiaro-3d: #7C90A3;
+  --guiaro-3e: #9FAEBC;
+  --guiaro-3f: #C3CCD5;
+  --guiaro-3g: #E7EAEE;
+  --guiaro-4a: #252EA2;
+  --guiaro-4b: #454DB0;
+  --guiaro-4c: #666CBE;
+  --guiaro-4d: #878CCC;
+  --guiaro-4e: #A8ABDA;
+  --guiaro-4f: #C8CBE8;
+  --guiaro-4g: #E7EAEE;
+  --guiaro-5a: #844FC9;
+  --guiaro-5b: #9669D1;
+  --guiaro-5c: #A983D9;
+  --guiaro-5d: #BB9EE1;
+  --guiaro-5e: #CEB9E9;
+  --guiaro-5f: #E0D3F1;
+  --guiaro-5g: #F2EDF9;
+  --guiaro-6a: #C667B8;
+  --guiaro-6b: #CE7EC3;
+  --guiaro-6c: #D794CD;
+  --guiaro-6d: #E0ACD8;
+  --guiaro-6e: #E8C2E3;
+  --guiaro-6f: #F1D9ED;
+  --guiaro-6g: #F9F0F8;
+  --guiaro-7a: #FE767F;
+  --guiaro-7b: #FE8A92;
+  --guiaro-7c: #FE9FA5;
+  --guiaro-7d: #FEB4B9;
+  --guiaro-7e: #FFC8CC;
+  --guiaro-7f: #FFDDDF;
+  --guiaro-7g: #FFF1F2;
+}
+
+/* Especificidades do guiaro */
+
+.navbar {
+  background-color: var(--guiaro-azul-escuro);
+}
+
+.navbar-overlap::after {
+  height: 5.5rem;
+}
+
+.page-pretitle {
+  color: rgba(255, 255, 255, 0.45);
+}
+
+.DateInput_input {
+  font-size: inherit;
+}
+
+.dash-default-spinner>div {
+  background-color: #eee !important;
+}
+
+.selectgroup-item {
+  padding-left: 0;
+}
+
+.selectgroup .custom-control-label::before {
+  color: inherit;
+  border: inherit;
+  background: inherit;
+}
+
+.custom-control-input:checked+.selectgroup-button {
+  border-color: #467fcf;
+  z-index: 1;
+  color: #467fcf;
+  background: #edf2fa;
+}
+
+.custom-control-input:focus+.selectgroup-button {
+  border-color: #467fcf;
+  z-index: 2;
+  color: #467fcf;
+  box-shadow: 0 0 0 2px rgba(70, 127, 207, 0.25);
+}
+
+.selectgroup-item .custom-control-label::before {
+  content: none;
+}
+
+.selectgroup-item .custom-control-label::after {
+  content: none;
+}
+
+.DateRangePickerInput_arrow_svg {
+  fill: #ccc;
+}
+
+.date-range.w-100 .DateRangePicker, .date-range.w-100 .DateRangePickerInput {
+  width: 100%;
+}
+
+.date-range.w-100 .DateInput {
+  width: 45%;
+}
+
+.date-range.w-100 .DateRangePickerInput_arrow {
+  width: 10%;
+}
+
+.date-range.w-100 .DateInput:last-child input {
+  text-align: right;
+}
+
+.DateRangePicker_picker {
+  z-index: 10;
+}
+
+.DateInput_input {
+  line-height: 34px;
+  padding: 0px 10px;
+}
+
+.DateRangePicker_picker {
+  top: 54px !important;
+}
+
+.DateInput_fang {
+  top: 43px !important;
+}
+
+.DayPickerKeyboardShortcuts_show__bottomRight::before {
+  border-right-color: var(--guiaro-cinza);
+}
+
+.DayPickerKeyboardShortcuts_show__bottomRight:hover::before {
+  border-right-color: var(--guiaro-cinza);
+}
+
+.CalendarDay__selected_span:active, .CalendarDay__selected_span {
+  background: #E6EAF2;
+  border-color: #e4e7e7;
+  color: #467fcf;
+}
+
+.CalendarDay__selected, .CalendarDay__selected:active, .CalendarDay__selected:hover {
+  background: #467fcf;
+  color: white;
+  border-color: #467fcf;
+}
+
+.CalendarDay__selected_span:active, .CalendarDay__selected_span:hover {
+  background: #467fcf;
+  color: white;
+  border-color: #467fcf;
+}
+
+.DateInput_input__focused {
+  border-bottom-color: #467fcf;
+}
+
+.col-login .text-muted a {
+  color: white;
+}
+
+.card-options .Select-value-label {
+  color: #999 !important;
+  font-size: 9pt;
+}
+
+.card-options .Select-value {
+  line-height: 24px !important;
+}
+
+.card-options .Select-multi-value-wrapper, .card-options .Select-control {
+  height: 24px;
+  width: 120px;
+}
+
+.card-options .Select-menu-outer {
+  font-size: 9pt;
+}
+
+.card-fullscreen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  margin: 0;
+}
+
+/*
+Card options
+ */
+
+.card-collapsed> :not(.card-header):not(.card-status) {
+  display: none;
+}
+
+.card-collapsed .card-options-collapse i:before {
+  content: '\e92d';
+}
+
+.card-fullscreen .card-options-fullscreen i:before {
+  content: '\e992';
+}
+
+.card-fullscreen .card-options-remove {
+  display: none;
+}
+
+.dash-graph {
+  min-height: 80px;
+}
+
+table {
+  font-size: 9pt;
+}
+
+.pagination {
+  font-size: .75rem;
+}
+
+.plotly-notifier {
+  max-width: 250px !important;
+}
+
+.plotly-notifier .notifier-note {
+  background: var(--guiaro-2c) !important;
+  border: var(--guiaro-2a) solid thin !important;
+  border-radius: 5px !important;
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.4)) !important;
+  min-width: 250px !important;
+}
+
+.filtro-control .breadcrumb a {
+  color: #206bc4;
+}
+
+.filtro-control .breadcrumb-item.active a {
+  color: inherit;
+}
+
+.filtro-control ul {
+  background-color: #fff;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  color: #333;
+  border-spacing: 0;
+  border-collapse: separate;
+  overflow-x: hidden;
+  overflow-y: auto;
+  max-height: 200px;
+  width: 100%;
+  font-size: 0.9em;
+}
+
+.filtro-control ul a:hover {
+  background-color: #DEEBF7;
+  color: inherit;
+}
+
+.filtro-control .nav-link {
+  padding: 0;
+}
+
+.filtro-control svg {
+  margin: .3rem;
+}
+
+.hr-text div {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.filtro-control small {
+  color: #999;
+  padding:1rem;
+  display: block;
+}
+
+.filtro-control .hr-text a:hover{
+  text-decoration: none;
+  color: #206bc4;
+}

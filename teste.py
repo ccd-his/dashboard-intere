@@ -1,3 +1,4 @@
+import dash
 from dash import Dash, html, dcc, callback, Output, Input
 import plotly.express as px
 import pandas as pd
@@ -41,14 +42,15 @@ class CustomDash(Dash):
         return rendered
 
 
-app = CustomDash('base-site.html')
-app.title = "batata"
+app = CustomDash('base-site.html', use_pages=True)
+app.title = "Índice de Resiliência Climática Territorial"
 
-# Requires Dash 2.17.0 or later
+
 app.layout = [
     html.H1(children="Title of Dash App", style={"textAlign": "center"}),
     dcc.Dropdown(df.country.unique(), "Canada", id="dropdown-selection"),
     dcc.Graph(id="graph-content"),
+    dash.page_container
 ]
 
 

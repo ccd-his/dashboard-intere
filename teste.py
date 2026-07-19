@@ -26,14 +26,16 @@ class CustomDash(Dash):
         renderer: str = "",
     ) -> str:
         rendered: str = render_template(self.template, title="<!--dash-title-->")
-
+        #head
         rendered = rendered.replace("<!--dash-metas-->", metas)
         rendered = rendered.replace("<!--dash-title-->", title)
         rendered = rendered.replace("<!--dash-css-->", css)
         rendered = rendered.replace("<!--dash-config-->", config)
         rendered = rendered.replace("<!--dash-scripts-->", scripts)
-        rendered = rendered.replace("<!--dash-app_entry-->", app_entry)
         rendered = rendered.replace("<!--dash-favicon-->", favicon)
+        #onde vai o dash
+        rendered = rendered.replace("<!--dash-app_entry-->", app_entry)
+        #antes do /body
         rendered = rendered.replace("<!--dash-renderer-->", renderer)
 
         return rendered

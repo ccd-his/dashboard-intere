@@ -8,14 +8,46 @@ import dash_bootstrap_components as dbc
 dash.register_page(__name__, path='/')
 
 df = pd.read_csv(
-    "../data/indicadores.csv"
+    "https://raw.githubusercontent.com/ccd-his/dashboard-intere/refs/heads/main/data/indicadores.csv"
 )
 
 
 layout = [
     html.H3(children="IRCT", style={"textAlign": "right"}),
-    html.Div(className="row g-3 mb-2", children=["linha 1"]),
-    html.Div(className="row g-3 mb-2", children=["linha 2"])
+    html.Div(className="row mb-2", children=[
+        html.Div(className="col-5",children=[
+            html.Div(className="card mt-4 mb-5", children="mapa")
+        ]),
+        html.Div(className="col-7",children=[
+            html.Div(className="row", children=[
+                html.Div(className="col-5", children=[
+                    html.Div(className="card", children="Índice de Resiliência Climática e Territorial")
+                ]),
+                html.Div(className="col-7",children=[
+                    html.Div(className="row mb-2",children=[
+                        html.Div(className="col-6",children=[
+                            html.Div(className="card", children="Mitigação")
+                        ]),
+                        html.Div(className="col-6",children=[
+                            html.Div(className="card", children="Adaptação")
+                        ])
+                    ]),
+                    html.Div(className="row mb-2",children=[
+                        html.Div(className="col-6",children=[
+                            html.Div(className="card", children="Déficit Habitacional")
+                        ]),
+                        html.Div(className="col-6",children=[
+                            html.Div(className="card", children="Vulnerabilidade Social")
+                        ])
+                    ]),
+                ])
+            ])
+            
+        ])
+    ]),
+    html.Div(className="row g-3 mb-2", children=[
+        html.Div(className="card mt-4",children="Indicadores")
+    ])
   
 ]
 

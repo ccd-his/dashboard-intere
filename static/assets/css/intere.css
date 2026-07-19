@@ -1,77 +1,77 @@
 /** 
 
-Paleta de cores do guiaro
+Paleta de cores do intere
 
 **/
 
 :root {
-  --guiaro-roxo: #526cfd;
-  --guiaro-roxo-claro: #7589fd;
-  --guiaro-roxo-escuro: #483fe6;
-  --guiaro-azul-escuro: #2e498f;
-  --guiaro-azul-claro: #6fa7ea;
-  --guiaro-cinza: #8d99ae;
-  --guiaro-grafbin-vermelho: #d33c53;
-  --guiaro-grafbin-azul: #3e3fcb;
-  --guiaro-grafsemaf-vermelho: #ff3464;
-  --guiaro-grafsemaf-laranja: #fc883a;
-  --guiaro-grafsemaf-amarelo: #fff446;
-  --guiaro-grafsemaf-verde: #00f087;
-  --guiaro-1a: #00eddb;
-  --guiaro-1b: #26F0E0;
-  --guiaro-1c: #4CF2E6;
-  --guiaro-1d: #73f5eb;
-  --guiaro-1e: #99f8f1;
-  --guiaro-1f: #bffaf6;
-  --guiaro-1g: #e5fdfb;
-  --guiaro-2a: #0B8C9E;
-  --guiaro-2b: #2F9DAC;
-  --guiaro-2c: #54AEBB;
-  --guiaro-2d: #79C0CA;
-  --guiaro-2e: #9DD1D8;
-  --guiaro-2f: #C2E2E7;
-  --guiaro-2g: #E6F3F5;
-  --guiaro-3a: #103557;
-  --guiaro-3b: #345370;
-  --guiaro-3c: #577189;
-  --guiaro-3d: #7C90A3;
-  --guiaro-3e: #9FAEBC;
-  --guiaro-3f: #C3CCD5;
-  --guiaro-3g: #E7EAEE;
-  --guiaro-4a: #252EA2;
-  --guiaro-4b: #454DB0;
-  --guiaro-4c: #666CBE;
-  --guiaro-4d: #878CCC;
-  --guiaro-4e: #A8ABDA;
-  --guiaro-4f: #C8CBE8;
-  --guiaro-4g: #E7EAEE;
-  --guiaro-5a: #844FC9;
-  --guiaro-5b: #9669D1;
-  --guiaro-5c: #A983D9;
-  --guiaro-5d: #BB9EE1;
-  --guiaro-5e: #CEB9E9;
-  --guiaro-5f: #E0D3F1;
-  --guiaro-5g: #F2EDF9;
-  --guiaro-6a: #C667B8;
-  --guiaro-6b: #CE7EC3;
-  --guiaro-6c: #D794CD;
-  --guiaro-6d: #E0ACD8;
-  --guiaro-6e: #E8C2E3;
-  --guiaro-6f: #F1D9ED;
-  --guiaro-6g: #F9F0F8;
-  --guiaro-7a: #FE767F;
-  --guiaro-7b: #FE8A92;
-  --guiaro-7c: #FE9FA5;
-  --guiaro-7d: #FEB4B9;
-  --guiaro-7e: #FFC8CC;
-  --guiaro-7f: #FFDDDF;
-  --guiaro-7g: #FFF1F2;
+  --intere-roxo: #526cfd;
+  --intere-roxo-claro: #7589fd;
+  --intere-roxo-escuro: #483fe6;
+  --intere-azul-escuro: #2e498f;
+  --intere-azul-claro: #6fa7ea;
+  --intere-cinza: #8d99ae;
+  --intere-grafbin-vermelho: #d33c53;
+  --intere-grafbin-azul: #3e3fcb;
+  --intere-grafsemaf-vermelho: #ff3464;
+  --intere-grafsemaf-laranja: #fc883a;
+  --intere-grafsemaf-amarelo: #fff446;
+  --intere-grafsemaf-verde: #00f087;
+  --intere-1a: #00eddb;
+  --intere-1b: #26F0E0;
+  --intere-1c: #4CF2E6;
+  --intere-1d: #73f5eb;
+  --intere-1e: #99f8f1;
+  --intere-1f: #bffaf6;
+  --intere-1g: #e5fdfb;
+  --intere-2a: #0B8C9E;
+  --intere-2b: #2F9DAC;
+  --intere-2c: #54AEBB;
+  --intere-2d: #79C0CA;
+  --intere-2e: #9DD1D8;
+  --intere-2f: #C2E2E7;
+  --intere-2g: #E6F3F5;
+  --intere-3a: #103557;
+  --intere-3b: #345370;
+  --intere-3c: #577189;
+  --intere-3d: #7C90A3;
+  --intere-3e: #9FAEBC;
+  --intere-3f: #C3CCD5;
+  --intere-3g: #E7EAEE;
+  --intere-4a: #252EA2;
+  --intere-4b: #454DB0;
+  --intere-4c: #666CBE;
+  --intere-4d: #878CCC;
+  --intere-4e: #A8ABDA;
+  --intere-4f: #C8CBE8;
+  --intere-4g: #E7EAEE;
+  --intere-5a: #844FC9;
+  --intere-5b: #9669D1;
+  --intere-5c: #A983D9;
+  --intere-5d: #BB9EE1;
+  --intere-5e: #CEB9E9;
+  --intere-5f: #E0D3F1;
+  --intere-5g: #F2EDF9;
+  --intere-6a: #C667B8;
+  --intere-6b: #CE7EC3;
+  --intere-6c: #D794CD;
+  --intere-6d: #E0ACD8;
+  --intere-6e: #E8C2E3;
+  --intere-6f: #F1D9ED;
+  --intere-6g: #F9F0F8;
+  --intere-7a: #FE767F;
+  --intere-7b: #FE8A92;
+  --intere-7c: #FE9FA5;
+  --intere-7d: #FEB4B9;
+  --intere-7e: #FFC8CC;
+  --intere-7f: #FFDDDF;
+  --intere-7g: #FFF1F2;
 }
 
-/* Especificidades do guiaro */
+/* Especificidades do intere */
 
 .navbar {
-  background-color: var(--guiaro-azul-escuro);
+  background-color: var(--intere-azul-escuro);
 }
 
 .navbar-overlap::after {
@@ -160,11 +160,11 @@ Paleta de cores do guiaro
 }
 
 .DayPickerKeyboardShortcuts_show__bottomRight::before {
-  border-right-color: var(--guiaro-cinza);
+  border-right-color: var(--intere-cinza);
 }
 
 .DayPickerKeyboardShortcuts_show__bottomRight:hover::before {
-  border-right-color: var(--guiaro-cinza);
+  border-right-color: var(--intere-cinza);
 }
 
 .CalendarDay__selected_span:active, .CalendarDay__selected_span {
@@ -258,8 +258,8 @@ table {
 }
 
 .plotly-notifier .notifier-note {
-  background: var(--guiaro-2c) !important;
-  border: var(--guiaro-2a) solid thin !important;
+  background: var(--intere-2c) !important;
+  border: var(--intere-2a) solid thin !important;
   border-radius: 5px !important;
   filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.4)) !important;
   min-width: 250px !important;

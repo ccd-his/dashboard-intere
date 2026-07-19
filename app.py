@@ -1,31 +1,52 @@
-from dash import Dash, dcc, callback, Output, Input
-from dash_template_rendering import TemplateRenderer, render_dash_template_string
+import dash
+from dash import Dash, html, dcc, callback, Output, Input
 import plotly.express as px
 import pandas as pd
 
-df = pd.read_csv(
-    "https://raw.githubusercontent.com/plotly/datasets/master/gapminder_unfiltered.csv"
-)
-
-app = Dash(__name__,
-           assets_external_path="https://cdn.jsdelivr.net/npm/@tabler/core@1.4.0/dist/css/tabler.min.css")
-TemplateRenderer(dash=app)
-app.scripts.config.serve_locally = False
-
-with open("layout.html","r", encoding="utf-8") as file:
-    layout_string = file.read()
-
-app.layout = render_dash_template_string(
-    layout_string,
-    #dropdown=dcc.Dropdown(df.country.unique(), "Brazil", id="dropdown-selection"),
-    #graph=dcc.Graph(id="graph-content"),
-)
+from flask import render_template
 
 
-@callback(Output("graph-content", "figure"), Input("dropdown-selection", "value"))
-def update_graph(value):
-    dff = df[df.country == value]
-    return px.line(dff, x="year", y="pop")
+
+class CustomDash(Dash):
+
+    def __init__(self, template, **kwargs):
+        super().__init__(**kwargs)
+        self.template = template
+    def interpolate_index(
+        self,
+        metas: str = "",
+        title: str = "",
+        css: str = "",
+        config: str = "",
+        scripts: str = "",
+        app_entry: str = "",
+        favicon: str = "",
+        renderer: str = "",
+    ) -> str:
+        rendered: str = render_template(self.template, title="<!--dash-title-->")
+        #head
+        rendered = rendered.replace("<!--dash-metas-->", metas)
+        rendered = rendered.replace("<!--dash-title-->", title)
+        rendered = rendered.replace("<!--dash-css-->", css)
+        rendered = rendered.replace("<!--dash-config-->", config)
+        rendered = rendered.replace("<!--dash-scripts-->", scripts)
+        rendered = rendered.replace("<!--dash-favicon-->", favicon)
+        #onde vai o dash
+        rendered = rendered.replace("<!--dash-app_entry-->", app_entry)
+        #antes do /body
+        rendered = rendered.replace("<!--dash-renderer-->", renderer)
+
+        return rendered
+
+
+app = CustomDash('base-site.html', use_pages=True)
+app.title = "Índice de Resiliência Climática Territorial"
+
+
+app.layout = [
+    dash.page_container
+]
+
 
 
 if __name__ == "__main__":

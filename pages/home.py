@@ -3,18 +3,20 @@ from dash import html
 from dash import Dash, html, dcc, callback, Output, Input
 import plotly.express as px
 import pandas as pd
+import dash_bootstrap_components as dbc
 
 dash.register_page(__name__, path='/')
 
 df = pd.read_csv(
-    "https://raw.githubusercontent.com/plotly/datasets/master/gapminder_unfiltered.csv"
+    "../data/indicadores.csv"
 )
 
 
 layout = [
-    html.H1(children="Title of Dash App", style={"textAlign": "center"}),
-    dcc.Dropdown(df.country.unique(), "Canada", id="dropdown-selection"),
-    dcc.Graph(id="graph-content"),
+    html.H3(children="IRCT", style={"textAlign": "right"}),
+    html.Div(className="row g-3 mb-2", children=["linha 1"]),
+    html.Div(className="row g-3 mb-2", children=["linha 2"])
+  
 ]
 
 

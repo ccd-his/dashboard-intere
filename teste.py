@@ -42,6 +42,7 @@ class CustomDash(Dash):
 
 
 app = CustomDash('base-site.html')
+app.title = "batata"
 
 # Requires Dash 2.17.0 or later
 app.layout = [

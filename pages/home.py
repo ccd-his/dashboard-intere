@@ -1,12 +1,24 @@
 import dash
 from dash import html
-from dash import Dash, html, dcc, callback, Output, Input
+from dash import Dash, html, dcc, callback, Output, Input, dash_table
 import plotly.express as px
 import pandas as pd
 import dash_bootstrap_components as dbc
+import geopandas as gpd
+import json
+import plotly.graph_objects as go
+from pathlib import Path
 
 dash.register_page(__name__, path='/')
 
+
+# Carregar dados
+gdf = gpd.read_file("./data/SP_Municipios_2025/SP_Municipios_2025.shp")
+gdf = gdf.to_crs(4674)
+gdf["CD_MUN"] = gdf["CD_MUN"].astype(str)
+gdf = gdf.sort_values("NM_MUN").reset_index(drop=True)
+
+gdf["id"] = gdf.index.astype(str)
 df = pd.read_csv(
     "https://raw.githubusercontent.com/ccd-his/dashboard-intere/refs/heads/main/data/indicadores.csv"
 )
@@ -21,13 +33,13 @@ layout = [
             html.H1(className="page-title",children="Conheça a situação da sua cidade")
         ]),
         html.Div(className="col-2", children=[
-            dcc.Dropdown(cidades,'Sorocaba',clearable=False,id="drop-cidade")
+            dcc.Dropdown(cidades,'Sorocaba',clearable=False,id="dropdown-cidade")
         ])
     ]),
     html.Div(className="row mb-2", children=[
         html.Div(className="col-5" ,children=[
             html.Div(className="card  mb-5", children=[
-                dcc.Graph(id="mapa-cidade")
+                dcc.Graph(id="mapa-cidade",config={"displayModeBar": False})
             ])
         ]),
         html.Div(className="col-7",children=[
@@ -111,7 +123,7 @@ layout = [
             ]),
             html.Div(className="row",children=[
                 html.Div(className="col", children=[
-                    html.Div(className="card mt-3 p-3 h-100", id='card-tabela-acoes', children=[
+                    html.Div(className="card mt-3 h-100 overflow-x-auto", id='card-tabela-acoes', children=[
                         "Aqui vai uma tabela com as ações indicadas para melhoria"
                     ])
                 ])
@@ -121,15 +133,108 @@ layout = [
     ]),
     html.Div(className="row g-2 mb-2", children=[
         html.Div(className="col", children=[
-            html.Div(className="card mt-4", id='card-tabela-indicadores', children="Indicadores")
+            html.Div(className="card mt-4 overflow-x-auto", id='card-tabela-indicadores', children="Indicadores")
         ])
         
     ])
   
 ]
 
+def card_progress_pequeno(indice, valor):
+    card_children = [html.H4(className="card-title mb-1", children=indice),
+                     html.Div(className="row g-2 align-items-center", children=[
+                        html.Div(className="col-auto", children=[
+                            html.H2(valor)
+                        ]),
+                        html.Div(className="progress progress-sm", children=[
+                            html.Div(className="progress-bar", style={"width":f"{valor*10}%"}, role="progressbar")
+                        ])
+                                    
+                     ]) ] 
+    return card_children
 
-@callback(Output("graph-content", "figure"), Input("dropdown-selection", "value"))
+def card_progress_irct(valor):
+    card_children = [html.H4(className="card-title mb-1", children="Índice de Resiliência Climática Territorial"),
+                      html.Div(className="row g-2 align-items-center", children=[
+                          html.Div(className="col-auto mt-5 mb-5", children=[
+                              html.H1(valor, style={"fontSize": "4rem"})
+                          ]),
+                          html.Div(className="progress progress-sm", children=[
+                              html.Div(className="progress-bar", style={"width":f"{valor*10}%"}, role="progressbar")
+                          ])
+                          
+                      ])]
+    return card_children
+
+def mapa_cidade(nome_municipio):
+    sel = gdf[gdf["NM_MUN"] == nome_municipio]
+
+    fig = go.Figure()
+
+    fig.add_trace(
+        go.Choropleth(
+            geojson=sel.__geo_interface__,
+            locations=sel.index,
+            z=[1],                     
+            featureidkey="id",
+            colorscale=[[0, "#4C78A8"], [1, "#4C78A8"]],
+            showscale=False,
+            marker_line_color="black",
+            marker_line_width=2
+        )
+    )
+
+    fig.update_geos(
+        fitbounds="locations",
+        visible=False
+    )
+
+    fig.update_layout(
+        margin=dict(l=0, r=0, t=0, b=0),
+        paper_bgcolor="white",
+        plot_bgcolor="white",
+        modebar_remove=['zoom', 'pan', 'lasso', 'select', 'toImage']
+    )
+    return fig
+
+@callback(
+        Output("mapa-cidade", "figure"), 
+        Output("card-irct","children"),
+        Output("card-mitigacao","children"),
+        Output("card-adaptacao","children"),
+        Output("card-deficithabitacional","children"),
+        Output("card-vulnerabilidadesocial","children"),
+        Output("card-tabela-acoes","children"),
+        Output("card-tabela-indicadores","children"),
+        Input("dropdown-cidade", "value"))
 def update_graph(value):
-    dff = df[df.country == value]
-    return px.line(dff, x="year", y="pop")
+    dff = df[df['Município'] == value]
+    
+    # valores para os cards
+    irct = round(dff['Índice de Resiliiência Climática e Territorial'].values[0],1)
+    mitigacao = round(dff['Mitigação'].values[0],1)
+    adaptacao = round(dff['Adaptação'].values[0],1)
+    deficit = round(dff['Deficit Habitacional'].values[0],1)
+    vulnerabilidade = round(dff['Vulnerabilidade Social'].values[0],1)
+
+    #outputs dos cards
+    irct = card_progress_irct(irct)
+    mitigacao = card_progress_pequeno("Mitigação",mitigacao)
+    adaptacao = card_progress_pequeno("Adaptação",adaptacao)
+    deficit = card_progress_pequeno("Déficit Habitacional",deficit)
+    vulnerabilidade = card_progress_pequeno("Vulnerabilidade Social",vulnerabilidade)
+
+    #output do mapa
+    mapa = mapa_cidade(value)
+
+    #output das ações
+    tabela_acoes = pd.read_csv('https://git.io/Juf1t')
+    acoes = dash_table.DataTable(tabela_acoes.to_dict('records'),[{"name": i, "id": i} for i in tabela_acoes.columns])
+
+    #output dos indicadores
+    dados_indicadores = dff.melt(id_vars="Município")
+    dados_indicadores.columns = ["Município","Indicador","Valor"]
+    dados_indicadores = dados_indicadores[["Indicador","Valor"]]
+    indicadores = dash_table.DataTable(dados_indicadores.to_dict('records'),[{"name": i, "id": i} for i in dados_indicadores.columns])
+
+    return mapa, irct, mitigacao, adaptacao, deficit, vulnerabilidade, acoes, indicadores

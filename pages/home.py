@@ -7,6 +7,7 @@ import dash_bootstrap_components as dbc
 import geopandas as gpd
 import plotly.graph_objects as go
 from pathlib import Path
+import dash_ag_grid as dag
 
 dash.register_page(__name__, path='/')
 
@@ -21,8 +22,11 @@ gdf["id"] = gdf.index.astype(str)
 df = pd.read_csv(
     "https://raw.githubusercontent.com/ccd-his/dashboard-intere/refs/heads/main/data/indicadores.csv"
 )
+df_teste = pd.read_csv("https://raw.githubusercontent.com/plotly/datasets/master/wind_dataset.csv")
 
 cidades = df['Município'].unique()
+
+
 
 layout = [
     #html.H3(children="IRCT", style={"textAlign": "right"}),
@@ -122,9 +126,10 @@ layout = [
             ]),
             html.Div(className="row",children=[
                 html.Div(className="col", children=[
-                    html.Div(className="card mt-3 h-100 overflow-x-auto", id='card-tabela-acoes', children=[
-                        "Aqui vai uma tabela com as ações indicadas para melhoria"
-                    ])
+                    html.Div(className="card mt-3 overflow-x-auto", id='card-tabela-acoes', children=[
+                        "Recomendações de Melhorias"
+                    ]),
+                    html.Div(children=[])
                 ])
 
             ])
@@ -196,6 +201,9 @@ def mapa_cidade(nome_municipio):
     )
     return fig
 
+
+
+
 @callback(
         Output("mapa-cidade", "figure"), 
         Output("card-irct","children"),
@@ -228,12 +236,21 @@ def update_graph(value):
 
     #output das ações
     tabela_acoes = pd.read_csv('https://git.io/Juf1t')
+    acoes = dag.AgGrid(
+                        id="get-started-example-basic-df",
+                        rowData=tabela_acoes.to_dict("records"),
+                        columnDefs=[{"field": i} for i in tabela_acoes.columns],
+                    )
     acoes = dash_table.DataTable(tabela_acoes.to_dict('records'),[{"name": i, "id": i} for i in tabela_acoes.columns])
 
     #output dos indicadores
     dados_indicadores = dff.melt(id_vars="Município")
     dados_indicadores.columns = ["Município","Indicador","Valor"]
     dados_indicadores = dados_indicadores[["Indicador","Valor"]]
-    indicadores = dash_table.DataTable(dados_indicadores.to_dict('records'),[{"name": i, "id": i} for i in dados_indicadores.columns])
+    indicadores =dag.AgGrid(
+                        id="get-started-example-basic-df",
+                        rowData=dados_indicadores.to_dict("records"),
+                        columnDefs=[{"field": i} for i in dados_indicadores.columns],
+                    )
 
     return mapa, irct, mitigacao, adaptacao, deficit, vulnerabilidade, acoes, indicadores

@@ -5,7 +5,6 @@ import plotly.express as px
 import pandas as pd
 import dash_bootstrap_components as dbc
 import geopandas as gpd
-import json
 import plotly.graph_objects as go
 from pathlib import Path
 

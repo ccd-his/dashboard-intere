@@ -11,6 +11,7 @@ df = pd.read_csv(
     "https://raw.githubusercontent.com/ccd-his/dashboard-intere/refs/heads/main/data/indicadores.csv"
 )
 
+cidades = df['Município'].unique()
 
 layout = [
     #html.H3(children="IRCT", style={"textAlign": "right"}),
@@ -18,6 +19,9 @@ layout = [
         html.Div(className="col-10", children=[
             html.Div(className="page-pretitle",children="Home"),
             html.H1(className="page-title",children="Conheça a situação da sua cidade")
+        ]),
+        html.Div(className="col-2", children=[
+            dcc.Dropdown(cidades,'Sorocaba',clearable=False,id="drop-cidade")
         ])
     ]),
     html.Div(className="row mb-2", children=[

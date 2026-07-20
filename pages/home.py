@@ -251,6 +251,11 @@ def update_graph(value):
                         id="get-started-example-basic-df",
                         rowData=dados_indicadores.to_dict("records"),
                         columnDefs=[{"field": i} for i in dados_indicadores.columns],
+                        style={"width": "100%"},
+                        columnSize="sizeToFit",
+                        columnSizeOptions={
+                            'defaultMinWidth':100,
+                            'columnLimits':[{'key':'Indicador','minWidth':200}]}
                     )
 
     return mapa, irct, mitigacao, adaptacao, deficit, vulnerabilidade, acoes, indicadores

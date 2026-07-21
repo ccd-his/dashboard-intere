@@ -8,6 +8,7 @@ import geopandas as gpd
 import plotly.graph_objects as go
 from pathlib import Path
 import dash_ag_grid as dag
+from functools import cache
 
 dash.register_page(__name__, path='/cidades')
 
@@ -170,6 +171,7 @@ def card_progress_irct(valor):
                       ])]
     return card_children
 
+@cache
 def mapa_cidade(nome_municipio):
     sel = gdf[gdf['NM_MUN']==nome_municipio]
 

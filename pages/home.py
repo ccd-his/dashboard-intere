@@ -8,6 +8,7 @@ import geopandas as gpd
 import plotly.graph_objects as go
 from pathlib import Path
 import dash_ag_grid as dag
+from functools import cache
 
 dash.register_page(__name__, path='/')
 
@@ -83,7 +84,7 @@ layout = [
         ])
 ]
 
-
+@cache
 def mapa_indice(indice):
     fig = go.Figure(
         go.Choropleth(

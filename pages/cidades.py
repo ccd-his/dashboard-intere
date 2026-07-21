@@ -43,7 +43,7 @@ layout = [
     html.Div(className="row mb-3", children=[
         html.Div(className="col-5" ,children=[
             html.Div(className="card  h-100", children=[
-                dcc.Graph(id="mapa-cidade",config={"displayModeBar": False})
+                dcc.Loading(dcc.Graph(id="mapa-cidade",config={"displayModeBar": False}))
             ])
         ]),
         html.Div(className="col-7",children=[
@@ -53,10 +53,10 @@ layout = [
                       html.H4(className="card-title mb-1", children="Índice de Resiliência Climática Territorial"),
                       html.Div(className="row g-2 align-items-center", children=[
                           html.Div(className="col-auto mt-5 mb-5", children=[
-                              html.H1("5.3", style={"fontSize": "4rem"})
+                              html.H1("9.9", style={"fontSize": "4rem"})
                           ]),
                           html.Div(className="progress progress-sm", children=[
-                              html.Div(className="progress-bar", style={"width":"53%"}, role="progressbar")
+                              html.Div(className="progress-bar", style={"width":"99%"}, role="progressbar")
                           ])
                           
                       ])  
@@ -69,10 +69,10 @@ layout = [
                                 html.H4(className="card-title mb-1", children="Mitigação"),
                                 html.Div(className="row g-2 align-items-center", children=[
                                     html.Div(className="col-auto", children=[
-                                        html.H2("7.4")
+                                        html.H2("9.9")
                                     ]),
                                     html.Div(className="progress progress-sm", children=[
-                                        html.Div(className="progress-bar", style={"width":"74%"}, role="progressbar")
+                                        html.Div(className="progress-bar", style={"width":"99%"}, role="progressbar")
                                     ])
                                     
                                 ])  
@@ -83,10 +83,10 @@ layout = [
                                 html.H4(className="card-title mb-1", children="Adaptação"),
                                 html.Div(className="row g-2 align-items-center", children=[
                                     html.Div(className="col-auto", children=[
-                                        html.H2("2.8")
+                                        html.H2("9.9")
                                     ]),
                                     html.Div(className="progress progress-sm", children=[
-                                        html.Div(className="progress-bar", style={"width":"28%"}, role="progressbar")
+                                        html.Div(className="progress-bar", style={"width":"99%"}, role="progressbar")
                                     ])
                                     
                                 ])  
@@ -99,10 +99,10 @@ layout = [
                                 html.H4(className="card-title mb-1", children="Déficit Habitacional"),
                                 html.Div(className="row g-2 align-items-center", children=[
                                     html.Div(className="col-auto", children=[
-                                        html.H2("4.0")
+                                        html.H2("9.9")
                                     ]),
                                     html.Div(className="progress progress-sm", children=[
-                                        html.Div(className="progress-bar", style={"width":"40%"}, role="progressbar")
+                                        html.Div(className="progress-bar", style={"width":"99%"}, role="progressbar")
                                     ])
                                     
                                 ])  
@@ -138,7 +138,7 @@ layout = [
     ]),
     html.Div(className="row g-2 mb-2", children=[
         html.Div(className="col", children=[
-            html.Div(className="card overflow-x-auto", id='card-tabela-indicadores', children="Indicadores")
+            dcc.Loading(html.Div(className="card overflow-x-auto", id='card-tabela-indicadores', children="Indicadores"))
         ])
         
     ])

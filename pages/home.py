@@ -73,10 +73,10 @@ layout = [
                 className="col-12",children=[
                     html.Div(
                         className="card h-100",children=[
-                            dcc.Graph(
+                            dcc.Loading(dcc.Graph(
                                 id="mapa-indice",
                                 config={"displayModeBar": False},
-                            )
+                            ))
                         ],
                     )
                 ],

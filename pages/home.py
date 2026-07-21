@@ -39,9 +39,9 @@ layout = [
             dcc.Dropdown(cidades,'Sorocaba',clearable=False,id="dropdown-cidade")
         ])
     ]),
-    html.Div(className="row mb-2", children=[
+    html.Div(className="row mb-3", children=[
         html.Div(className="col-5" ,children=[
-            html.Div(className="card  mb-5", children=[
+            html.Div(className="card  h-100", children=[
                 dcc.Graph(id="mapa-cidade",config={"displayModeBar": False})
             ])
         ]),
@@ -137,7 +137,7 @@ layout = [
     ]),
     html.Div(className="row g-2 mb-2", children=[
         html.Div(className="col", children=[
-            html.Div(className="card mt-4 overflow-x-auto", id='card-tabela-indicadores', children="Indicadores")
+            html.Div(className="card overflow-x-auto", id='card-tabela-indicadores', children="Indicadores")
         ])
         
     ])
@@ -240,9 +240,9 @@ def update_graph(value):
                         id="get-started-example-basic-df",
                         rowData=tabela_acoes.to_dict("records"),
                         columnDefs=[{"field": i} for i in tabela_acoes.columns],
+                        style={"height": "250px"}
                     )
-    acoes = dash_table.DataTable(tabela_acoes.to_dict('records'),[{"name": i, "id": i} for i in tabela_acoes.columns])
-
+    
     #output dos indicadores
     dados_indicadores = dff.melt(id_vars="Município")
     dados_indicadores.columns = ["Município","Indicador","Valor"]

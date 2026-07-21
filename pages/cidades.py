@@ -43,7 +43,7 @@ layout = [
     html.Div(className="row mb-3", children=[
         html.Div(className="col-5" ,children=[
             html.Div(className="card  h-100", children=[
-                dcc.Loading(dcc.Graph(id="mapa-cidade",config={"displayModeBar": False}))
+                dcc.Loading(dcc.Graph(id="mapa-cidade",config={"displayModeBar": False, 'scrollZoom': False}))
             ])
         ]),
         html.Div(className="col-7",children=[
@@ -127,9 +127,9 @@ layout = [
             ]),
             html.Div(className="row",children=[
                 html.Div(className="col", children=[
-                    html.Div(className="card mt-3 overflow-x-auto", id='card-tabela-acoes', children=[
+                    dcc.Loading(html.Div(className="card mt-3 overflow-x-auto", id='card-tabela-acoes', children=[
                         "Recomendações de Melhorias"
-                    ]),
+                    ])),
                     html.Div(children=[])
                 ])
 
@@ -186,7 +186,8 @@ def mapa_cidade(nome_municipio):
             colorscale=[[0, "#4C78A8"], [1, "#4C78A8"]],
             showscale=False,
             marker_line_color="black",
-            marker_line_width=2
+            marker_line_width=2,
+            text=nome_municipio
         )
     )
 

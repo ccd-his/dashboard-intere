@@ -75,7 +75,7 @@ layout = [
                         className="card h-100",children=[
                             dcc.Loading(dcc.Graph(
                                 id="mapa-indice",
-                                config={"displayModeBar": False},
+                                config={"displayModeBar": False, 'scrollZoom': False},
                             ))
                         ],
                     )
@@ -91,11 +91,17 @@ def mapa_indice(indice):
             geojson=gdf.__geo_interface__,
             locations=gdf.index,
             z=gdf[indice],
-            featureidkey="id",
+            #featureidkey="id",
             colorscale="Viridis",
+            #zmin=0.0,
+            #zmax=10,
             marker_line_color="white",
             marker_line_width=0.5,
-            colorbar_title="Índice"
+            colorbar_title="Índice",
+            text=gdf.NM_MUN,
+            #text="",
+            #autocolorscale=True,
+            
         )
     )
 

@@ -9,7 +9,7 @@ import plotly.graph_objects as go
 from pathlib import Path
 import dash_ag_grid as dag
 
-dash.register_page(__name__, path='/')
+dash.register_page(__name__, path='/cidades')
 
 
 # Carregar dados
@@ -33,7 +33,7 @@ layout = [
     html.Div(className="row mb-2 mt-4", children=[
         html.Div(className="col-10", children=[
             html.Div(className="page-pretitle",children="Home"),
-            html.H1(className="page-title",children="Índice de Resiliência Climática e Territorial")
+            html.H1(className="page-title",children="Conheça a situação da sua cidade")
         ]),
         html.Div(className="col-2", children=[
             dcc.Dropdown(cidades,'Sorocaba',clearable=False,id="dropdown-cidade")
@@ -202,3 +202,65 @@ def mapa_cidade(nome_municipio):
     return fig
 
 
+
+
+@callback(
+        Output("mapa-cidade", "figure"), 
+        Output("card-irct","children"),
+        Output("card-mitigacao","children"),
+        Output("card-adaptacao","children"),
+        Output("card-deficithabitacional","children"),
+        Output("card-vulnerabilidadesocial","children"),
+        Output("card-tabela-acoes","children"),
+        Output("card-tabela-indicadores","children"),
+        Input("dropdown-cidade", "value"))
+def update_graph(value):
+    dff = df[df['Município'] == value]
+    
+    # valores para os cards
+    irct = round(dff['Índice de Resiliiência Climática e Territorial'].values[0],1)
+    mitigacao = round(dff['Mitigação'].values[0],1)
+    adaptacao = round(dff['Adaptação'].values[0],1)
+    deficit = round(dff['Deficit Habitacional'].values[0],1)
+    vulnerabilidade = round(dff['Vulnerabilidade Social'].values[0],1)
+
+    #outputs dos cards
+    irct = card_progress_irct(irct)
+    mitigacao = card_progress_pequeno("Mitigação",mitigacao)
+    adaptacao = card_progress_pequeno("Adaptação",adaptacao)
+    deficit = card_progress_pequeno("Déficit Habitacional",deficit)
+    vulnerabilidade = card_progress_pequeno("Vulnerabilidade Social",vulnerabilidade)
+
+    #output do mapa
+    mapa = mapa_cidade(value)
+
+    #output das ações
+    tabela_acoes = recomendacoes[recomendacoes['Município']==value][['Sugestões e Recomendações para Melhorias']]
+    acoes = dag.AgGrid(
+                        id="get-started-example-basic-df",
+                        rowData=tabela_acoes.to_dict("records"),
+                        columnDefs=[{"field": i} for i in tabela_acoes.columns],
+                        style={"height": "250px"},
+                        columnSize="sizeToFit",
+                        columnSizeOptions={
+                            'defaultMinWidth':100,
+                            'columnLimits':[{'key':'Indicador','minWidth':200}]}
+                    )
+    
+    #output dos indicadores
+    dff = dff.drop(columns=["Região","Código IBGE"])
+    dados_indicadores = dff.melt(id_vars="Município")
+    dados_indicadores.columns = ["Município","Indicador","Valor"]
+    dados_indicadores = dados_indicadores[["Indicador","Valor"]]
+    indicadores =dag.AgGrid(
+                        id="get-started-example-basic-df",
+                        rowData=dados_indicadores.to_dict("records"),
+                        columnDefs=[{"field": i} for i in dados_indicadores.columns],
+                        style={"width": "100%"},
+                        columnSize="sizeToFit",
+                        columnSizeOptions={
+                            'defaultMinWidth':100,
+                            'columnLimits':[{'key':'Indicador','minWidth':200}]}
+                    )
+
+    return mapa, irct, mitigacao, adaptacao, deficit, vulnerabilidade, acoes, indicadores

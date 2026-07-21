@@ -26,7 +26,7 @@ df_teste = pd.read_csv("https://raw.githubusercontent.com/plotly/datasets/master
 
 cidades = df['Município'].unique()
 
-
+recomendacoes = pd.read_csv('https://raw.githubusercontent.com/ccd-his/dashboard-intere/refs/heads/main/data/recomendacoes.csv')
 
 layout = [
     #html.H3(children="IRCT", style={"textAlign": "right"}),
@@ -235,12 +235,16 @@ def update_graph(value):
     mapa = mapa_cidade(value)
 
     #output das ações
-    tabela_acoes = pd.read_csv('https://git.io/Juf1t')
+    tabela_acoes = recomendacoes[recomendacoes['Município']==value][['Sugestões e Recomendações para Melhorias']]
     acoes = dag.AgGrid(
                         id="get-started-example-basic-df",
                         rowData=tabela_acoes.to_dict("records"),
                         columnDefs=[{"field": i} for i in tabela_acoes.columns],
-                        style={"height": "250px"}
+                        style={"height": "250px"},
+                        columnSize="sizeToFit",
+                        columnSizeOptions={
+                            'defaultMinWidth':100,
+                            'columnLimits':[{'key':'Indicador','minWidth':200}]}
                     )
     
     #output dos indicadores

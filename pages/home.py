@@ -22,169 +22,79 @@ gdf["id"] = gdf.index.astype(str)
 df = pd.read_csv(
     "https://raw.githubusercontent.com/ccd-his/dashboard-intere/refs/heads/main/data/indicadores.csv"
 )
-df_teste = pd.read_csv("https://raw.githubusercontent.com/plotly/datasets/master/wind_dataset.csv")
 
 cidades = df['Município'].unique()
 
-recomendacoes = pd.read_csv('https://raw.githubusercontent.com/ccd-his/dashboard-intere/refs/heads/main/data/recomendacoes.csv')
+df_irct = df[['Código IBGE','Município','Mitigação','Adaptação','Deficit Habitacional','Vulnerabilidade Social','Índice de Resiliiência Climática e Territorial']]
+df_irct['Código IBGE'] = df_irct['Código IBGE'].astype('str')
+gdf = gdf.merge(df_irct, left_on='CD_MUN',right_on='Código IBGE')
+
 
 layout = [
-    #html.H3(children="IRCT", style={"textAlign": "right"}),
-    html.Div(className="row mb-2 mt-4", children=[
-        html.Div(className="col-10", children=[
-            html.Div(className="page-pretitle",children="Home"),
-            html.H1(className="page-title",children="Índice de Resiliência Climática e Territorial")
-        ]),
-        html.Div(className="col-2", children=[
-            dcc.Dropdown(cidades,'Sorocaba',clearable=False,id="dropdown-cidade")
-        ])
-    ]),
-    html.Div(className="row mb-3", children=[
-        html.Div(className="col-5" ,children=[
-            html.Div(className="card  h-100", children=[
-                dcc.Graph(id="mapa-cidade",config={"displayModeBar": False})
-            ])
-        ]),
-        html.Div(className="col-7",children=[
-            html.Div(className="row", children=[
-                html.Div(className="col-5", children=[
-                    html.Div(className="card p-3 h-100", id="card-irct", children=[
-                      html.H4(className="card-title mb-1", children="Índice de Resiliência Climática Territorial"),
-                      html.Div(className="row g-2 align-items-center", children=[
-                          html.Div(className="col-auto mt-5 mb-5", children=[
-                              html.H1("5.3", style={"fontSize": "4rem"})
-                          ]),
-                          html.Div(className="progress progress-sm", children=[
-                              html.Div(className="progress-bar", style={"width":"53%"}, role="progressbar")
-                          ])
-                          
-                      ])  
-                    ])
-                ]),
-                html.Div(className="col-7",children=[
-                    html.Div(className="row mb-2",children=[
-                        html.Div(className="col-6",children=[
-                            html.Div(className="card p-2", id="card-mitigacao", children=[
-                                html.H4(className="card-title mb-1", children="Mitigação"),
-                                html.Div(className="row g-2 align-items-center", children=[
-                                    html.Div(className="col-auto", children=[
-                                        html.H2("7.4")
-                                    ]),
-                                    html.Div(className="progress progress-sm", children=[
-                                        html.Div(className="progress-bar", style={"width":"74%"}, role="progressbar")
-                                    ])
-                                    
-                                ])  
-                            ])
-                        ]),
-                        html.Div(className="col-6",children=[
-                            html.Div(className="card p-2", id="card-adaptacao", children=[
-                                html.H4(className="card-title mb-1", children="Adaptação"),
-                                html.Div(className="row g-2 align-items-center", children=[
-                                    html.Div(className="col-auto", children=[
-                                        html.H2("2.8")
-                                    ]),
-                                    html.Div(className="progress progress-sm", children=[
-                                        html.Div(className="progress-bar", style={"width":"28%"}, role="progressbar")
-                                    ])
-                                    
-                                ])  
-                            ])
-                        ])
-                    ]),
-                    html.Div(className="row",children=[
-                        html.Div(className="col-6",children=[
-                            html.Div(className="card p-2", id="card-deficithabitacional", children=[
-                                html.H4(className="card-title mb-1", children="Déficit Habitacional"),
-                                html.Div(className="row g-2 align-items-center", children=[
-                                    html.Div(className="col-auto", children=[
-                                        html.H2("4.0")
-                                    ]),
-                                    html.Div(className="progress progress-sm", children=[
-                                        html.Div(className="progress-bar", style={"width":"40%"}, role="progressbar")
-                                    ])
-                                    
-                                ])  
-                            ])
-                        ]),
-                        html.Div(className="col-6",children=[
-                            html.Div(className="card p-2", id="card-vulnerabilidadesocial", children=[
-                                html.H4(className="card-title mb-1", children="Vulnerabilidade Social"),
-                                html.Div(className="row g-2 align-items-center", children=[
-                                    html.Div(className="col-auto", children=[
-                                        html.H2("8.2")
-                                    ]),
-                                    html.Div(className="progress progress-sm", children=[
-                                        html.Div(className="progress-bar", style={"width":"82%"}, role="progressbar")
-                                    ])
-                                    
-                                ])  
-                            ])
-                        ])
-                    ]),
-                ])
-            ]),
-            html.Div(className="row",children=[
-                html.Div(className="col", children=[
-                    html.Div(className="card mt-3 overflow-x-auto", id='card-tabela-acoes', children=[
-                        "Recomendações de Melhorias"
-                    ]),
-                    html.Div(children=[])
-                ])
+    # html.H3(children="IRCT", style={"textAlign": "right"}),
+    html.Div(
+        className="row mb-2 mt-4",children=[
+            html.Div(
+                className="col-10",children=[
+                    html.Div(
+                        className="page-pretitle",children="Home"
+                    ),
+                    html.H1(
+                        className="page-title",children="Índice de Resiliência Climática e Territorial"
+                    ),
+                ],
+            ),
 
-            ])
+            html.Div(
+                className="col-2",children=[
+                    dcc.Dropdown(
+                        options=[
+                            "Índice de Resiliiência Climática e Territorial",
+                            "Mitigação",
+                            "Adaptação",
+                            "Déficit Habitacional",
+                            "Vulnerabilidade Social",
+                        ],
+                        value="Índice de Resiliiência Climática e Territorial",
+                        clearable=False,
+                        id="dropdown-indice",
+                    )
+                ],
+            ),
+
+        ],
+    ),
+
+    html.Div(
+        className="row mb-3",
+        children=[
+            html.Div(
+                className="col-12",children=[
+                    html.Div(
+                        className="card h-100",children=[
+                            dcc.Graph(
+                                id="mapa-indice",
+                                config={"displayModeBar": False},
+                            )
+                        ],
+                    )
+                ],
+            ),
         ])
-    ]),
-    html.Div(className="row g-2 mb-2", children=[
-        html.Div(className="col", children=[
-            html.Div(className="card overflow-x-auto", id='card-tabela-indicadores', children="Indicadores")
-        ])
-        
-    ])
-  
 ]
 
-def card_progress_pequeno(indice, valor):
-    card_children = [html.H4(className="card-title mb-1", children=indice),
-                     html.Div(className="row g-2 align-items-center", children=[
-                        html.Div(className="col-auto", children=[
-                            html.H2(valor)
-                        ]),
-                        html.Div(className="progress progress-sm", children=[
-                            html.Div(className="progress-bar", style={"width":f"{valor*10}%"}, role="progressbar")
-                        ])
-                                    
-                     ]) ] 
-    return card_children
 
-def card_progress_irct(valor):
-    card_children = [html.H4(className="card-title mb-1", children="Índice de Resiliência Climática Territorial"),
-                      html.Div(className="row g-2 align-items-center", children=[
-                          html.Div(className="col-auto mt-5 mb-5", children=[
-                              html.H1(valor, style={"fontSize": "4rem"})
-                          ]),
-                          html.Div(className="progress progress-sm", children=[
-                              html.Div(className="progress-bar", style={"width":f"{valor*10}%"}, role="progressbar")
-                          ])
-                          
-                      ])]
-    return card_children
-
-def mapa_cidade(nome_municipio):
-    sel = gdf[gdf["NM_MUN"] == nome_municipio]
-
-    fig = go.Figure()
-
-    fig.add_trace(
+def mapa_indice(indice):
+    fig = go.Figure(
         go.Choropleth(
-            geojson=sel.__geo_interface__,
-            locations=sel.index,
-            z=[1],                     
+            geojson=gdf.__geo_interface__,
+            locations=gdf.index,
+            z=gdf[indice],
             featureidkey="id",
-            colorscale=[[0, "#4C78A8"], [1, "#4C78A8"]],
-            showscale=False,
-            marker_line_color="black",
-            marker_line_width=2
+            colorscale="Viridis",
+            marker_line_color="white",
+            marker_line_width=0.5,
+            colorbar_title="Índice"
         )
     )
 
@@ -197,8 +107,17 @@ def mapa_cidade(nome_municipio):
         margin=dict(l=0, r=0, t=0, b=0),
         paper_bgcolor="white",
         plot_bgcolor="white",
-        modebar_remove=['zoom', 'pan', 'lasso', 'select', 'toImage']
+        height=800,
     )
     return fig
 
 
+@callback(
+        Output("mapa-indice", "figure"), 
+        Input("dropdown-indice", "value"))
+def update_graph(value):
+
+    #output do mapa
+    mapa = mapa_indice(value)
+
+    return mapa

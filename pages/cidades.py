@@ -17,8 +17,8 @@ gdf = gpd.read_file("./data/SP_Municipios_2025/SP_Municipios_2025.shp")
 gdf = gdf.to_crs(4674)
 gdf["CD_MUN"] = gdf["CD_MUN"].astype(str)
 gdf = gdf.sort_values("NM_MUN").reset_index(drop=True)
-
 gdf["id"] = gdf.index.astype(str)
+
 df = pd.read_csv(
     "https://raw.githubusercontent.com/ccd-his/dashboard-intere/refs/heads/main/data/indicadores.csv"
 )
@@ -171,7 +171,7 @@ def card_progress_irct(valor):
     return card_children
 
 def mapa_cidade(nome_municipio):
-    sel = gdf[gdf["NM_MUN"] == nome_municipio]
+    sel = gdf.copy()
 
     fig = go.Figure()
 

@@ -171,7 +171,7 @@ def card_progress_irct(valor):
     return card_children
 
 def mapa_cidade(nome_municipio):
-    sel = gdf.copy()
+    sel = gdf[gdf['NM_MUN']==nome_municipio]
 
     fig = go.Figure()
 

@@ -22,7 +22,7 @@ gdf["id"] = gdf.index.astype(str)
 df = pd.read_csv(
     "https://raw.githubusercontent.com/ccd-his/dashboard-intere/refs/heads/main/data/indicadores.csv"
 )
-df_teste = pd.read_csv("https://raw.githubusercontent.com/plotly/datasets/master/wind_dataset.csv")
+
 
 cidades = df['Município'].unique()
 

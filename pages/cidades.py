@@ -33,7 +33,7 @@ recomendacoes = pd.read_csv('https://raw.githubusercontent.com/ccd-his/dashboard
 layout = [
     #html.H3(children="IRCT", style={"textAlign": "right"}),
     html.Div(className="row mb-2 mt-4", children=[
-        dcc.Location(id="url", refresh=False),
+        dcc.Location(id="url", refresh=True),
         html.Div(className="col-10", children=[
             html.Div(className="page-pretitle",children="Home"),
             html.H1(className="page-title",children="Conheça a situação da sua cidade")
@@ -283,6 +283,9 @@ def update_graph(value):
     Input("url", "hash"),
 )
 def refresh_hash(hash):
-    valor = hash[1:] 
-    valor = urllib.parse.unquote(valor)
+    if len(hash) == 0:
+        valor = 'Sorocaba'
+    else:
+        valor = hash[1:] 
+        valor = urllib.parse.unquote(valor)
     return valor

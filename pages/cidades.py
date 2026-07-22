@@ -1,6 +1,6 @@
 import dash
 from dash import html
-from dash import Dash, html, dcc, callback, Output, Input, dash_table
+from dash import Dash, html, dcc, callback, Output, Input, ctx
 import plotly.express as px
 import pandas as pd
 import dash_bootstrap_components as dbc
@@ -217,9 +217,16 @@ def mapa_cidade(nome_municipio):
         Output("card-vulnerabilidadesocial","children"),
         Output("card-tabela-acoes","children"),
         Output("card-tabela-indicadores","children"),
-        Input("dropdown-cidade", "value"),)
-def update_graph(value):
-    dff = df[df['Município'] == value]
+        Output("dropdown-cidade", "value"),
+        Input("url","hash"))
+def update_graph(hash):
+    print(ctx.triggered_id)
+    print(hash)
+
+    valor = hash[1:] 
+    
+    print(valor)
+    dff = df[df['Município'] == valor]
     
     # valores para os cards
     irct = round(dff['Índice de Resiliiência Climática e Territorial'].values[0],1)
@@ -236,10 +243,10 @@ def update_graph(value):
     vulnerabilidade = card_progress_pequeno("Vulnerabilidade Social",vulnerabilidade)
 
     #output do mapa
-    mapa = mapa_cidade(value)
+    mapa = mapa_cidade(valor)
 
     #output das ações
-    tabela_acoes = recomendacoes[recomendacoes['Município']==value][['Sugestões e Recomendações para Melhorias']]
+    tabela_acoes = recomendacoes[recomendacoes['Município']==valor][['Sugestões e Recomendações para Melhorias']]
     acoes = dag.AgGrid(
                         id="get-started-example-basic-df",
                         rowData=tabela_acoes.to_dict("records"),
@@ -267,4 +274,10 @@ def update_graph(value):
                             'columnLimits':[{'key':'Indicador','minWidth':200}]}
                     )
 
-    return mapa, irct, mitigacao, adaptacao, deficit, vulnerabilidade, acoes, indicadores
+    return mapa, irct, mitigacao, adaptacao, deficit, vulnerabilidade, acoes, indicadores, valor
+@callback(
+    Output("url","hash"),
+    Input("dropdown-cidade", "value"),
+)
+def refresh_hash(value):
+    return f"#{value}"

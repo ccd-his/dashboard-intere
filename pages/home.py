@@ -35,7 +35,7 @@ layout = [
     # html.H3(children="IRCT", style={"textAlign": "right"}),
     html.Div(
         className="row mb-2 mt-4",children=[
-            html.Div(
+            html.Div(id="titulo",
                 className="col-10",children=[
                     html.Div(
                         className="page-pretitle",children="Home"
@@ -53,7 +53,7 @@ layout = [
                             "Índice de Resiliiência Climática e Territorial",
                             "Mitigação",
                             "Adaptação",
-                            "Déficit Habitacional",
+                            "Deficit Habitacional",
                             "Vulnerabilidade Social",
                         ],
                         value="Índice de Resiliiência Climática e Territorial",
@@ -121,10 +121,25 @@ def mapa_indice(indice):
 
 @callback(
         Output("mapa-indice", "figure"), 
+        Output("titulo",'children'),
         Input("dropdown-indice", "value"))
 def update_graph(value):
 
     #output do mapa
     mapa = mapa_indice(value)
 
-    return mapa
+    #output do título
+    if value == "Índice de Resiliiência Climática e Territorial":
+        valor = "Índice de Resiliência Climática e Territorial"
+    else:
+        valor = value
+    titulo= [
+                    html.Div(
+                        className="page-pretitle",children="Home"
+                    ),
+                    html.H1(
+                        className="page-title",children=valor
+                    ),
+                ]
+
+    return mapa, titulo

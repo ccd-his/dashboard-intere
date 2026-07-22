@@ -32,6 +32,7 @@ recomendacoes = pd.read_csv('https://raw.githubusercontent.com/ccd-his/dashboard
 layout = [
     #html.H3(children="IRCT", style={"textAlign": "right"}),
     html.Div(className="row mb-2 mt-4", children=[
+        dcc.Location(id="url", refresh=False),
         html.Div(className="col-10", children=[
             html.Div(className="page-pretitle",children="Home"),
             html.H1(className="page-title",children="Conheça a situação da sua cidade")
@@ -216,7 +217,7 @@ def mapa_cidade(nome_municipio):
         Output("card-vulnerabilidadesocial","children"),
         Output("card-tabela-acoes","children"),
         Output("card-tabela-indicadores","children"),
-        Input("dropdown-cidade", "value"))
+        Input("dropdown-cidade", "value"),)
 def update_graph(value):
     dff = df[df['Município'] == value]
     

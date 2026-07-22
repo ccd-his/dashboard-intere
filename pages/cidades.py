@@ -220,7 +220,7 @@ def mapa_cidade(nome_municipio):
         Output("card-tabela-indicadores","children"),
         Output("url","hash"),
         Input("dropdown-cidade", "value"),
-        prevent_initial_call=True)
+        )
 def update_graph(value):
     print(ctx.triggered_id)
   
@@ -275,11 +275,14 @@ def update_graph(value):
                     )
 
     return mapa, irct, mitigacao, adaptacao, deficit, vulnerabilidade, acoes, indicadores, "#"+valor
+
+
+
 @callback(
     Output("dropdown-cidade","value"),
     Input("url", "hash"),
 )
-def refresh_hash(value):
+def refresh_hash(hash):
     valor = hash[1:] 
     valor = urllib.parse.unquote(valor)
     return valor

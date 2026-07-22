@@ -9,6 +9,7 @@ import plotly.graph_objects as go
 from pathlib import Path
 import dash_ag_grid as dag
 from functools import cache
+import urllib.parse
 
 dash.register_page(__name__, path='/cidades')
 
@@ -38,7 +39,7 @@ layout = [
             html.H1(className="page-title",children="Conheça a situação da sua cidade")
         ]),
         html.Div(className="col-2", children=[
-            dcc.Dropdown(cidades,'Sorocaba',clearable=False,id="dropdown-cidade")
+            dcc.Dropdown(cidades,'',clearable=False,id="dropdown-cidade")
         ])
     ]),
     html.Div(className="row mb-3", children=[
@@ -217,14 +218,13 @@ def mapa_cidade(nome_municipio):
         Output("card-vulnerabilidadesocial","children"),
         Output("card-tabela-acoes","children"),
         Output("card-tabela-indicadores","children"),
-        Output("dropdown-cidade", "value"),
-        Input("url","hash"))
-def update_graph(hash):
+        Output("url","hash"),
+        Input("dropdown-cidade", "value"),
+        prevent_initial_call=True)
+def update_graph(value):
     print(ctx.triggered_id)
-    print(hash)
-
-    valor = hash[1:] 
-    
+  
+    valor = value
     print(valor)
     dff = df[df['Município'] == valor]
     
@@ -274,10 +274,12 @@ def update_graph(hash):
                             'columnLimits':[{'key':'Indicador','minWidth':200}]}
                     )
 
-    return mapa, irct, mitigacao, adaptacao, deficit, vulnerabilidade, acoes, indicadores, valor
+    return mapa, irct, mitigacao, adaptacao, deficit, vulnerabilidade, acoes, indicadores, "#"+valor
 @callback(
-    Output("url","hash"),
-    Input("dropdown-cidade", "value"),
+    Output("dropdown-cidade","value"),
+    Input("url", "hash"),
 )
 def refresh_hash(value):
-    return f"#{value}"
+    valor = hash[1:] 
+    valor = urllib.parse.unquote(valor)
+    return valor

@@ -81,7 +81,8 @@ layout = [
                     )
                 ],
             ),
-        ])
+        ]),
+    html.Div(id='click',children=[dcc.Location(id="url-loc")])
 ]
 
 @cache
@@ -99,6 +100,11 @@ def mapa_indice(indice):
             marker_line_width=0.5,
             colorbar_title="Índice",
             text=gdf.NM_MUN,
+            hovertemplate=(
+                "<b>%{text}</b><br>"
+                "Índice: %{z:.2f}"
+                "<extra></extra>"
+            ),
             #text="",
             #autocolorscale=True,
             
@@ -143,3 +149,12 @@ def update_graph(value):
                 ]
 
     return mapa, titulo
+
+@callback(
+    Output('url-loc','href'),
+    Input('mapa-indice','clickData'),
+    prevent_initial_call=True
+)
+def update_click(clickData):
+    
+    return f"./cidades#{clickData['points'][0]['text']}"

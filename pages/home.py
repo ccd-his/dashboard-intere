@@ -36,7 +36,7 @@ layout = [
     html.Div(
         className="row mb-2 mt-4",children=[
             html.Div(id="titulo",
-                className="col-10",children=[
+                className="col-lg-10 col-sm-12",children=[
                     html.Div(
                         className="page-pretitle",children="Home"
                     ),
@@ -47,7 +47,7 @@ layout = [
             ),
 
             html.Div(
-                className="col-2",children=[
+                className="col-lg-2 col-sm-12",children=[
                     dcc.Dropdown(
                         options=[
                             "Índice de Resiliiência Climática e Territorial",

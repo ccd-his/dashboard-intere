@@ -34,23 +34,23 @@ layout = [
     #html.H3(children="IRCT", style={"textAlign": "right"}),
     html.Div(className="row mb-2 mt-4", children=[
         dcc.Location(id="url", refresh=True),
-        html.Div(className="col-10", children=[
+        html.Div(className="col-md-10 col-sm-12", children=[
             html.Div(className="page-pretitle",children="Home"),
             html.H1(className="page-title",children="Conheça a situação da sua cidade")
         ]),
-        html.Div(className="col-2", children=[
+        html.Div(className="col-md-2 col-sm-12", children=[
             dcc.Dropdown(cidades,'',clearable=False,id="dropdown-cidade")
         ])
     ]),
     html.Div(className="row mb-3", children=[
-        html.Div(className="col-5" ,children=[
+        html.Div(className="col-md-5 col-sm-12" ,children=[
             html.Div(className="card  h-100", children=[
                 dcc.Loading(dcc.Graph(id="mapa-cidade",config={"displayModeBar": False, 'scrollZoom': False}))
             ])
         ]),
-        html.Div(className="col-7",children=[
+        html.Div(className="col-md-7 col-sm-12",children=[
             html.Div(className="row", children=[
-                html.Div(className="col-5", children=[
+                html.Div(className="col-md-5 col-sm-12", children=[
                     html.Div(className="card p-3 h-100", id="card-irct", children=[
                       html.H4(className="card-title mb-1", children="Índice de Resiliência Climática Territorial"),
                       html.Div(className="row g-2 align-items-center", children=[
@@ -64,7 +64,7 @@ layout = [
                       ])  
                     ])
                 ]),
-                html.Div(className="col-7",children=[
+                html.Div(className="col-md-7 col-sm-12",children=[
                     html.Div(className="row mb-2",children=[
                         html.Div(className="col-6",children=[
                             html.Div(className="card p-2", id="card-mitigacao", children=[

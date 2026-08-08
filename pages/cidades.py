@@ -229,10 +229,10 @@ def update_graph(value):
     dff = df[df['Município'] == valor]
     
     # valores para os cards
-    irct = round(dff['Índice de Resiliiência Climática e Territorial'].values[0],1)
+    irct = round(dff['Índice de Resiliência Climática e Territorial'].values[0],1)
     mitigacao = round(dff['Mitigação'].values[0],1)
     adaptacao = round(dff['Adaptação'].values[0],1)
-    deficit = round(dff['Deficit Habitacional'].values[0],1)
+    deficit = round(dff['Déficit Habitacional'].values[0],1)
     vulnerabilidade = round(dff['Vulnerabilidade Social'].values[0],1)
 
     #outputs dos cards

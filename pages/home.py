@@ -26,7 +26,7 @@ df = pd.read_csv(
 
 cidades = df['Município'].unique()
 
-df_irct = df[['Código IBGE','Município','Mitigação','Adaptação','Deficit Habitacional','Vulnerabilidade Social','Índice de Resiliiência Climática e Territorial']]
+df_irct = df[['Código IBGE','Município','Mitigação','Adaptação','Déficit Habitacional','Vulnerabilidade Social','Índice de Resiliência Climática e Territorial']]
 df_irct['Código IBGE'] = df_irct['Código IBGE'].astype('str')
 gdf = gdf.merge(df_irct, left_on='CD_MUN',right_on='Código IBGE')
 
@@ -50,13 +50,13 @@ layout = [
                 className="col-lg-2 col-sm-12",children=[
                     dcc.Dropdown(
                         options=[
-                            "Índice de Resiliiência Climática e Territorial",
+                            "Índice de Resiliência Climática e Territorial",
                             "Mitigação",
                             "Adaptação",
-                            "Deficit Habitacional",
+                            "Déficit Habitacional",
                             "Vulnerabilidade Social",
                         ],
-                        value="Índice de Resiliiência Climática e Territorial",
+                        value="Índice de Resiliência Climática e Territorial",
                         clearable=False,
                         id="dropdown-indice",
                     )
@@ -135,7 +135,7 @@ def update_graph(value):
     mapa = mapa_indice(value)
 
     #output do título
-    if value == "Índice de Resiliiência Climática e Territorial":
+    if value == "Índice de Resiliência Climática e Territorial":
         valor = "Índice de Resiliência Climática e Territorial"
     else:
         valor = value

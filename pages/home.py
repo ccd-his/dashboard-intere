@@ -28,7 +28,8 @@ cidades = df['Município'].unique()
 
 df_irct = df[['Código IBGE','Município','Mitigação','Adaptação','Déficit Habitacional','Vulnerabilidade Social','Índice de Resiliência Climática e Territorial']]
 df_irct['Código IBGE'] = df_irct['Código IBGE'].astype('str')
-gdf = gdf.merge(df_irct, left_on='CD_MUN',right_on='Código IBGE')
+
+gdf_filtrado = gdf.merge(df_irct, left_on='CD_MUN',right_on='Código IBGE')
 
 
 layout = [
@@ -85,6 +86,7 @@ layout = [
                             dcc.Loading(dcc.Graph(
                                 id="mapa-indice",
                                 config={"displayModeBar": False, 'scrollZoom': False},
+                                style={"width":"100%"}
                             ))
                         ],
                     )
@@ -96,35 +98,58 @@ layout = [
 
 @cache
 def mapa_indice(indice):
-    fig = go.Figure(
+
+    fig = go.Figure()
+
+    fig.add_trace(
         go.Choropleth(
             geojson=gdf.__geo_interface__,
             locations=gdf.index,
-            z=gdf[indice],
-            #featureidkey="id",
+            z=[1] * len(gdf),
+            colorscale=[
+                [0, "lightgray"],
+                [1, "lightgray"]
+            ],
+            showscale=False,
+            marker_line_color="white",
+            marker_line_width=0.5,
+            hoverinfo="skip"
+        )
+    )
+
+    fig.add_trace(
+        go.Choropleth(
+            geojson=gdf_filtrado.__geo_interface__,
+            locations=gdf_filtrado.index,
+            z=gdf_filtrado[indice],
             colorscale="Viridis",
-            #zmin=0.0,
-            #zmax=10,
             marker_line_color="white",
             marker_line_width=0.5,
             colorbar_title="Índice",
-            colorbar=dict(orientation='h', y=-0.15 ),
-            text=gdf.NM_MUN,
+            colorbar=dict(
+                orientation="h",
+                y=-0.15
+            ),
+            text=gdf_filtrado["NM_MUN"],
             hovertemplate=(
                 "<b>%{text}</b><br>"
                 "Índice: %{z:.2f}"
                 "<extra></extra>"
-            ),
-            #text="",
-            #autocolorscale=True,
-            
+            )
         )
     )
 
+    
+    xmin, ymin, xmax, ymax = gdf_filtrado.total_bounds
+
+    dx = (xmax - xmin) * 0.10   
+    dy = (ymax - ymin) * 0.20
+
     fig.update_geos(
-        fitbounds="locations",
-        visible=False
-    )
+            visible=False,
+            lonaxis_range=[xmin - dx, xmax + dx],
+            lataxis_range=[ymin - dy, ymax + dy]
+        )
 
     fig.update_layout(
         margin=dict(l=0, r=0, t=0, b=0),
@@ -132,6 +157,7 @@ def mapa_indice(indice):
         plot_bgcolor="white",
         height=650,
     )
+
     return fig
 
 def texto_explicativo(indice):

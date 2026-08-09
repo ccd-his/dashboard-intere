@@ -33,6 +33,7 @@ gdf = gdf.merge(df_irct, left_on='CD_MUN',right_on='Código IBGE')
 
 layout = [
     # html.H3(children="IRCT", style={"textAlign": "right"}),
+
     html.Div(
         className="row mb-2 mt-4",children=[
             html.Div(id="titulo",

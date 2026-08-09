@@ -1,0 +1,47 @@
+Indicador,Unidade,Fonte,Período do dado
+Área (Km²),km²,IBGE,
+População,hab,Censo IBGE,2022
+Áreas verdes (m²/habitante),m²/habitante,MapBiomas,2024
+Uso total de energia elétrica residencial per capita (kWh/dia),kWh/(hab*dia),Anuário de Energéticos por Municípios do Estado de São Paulo 2025,2024
+Consumo doméstico total de água per capita (litros/dia),L/(hab*dia),SINISA - Indicador IAG2007,2024
+Emissão de gases de efeito de estufa medida em toneladas per capita,ton/(hab*ano),SEEG,2024
+Porcentagem do orçamento municipal anual destinada às infraestruturas verde e azul ,%,Siconfi,2025
+Porcentagem de áreas designadas para proteção natural,%,Cadastro,2025.333333
+"Porcentagem da área da cidade coberta com materiais com alto índice de albedo, o que contribui para a mitigação das ilhas de calor urbanas",km²,IBGE,2025.761905
+Porcentagem de resíduos sólidos urbanos que são reciclados,hab,Censo IBGE,2026.190476
+Número anual de focos de incêndio por km²,m²/habitante,MapBiomas,2026.619048
+Porcentagem do orçamento municipal anual destinado ao planejamento do gerenciamento de emergências,kWh/(hab*dia),Anuário de Energéticos por Municípios do Estado de São Paulo 2026,2027.047619
+Alocação total de fundos de reserva para desastres como porcentagem do orçamento total da cidade,L/(hab*dia),SINISA - Indicador IAG2008,2027.47619
+Porcentagem do orçamento municipal anual destinada à atualização e manutenção de infraestrutura de águas pluviais,ton/(hab*ano),SEEG,2027.904762
+Número anual de propriedades residenciais inundadas como porcentagem do total de propriedades residenciais na cidade,%,Siconfi,2028.333333
+Porcentagem da área urbana exposta a risco de ameaças naturais,%,Cadastro,2028.761905
+Porcentagem anual da população da cidade diretamente afetada por ameaças naturais,km²,IBGE,2029.190476
+Porcentagem do orçamento municipal anual destinada a iniciativas de agricultura urbana,hab,Censo IBGE,2029.619048
+Porcentagem da população em domicílios em risco de insegurança alimentar,m²/habitante,MapBiomas,2030.047619
+Total da área agrícola por habitante,kWh/(hab*dia),Anuário de Energéticos por Municípios do Estado de São Paulo 2027,2030.47619
+Frequência anual dos eventos de tempestades extremas,L/(hab*dia),SINISA - Indicador IAG2009,2030.904762
+Frequência anual de eventos de calor extremo,ton/(hab*ano),SEEG,2031.333333
+Frequência anual de eventos de frio extremo,%,Siconfi,2031.761905
+Frequência anual de eventos de seca meteorológica,%,Cadastro,2032.190476
+Intensidade dos eventos de tempestades extremas,km²,IBGE,2032.619048
+Intensidade dos eventos de calor extremo,hab,Censo IBGE,2033.047619
+Intensidade dos eventos de frio extremo,m²/habitante,MapBiomas,2033.47619
+Porcentagem da população da cidade com serviço de abastecimento de água potável,kWh/(hab*dia),Anuário de Energéticos por Municípios do Estado de São Paulo 2028,2033.904762
+Porcentagem da população da cidade atendida por sistemas de coleta e afastamento de esgoto,L/(hab*dia),SINISA - Indicador IAG2010,2034.333333
+Porcentagem da população da cidade com coleta regular de resíduos sólidos (domiciliar),ton/(hab*ano),SEEG,2034.761905
+Inexistência de banheiro exclusivo,%,Siconfi,2035.190476
+Número de cômodos igual ao número de dormitórios,%,Cadastro,2035.619048
+Adensamento excessivo de domicílios alugados,km²,IBGE,2036.047619
+Domicílio cômodo,hab,Censo IBGE,2036.47619
+Adensamento excessivo de domicílios (exceto alugados),m²/habitante,MapBiomas,2036.904762
+Domicílios rústicos,kWh/(hab*dia),Anuário de Energéticos por Municípios do Estado de São Paulo 2029,2037.333333
+Domicílios improvisados em favelas e comunidades urbanas,L/(hab*dia),SINISA - Indicador IAG2011,2037.761905
+Taxa de mortalidade de crianças menores de cinco anos a cada 1.000 nascidos vivos,ton/(hab*ano),SEEG,2038.190476
+Número de internações hospitalares por Doenças Relacionadas ao Saneamento Ambiental Inadequado – DRSAI por 100.000 habitantes,%,Siconfi,2038.619048
+Presença de pessoas com deficiência (PCD),%,Cadastro,2039.047619
+Renda per capita,km²,IBGE,2039.47619
+Média do valor da terra nua rural,hab,Censo IBGE,2039.904762
+Taxa de distorção idade-série no Ensino Fundamental,m²/habitante,MapBiomas,2040.333333
+Porcentagem de mães solo chefes de família,kWh/(hab*dia),Anuário de Energéticos por Municípios do Estado de São Paulo 2030,2040.761905
+Taxa de alfabetização de pessoas economicamente ativas,L/(hab*dia),SINISA - Indicador IAG2012,2041.190476
+Gravidez na adolescência (<19 anos),ton/(hab*ano),SEEG,2041.619048

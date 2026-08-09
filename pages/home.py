@@ -2,7 +2,12 @@ import dash
 import plotly.graph_objects as go
 from dash import Input, Output, callback, dcc, html
 
-from data_source import get_simplified_geometry, load_df_irct_filtrado, load_gdf
+from data_source import (
+    get_simplified_geometry,
+    load_df_indicadores,
+    load_df_irct_filtrado,
+    load_gdf,
+)
 
 dash.register_page(__name__, path="/")
 
@@ -76,7 +81,7 @@ layout = [
 
 def mapa_indice(indice):
     gdf = load_gdf()
-    gdf_filtrado = load_df_irct_filtrado()
+    gdf_filtrado = load_df_irct_filtrado(load_df_indicadores())
 
     fig = go.Figure()
 
@@ -203,3 +208,4 @@ def update_graph(value):
 def update_click(clickData):
 
     return f"./cidades#{clickData['points'][0]['text']}"
+

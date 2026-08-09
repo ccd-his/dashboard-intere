@@ -457,7 +457,10 @@ def mapa_cidade(nome_municipio):
     gdf = load_df_irct_filtrado(load_df_indicadores())
     z_min = gdf['Índice de Resiliência Climática e Territorial'].min()
     z_max = gdf["Índice de Resiliência Climática e Territorial"].max()
-    sel = gdf[gdf["NM_MUN"] == nome_municipio]
+    if nome_municipio=="Santa Bárbara D'Oeste":
+        sel=gdf[gdf["NM_MUN"] == "Santa Bárbara d'Oeste"]
+    else:
+        sel =   gdf[gdf["NM_MUN"] == nome_municipio]
     #indicadores = load_df_indicadores()
     #indicadores = indicadores[indicadores['Município']==nome_municipio]
     #print(indicadores)
@@ -513,6 +516,7 @@ def update_graph(value):
     valor = value
     print(valor)
     dff: DataFrame = df[df["Município"] == valor]
+    
 
     # valores para os cards
     irct = round(dff["Índice de Resiliência Climática e Territorial"].values[0], 1)
@@ -621,4 +625,5 @@ def refresh_hash(hash):
     else:
         valor = hash[1:]
         valor = urllib.parse.unquote(valor)
+        if valor == "Santa Bárbara d'Oeste": valor="Santa Bárbara D'Oeste"
     return valor

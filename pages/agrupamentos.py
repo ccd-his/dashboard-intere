@@ -20,9 +20,9 @@ gdf["CD_MUN"] = gdf["CD_MUN"].astype(str)
 gdf = gdf.sort_values("NM_MUN").reset_index(drop=True)
 
 gdf["id"] = gdf.index.astype(str)
-df = pd.read_csv(
-    "https://raw.githubusercontent.com/ccd-his/dashboard-intere/refs/heads/main/data/clusters.csv"
-)
+df = pd.read_csv("https://raw.githubusercontent.com/ccd-his/dashboard-intere/refs/heads/main/data/clusters.csv")
+
+
 
 cidades = df['Município'].unique()
 
@@ -31,8 +31,7 @@ df_irct['Código IBGE'] = df_irct['Código IBGE'].astype('str')
 
 gdf_filtrado = gdf.merge(df_irct, left_on='CD_MUN',right_on='Código IBGE')
 
-carac_clusters = pd.read_csv("https://raw.githubusercontent.com/ccd-his/dashboard-intere/refs/heads/main/data/caracteristicas_clusters.csv")
-print(carac_clusters)
+
 
 layout = [
     # html.H3(children="IRCT", style={"textAlign": "right"}),
@@ -230,7 +229,7 @@ def texto_explicativo_cluster(indice):
         Output("caracteristicas-cluster","children"),
         Input("dropdown-indice-cluster", "value"))
 def update_graph_cluster(value):
-
+    df_clusters = pd.read_csv("https://raw.githubusercontent.com/ccd-his/dashboard-intere/refs/heads/main/data/caracteristicas_clusters.csv")
     #output do mapa
     mapa = mapa_indice_cluster(value)
 
@@ -248,13 +247,15 @@ def update_graph_cluster(value):
     #output do texto
     texto = texto_explicativo_cluster(value)
 
-    #caracteristicas dos clusters
-    carac_clusters = carac_clusters[carac_clusters['Indicador']==value]
-    carac_clusters = carac_clusters[["Agrupamento","Características","Municípios"]]
+    #caracteristicas dos clusters[]
+    print(df_clusters['Indicador']==value)
+    df_clusters = df_clusters[df_clusters['Indicador']==value]
+    
+    df_clusters = df_clusters[["Agrupamento","Características","Municípios"]]
     caracteristicas =dag.AgGrid(
                             id="get-started-example-basic-df",
-                            rowData=carac_clusters.to_dict("records"),
-                            columnDefs=[{"field": i, "cellRenderer":"markdown"} for i in carac_clusters.columns],
+                            rowData=df_clusters.to_dict("records"),
+                            columnDefs=[{"field": i, "cellRenderer":"markdown"} for i in df_clusters.columns],
                             style={"width": "100%"},
                             columnSize="sizeToFit",
                             columnSizeOptions={

@@ -337,7 +337,10 @@ def card_progress_pequeno(indice, valor):
 
     card_children = [
         html.Div(
-            className="d-flex justify-content-between align-items-start",
+            style={
+                "position": "relative",
+                "width": "100%",
+            },
             children=[
                 html.H4(
                     className="card-title mb-1",
@@ -346,23 +349,28 @@ def card_progress_pequeno(indice, valor):
 
                 html.Button(
                     "ⓘ",
-                    id=info_id,
+                    id=f"info-{indice}",
                     className="btn btn-link p-0",
                     style={
-                        "fontSize": "1.1rem",
+                        "position": "absolute",
+                        "top": "0",
+                        "right": "0",
+                        "fontSize": "1rem",
                         "color": "#6c757d",
                         "textDecoration": "none",
                         "lineHeight": "1",
                     },
                 ),
-            ],
-        ),
 
-        dbc.Popover(
-            dbc.PopoverBody(explicacoes[indice]),
-            target=info_id,
-            placement="bottom",
-            trigger="click",
+                dbc.Popover(
+                    dbc.PopoverBody(
+                        explicacoes[indice]
+                    ),
+                    target=f"info-{indice}",
+                    placement="bottom",
+                    trigger="click",
+                ),
+            ],
         ),
 
         html.Div(
@@ -370,7 +378,9 @@ def card_progress_pequeno(indice, valor):
             children=[
                 html.Div(
                     className="col-auto",
-                    children=[html.H2(valor)],
+                    children=[
+                        html.H2(valor)
+                    ],
                 ),
 
                 html.Div(

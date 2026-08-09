@@ -455,14 +455,10 @@ def update_graph(value):
     acoes = make_table(
         "sugestoes",
         ["Sugestões e recomendações para melhorias"],
-        [
-            [dcc.Markdown("**Aliquam**\n\nTeste de markdown")],
-            ["Duis"],
-            ["Vestibulum"],
-            ["Proin"],
-        ],
+        tabela_acoes.values.tolist(),
         [""],
         [""],
+        [lambda t: dcc.Markdown(t)]
     )
 
     # output dos indicadores
@@ -491,28 +487,13 @@ def update_graph(value):
     indicadores2 = make_table(
         "indicadores",
         ["Indicador", "Unidade", "Valor", "Período", "Fonte"],
+        dados_indicadores.values.tolist(),
         [
-            ["Área (Km2)", "Km2", 449.872, 2024, "IBGE"],
-            ["Área (Km2)", "Km2", 449.872, 2024, "IBGE"],
-            ["Área (Km2)", "Km2", 449.872, 2024, "IBGE"],
-            ["Área (Km2)", "Km2", 449.872, 2024, "IBGE"],
-            [
-                "Uso total de energia elétrica residencial per capita (kWh/dia)",
-                "Km2",
-                449.872,
-                2024,
-                "IBGE",
-            ],
-            ["Área (Km2)", "Km2", 449.872, 2024, "IBGE"],
-            ["Área (Km2)", "Km2", 449.872, 2024, "IBGE"],
-            ["Área (Km2)", "Km2", 449.872, 2024, "IBGE"],
-        ],
-        [
-            "w-50",
+            "w-75",
             "w-1",
-            "text-end w-50",
+            "text-end w-2",
             "text-center w-1",
-            "text-center w-1",
+            "text-center w-25",
         ],
         [
             "",

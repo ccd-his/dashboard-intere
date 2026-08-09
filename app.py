@@ -1,17 +1,17 @@
-import dash
-from dash import Dash, html, dcc, callback, Output, Input
-import plotly.express as px
-import pandas as pd
+import os
 
+import dash
+from dash import Dash
 from flask import render_template
 
+from caching import memory
 
 
 class CustomDash(Dash):
-
     def __init__(self, template, **kwargs):
         super().__init__(**kwargs)
         self.template = template
+
     def interpolate_index(
         self,
         metas: str = "",
@@ -24,30 +24,35 @@ class CustomDash(Dash):
         renderer: str = "",
     ) -> str:
         rendered: str = render_template(self.template, title="<!--dash-title-->")
-        #head
+        # head
         rendered = rendered.replace("<!--dash-metas-->", metas)
         rendered = rendered.replace("<!--dash-title-->", title)
         rendered = rendered.replace("<!--dash-css-->", css)
         rendered = rendered.replace("<!--dash-config-->", config)
         rendered = rendered.replace("<!--dash-scripts-->", scripts)
         rendered = rendered.replace("<!--dash-favicon-->", favicon)
-        #onde vai o dash
+        # onde vai o dash
         rendered = rendered.replace("<!--dash-app_entry-->", app_entry)
-        #antes do /body
+        # antes do /body
         rendered = rendered.replace("<!--dash-renderer-->", renderer)
 
         return rendered
 
 
-app = CustomDash('base-site.html', use_pages=True)
+app = CustomDash("base-site.html", use_pages=True)
 app.title = "Índice de Resiliência Climática Territorial"
 
+server = app.server
 
-app.layout = [
-    dash.page_container
-]
 
+@server.route("/cache/clear")
+def clear_cache():
+    memory.clear()
+    return "OK"
+
+
+app.layout = [dash.page_container]
 
 
 if __name__ == "__main__":
-    app.run(debug=True, host="0.0.0.0")
+    app.run(debug=os.getenv("ENV", "development") == "development", host="0.0.0.0")

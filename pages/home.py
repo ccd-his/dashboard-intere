@@ -103,7 +103,7 @@ def mapa_indice(indice):
             geojson=get_simplified_geometry(gdf_filtrado),
             locations=gdf_filtrado.index,
             z=gdf_filtrado[indice],
-            colorscale="Viridis",
+            colorscale="Viridis_r",
             marker_line_color="white",
             marker_line_width=0.5,
             colorbar_title="Índice",

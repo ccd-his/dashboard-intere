@@ -13,6 +13,7 @@ from data_source import (
     load_df_recomendacoes,
     load_df_unidades,
     load_gdf,
+    load_df_irct_filtrado,
 )
 from ui import make_table, make_title
 
@@ -368,18 +369,27 @@ def card_progress_irct(valor):
 
 @cache
 def mapa_cidade(nome_municipio):
-    gdf = load_gdf()
+    #gdf = load_gdf()
+    gdf = load_df_irct_filtrado(load_df_indicadores())
+    z_min = gdf['Índice de Resiliência Climática e Territorial'].min()
+    z_max = gdf["Índice de Resiliência Climática e Territorial"].max()
     sel = gdf[gdf["NM_MUN"] == nome_municipio]
-
+    #indicadores = load_df_indicadores()
+    #indicadores = indicadores[indicadores['Município']==nome_municipio]
+    #print(indicadores)
+    print(sel)
     fig = go.Figure()
 
     fig.add_trace(
         go.Choropleth(
             geojson=sel.__geo_interface__,
             locations=sel.index,
-            z=[1],
+            #z=[1],
+            z=sel['Índice de Resiliência Climática e Territorial'],
+            zmin=z_min,
+            zmax=z_max,
             featureidkey="id",
-            colorscale=[[0, "#4C78A8"], [1, "#4C78A8"]],
+            colorscale="viridis_r",#[[0, "#4C78A8"], [1, "#4C78A8"]],
             showscale=False,
             marker_line_color="black",
             marker_line_width=2,

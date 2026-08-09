@@ -13,7 +13,6 @@ def load_gdf() -> pd.DataFrame:
     gdf = gdf.to_crs(4674)
     gdf["CD_MUN"] = gdf["CD_MUN"].astype(str)
     gdf = gdf.sort_values("NM_MUN").reset_index(drop=True)
-    # gdf.simplify(tolerance=0.005)
 
     gdf["id"] = gdf.index.astype(str)
     return gdf
@@ -44,7 +43,20 @@ def get_simplified_geometry(dataframe: pd.DataFrame, background: bool = False):
 
 
 @memory.cache
-def load_df_indicadores():
+def load_clusters():
+    return pd.read_csv(
+        "https://raw.githubusercontent.com/ccd-his/dashboard-intere/refs/heads/main/data/clusters.csv"
+    )
+
+
+def load_caracteristicas_clusters():
+    return pd.read_csv(
+        "https://raw.githubusercontent.com/ccd-his/dashboard-intere/refs/heads/main/data/caracteristicas_clusters.csv"
+    )
+
+
+@memory.cache
+def load_df_indicadores() -> pd.DataFrame:
     """Dataframe de indicadores criados pela equipe"""
 
     return pd.read_csv(
@@ -61,10 +73,11 @@ def load_df_cidades():
 
 
 @memory.cache
-def load_df_irct():
-    """Dataframe com índice de Resiliência Climática Territorial"""
+def load_df_irct_filtrado(df: pd.DataFrame):
+    """Dataframe com união dos dados de indicadores IRCT com georef"""
+    # TODO: Descrever melhor este dataframe/função
+    # Costumava pegar o dataframe indicadores, mas agrupamento repete usando clusters.csv
 
-    df = load_df_indicadores()
     df_irct = df[
         [
             "Código IBGE",
@@ -77,12 +90,19 @@ def load_df_irct():
         ]
     ]
     df_irct["Código IBGE"] = df_irct["Código IBGE"].astype("str")
-    return df_irct
+    gdf = load_gdf()
+    return gdf.merge(df_irct, left_on="CD_MUN", right_on="Código IBGE")
 
 
 @memory.cache
-def load_df_irct_filtrado():
-    """Dataframe com união dos dados de indicadores IRCT com georef"""
-    gdf = load_gdf()
-    df_irct = load_df_irct()
-    return gdf.merge(df_irct, left_on="CD_MUN", right_on="Código IBGE")
+def load_df_unidades():
+    return pd.read_csv(
+        "https://raw.githubusercontent.com/ccd-his/dashboard-intere/refs/heads/main/data/fontes_unidades.csv"
+    )
+
+
+@memory.cache
+def load_df_recomendacoes():
+    return pd.read_csv(
+        "https://raw.githubusercontent.com/ccd-his/dashboard-intere/refs/heads/main/data/recomendacoes.csv"
+    )

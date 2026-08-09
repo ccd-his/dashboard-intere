@@ -135,7 +135,6 @@ def mapa_indice(indice):
 
 
 def texto_explicativo(indice):
-    texto: dcc.Markdown = dcc.Markdown("")
     if indice == "Índice de Resiliência Climática e Territorial":
         texto = dcc.Markdown(""" 
                 O Índice de Resiliência Climática e Territorial (IRCT) é uma ferramenta desenvolvida 
@@ -157,6 +156,16 @@ def texto_explicativo(indice):
                 """)
     elif indice == "Adaptação":
         texto = dcc.Markdown(""" 
+                O Subíndice de Adaptação Climática é uma dimensão do IRCT que avalia as condições dos municípios para enfrentar 
+                e responder aos impactos e riscos associados às mudanças climáticas. 
+                Sua construção considera quatro grupos de fatores: **Eventos Extremos**, **Exposição ao Risco**, **Segurança Alimentar** e **Orçamento**, 
+                contemplando aspectos relacionados à ocorrência de eventos climáticos, à exposição da população e do território a riscos, 
+                à capacidade de garantir condições de segurança alimentar e à disponibilidade de recursos para ações de adaptação. 
+                O subíndice é calculado por meio de modelagem fuzzy, utilizando **16 dos 44 indicadores** selecionados para a pesquisa, 
+                integrando diferentes variáveis para representar a capacidade municipal de adaptação climática.
+                """)
+    elif indice == "Déficit Habitacional":
+        texto = dcc.Markdown(""" 
                 O Subíndice de Déficit Habitacional é uma dimensão do IRCT que avalia as condições habitacionais dos municípios, 
                 considerando tanto a insuficiência quanto a inadequação das moradias. 
                 Sua construção contempla dois grupos de fatores: **Déficit Qualitativo** e **Déficit Quantitativo**, 
@@ -165,7 +174,7 @@ def texto_explicativo(indice):
                 O subíndice é calculado por meio de modelagem fuzzy, utilizando **10 dos 44 indicadores** selecionados para a pesquisa, 
                 integrando essas variáveis para representar as condições do déficit habitacional nos municípios.
                 """)
-    elif indice == "Déficit Habitacional":
+    elif indice == "Vulnerabilidade Social":
         texto = dcc.Markdown(""" 
                 O Subíndice de Vulnerabilidade Social é uma dimensão do IRCT que avalia condições sociais que podem influenciar a 
                 capacidade da população de enfrentar situações de risco e vulnerabilidade no território. 

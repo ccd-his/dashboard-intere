@@ -5,6 +5,7 @@ import dash
 import dash_ag_grid as dag
 import plotly.graph_objects as go
 from dash import Input, Output, callback, ctx, dcc, html
+import dash_bootstrap_components as dbc
 from pandas import DataFrame
 
 from data_source import (
@@ -56,7 +57,7 @@ layout = [
                         className="row",
                         children=[
                             html.Div(
-                                className="col-md-5 col-sm-12",
+                                className="col-md-5 col-sm-12 mb-3",
                                 children=[
                                     html.Div(
                                         className="card p-3 h-100 card card-active",
@@ -316,12 +317,62 @@ layout = [
 
 
 def card_progress_pequeno(indice, valor):
+
+
+    explicacoes = {
+        "Mitigação": "Valores maiores indicam maior mitigação de emissão de gases de efeito estufa.",
+        "Adaptação": "Valores maiores indicam melhor adptação às mudanças climáticas.",
+        "Déficit Habitacional": "Valores maiores indicam piores condições habitacionais.",
+        "Vulnerabilidade Social": "Valores maiores indicam maiores vulnerabilidades.",
+    }
+
+    ids = {
+        "Mitigação": "card-mitigacao",
+        "Adaptação": "card-adaptacao",
+        "Déficit Habitacional": "card-deficithabitacional",
+        "Vulnerabilidade Social": "card-vulnerabilidadesocial",
+    }
+
+    info_id = ids[indice]
+
     card_children = [
-        html.H4(className="card-title mb-1", children=indice),
+        html.Div(
+            className="d-flex justify-content-between align-items-start",
+            children=[
+                html.H4(
+                    className="card-title mb-1",
+                    children=indice,
+                ),
+
+                html.Button(
+                    "ⓘ",
+                    id=info_id,
+                    className="btn btn-link p-0",
+                    style={
+                        "fontSize": "1.1rem",
+                        "color": "#6c757d",
+                        "textDecoration": "none",
+                        "lineHeight": "1",
+                    },
+                ),
+            ],
+        ),
+
+        dbc.Popover(
+            dbc.PopoverBody(explicacoes[indice]),
+            target=info_id,
+            placement="bottom",
+            trigger="click",
+        ),
+
         html.Div(
             className="g-2 align-items-center",
             children=[
-                html.Div(className="col-auto", children=[html.H2(valor)]),
+                html.Div(
+                    className="col-auto",
+                    children=[html.H2(valor)],
+                ),
+
                 html.Div(
                     className="progress progress-sm",
                     children=[
@@ -340,17 +391,50 @@ def card_progress_pequeno(indice, valor):
 
 def card_progress_irct(valor):
     card_children = [
-        html.H4(
-            className="card-title mb-1",
-            children="Índice de Resiliência Climática Territorial",
+        html.Div(
+            className="d-flex justify-content-between align-items-start",
+            children=[
+                html.H4(
+                    className="card-title mb-1",
+                    children="Índice de Resiliência Climática Territorial",
+                ),
+
+                html.Button(
+                    "ⓘ",
+                    id="info-irct",
+                    className="btn btn-link p-0",
+                    style={
+                        "fontSize": "1.1rem",
+                        "color": "#6c757d",
+                        "textDecoration": "none",
+                        "lineHeight": "1",
+                    },
+                ),
+            ],
         ),
+
+        dbc.Popover(
+            dbc.PopoverBody(
+                "IRCT — valores maiores indicam maior resiliência."
+            ),
+            target="info-irct",
+            placement="bottom",
+            trigger="click",
+        ),
+
         html.Div(
             className="g-2 align-items-center",
             children=[
                 html.Div(
                     className="col-auto mt-5 mb-5",
-                    children=[html.H1(valor, style={"fontSize": "4rem"})],
+                    children=[
+                        html.H1(
+                            valor,
+                            style={"fontSize": "4rem"}
+                        )
+                    ],
                 ),
+
                 html.Div(
                     className="progress progress-sm",
                     children=[

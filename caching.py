@@ -1,3 +1,8 @@
+import os
+
 from joblib import Memory
 
-memory = Memory("./__cache__", verbose=1)
+memory = Memory(
+    None if os.getenv("ENV", "development") == "development" else "./__cache__",
+    verbose=1,
+)

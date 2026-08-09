@@ -1,0 +1,19 @@
+[env]
+_.python.venv = { path = ".venv", create = true }
+ENV = { default = "development" }
+
+[tools]
+python = "3.12"
+uv = "latest"
+
+[tasks.install]
+description = "Instalar dependências"
+run = "uv pip install -r requirements.txt"
+
+[tasks.dev]
+description = "Inicia aplicação em modo de desenvolvimento"
+run = "uv run app.py"
+
+[tasks.gunicorn]
+description = "Inicia a aplicação pelo gunicorn, como em produção, com 4 worker threads"
+run = "gunicorn --bind 0.0.0.0:8000 app:server --workers 4"

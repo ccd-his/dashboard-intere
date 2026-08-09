@@ -4,5 +4,6 @@ dash_bootstrap_components
 dash_template_rendering
 flask
 geopandas
+gunicorn
 joblib
 pandas

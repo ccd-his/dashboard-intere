@@ -25,6 +25,7 @@ df = pd.read_csv(
     "https://raw.githubusercontent.com/ccd-his/dashboard-intere/refs/heads/main/data/indicadores.csv"
 )
 
+df_unidades = pd.read_csv("https://raw.githubusercontent.com/ccd-his/dashboard-intere/refs/heads/main/data/fontes_unidades.csv")
 
 cidades = df['Município'].unique()
 
@@ -262,7 +263,9 @@ def update_graph(value):
     dff = dff.drop(columns=["Região","Código IBGE"])
     dados_indicadores = dff.melt(id_vars="Município")
     dados_indicadores.columns = ["Município","Indicador","Valor"]
-    dados_indicadores = dados_indicadores[["Indicador","Valor"]]
+    dados_indicadores = dados_indicadores.merge(df_unidades,left_on="Indicador", right_on="Indicador")
+    dados_indicadores = dados_indicadores[["Indicador","Unidade","Valor","Período do dado","Fonte"]]
+    
     indicadores =dag.AgGrid(
                         id="get-started-example-basic-df",
                         rowData=dados_indicadores.to_dict("records"),

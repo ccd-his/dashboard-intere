@@ -5,7 +5,7 @@ def make_avatar(text, color="blue"):
     return html.Span(text, className=f"avatar bg-{color}-lt")
 
 
-def make_table(id, headers, rows, header_classes, content_classes):
+def make_table(id, headers, rows, header_classes, content_classes, processors = None):
     return make_card(
         html.Div(
             className="table-responsive",
@@ -26,7 +26,7 @@ def make_table(id, headers, rows, header_classes, content_classes):
                                 html.Tr(
                                     [
                                         html.Td(
-                                            cell,
+                                            cell if processors is None or processors[index] is None else processors[index](cell),
                                             className=content_classes[index],
                                         )
                                         for index, cell in enumerate(row)

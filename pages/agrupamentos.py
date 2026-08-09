@@ -229,7 +229,6 @@ def update_graph_cluster(value):
     texto = texto_explicativo_cluster(value)
 
     # caracteristicas dos clusters[]
-    print(df_clusters["Indicador"] == value)
     df_clusters = df_clusters[df_clusters["Indicador"] == value]
 
     df_clusters = df_clusters[["Agrupamento", "Características", "Municípios"]]
@@ -254,31 +253,14 @@ def update_graph_cluster(value):
             # caracteristicas,
             make_table(
                 "Características",
-                ["Agrupamento", "Características", "Municípios"],
-                [
-                    [
-                        make_avatar(0, "gray-50"),
-                        "Nam semper quam id arcu auctor rhoncus. ",
-                        "Alumínio, Araçoiaba da Serra, Artur Nogueira, Boituva, Capela do Alto, Cerquilho, Holambra, Itatiba, Jaguariúna, Jumirim, Nova Odessa, Paulínia, Piedade, Porto Feliz, Santa Bárbara d'Oeste, Sarapuí, São Caetano do Sul, São Miguel Arcanjo, Tatuí, Tietê, Vinhedo",
-                    ],
-                    [
-                        make_avatar(1, "gray-50"),
-                        "Pellentesque dignissim ex quis semper efficitur.",
-                        "Araçariguama, Ibiúna, Iperó, Itu, Mauá, Ribeirão Pires, Rio Grande da Serra, São Roque, Votorantim",
-                    ],
-                    [
-                        make_avatar(2, "gray-50"),
-                        "Suspendisse eget nulla sed tortor fringilla dictum id sed ligula.",
-                        "Diadema, Hortolândia, Itapetininga, Morungaba, Pedreira, Santo André, São Bernardo do Campo, Tapiraí",
-                    ],
-                    [
-                        make_avatar(3, "gray-50"),
-                        "Curabitur ultrices velit sed mollis lobortis.",
-                        "Alambari, Americana, Campinas, Cesário Lange, Cosmópolis, Engenheiro Coelho, Indaiatuba, Mairinque, Monte Mor, Salto, Salto de Pirapora, Santo Antônio de Posse, Sorocaba, Sumaré, Valinhos",
-                    ],
-                ],
-                ["w-1 text-center", "w-25", "w-75"],
+                ["Grupo", "Características", "Municípios"],
+                df_clusters.values.tolist(),
+                ["w-1 text-center", "w-50", "w-50"],
                 ["text-center", "", "text-secondary"],
+                [ lambda t: make_avatar(t, "gray-50"),lambda t: texto_markdown(t), None, None]
             ),
         ],
     )
+
+def texto_markdown(txt):
+    return dcc.Markdown(txt)

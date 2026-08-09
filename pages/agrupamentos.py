@@ -31,6 +31,8 @@ df_irct['Código IBGE'] = df_irct['Código IBGE'].astype('str')
 
 gdf_filtrado = gdf.merge(df_irct, left_on='CD_MUN',right_on='Código IBGE')
 
+carac_clusters = pd.read_csv("https://raw.githubusercontent.com/ccd-his/dashboard-intere/refs/heads/main/data/caracteristicas_clusters.csv")
+print(carac_clusters)
 
 layout = [
     # html.H3(children="IRCT", style={"textAlign": "right"}),
@@ -225,6 +227,7 @@ def texto_explicativo_cluster(indice):
         Output("mapa-indice-cluster", "figure"), 
         Output("titulo-cluster",'children'),
         Output("texto-explicativo-cluster",'children'),
+        Output("caracteristicas-cluster","children"),
         Input("dropdown-indice-cluster", "value"))
 def update_graph_cluster(value):
 
@@ -244,5 +247,19 @@ def update_graph_cluster(value):
 
     #output do texto
     texto = texto_explicativo_cluster(value)
-    return mapa, titulo, texto
+
+    #caracteristicas dos clusters
+    carac_clusters = carac_clusters[carac_clusters['Indicador']==value]
+    carac_clusters = carac_clusters[["Agrupamento","Características","Municípios"]]
+    caracteristicas =dag.AgGrid(
+                            id="get-started-example-basic-df",
+                            rowData=carac_clusters.to_dict("records"),
+                            columnDefs=[{"field": i, "cellRenderer":"markdown"} for i in carac_clusters.columns],
+                            style={"width": "100%"},
+                            columnSize="sizeToFit",
+                            columnSizeOptions={
+                                'defaultMinWidth':100,
+                                'columnLimits':[{'key':'Indicador','minWidth':200}]}
+                        )
+    return mapa, titulo, texto, caracteristicas
 

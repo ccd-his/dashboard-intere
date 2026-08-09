@@ -37,7 +37,7 @@ layout = [
     html.Div(
         className="row mb-2 mt-4",children=[
             html.Div(id="titulo",
-                className="col-lg-10 col-sm-12",children=[
+                className="col-lg-8 col-sm-12",children=[
                     html.Div(
                         className="page-pretitle",children="Home"
                     ),
@@ -48,7 +48,7 @@ layout = [
             ),
 
             html.Div(
-                className="col-lg-2 col-sm-12",children=[
+                className="col-lg-4 col-sm-12",children=[
                     dcc.Dropdown(
                         options=[
                             "Índice de Resiliência Climática e Territorial",
@@ -71,7 +71,15 @@ layout = [
         className="row mb-3",
         children=[
             html.Div(
-                className="col-12",children=[
+                id="texto-explicativo",
+                className="col-lg-12 col-sm-12", children=[
+                    
+                ]
+
+            ),
+
+            html.Div(
+                className="col-lg-12 col-sm-12",children=[
                     html.Div(
                         className="card h-100",children=[
                             dcc.Loading(dcc.Graph(
@@ -100,6 +108,7 @@ def mapa_indice(indice):
             marker_line_color="white",
             marker_line_width=0.5,
             colorbar_title="Índice",
+            colorbar=dict(orientation='h', y=-0.15 ),
             text=gdf.NM_MUN,
             hovertemplate=(
                 "<b>%{text}</b><br>"
@@ -121,14 +130,56 @@ def mapa_indice(indice):
         margin=dict(l=0, r=0, t=0, b=0),
         paper_bgcolor="white",
         plot_bgcolor="white",
-        height=800,
+        height=650,
     )
     return fig
+
+def texto_explicativo(indice):
+    if indice == "Índice de Resiliência Climática e Territorial":
+        texto = dcc.Markdown(''' 
+                O Índice de Resiliência Climática e Territorial (IRCT) é uma ferramenta desenvolvida 
+                para qualificar os municípios e avaliar seu nível de adequação em relação à resiliência climática e territorial, 
+                considerando sua interação com a vulnerabilidade social e habitacional. 
+                O índice é construído por meio de modelagem fuzzy e integra quatro dimensões: **Mitigação** Climática, **Adaptação** Climática, 
+                **Déficit Habitacional** e **Vulnerabilidade Social**. Cada uma dessas dimensões é representada por um subíndice, 
+                também calculado por meio de modelagem fuzzy, a partir de um conjunto de 44 indicadores que caracterizam diferentes 
+                aspectos das condições ambientais, territoriais, habitacionais e sociais dos municípios.
+                ''')
+    elif indice == "Mitigação":
+        texto = dcc.Markdown(''' 
+                O Subíndice de Mitigação é uma dimensão do IRCT que avalia a capacidade dos municípios de contribuir para a redução 
+                dos impactos associados às mudanças climáticas por meio de estratégias e condições relacionadas ao ambiente urbano. 
+                Sua construção considera três grupos de fatores: **Redução de Calor**, **Mitigação de Carbono** e **Gestão Ambiental Urbana**, 
+                que abrangem diferentes aspectos da estrutura e das condições ambientais dos municípios. 
+                O subíndice é calculado por meio de modelagem fuzzy, utilizando **9 dos 44 indicadores** selecionados para a pesquisa, 
+                de modo a integrar diferentes variáveis e representar, de forma conjunta, o desempenho municipal em relação à mitigação climática.
+                ''')
+    elif indice == "Adaptação":
+        texto = dcc.Markdown(''' 
+                O Subíndice de Déficit Habitacional é uma dimensão do IRCT que avalia as condições habitacionais dos municípios, 
+                considerando tanto a insuficiência quanto a inadequação das moradias. 
+                Sua construção contempla dois grupos de fatores: **Déficit Qualitativo** e **Déficit Quantitativo**, 
+                permitindo considerar diferentes aspectos relacionados à necessidade de melhorias nas condições existentes e à 
+                demanda por novas unidades habitacionais. 
+                O subíndice é calculado por meio de modelagem fuzzy, utilizando **10 dos 44 indicadores** selecionados para a pesquisa, 
+                integrando essas variáveis para representar as condições do déficit habitacional nos municípios.
+                ''')
+    elif indice == "Déficit Habitacional":
+        texto = dcc.Markdown(''' 
+                O Subíndice de Vulnerabilidade Social é uma dimensão do IRCT que avalia condições sociais que podem influenciar a 
+                capacidade da população de enfrentar situações de risco e vulnerabilidade no território. 
+                Sua construção considera três grupos de fatores: **Necessidade de Serviços de Saúde**, **Acesso à Educação** e **Condições Socioeconômicas**, 
+                contemplando aspectos relacionados ao acesso a serviços essenciais e às condições de vida da população. 
+                O subíndice é calculado por meio de modelagem fuzzy, utilizando **11 dos 44 indicadores** selecionados para a pesquisa, 
+                integrando essas variáveis para representar as diferentes dimensões da vulnerabilidade social nos municípios.
+                ''')
+    return texto
 
 
 @callback(
         Output("mapa-indice", "figure"), 
         Output("titulo",'children'),
+        Output("texto-explicativo",'children'),
         Input("dropdown-indice", "value"))
 def update_graph(value):
 
@@ -136,20 +187,19 @@ def update_graph(value):
     mapa = mapa_indice(value)
 
     #output do título
-    if value == "Índice de Resiliência Climática e Territorial":
-        valor = "Índice de Resiliência Climática e Territorial"
-    else:
-        valor = value
+
     titulo= [
                     html.Div(
                         className="page-pretitle",children="Home"
                     ),
                     html.H1(
-                        className="page-title",children=valor
+                        className="page-title",children=value
                     ),
                 ]
 
-    return mapa, titulo
+    #output do texto
+    texto = texto_explicativo(value)
+    return mapa, titulo, texto
 
 @callback(
     Output('url-loc','href'),

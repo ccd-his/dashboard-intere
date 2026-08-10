@@ -1,5 +1,6 @@
 import geopandas as gpd
 import pandas as pd
+import urllib.request
 
 from caching import memory
 
@@ -121,10 +122,12 @@ def load_df_textos_agrupamentos():
     )
 @memory.cache
 def load_sobre():
-    with open("https://raw.githubusercontent.com/ccd-his/dashboard-intere/refs/heads/main/data/sobre.md", "r", encoding="utf-8") as file:
-        return file.read()
+    url = "https://raw.githubusercontent.com/ccd-his/dashboard-intere/refs/heads/main/data/sobre.md"
+    with urllib.request.urlopen(url) as response:
+        return response.read().decode('utf-8')
 
 @memory.cache
 def load_equipe():
-    with open("https://raw.githubusercontent.com/ccd-his/dashboard-intere/refs/heads/main/data/equipe.md", "r", encoding="utf-8") as file:
-        return file.read()
+    url = "https://raw.githubusercontent.com/ccd-his/dashboard-intere/refs/heads/main/data/equipe.md"
+    with urllib.request.urlopen(url) as response:
+            return response.read().decode('utf-8')

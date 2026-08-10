@@ -112,3 +112,10 @@ def load_df_textos_home():
     return pd.read_csv(
         "https://raw.githubusercontent.com/ccd-his/dashboard-intere/refs/heads/main/data/textos_home.csv"
     )
+
+
+@memory.cache
+def load_df_textos_agrupamentos():
+    return pd.read_csv(
+        "https://raw.githubusercontent.com/ccd-his/dashboard-intere/refs/heads/main/data/textos_agrupamentos.csv"
+    )

@@ -119,3 +119,12 @@ def load_df_textos_agrupamentos():
     return pd.read_csv(
         "https://raw.githubusercontent.com/ccd-his/dashboard-intere/refs/heads/main/data/textos_agrupamentos.csv"
     )
+@memory.cache
+def load_sobre():
+    with open("https://raw.githubusercontent.com/ccd-his/dashboard-intere/refs/heads/main/data/sobre.md", "r", encoding="utf-8") as file:
+        return file.read()
+
+@memory.cache
+def load_equipe():
+    with open("https://raw.githubusercontent.com/ccd-his/dashboard-intere/refs/heads/main/data/equipe.md", "r", encoding="utf-8") as file:
+        return file.read()

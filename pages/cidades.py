@@ -282,7 +282,7 @@ layout = [
                                 children=[
                                     dcc.Loading(
                                         html.Div(
-                                            className="card mt-3 overflow-y-auto",
+                                            className="mt-3",
                                             id="card-tabela-acoes",
                                             children=["Recomendações de Melhorias"],
                                         )

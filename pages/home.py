@@ -58,7 +58,7 @@ layout = [
                 className="col-lg-12 col-sm-12",
                 children=[
                     html.Div(
-                        className="card h-100",
+                        className="card",
                         children=[
                             dcc.Loading(
                                 dcc.Graph(

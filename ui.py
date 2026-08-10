@@ -6,7 +6,7 @@ def make_avatar(text, color="blue"):
 
 
 def make_table(id, headers, rows, header_classes, content_classes, processors = None):
-    return make_card(
+    return make_card(id = id, children =
         html.Div(
             className="table-responsive",
             children=[
@@ -42,8 +42,8 @@ def make_table(id, headers, rows, header_classes, content_classes, processors = 
     )
 
 
-def make_card(children):
-    return html.Div(children, className="card")
+def make_card(children, id=None):
+    return html.Div(children, id=id, className="card")
 
 
 def make_title(title, overtitle, filters):

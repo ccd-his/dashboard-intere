@@ -209,7 +209,15 @@ def update_graph_cluster(value):
         [
             # caracteristicas,
             make_table(
-                "Características",
+                "tabela-agrupamentos-sm",
+                ["Grupos", "Características", "Municípios","Recomendações"],
+                df_clusters.values.tolist(),
+                ["w-1 text-center", "w-33", "w-33", "w-33"],
+                ["text-center", "text-secondary", "text-secondary", ""],
+                [ lambda t: make_avatar(t, "gray-50"),lambda t: texto_markdown(t), None, None]
+            ),
+            make_table(
+                "tabela-agrupamentos-md",
                 ["Grupo", "Características", "Municípios","Recomendações"],
                 df_clusters.values.tolist(),
                 ["w-1 text-center", "w-33", "w-33", "w-33"],

@@ -1,6 +1,7 @@
 import geopandas as gpd
 import pandas as pd
 import urllib.request
+import os
 
 from caching import memory
 
@@ -33,6 +34,8 @@ def get_simplified_geometry(dataframe: pd.DataFrame, background: bool = False):
     """
     if background:
         return dataframe.simplify(0.005).__geo_interface__
+    elif os.getenv("LIGHT",  "false") == "true":
+        return dataframe.simplify(0.002).__geo_interface__
     else:
         return dataframe.simplify(0.0002).__geo_interface__
 

@@ -282,7 +282,7 @@ layout = [
                                 children=[
                                     dcc.Loading(
                                         html.Div(
-                                            className="card mt-3 overflow-x-auto",
+                                            className="card mt-3 overflow-y-auto",
                                             id="card-tabela-acoes",
                                             children=["Recomendações de Melhorias"],
                                         )
@@ -346,14 +346,13 @@ def card_progress_pequeno(indice, valor):
                     className="card-title mb-1",
                     children=indice,
                 ),
-
                 html.Button(
                     "ⓘ",
                     id=f"info-{indice}",
                     className="btn btn-link p-0",
                     style={
                         "position": "absolute",
-                        "top": "0",
+                        "top": "1",
                         "right": "0",
                         "fontSize": "1rem",
                         "color": "#6c757d",
@@ -370,6 +369,7 @@ def card_progress_pequeno(indice, valor):
                     placement="bottom",
                     trigger="click",
                 ),
+
             ],
         ),
 
@@ -382,6 +382,7 @@ def card_progress_pequeno(indice, valor):
                         html.H2(valor)
                     ],
                 ),
+
 
                 html.Div(
                     className="progress progress-sm",

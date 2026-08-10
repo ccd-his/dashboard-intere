@@ -7,6 +7,7 @@ from data_source import (
     load_df_indicadores,
     load_df_irct_filtrado,
     load_gdf,
+    load_df_textos_home,
 )
 
 dash.register_page(__name__, path="/")
@@ -135,55 +136,10 @@ def mapa_indice(indice):
 
 
 def texto_explicativo(indice):
-    if indice == "Índice de Resiliência Climática e Territorial":
-        texto = dcc.Markdown(""" 
-                O Índice de Resiliência Climática e Territorial (IRCT) é uma ferramenta desenvolvida 
-                para qualificar os municípios e avaliar seu nível de adequação em relação à resiliência climática e territorial, 
-                considerando sua interação com a vulnerabilidade social e habitacional. 
-                O índice é construído por meio de modelagem fuzzy e integra quatro dimensões: **Mitigação** Climática, **Adaptação** Climática, 
-                **Déficit Habitacional** e **Vulnerabilidade Social**. Cada uma dessas dimensões é representada por um subíndice, 
-                também calculado por meio de modelagem fuzzy, a partir de um conjunto de 44 indicadores que caracterizam diferentes 
-                aspectos das condições ambientais, territoriais, habitacionais e sociais dos municípios.
-                """)
-    elif indice == "Mitigação":
-        texto = dcc.Markdown(""" 
-                O Subíndice de Mitigação é uma dimensão do IRCT que avalia a capacidade dos municípios de contribuir para a redução 
-                dos impactos associados às mudanças climáticas por meio de estratégias e condições relacionadas ao ambiente urbano. 
-                Sua construção considera três grupos de fatores: **Redução de Calor**, **Mitigação de Carbono** e **Gestão Ambiental Urbana**, 
-                que abrangem diferentes aspectos da estrutura e das condições ambientais dos municípios. 
-                O subíndice é calculado por meio de modelagem fuzzy, utilizando **9 dos 44 indicadores** selecionados para a pesquisa, 
-                de modo a integrar diferentes variáveis e representar, de forma conjunta, o desempenho municipal em relação à mitigação climática.
-                """)
-    elif indice == "Adaptação":
-        texto = dcc.Markdown(""" 
-                O Subíndice de Adaptação Climática é uma dimensão do IRCT que avalia as condições dos municípios para enfrentar 
-                e responder aos impactos e riscos associados às mudanças climáticas. 
-                Sua construção considera quatro grupos de fatores: **Eventos Extremos**, **Exposição ao Risco**, **Segurança Alimentar** e **Orçamento**, 
-                contemplando aspectos relacionados à ocorrência de eventos climáticos, à exposição da população e do território a riscos, 
-                à capacidade de garantir condições de segurança alimentar e à disponibilidade de recursos para ações de adaptação. 
-                O subíndice é calculado por meio de modelagem fuzzy, utilizando **16 dos 44 indicadores** selecionados para a pesquisa, 
-                integrando diferentes variáveis para representar a capacidade municipal de adaptação climática.
-                """)
-    elif indice == "Déficit Habitacional":
-        texto = dcc.Markdown(""" 
-                O Subíndice de Déficit Habitacional é uma dimensão do IRCT que avalia as condições habitacionais dos municípios, 
-                considerando tanto a insuficiência quanto a inadequação das moradias. 
-                Sua construção contempla dois grupos de fatores: **Déficit Qualitativo** e **Déficit Quantitativo**, 
-                permitindo considerar diferentes aspectos relacionados à necessidade de melhorias nas condições existentes e à 
-                demanda por novas unidades habitacionais. 
-                O subíndice é calculado por meio de modelagem fuzzy, utilizando **10 dos 44 indicadores** selecionados para a pesquisa, 
-                integrando essas variáveis para representar as condições do déficit habitacional nos municípios.
-                """)
-    elif indice == "Vulnerabilidade Social":
-        texto = dcc.Markdown(""" 
-                O Subíndice de Vulnerabilidade Social é uma dimensão do IRCT que avalia condições sociais que podem influenciar a 
-                capacidade da população de enfrentar situações de risco e vulnerabilidade no território. 
-                Sua construção considera três grupos de fatores: **Necessidade de Serviços de Saúde**, **Acesso à Educação** e **Condições Socioeconômicas**, 
-                contemplando aspectos relacionados ao acesso a serviços essenciais e às condições de vida da população. 
-                O subíndice é calculado por meio de modelagem fuzzy, utilizando **11 dos 44 indicadores** selecionados para a pesquisa, 
-                integrando essas variáveis para representar as diferentes dimensões da vulnerabilidade social nos municípios.
-                """)
-    return texto
+    textos = load_df_textos_home()
+    paragrafo = textos[textos["Índice"]==indice]['Texto']
+    
+    return dcc.Markdown(paragrafo)
 
 
 @callback(

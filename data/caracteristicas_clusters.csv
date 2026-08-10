@@ -1,21 +1,21 @@
-Indicador,Agrupamento,Características,Municípios
-Mitigação,0,"Menor subíndice de **Mitigação**, consequência dos menores valores de Redução de Calor (bem concentrados) e também de Gestão Ambiental Urbana (com pouca variação), apesar de valores médio-altos de Mitigação de Carbono (com variação significativa)","Araçoiaba da Serra, Cosmópolis, Indaiatuba, Mauá, Rio Grande da Serra, Salto de Pirapora, Sorocaba, Sumaré, São Caetano do Sul, Valinhos, Vinhedo"
-Mitigação,1,"Nam porttitor elit non quam rhoncus, in pellentesque tortor condimentum.","Americana, Artur Nogueira, Boituva, Capela do Alto, Cerquilho, Cesário Lange, Engenheiro Coelho, Holambra, Hortolândia, Itatiba, Monte Mor, Nova Odessa, Paulínia, Pedreira, Piedade, Ribeirão Pires, Salto, Santa Bárbara d'Oeste, São Miguel Arcanjo, Tatu"
-Mitigação,2,Donec at dui nec orci pulvinar rutrum.,"Alambari, Alumínio, Araçariguama, Campinas, Ibiúna, Iperó, Itu, Jaguariúna, Jumirim, Mairinque, Porto Feliz, Santo Antônio de Posse, Sarapuí, São Roque, Tietê, Votorantim"
-Mitigação,3,"Maior subíndice de Mitigação, consequência dos valores médio-altos de Mitigação de Carbono (com variação significativa), maiores valores de Gestão Ambiental Urbana (com pouca variação) e valores médios de Redução de Calor (com variação significativa)","Diadema, Itapetininga, Morungaba, Pilar do Sul, Santo André, São Bernardo do Campo, Tapiraí"
-Adaptação,0,Duis in sem non quam dignissim aliquam et non nulla.,"Alambari, Alumínio, Boituva, Cerquilho, Cesário Lange, Engenheiro Coelho, Holambra, Ibiúna, Itu, Jumirim, Morungaba, Pedreira, Piedade, Pilar do Sul, Porto Feliz, Sarapuí, São Miguel Arcanjo, Tapiraí, Tatuí, Tietê"
-Adaptação,1,Fusce eget magna imperdiet ipsum scelerisque pellentesque.,"Americana, Araçariguama, Araçoiaba da Serra, Campinas, Diadema, Hortolândia, Indaiatuba, Iperó, Itapetininga, Mauá, Monte Mor, Nova Odessa, Salto, Salto de Pirapora, Santo Antônio de Posse, Sorocaba, São Caetano do Sul, São Roque, Vinhedo, Votorantim"
-Adaptação,2,Integer eleifend ligula id fermentum auctor.,"Ribeirão Pires, Rio Grande da Serra, Santa Bárbara d'Oeste, Santo André, Sumaré, São Bernardo do Campo, Valinhos"
-Adaptação,3,Maecenas feugiat urna sit amet placerat tempor.,"Artur Nogueira, Capela do Alto, Cosmópolis, Itatiba, Jaguariúna, Mairinque, Paulínia"
-Déficit Habitacional,0,"Mauris eu odio blandit, vestibulum odio non, scelerisque mauris.","Alambari, Alumínio, Araçoiaba da Serra, Cesário Lange, Engenheiro Coelho, Itatiba, Jaguariúna, Jumirim, Mairinque, Piedade, Pilar do Sul, Porto Feliz, Salto, Salto de Pirapora, Sarapuí, Vinhedo"
-Déficit Habitacional,1,"Fusce vitae justo vulputate, interdum est ut, tempus urna.","Araçariguama, Capela do Alto, Ibiúna, Iperó, Itu, Ribeirão Pires, Rio Grande da Serra, São Miguel Arcanjo, São Roque, Tapiraí"
-Déficit Habitacional,2,"Nam porttitor elit non quam rhoncus, in pellentesque tortor condimentum.","Campinas, Cosmópolis, Diadema, Indaiatuba, Mauá, Santo André, Santo Antônio de Posse, Sorocaba, Sumaré, São Bernardo do Campo, Votorantim"
-Déficit Habitacional,3,"Morbi in mauris tristique, finibus nisl at, dapibus dolor.","Americana, Artur Nogueira, Boituva, Cerquilho, Holambra, Hortolândia, Itapetininga, Monte Mor, Morungaba, Nova Odessa, Paulínia, Pedreira, Santa Bárbara d'Oeste, São Caetano do Sul, Tatuí, Tietê, Valinhos"
-Vulnerabilidade Social,0,Donec sit amet nunc sit amet felis cursus vulputate vitae et ipsum.,"Americana, Campinas, Cosmópolis, Holambra, Hortolândia, Indaiatuba, Itatiba, Itu, Jaguariúna, Morungaba, Nova Odessa, Paulínia, Piedade, Ribeirão Pires, Rio Grande da Serra, Salto, Santa Bárbara d'Oeste, Sorocaba, Sumaré, Valinhos, Votorantim"
-Vulnerabilidade Social,1,Morbi sodales quam sit amet dui efficitur lacinia.,"Alumínio, Araçoiaba da Serra, Artur Nogueira, Boituva, Capela do Alto, Cerquilho, Diadema, Itapetininga, Jumirim, Mauá, Pedreira, Pilar do Sul, Porto Feliz, Santo André, Sarapuí, São Bernardo do Campo, São Caetano do Sul, São Miguel Arcanjo, Tapiraí, Tatuí, Tietê, Vinhedo"
-Vulnerabilidade Social,2,Praesent non mi at augue elementum scelerisque.,"Alambari, Araçariguama, Ibiúna, Iperó, Mairinque, Salto de Pirapora, São Roque"
-Vulnerabilidade Social,3,"Sed sed mi tempus, interdum lorem in, elementum metus.","Cesário Lange, Engenheiro Coelho, Monte Mor, Santo Antônio de Posse"
-Índice de Resiliência Climática e Territorial,0,Nam semper quam id arcu auctor rhoncus.,"Alumínio, Araçoiaba da Serra, Artur Nogueira, Boituva, Capela do Alto, Cerquilho, Holambra, Itatiba, Jaguariúna, Jumirim, Nova Odessa, Paulínia, Piedade, Porto Feliz, Santa Bárbara d'Oeste, Sarapuí, São Caetano do Sul, São Miguel Arcanjo, Tatuí, Tietê, Vinhedo"
-Índice de Resiliência Climática e Territorial,1,Pellentesque dignissim ex quis semper efficitur.,"Araçariguama, Ibiúna, Iperó, Itu, Mauá, Ribeirão Pires, Rio Grande da Serra, São Roque, Votorantim"
-Índice de Resiliência Climática e Territorial,2,Suspendisse eget nulla sed tortor fringilla dictum id sed ligula.,"Diadema, Hortolândia, Itapetininga, Morungaba, Pedreira, Santo André, São Bernardo do Campo, Tapiraí"
-Índice de Resiliência Climática e Territorial,3,Curabitur ultrices velit sed mollis lobortis.,"Alambari, Americana, Campinas, Cesário Lange, Cosmópolis, Engenheiro Coelho, Indaiatuba, Mairinque, Monte Mor, Salto, Salto de Pirapora, Santo Antônio de Posse, Sorocaba, Sumaré, Valinhos"
+Indicador,Agrupamento,Características,Municípios,Recomendações
+Mitigação,0,"Menor subíndice de **Mitigação**, consequência dos menores valores de Redução de Calor (bem concentrados) e também de Gestão Ambiental Urbana (com pouca variação), apesar de valores médio-altos de Mitigação de Carbono (com variação significativa)",Cras euismod massa ut augue rutrum blandit.,
+Mitigação,1,"Nam porttitor elit non quam rhoncus, in pellentesque tortor condimentum.",Sed vel ligula fermentum orci hendrerit interdum ullamcorper at massa.,
+Mitigação,2,Donec at dui nec orci pulvinar rutrum.,Fusce sodales urna eget consequat pellentesque.,
+Mitigação,3,"Maior subíndice de Mitigação, consequência dos valores médio-altos de Mitigação de Carbono (com variação significativa), maiores valores de Gestão Ambiental Urbana (com pouca variação) e valores médios de Redução de Calor (com variação significativa)",Suspendisse eget lectus a ligula tristique bibendum.,
+Adaptação,0,Duis in sem non quam dignissim aliquam et non nulla.,Nullam placerat dolor a risus egestas congue.,
+Adaptação,1,Fusce eget magna imperdiet ipsum scelerisque pellentesque.,"Quisque faucibus purus at quam condimentum, ac malesuada tellus congue.",
+Adaptação,2,Integer eleifend ligula id fermentum auctor.,Donec at dui nec orci pulvinar rutrum.,
+Adaptação,3,Maecenas feugiat urna sit amet placerat tempor.,Pellentesque eget justo non lorem commodo euismod.,
+Déficit Habitacional,0,"Mauris eu odio blandit, vestibulum odio non, scelerisque mauris.",Quisque tempus justo nec dapibus pharetra.,
+Déficit Habitacional,1,"Fusce vitae justo vulputate, interdum est ut, tempus urna.",Pellentesque ut ipsum suscipit augue mollis pellentesque eget non erat.,
+Déficit Habitacional,2,"Nam porttitor elit non quam rhoncus, in pellentesque tortor condimentum.",Donec in massa non nulla consectetur eleifend.,
+Déficit Habitacional,3,"Morbi in mauris tristique, finibus nisl at, dapibus dolor.","Morbi id est bibendum, pellentesque elit non, consequat velit.",
+Vulnerabilidade Social,0,Donec sit amet nunc sit amet felis cursus vulputate vitae et ipsum.,Cras euismod massa ut augue rutrum blandit.,
+Vulnerabilidade Social,1,Morbi sodales quam sit amet dui efficitur lacinia.,Sed vel ligula fermentum orci hendrerit interdum ullamcorper at massa.,
+Vulnerabilidade Social,2,Praesent non mi at augue elementum scelerisque.,Fusce sodales urna eget consequat pellentesque.,
+Vulnerabilidade Social,3,"Sed sed mi tempus, interdum lorem in, elementum metus.",Suspendisse eget lectus a ligula tristique bibendum.,
+Índice de Resiliência Climática e Territorial,0,Nam semper quam id arcu auctor rhoncus.,Nullam placerat dolor a risus egestas congue.,
+Índice de Resiliência Climática e Territorial,1,Pellentesque dignissim ex quis semper efficitur.,"Quisque faucibus purus at quam condimentum, ac malesuada tellus congue.",
+Índice de Resiliência Climática e Territorial,2,Suspendisse eget nulla sed tortor fringilla dictum id sed ligula.,Donec at dui nec orci pulvinar rutrum.,
+Índice de Resiliência Climática e Territorial,3,Curabitur ultrices velit sed mollis lobortis.,Pellentesque eget justo non lorem commodo euismod.,

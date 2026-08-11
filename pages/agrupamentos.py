@@ -187,40 +187,24 @@ def update_graph_cluster(value):
     # caracteristicas dos clusters[]
     df_clusters = df_clusters[df_clusters["Indicador"] == value]
     
-    df_clusters = df_clusters[["Agrupamento", "Características", "Municípios","Recomendações"]]
+    df_clusters = df_clusters[["Agrupamento", "Características"]]
     print(df_clusters['Características'].values.tolist())
 
-    return (
-        mapa,
-        titulo,
-        texto,
-        [
-            # caracteristicas,
-            make_table(
-                "tabela-agrupamentos",
+    tabela =make_table(
+                "tabela-clusters",
                 ["Grupos", "Características e Recomendações"],
                 df_clusters.values.tolist(),
                 ["w-1 text-center", "w-99"],
                 ["text-center", ""],
                 [ lambda t: make_avatar(t, "gray-50"),lambda t: texto_markdown(t)]
             ),
-            make_table(
-                "tabela-agrupamentos-sm",
-                ["Grupos", "Características", "Municípios","Recomendações"],
-                df_clusters.values.tolist(),
-                ["w-1 text-center", "w-33", "w-33", "w-33"],
-                ["text-center", "text-secondary", "text-secondary", ""],
-                [ lambda t: make_avatar(t, "gray-50"),lambda t: texto_markdown(t), None, None]
-            ),
-            make_table(
-                "tabela-agrupamentos-md",
-                ["Grupo", "Características", "Municípios","Recomendações"],
-                df_clusters.values.tolist(),
-                ["w-1 text-center", "w-33", "w-33", "w-33"],
-                ["text-center", "text-secondary", "text-secondary", ""],
-                [ lambda t: make_avatar(t, "gray-50"),lambda t: texto_markdown(t), None, None]
-            ),
-        ],
+
+    print(tabela)
+    return (
+        mapa,
+        titulo,
+        texto,
+        tabela
     )
 
 def texto_markdown(txt):

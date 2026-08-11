@@ -85,6 +85,17 @@ def mapa_indice(indice, light=False):
     gdf = load_gdf()
     gdf_filtrado = load_df_irct_filtrado(load_df_indicadores())
 
+    if indice == "Índice de Resiliência Climática e Territorial":
+        cores = "Viridis_r"
+    elif indice == "Mitigação":
+        cores = ["#d8f6ac","#9ed4a5","#42a6cc","#084081"]
+    elif indice == "Adaptação":
+        cores = ["#cce07c","#95c368","#379e54","#004529"]
+    elif indice == "Déficit Habitacional":
+        cores = ["#ecdb8f","#fece65","#e1640e","#662506"]
+    elif indice == "Vulnerabilidade Social":
+        cores = ["#f3bb9f","#f18496","#cd238f","#49006a"]
+
     fig = go.Figure()
 
     fig.add_trace(
@@ -105,7 +116,7 @@ def mapa_indice(indice, light=False):
             geojson=get_simplified_geometry(gdf_filtrado, light= light),
             locations=gdf_filtrado.index,
             z=gdf_filtrado[indice],
-            colorscale="Viridis_r",
+            colorscale=cores,
             marker_line_color="white",
             marker_line_width=0.5,
             colorbar_title="Índice",

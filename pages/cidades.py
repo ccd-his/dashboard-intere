@@ -520,7 +520,7 @@ def update_graph(value):
     df = load_df_indicadores()
     df_recomendacoes = load_df_recomendacoes()
     df_unidades = load_df_unidades()
-    valor = value
+    valor = value if value else "Sorocaba"
     dff: DataFrame = df[df["Município"] == valor]
     
 

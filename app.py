@@ -3,6 +3,7 @@ import os
 import dash
 from dash import Dash
 from flask import render_template
+from werkzeug.middleware.proxy_fix import ProxyFix
 
 from caching import memory
 
@@ -43,6 +44,7 @@ app = CustomDash("base-site.html", use_pages=True)
 app.title = "Índice de Resiliência Climática Territorial"
 
 server = app.server
+server.wsgi_app = ProxyFix(server.wsgi_app, x_for=1, x_proto=1, x_host=1)
 
 
 @server.route("/cache/clear")

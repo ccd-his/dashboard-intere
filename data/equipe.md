@@ -9,7 +9,7 @@ Arq. Urb. Mestre em Estudos da Condição Humana
 #### José Arnaldo Frutuoso Roveda
 Doutor em Matemática
 #### Iara Negreiros
-Doutora em Matemática
+Doutora em Ciências
 #### Aline de Lucia
 Arq. Urb. Mestre em Saúde Ambiental
 #### Marina Monteiro Mendonça

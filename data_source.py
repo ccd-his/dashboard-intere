@@ -21,31 +21,37 @@ def load_gdf() -> pd.DataFrame:
 
 
 @memory.cache
-def get_simplified_geometry(dataframe: pd.DataFrame, background: bool = False, light = False):
-    """
-    Simplifica a geometria dos mapas
-    Sem simplificar, os mapas do estado de SP consomem 40MB+ para exibir, isso consome banda,
-    processamento no servidor e processamento no dispositivo, o mapa fica pesado desnecessariamente.
+def get_simplified_geometry_background(light=False):
+    """Geometria simplificada para o mapa de fundo (todos os municípios em cinza)"""
+    gdf = load_gdf()
+    tolerance = 0.008 if light else 0.005
+    return gdf.simplify(tolerance).__geo_interface__
 
-    Valores maiores indicam mapas mais simplificados
 
-    background indica que o dataframe está sendo usado para segundo plano, não precisa ser tão fiel
-    quanto o mapa em foco
-    """
+@memory.cache
+def get_simplified_geometry_foreground(light=False):
+    """Geometria simplificada para o mapa em foco (municípios com índices)"""
+    gdf_filtrado = load_df_irct_filtrado()
     if light:
-        return dataframe.simplify(0.008).__geo_interface__
-    elif background:
-        return dataframe.simplify(0.005).__geo_interface__
-    elif os.getenv("LIGHT",  "false") == "true":
-        return dataframe.simplify(0.002).__geo_interface__
+        tolerance = 0.008
+    elif os.getenv("LIGHT", "false") == "true":
+        tolerance = 0.002
     else:
-        return dataframe.simplify(0.0002).__geo_interface__
+        tolerance = 0.0002
+    return gdf_filtrado.simplify(tolerance).__geo_interface__
 
-    # Sem simplificar
-    # if background:
-    #     return dataframe.__geo_interface__
-    # else:
-    #     return dataframe.__geo_interface__
+
+@memory.cache
+def get_simplified_geometry_clusters(light=False):
+    """Geometria simplificada para o mapa de clusters"""
+    gdf_filtrado = load_df_clusters_filtrado()
+    if light:
+        tolerance = 0.008
+    elif os.getenv("LIGHT", "false") == "true":
+        tolerance = 0.002
+    else:
+        tolerance = 0.0002
+    return gdf_filtrado.simplify(tolerance).__geo_interface__
 
 
 @memory.cache
@@ -55,6 +61,7 @@ def load_clusters():
     )
 
 
+@memory.cache
 def load_caracteristicas_clusters():
     return pd.read_csv(
         "https://raw.githubusercontent.com/ccd-his/dashboard-intere/refs/heads/main/data/caracteristicas_clusters.csv"
@@ -79,11 +86,29 @@ def load_df_cidades():
 
 
 @memory.cache
-def load_df_irct_filtrado(df: pd.DataFrame):
+def load_df_irct_filtrado():
     """Dataframe com união dos dados de indicadores IRCT com georef"""
-    # TODO: Descrever melhor este dataframe/função
-    # Costumava pegar o dataframe indicadores, mas agrupamento repete usando clusters.csv
+    df = load_df_indicadores()
+    df_irct = df[
+        [
+            "Código IBGE",
+            "Município",
+            "Mitigação",
+            "Adaptação",
+            "Déficit Habitacional",
+            "Vulnerabilidade Social",
+            "Índice de Resiliência Climática e Territorial",
+        ]
+    ]
+    df_irct["Código IBGE"] = df_irct["Código IBGE"].astype("str")
+    gdf = load_gdf()
+    return gdf.merge(df_irct, left_on="CD_MUN", right_on="Código IBGE")
 
+
+@memory.cache
+def load_df_clusters_filtrado():
+    """Dataframe com união dos dados de clusters com georef"""
+    df = load_clusters()
     df_irct = df[
         [
             "Código IBGE",

@@ -13,7 +13,6 @@ from data_source import (
     load_df_indicadores,
     load_df_recomendacoes,
     load_df_unidades,
-    load_gdf,
     load_df_irct_filtrado,
 )
 from ui import make_table, make_title
@@ -465,7 +464,7 @@ def card_progress_irct(valor):
 @cache
 def mapa_cidade(nome_municipio):
     #gdf = load_gdf()
-    gdf = load_df_irct_filtrado(load_df_indicadores())
+    gdf = load_df_irct_filtrado()
     z_min = gdf['Índice de Resiliência Climática e Territorial'].min()
     z_max = gdf["Índice de Resiliência Climática e Territorial"].max()
     if nome_municipio=="Santa Bárbara D'Oeste":
@@ -475,7 +474,6 @@ def mapa_cidade(nome_municipio):
     #indicadores = load_df_indicadores()
     #indicadores = indicadores[indicadores['Município']==nome_municipio]
     #print(indicadores)
-    print(sel)
     fig = go.Figure()
 
     fig.add_trace(
@@ -522,10 +520,7 @@ def update_graph(value):
     df = load_df_indicadores()
     df_recomendacoes = load_df_recomendacoes()
     df_unidades = load_df_unidades()
-    print(ctx.triggered_id)
-
     valor = value
-    print(valor)
     dff: DataFrame = df[df["Município"] == valor]
     
 

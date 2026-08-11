@@ -21,7 +21,7 @@ def load_gdf() -> pd.DataFrame:
 
 
 @memory.cache
-def get_simplified_geometry(dataframe: pd.DataFrame, background: bool = False):
+def get_simplified_geometry(dataframe: pd.DataFrame, background: bool = False, light = False):
     """
     Simplifica a geometria dos mapas
     Sem simplificar, os mapas do estado de SP consomem 40MB+ para exibir, isso consome banda,
@@ -32,7 +32,9 @@ def get_simplified_geometry(dataframe: pd.DataFrame, background: bool = False):
     background indica que o dataframe está sendo usado para segundo plano, não precisa ser tão fiel
     quanto o mapa em foco
     """
-    if background:
+    if light:
+        return dataframe.simplify(0.01).__geo_interface__
+    elif background:
         return dataframe.simplify(0.005).__geo_interface__
     elif os.getenv("LIGHT",  "false") == "true":
         return dataframe.simplify(0.002).__geo_interface__

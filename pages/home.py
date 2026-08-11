@@ -14,6 +14,7 @@ dash.register_page(__name__, path="/")
 
 
 layout = [
+    dcc.Store(id="local-storage", storage_type="local"),
     # html.H3(children="IRCT", style={"textAlign": "right"}),
     html.Div(
         className="row mb-2 mt-4",
@@ -80,7 +81,7 @@ layout = [
 ]
 
 
-def mapa_indice(indice):
+def mapa_indice(indice, light=False):
     gdf = load_gdf()
     gdf_filtrado = load_df_irct_filtrado(load_df_indicadores())
 
@@ -88,7 +89,7 @@ def mapa_indice(indice):
 
     fig.add_trace(
         go.Choropleth(
-            geojson=get_simplified_geometry(gdf, background=True),
+            geojson=get_simplified_geometry(gdf, background=True, light=light),
             locations=gdf.index,
             z=[1] * len(gdf),
             colorscale=[[0, "lightgray"], [1, "lightgray"]],
@@ -101,7 +102,7 @@ def mapa_indice(indice):
 
     fig.add_trace(
         go.Choropleth(
-            geojson=get_simplified_geometry(gdf_filtrado),
+            geojson=get_simplified_geometry(gdf_filtrado, light= light),
             locations=gdf_filtrado.index,
             z=gdf_filtrado[indice],
             colorscale="Viridis_r",
@@ -146,12 +147,15 @@ def texto_explicativo(indice):
     Output("mapa-indice", "figure"),
     Output("titulo", "children"),
     Output("texto-explicativo", "children"),
+    # Output("local-storage", "data"),
     Input("dropdown-indice", "value"),
+    Input("local-storage", "data"),
 )
-def update_graph(value):
+def update_graph(value, local_storage):
+    print(local_storage)
 
     # output do mapa
-    mapa = mapa_indice(value)
+    mapa = mapa_indice(value, light = local_storage == "light")
 
     # output do título
 

@@ -188,20 +188,8 @@ def update_graph_cluster(value):
     df_clusters = df_clusters[df_clusters["Indicador"] == value]
     
     df_clusters = df_clusters[["Agrupamento", "Características", "Municípios","Recomendações"]]
-    print(df_clusters)
-    caracteristicas = dag.AgGrid(
-        id="get-started-example-basic-df",
-        rowData=df_clusters.to_dict("records"),
-        columnDefs=[
-            {"field": i, "cellRenderer": "markdown"} for i in df_clusters.columns
-        ],
-        style={"width": "100%"},
-        columnSize="sizeToFit",
-        columnSizeOptions={
-            "defaultMinWidth": 100,
-            "columnLimits": [{"key": "Indicador", "minWidth": 200}],
-        },
-    )
+    print(df_clusters['Características'].values.tolist())
+
     return (
         mapa,
         titulo,

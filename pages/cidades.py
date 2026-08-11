@@ -25,7 +25,7 @@ layout = [
     make_title(
         "Conheça a situação da sua cidade",
         "Cidades",
-        dcc.Dropdown(load_df_cidades(), "", clearable=False, id="dropdown-cidade"),
+        dcc.Dropdown(load_df_cidades(), "Sorocaba", clearable=False, id="dropdown-cidade"),
     ),
     html.Div(
         className="row mb-3",

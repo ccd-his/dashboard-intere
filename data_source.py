@@ -33,7 +33,7 @@ def get_simplified_geometry(dataframe: pd.DataFrame, background: bool = False, l
     quanto o mapa em foco
     """
     if light:
-        return dataframe.simplify(0.01).__geo_interface__
+        return dataframe.simplify(0.008).__geo_interface__
     elif background:
         return dataframe.simplify(0.005).__geo_interface__
     elif os.getenv("LIGHT",  "false") == "true":

@@ -1,5 +1,3 @@
-from functools import lru_cache
-
 import dash
 import plotly.express as px
 from dash import Input, Output, callback, dcc, html
@@ -16,12 +14,7 @@ from ui import make_avatar, make_table
 dash.register_page(__name__, path="/agrupamentos")
 
 
-@lru_cache(maxsize=1)
-def _get_page_data():
-    df = load_clusters()
-    cidades = df["Município"].unique()
-    gdf_filtrado = load_df_clusters_filtrado()
-    return df, cidades, gdf_filtrado
+
 
 
 layout = [
@@ -94,7 +87,8 @@ layout = [
 
 
 def mapa_indice_cluster(indice):
-    _, _, gdf_filtrado = _get_page_data()
+    df = load_clusters()
+    gdf_filtrado = load_df_clusters_filtrado()
 
     if indice == "Índice de Resiliência Climática e Territorial":
         cores = {"0": "#dada2a", "1": "#35b779", "2": "#31688e", "3": "#440154"}

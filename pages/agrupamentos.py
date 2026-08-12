@@ -1,31 +1,27 @@
-from functools import cache
+from functools import lru_cache
 
 import dash
-import dash_ag_grid as dag
-import pandas as pd
 import plotly.express as px
 from dash import Input, Output, callback, dcc, html
 
 from data_source import (
-    get_simplified_geometry,
+    get_simplified_geometry_clusters,
     load_clusters,
-    load_df_irct_filtrado,
-    load_gdf,
+    load_df_clusters_filtrado,
     load_df_textos_agrupamentos,
+    load_caracteristicas_clusters,
 )
 from ui import make_avatar, make_table
 
 dash.register_page(__name__, path="/agrupamentos")
 
 
-# Carregar dados
-gdf = load_gdf()
-
-df = load_clusters()
-
-cidades = df["Município"].unique()
-
-gdf_filtrado = load_df_irct_filtrado(df)
+@lru_cache(maxsize=1)
+def _get_page_data():
+    df = load_clusters()
+    cidades = df["Município"].unique()
+    gdf_filtrado = load_df_clusters_filtrado()
+    return df, cidades, gdf_filtrado
 
 
 layout = [
@@ -97,8 +93,8 @@ layout = [
 ]
 
 
-@cache
 def mapa_indice_cluster(indice):
+    _, _, gdf_filtrado = _get_page_data()
 
     if indice == "Índice de Resiliência Climática e Territorial":
         cores = {"0": "#dada2a", "1": "#35b779", "2": "#31688e", "3": "#440154"}
@@ -118,7 +114,7 @@ def mapa_indice_cluster(indice):
 
     fig = px.choropleth(
         dados,
-        geojson=get_simplified_geometry(dados),
+        geojson=get_simplified_geometry_clusters(),
         locations=dados.index,
         color="cluster",
         color_discrete_map=cores,
@@ -156,7 +152,7 @@ def mapa_indice_cluster(indice):
 def texto_explicativo_cluster(indice):
     textos = load_df_textos_agrupamentos()
     paragrafo = textos[textos["Índice"]==indice]['Texto']
-    
+
     return dcc.Markdown(paragrafo)
 
 
@@ -168,9 +164,7 @@ def texto_explicativo_cluster(indice):
     Input("dropdown-indice-cluster", "value"),
 )
 def update_graph_cluster(value):
-    df_clusters = pd.read_csv(
-        "https://raw.githubusercontent.com/ccd-his/dashboard-intere/refs/heads/main/data/caracteristicas_clusters.csv"
-    )
+    df_clusters = load_caracteristicas_clusters()
     # output do mapa
     mapa = mapa_indice_cluster(value)
 
@@ -186,9 +180,8 @@ def update_graph_cluster(value):
 
     # caracteristicas dos clusters[]
     df_clusters = df_clusters[df_clusters["Indicador"] == value]
-    
+
     df_clusters = df_clusters[["Agrupamento", "Características"]]
-    print(df_clusters['Características'].values.tolist())
 
     tabela =make_table(
                 "tabela-clusters",
@@ -199,7 +192,6 @@ def update_graph_cluster(value):
                 [ lambda t: make_avatar(t, "gray-50"),lambda t: texto_markdown(t)]
             ),
 
-    print(tabela)
     return (
         mapa,
         titulo,

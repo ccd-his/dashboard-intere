@@ -3,8 +3,8 @@ import plotly.graph_objects as go
 from dash import Input, Output, callback, dcc, html
 
 from data_source import (
-    get_simplified_geometry,
-    load_df_indicadores,
+    get_simplified_geometry_background,
+    get_simplified_geometry_foreground,
     load_df_irct_filtrado,
     load_gdf,
     load_df_textos_home,
@@ -83,7 +83,7 @@ layout = [
 
 def mapa_indice(indice, light=False):
     gdf = load_gdf()
-    gdf_filtrado = load_df_irct_filtrado(load_df_indicadores())
+    gdf_filtrado = load_df_irct_filtrado()
 
     if indice == "Índice de Resiliência Climática e Territorial":
         cores = "Viridis_r"
@@ -100,7 +100,7 @@ def mapa_indice(indice, light=False):
 
     fig.add_trace(
         go.Choropleth(
-            geojson=get_simplified_geometry(gdf, background=True, light=light),
+            geojson=get_simplified_geometry_background(light=light),
             locations=gdf.index,
             z=[1] * len(gdf),
             colorscale=[[0, "lightgray"], [1, "lightgray"]],
@@ -113,7 +113,7 @@ def mapa_indice(indice, light=False):
 
     fig.add_trace(
         go.Choropleth(
-            geojson=get_simplified_geometry(gdf_filtrado, light= light),
+            geojson=get_simplified_geometry_foreground(light=light),
             locations=gdf_filtrado.index,
             z=gdf_filtrado[indice],
             colorscale=cores,
@@ -163,8 +163,6 @@ def texto_explicativo(indice):
     Input("local-storage", "data"),
 )
 def update_graph(value, local_storage):
-    print(local_storage)
-
     # output do mapa
     mapa = mapa_indice(value, light = local_storage == "light")
 

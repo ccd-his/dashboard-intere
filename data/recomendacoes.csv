@@ -1,433 +1,479 @@
 Município,Cluster,Sugestões e Recomendações para Melhorias
-Alambari,0,"Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-Alumínio,1,Cras euismod massa ut augue rutrum blandit.
-Americana,2,Sed vel ligula fermentum orci hendrerit interdum ullamcorper at massa.
-Araçariguama,3,Fusce sodales urna eget consequat pellentesque.
-Araçoiaba da Serra,0,Suspendisse eget lectus a ligula tristique bibendum.
-Artur Nogueira,1,Nullam placerat dolor a risus egestas congue.
-Boituva,2,"Quisque faucibus purus at quam condimentum, ac malesuada tellus congue."
-Campinas,3,Donec at dui nec orci pulvinar rutrum.
-Capela do Alto,0,Pellentesque eget justo non lorem commodo euismod.
-Cerquilho,1,Quisque tempus justo nec dapibus pharetra.
-Cesário Lange,2,Pellentesque ut ipsum suscipit augue mollis pellentesque eget non erat.
-Cosmópolis,3,Donec in massa non nulla consectetur eleifend.
-Diadema,0,"Morbi id est bibendum, pellentesque elit non, consequat velit."
-Engenheiro Coelho,1,"Pellentesque at elit sodales, rutrum tortor sit amet, molestie justo."
-Holambra,2,"Curabitur aliquam lorem nec ligula feugiat, auctor cursus est mattis."
-Hortolândia,3,Integer euismod enim non mollis faucibus.
-Ibiúna,0,Suspendisse imperdiet justo ut nisl volutpat pretium.
-Indaiatuba,1,Duis in sem non quam dignissim aliquam et non nulla.
-Iperó,2,Fusce eget magna imperdiet ipsum scelerisque pellentesque.
-Itapetininga,3,Integer eleifend ligula id fermentum auctor.
-Itatiba,0,Maecenas feugiat urna sit amet placerat tempor.
-Itu,1,"Mauris eu odio blandit, vestibulum odio non, scelerisque mauris."
-Jaguariúna,2,"Fusce vitae justo vulputate, interdum est ut, tempus urna."
-Jumirim,3,"Nam porttitor elit non quam rhoncus, in pellentesque tortor condimentum."
-Mairinque,0,"Morbi in mauris tristique, finibus nisl at, dapibus dolor."
-Mauá,1,Donec sit amet nunc sit amet felis cursus vulputate vitae et ipsum.
-Monte Mor,2,Morbi sodales quam sit amet dui efficitur lacinia.
-Morungaba,3,Praesent non mi at augue elementum scelerisque.
-Nova Odessa,0,"Sed sed mi tempus, interdum lorem in, elementum metus."
-Paulínia,1,Nam semper quam id arcu auctor rhoncus.
-Pedreira,2,Pellentesque dignissim ex quis semper efficitur.
-Piedade,3,Suspendisse eget nulla sed tortor fringilla dictum id sed ligula.
-Pilar do Sul,0,Curabitur ultrices velit sed mollis lobortis.
-Porto Feliz,1,"Fusce placerat arcu ac dolor tincidunt, ut commodo ex faucibus."
-Ribeirão Pires,2,Cras sed dui non urna dictum consectetur.
-Rio Grande da Serra,3,"Aenean eu urna volutpat, tempor enim tristique, vehicula nisi."
-Salto,0,"Nulla a sapien hendrerit, efficitur nibh vitae, accumsan velit."
-Salto de Pirapora,1,Ut dictum massa nec dignissim cursus.
-Santa Bárbara D'Oeste,2,Morbi viverra turpis tincidunt dui tempus viverra.
-Santo André,3,"Duis nec ante elementum, blandit orci sed, efficitur eros."
-Santo Antônio de Posse,0,Nunc eu sapien ac lectus tincidunt posuere quis eu mauris.
-São Bernardo do Campo,1,Proin tempus enim id ornare fringilla.
-São Caetano do Sul,2,Morbi a mauris ut turpis suscipit lobortis.
-São Miguel Arcanjo,3,Proin molestie nisi in nisi tincidunt dignissim.
-São Roque,0,Praesent euismod tortor nec ligula hendrerit rutrum.
-Sarapuí,1,Mauris commodo libero dictum tellus accumsan consectetur.
-Sorocaba,2,"Aliquam id dolor suscipit, accumsan nulla ac, pellentesque ipsum."
-Sumaré,3,Donec nec lacus ut sapien congue semper ut vel turpis.
-Tapiraí,0,Nunc bibendum odio vitae convallis pellentesque.
-Tatuí,1,Duis blandit dui in orci fermentum efficitur.
-Tietê,2,"Nam pulvinar libero vel dui dapibus, sit amet lacinia ipsum elementum."
-Valinhos,3,Morbi aliquam nunc eu sagittis interdum.
-Vinhedo,0,Integer at lorem vel nisl maximus fringilla in ut nunc.
-Votorantim,1,"Donec ullamcorper nisl ut lacus lacinia, ut tempus sem convallis."
-Alambari,2,Nam mattis mauris ac enim tincidunt semper.
-Alumínio,3,Nam malesuada nulla id elit rhoncus varius.
-Americana,0,Sed a orci ac eros dictum laoreet.
-Araçariguama,1,Donec vitae mi eget leo blandit suscipit.
-Araçoiaba da Serra,2,"Ut vel elit sollicitudin, condimentum purus viverra, consequat eros."
-Artur Nogueira,3,"Curabitur sed lectus luctus, mattis magna vel, mattis lorem."
-Boituva,0,Vestibulum porttitor nisl nec tempor rhoncus.
-Campinas,1,"Sed interdum enim ac massa gravida, volutpat maximus felis tempus."
-Capela do Alto,2,Ut auctor urna nec lectus euismod facilisis.
-Cerquilho,3,Fusce in libero eu elit interdum consectetur sit amet nec est.
-Cesário Lange,0,Pellentesque quis justo in nisl convallis feugiat ut id mauris.
-Cosmópolis,1,"Maecenas nec eros finibus, aliquam arcu vehicula, pellentesque sem."
-Diadema,2,Cras faucibus elit nec aliquam hendrerit.
-Engenheiro Coelho,3,Integer volutpat elit eget nisl dignissim viverra.
-Holambra,0,Ut id tortor at ex iaculis rutrum.
-Hortolândia,1,Nullam vitae risus quis ipsum mattis rutrum.
-Ibiúna,2,Quisque accumsan est sit amet ante viverra commodo.
-Indaiatuba,3,"Sed porttitor ante eu tortor interdum, commodo lacinia leo dictum."
-Iperó,0,"Phasellus cursus mi vel ipsum consequat, vel maximus nibh fermentum."
-Itapetininga,1,Etiam egestas ipsum a semper pharetra.
-Itatiba,2,"Mauris efficitur odio in mauris tincidunt, sit amet fermentum mi ullamcorper."
-Itu,3,Cras pellentesque nisl ut sollicitudin rhoncus.
-Jaguariúna,0,Cras ullamcorper velit eu elit laoreet fringilla.
-Jumirim,1,"Sed at nisi lobortis, vehicula sem dignissim, fringilla velit."
-Mairinque,2,Ut dictum lectus eget tincidunt vulputate.
-Mauá,3,Vestibulum non ex vitae quam egestas egestas.
-Monte Mor,0,"Donec mollis risus ac velit blandit, ac aliquet magna varius."
-Morungaba,1,Integer convallis odio sit amet auctor tincidunt.
-Nova Odessa,2,Phasellus non dolor sit amet diam molestie tempor.
-Paulínia,3,"Vestibulum tempor metus ac nisl blandit, a porta tortor condimentum."
-Pedreira,0,Mauris molestie lacus a magna malesuada mollis.
-Piedade,1,Cras ac nisi eu nisl convallis suscipit.
-Pilar do Sul,2,"Donec quis libero faucibus, tincidunt nisl quis, fermentum risus."
-Porto Feliz,3,Ut non metus ut magna fringilla porttitor.
-Ribeirão Pires,0,"Maecenas commodo nisl sit amet urna varius, non pretium est bibendum."
-Rio Grande da Serra,1,"Ut a lectus condimentum, sagittis velit nec, scelerisque sapien."
-Salto,2,Suspendisse non nisi at arcu commodo ultricies sed quis neque.
-Salto de Pirapora,3,Aenean commodo sem ac libero posuere lacinia.
-Santa Bárbara D'Oeste,0,Mauris suscipit ligula venenatis sem accumsan blandit.
-Santo André,1,"Aliquam at nibh rutrum, pretium turpis vitae, laoreet eros."
-Santo Antônio de Posse,2,Sed molestie risus ut ipsum lacinia accumsan.
-São Bernardo do Campo,3,"Proin non lectus pharetra, accumsan dui vel, tristique est."
-São Caetano do Sul,0,Mauris consectetur lorem a turpis viverra consequat.
-São Miguel Arcanjo,1,"Proin id ligula vestibulum, lacinia est at, blandit ipsum."
-São Roque,2,Donec molestie metus at eleifend cursus.
-Sarapuí,3,"Aenean quis tellus iaculis, fermentum nulla in, volutpat quam."
-Sorocaba,0,Duis suscipit tortor ac ultricies tristique.
-Sumaré,1,Mauris volutpat tortor sit amet accumsan venenatis.
-Tapiraí,2,Phasellus nec sem non augue vestibulum convallis sit amet eu leo.
-Tatuí,3,Suspendisse vitae ipsum fermentum libero pellentesque sagittis at eget lectus.
-Tietê,0,"Aliquam aliquet turpis ut ligula cursus, id faucibus est porttitor."
-Valinhos,1,"Ut sollicitudin arcu et mi elementum, vel rutrum ligula fringilla."
-Vinhedo,2,"Nunc pretium ligula sit amet massa laoreet, eu bibendum nunc pulvinar."
-Votorantim,3,Vestibulum fringilla nisl id rhoncus finibus.
-Alambari,0,Mauris aliquet orci eget dui porta dapibus.
-Alumínio,1,Mauris tempor ante non libero rutrum placerat.
-Americana,2,Proin non augue nec nunc viverra euismod.
-Araçariguama,3,"Praesent quis nunc dictum, convallis nulla eu, rhoncus ante."
-Araçoiaba da Serra,0,"Nunc sed sapien maximus, imperdiet ligula eu, consequat nunc."
-Artur Nogueira,1,Curabitur imperdiet ante vel tempor condimentum.
-Boituva,2,Fusce interdum nibh in facilisis dignissim.
-Campinas,3,"Nunc congue ante nec tortor molestie, sit amet venenatis risus imperdiet."
-Capela do Alto,0,"Duis accumsan mauris consectetur purus tincidunt, non tempus dolor dapibus."
-Cerquilho,1,"Phasellus molestie nunc vel orci rutrum, eu dignissim leo congue."
-Cesário Lange,2,Maecenas porta quam quis feugiat auctor.
-Cosmópolis,3,"Pellentesque at urna malesuada, congue odio non, iaculis dolor."
-Diadema,0,Proin ac quam nec mi ornare mattis.
-Engenheiro Coelho,1,"Duis euismod sem eget ante finibus, venenatis feugiat ipsum cursus."
-Holambra,2,Duis vitae dui vel nibh commodo bibendum.
-Hortolândia,3,Pellentesque gravida mauris non nunc auctor interdum.
-Ibiúna,0,"Praesent aliquet nibh sit amet elit commodo, in tristique erat gravida."
-Indaiatuba,1,"Sed nec est lobortis, ultrices neque venenatis, bibendum urna."
-Iperó,2,"Nunc vitae nisl gravida, dapibus erat consectetur, sollicitudin libero."
-Itapetininga,3,"Aenean tristique libero nec justo volutpat, vitae mollis justo fringilla."
-Itatiba,0,Nulla dictum risus a sapien vulputate semper.
-Itu,1,"Fusce auctor nibh facilisis, aliquam lacus non, pulvinar nisl."
-Jaguariúna,2,"Vivamus imperdiet dolor quis nibh pulvinar, eget efficitur justo molestie."
-Jumirim,3,Vestibulum lobortis augue id ultrices fermentum.
-Mairinque,0,Fusce eget felis semper arcu malesuada feugiat dignissim et libero.
-Mauá,1,Aenean imperdiet erat ut sodales ultrices.
-Monte Mor,2,"Vestibulum ac purus congue, ultrices arcu ac, blandit mi."
-Morungaba,3,Pellentesque sed ex a eros sagittis bibendum.
-Nova Odessa,0,Sed blandit elit sed suscipit tempus.
-Paulínia,1,"Aliquam tincidunt tortor a lacus faucibus, id commodo ligula malesuada."
-Pedreira,2,Duis quis enim vel orci suscipit finibus vitae vel est.
-Piedade,3,"Morbi et quam vulputate, pellentesque felis et, aliquam dolor."
-Pilar do Sul,0,Aliquam sollicitudin mi at tortor laoreet molestie.
-Porto Feliz,1,"Pellentesque vel mi sagittis, consequat nibh in, consectetur arcu."
-Ribeirão Pires,2,Maecenas vehicula ligula eu velit rutrum lobortis eu sit amet justo.
-Rio Grande da Serra,3,Aliquam mollis tortor vel magna finibus sollicitudin.
-Salto,0,Donec commodo risus vel consectetur condimentum.
-Salto de Pirapora,1,"Nulla vitae diam luctus, faucibus justo sit amet, pretium lorem."
-Santa Bárbara D'Oeste,2,Donec varius velit sit amet odio blandit maximus.
-Santo André,3,Sed condimentum erat non dignissim condimentum.
-Santo Antônio de Posse,0,Maecenas maximus quam in blandit cursus.
-São Bernardo do Campo,1,Nullam at elit nec purus tincidunt feugiat auctor et lorem.
-São Caetano do Sul,2,"Integer finibus lorem ut eros commodo, a auctor est euismod."
-São Miguel Arcanjo,3,Aenean semper nisi vel magna porttitor laoreet.
-São Roque,0,Suspendisse vehicula quam nec porttitor commodo.
-Sarapuí,1,Cras quis magna sit amet orci elementum vestibulum.
-Sorocaba,2,Vestibulum sed sapien eu arcu rutrum faucibus.
-Sumaré,3,Mauris placerat felis et magna placerat ornare.
-Tapiraí,0,Nullam malesuada ligula id euismod sagittis.
-Tatuí,1,Donec pulvinar augue sed interdum rhoncus.
-Tietê,2,Donec efficitur justo vitae dui vulputate interdum.
-Valinhos,3,Vivamus mattis augue id turpis convallis iaculis.
-Vinhedo,0,Duis malesuada turpis sed dui imperdiet egestas.
-Votorantim,1,Ut tristique erat in tristique blandit.
-Alambari,2,Phasellus vel purus non dui tempor commodo ut vitae nunc.
-Alumínio,3,Vivamus consequat dui vel elit dapibus consectetur.
-Americana,0,"Suspendisse dignissim felis blandit, pulvinar dolor vitae, varius velit."
-Araçariguama,1,Maecenas dignissim enim ut arcu bibendum finibus.
-Araçoiaba da Serra,2,Mauris placerat quam ut dictum auctor.
-Artur Nogueira,3,Praesent aliquam enim vitae ipsum vulputate dictum.
-Boituva,0,Nullam iaculis purus ut eleifend dapibus.
-Campinas,1,Donec fringilla ligula in eros hendrerit maximus.
-Capela do Alto,2,Maecenas sagittis quam et imperdiet vulputate.
-Cerquilho,3,Praesent mattis ipsum nec commodo imperdiet.
-Cesário Lange,0,"Duis in lorem volutpat, pretium ex ut, scelerisque lectus."
-Cosmópolis,1,Phasellus quis mauris ac felis semper commodo.
-Diadema,2,Vivamus dapibus dolor eget varius faucibus.
-Engenheiro Coelho,3,In ultrices nunc in velit luctus ultrices.
-Holambra,0,Etiam vulputate nisi eget metus sagittis pretium.
-Hortolândia,1,Nulla sed dui nec massa tempor eleifend.
-Ibiúna,2,Phasellus ac diam eu nisi sagittis aliquet porta nec risus.
-Indaiatuba,3,Suspendisse viverra quam sit amet tellus maximus ultricies.
-Iperó,0,Sed mollis magna sit amet tellus gravida aliquam.
-Itapetininga,1,Phasellus at sem id magna ullamcorper posuere a eu est.
-Itatiba,2,Nullam semper enim lobortis efficitur imperdiet.
-Itu,3,"Sed quis metus tempor, gravida turpis ut, ultrices ex."
-Jaguariúna,0,Fusce ornare enim id velit iaculis dignissim.
-Jumirim,1,"Quisque et nibh efficitur, convallis justo vitae, porta sem."
-Mairinque,2,"Aenean tristique lectus in tortor posuere, quis bibendum sapien dapibus."
-Mauá,3,"Duis ut erat mattis, vestibulum enim mattis, ultricies ligula."
-Monte Mor,0,Vestibulum nec leo sed purus egestas malesuada fringilla venenatis odio.
-Morungaba,1,Nulla venenatis ante at mauris consectetur tempor.
-Nova Odessa,2,Ut sodales urna in tortor mattis euismod.
-Paulínia,3,"Duis feugiat libero a nunc maximus, porttitor molestie elit sodales."
-Pedreira,0,Donec sit amet turpis ac libero feugiat pellentesque.
-Piedade,1,"Suspendisse scelerisque erat a odio ultricies, at eleifend nisi imperdiet."
-Pilar do Sul,2,Duis fermentum sem non sodales dignissim.
-Porto Feliz,3,Pellentesque vitae purus bibendum erat ultricies aliquet.
-Ribeirão Pires,0,Maecenas hendrerit leo ornare consectetur scelerisque.
-Rio Grande da Serra,1,Sed eget ante vitae libero tempus malesuada.
-Salto,2,Integer condimentum enim eu felis ultricies finibus.
-Salto de Pirapora,3,Cras condimentum enim nec dictum malesuada.
-Santa Bárbara D'Oeste,0,Vestibulum aliquam nibh eget dolor cursus elementum.
-Santo André,1,Nam eu libero eget diam convallis fermentum ut sit amet sem.
-Santo Antônio de Posse,2,In suscipit lacus sit amet metus euismod ornare.
-São Bernardo do Campo,3,Ut quis mi id velit maximus imperdiet.
-São Caetano do Sul,0,"Etiam fermentum lacus non nisi molestie, vel consequat augue mollis."
-São Miguel Arcanjo,1,Praesent condimentum metus id mauris commodo blandit.
-São Roque,2,Vestibulum quis justo nec ante pretium tempus.
-Sarapuí,3,Morbi quis neque at arcu pretium convallis vitae dictum arcu.
-Sorocaba,0,"Proin malesuada diam sit amet arcu mattis, sed lobortis dolor consequat."
-Sumaré,1,Morbi vulputate quam non mollis sollicitudin.
-Tapiraí,2,Duis at sapien ut sapien vehicula tristique.
-Tatuí,3,Donec in ligula sed sapien dignissim vestibulum.
-Tietê,0,"Vestibulum ac sem tristique, sodales arcu vitae, volutpat dui."
-Valinhos,1,Nam in libero sit amet quam placerat consectetur.
-Vinhedo,2,Fusce sed nibh ut quam imperdiet feugiat.
-Votorantim,3,Cras vel elit ac erat vestibulum tincidunt in sit amet ex.
-Alambari,2,Phasellus vel purus non dui tempor commodo ut vitae nunc.
-Alumínio,3,Vivamus consequat dui vel elit dapibus consectetur.
-Americana,0,"Suspendisse dignissim felis blandit, pulvinar dolor vitae, varius velit."
-Araçariguama,1,Maecenas dignissim enim ut arcu bibendum finibus.
-Araçoiaba da Serra,2,Mauris placerat quam ut dictum auctor.
-Artur Nogueira,3,Praesent aliquam enim vitae ipsum vulputate dictum.
-Boituva,0,Nullam iaculis purus ut eleifend dapibus.
-Campinas,1,Donec fringilla ligula in eros hendrerit maximus.
-Capela do Alto,2,Maecenas sagittis quam et imperdiet vulputate.
-Cerquilho,3,Praesent mattis ipsum nec commodo imperdiet.
-Cesário Lange,0,"Duis in lorem volutpat, pretium ex ut, scelerisque lectus."
-Cosmópolis,1,Phasellus quis mauris ac felis semper commodo.
-Diadema,2,Vivamus dapibus dolor eget varius faucibus.
-Engenheiro Coelho,3,In ultrices nunc in velit luctus ultrices.
-Holambra,0,Etiam vulputate nisi eget metus sagittis pretium.
-Hortolândia,1,Nulla sed dui nec massa tempor eleifend.
-Ibiúna,2,Phasellus ac diam eu nisi sagittis aliquet porta nec risus.
-Indaiatuba,3,Suspendisse viverra quam sit amet tellus maximus ultricies.
-Iperó,0,Sed mollis magna sit amet tellus gravida aliquam.
-Itapetininga,1,Phasellus at sem id magna ullamcorper posuere a eu est.
-Itatiba,2,Nullam semper enim lobortis efficitur imperdiet.
-Itu,3,"Sed quis metus tempor, gravida turpis ut, ultrices ex."
-Jaguariúna,0,Fusce ornare enim id velit iaculis dignissim.
-Jumirim,1,"Quisque et nibh efficitur, convallis justo vitae, porta sem."
-Mairinque,2,"Aenean tristique lectus in tortor posuere, quis bibendum sapien dapibus."
-Mauá,3,"Duis ut erat mattis, vestibulum enim mattis, ultricies ligula."
-Monte Mor,0,Vestibulum nec leo sed purus egestas malesuada fringilla venenatis odio.
-Morungaba,1,Nulla venenatis ante at mauris consectetur tempor.
-Nova Odessa,2,Ut sodales urna in tortor mattis euismod.
-Paulínia,3,"Duis feugiat libero a nunc maximus, porttitor molestie elit sodales."
-Pedreira,0,Donec sit amet turpis ac libero feugiat pellentesque.
-Piedade,1,"Suspendisse scelerisque erat a odio ultricies, at eleifend nisi imperdiet."
-Pilar do Sul,2,Duis fermentum sem non sodales dignissim.
-Porto Feliz,3,Pellentesque vitae purus bibendum erat ultricies aliquet.
-Ribeirão Pires,0,Maecenas hendrerit leo ornare consectetur scelerisque.
-Rio Grande da Serra,1,Sed eget ante vitae libero tempus malesuada.
-Salto,2,Integer condimentum enim eu felis ultricies finibus.
-Salto de Pirapora,3,Cras condimentum enim nec dictum malesuada.
-Santa Bárbara D'Oeste,0,Vestibulum aliquam nibh eget dolor cursus elementum.
-Santo André,1,Nam eu libero eget diam convallis fermentum ut sit amet sem.
-Santo Antônio de Posse,2,In suscipit lacus sit amet metus euismod ornare.
-São Bernardo do Campo,3,Ut quis mi id velit maximus imperdiet.
-São Caetano do Sul,0,"Etiam fermentum lacus non nisi molestie, vel consequat augue mollis."
-São Miguel Arcanjo,1,Praesent condimentum metus id mauris commodo blandit.
-São Roque,2,Vestibulum quis justo nec ante pretium tempus.
-Sarapuí,3,Morbi quis neque at arcu pretium convallis vitae dictum arcu.
-Sorocaba,0,"Proin malesuada diam sit amet arcu mattis, sed lobortis dolor consequat."
-Sumaré,1,Morbi vulputate quam non mollis sollicitudin.
-Tapiraí,2,Duis at sapien ut sapien vehicula tristique.
-Tatuí,3,Donec in ligula sed sapien dignissim vestibulum.
-Tietê,0,"Vestibulum ac sem tristique, sodales arcu vitae, volutpat dui."
-Valinhos,1,Nam in libero sit amet quam placerat consectetur.
-Vinhedo,2,Fusce sed nibh ut quam imperdiet feugiat.
-Votorantim,3,Cras vel elit ac erat vestibulum tincidunt in sit amet ex.
-Alambari,2,Phasellus vel purus non dui tempor commodo ut vitae nunc.
-Alumínio,3,Vivamus consequat dui vel elit dapibus consectetur.
-Americana,0,"Suspendisse dignissim felis blandit, pulvinar dolor vitae, varius velit."
-Araçariguama,1,Maecenas dignissim enim ut arcu bibendum finibus.
-Araçoiaba da Serra,2,Mauris placerat quam ut dictum auctor.
-Artur Nogueira,3,Praesent aliquam enim vitae ipsum vulputate dictum.
-Boituva,0,Nullam iaculis purus ut eleifend dapibus.
-Campinas,1,Donec fringilla ligula in eros hendrerit maximus.
-Capela do Alto,2,Maecenas sagittis quam et imperdiet vulputate.
-Cerquilho,3,Praesent mattis ipsum nec commodo imperdiet.
-Cesário Lange,0,"Duis in lorem volutpat, pretium ex ut, scelerisque lectus."
-Cosmópolis,1,Phasellus quis mauris ac felis semper commodo.
-Diadema,2,Vivamus dapibus dolor eget varius faucibus.
-Engenheiro Coelho,3,In ultrices nunc in velit luctus ultrices.
-Holambra,0,Etiam vulputate nisi eget metus sagittis pretium.
-Hortolândia,1,Nulla sed dui nec massa tempor eleifend.
-Ibiúna,2,Phasellus ac diam eu nisi sagittis aliquet porta nec risus.
-Indaiatuba,3,Suspendisse viverra quam sit amet tellus maximus ultricies.
-Iperó,0,Sed mollis magna sit amet tellus gravida aliquam.
-Itapetininga,1,Phasellus at sem id magna ullamcorper posuere a eu est.
-Itatiba,2,Nullam semper enim lobortis efficitur imperdiet.
-Itu,3,"Sed quis metus tempor, gravida turpis ut, ultrices ex."
-Jaguariúna,0,Fusce ornare enim id velit iaculis dignissim.
-Jumirim,1,"Quisque et nibh efficitur, convallis justo vitae, porta sem."
-Mairinque,2,"Aenean tristique lectus in tortor posuere, quis bibendum sapien dapibus."
-Mauá,3,"Duis ut erat mattis, vestibulum enim mattis, ultricies ligula."
-Monte Mor,0,Vestibulum nec leo sed purus egestas malesuada fringilla venenatis odio.
-Morungaba,1,Nulla venenatis ante at mauris consectetur tempor.
-Nova Odessa,2,Ut sodales urna in tortor mattis euismod.
-Paulínia,3,"Duis feugiat libero a nunc maximus, porttitor molestie elit sodales."
-Pedreira,0,Donec sit amet turpis ac libero feugiat pellentesque.
-Piedade,1,"Suspendisse scelerisque erat a odio ultricies, at eleifend nisi imperdiet."
-Pilar do Sul,2,Duis fermentum sem non sodales dignissim.
-Porto Feliz,3,Pellentesque vitae purus bibendum erat ultricies aliquet.
-Ribeirão Pires,0,Maecenas hendrerit leo ornare consectetur scelerisque.
-Rio Grande da Serra,1,Sed eget ante vitae libero tempus malesuada.
-Salto,2,Integer condimentum enim eu felis ultricies finibus.
-Salto de Pirapora,3,Cras condimentum enim nec dictum malesuada.
-Santa Bárbara D'Oeste,0,Vestibulum aliquam nibh eget dolor cursus elementum.
-Santo André,1,Nam eu libero eget diam convallis fermentum ut sit amet sem.
-Santo Antônio de Posse,2,In suscipit lacus sit amet metus euismod ornare.
-São Bernardo do Campo,3,Ut quis mi id velit maximus imperdiet.
-São Caetano do Sul,0,"Etiam fermentum lacus non nisi molestie, vel consequat augue mollis."
-São Miguel Arcanjo,1,Praesent condimentum metus id mauris commodo blandit.
-São Roque,2,Vestibulum quis justo nec ante pretium tempus.
-Sarapuí,3,Morbi quis neque at arcu pretium convallis vitae dictum arcu.
-Sorocaba,0,"Proin malesuada diam sit amet arcu mattis, sed lobortis dolor consequat."
-Sumaré,1,Morbi vulputate quam non mollis sollicitudin.
-Tapiraí,2,Duis at sapien ut sapien vehicula tristique.
-Tatuí,3,Donec in ligula sed sapien dignissim vestibulum.
-Tietê,0,"Vestibulum ac sem tristique, sodales arcu vitae, volutpat dui."
-Valinhos,1,Nam in libero sit amet quam placerat consectetur.
-Vinhedo,2,Fusce sed nibh ut quam imperdiet feugiat.
-Votorantim,3,Cras vel elit ac erat vestibulum tincidunt in sit amet ex.
-Alambari,2,Phasellus vel purus non dui tempor commodo ut vitae nunc.
-Alumínio,3,Vivamus consequat dui vel elit dapibus consectetur.
-Americana,0,"Suspendisse dignissim felis blandit, pulvinar dolor vitae, varius velit."
-Araçariguama,1,Maecenas dignissim enim ut arcu bibendum finibus.
-Araçoiaba da Serra,2,Mauris placerat quam ut dictum auctor.
-Artur Nogueira,3,Praesent aliquam enim vitae ipsum vulputate dictum.
-Boituva,0,Nullam iaculis purus ut eleifend dapibus.
-Campinas,1,Donec fringilla ligula in eros hendrerit maximus.
-Capela do Alto,2,Maecenas sagittis quam et imperdiet vulputate.
-Cerquilho,3,Praesent mattis ipsum nec commodo imperdiet.
-Cesário Lange,0,"Duis in lorem volutpat, pretium ex ut, scelerisque lectus."
-Cosmópolis,1,Phasellus quis mauris ac felis semper commodo.
-Diadema,2,Vivamus dapibus dolor eget varius faucibus.
-Engenheiro Coelho,3,In ultrices nunc in velit luctus ultrices.
-Holambra,0,Etiam vulputate nisi eget metus sagittis pretium.
-Hortolândia,1,Nulla sed dui nec massa tempor eleifend.
-Ibiúna,2,Phasellus ac diam eu nisi sagittis aliquet porta nec risus.
-Indaiatuba,3,Suspendisse viverra quam sit amet tellus maximus ultricies.
-Iperó,0,Sed mollis magna sit amet tellus gravida aliquam.
-Itapetininga,1,Phasellus at sem id magna ullamcorper posuere a eu est.
-Itatiba,2,Nullam semper enim lobortis efficitur imperdiet.
-Itu,3,"Sed quis metus tempor, gravida turpis ut, ultrices ex."
-Jaguariúna,0,Fusce ornare enim id velit iaculis dignissim.
-Jumirim,1,"Quisque et nibh efficitur, convallis justo vitae, porta sem."
-Mairinque,2,"Aenean tristique lectus in tortor posuere, quis bibendum sapien dapibus."
-Mauá,3,"Duis ut erat mattis, vestibulum enim mattis, ultricies ligula."
-Monte Mor,0,Vestibulum nec leo sed purus egestas malesuada fringilla venenatis odio.
-Morungaba,1,Nulla venenatis ante at mauris consectetur tempor.
-Nova Odessa,2,Ut sodales urna in tortor mattis euismod.
-Paulínia,3,"Duis feugiat libero a nunc maximus, porttitor molestie elit sodales."
-Pedreira,0,Donec sit amet turpis ac libero feugiat pellentesque.
-Piedade,1,"Suspendisse scelerisque erat a odio ultricies, at eleifend nisi imperdiet."
-Pilar do Sul,2,Duis fermentum sem non sodales dignissim.
-Porto Feliz,3,Pellentesque vitae purus bibendum erat ultricies aliquet.
-Ribeirão Pires,0,Maecenas hendrerit leo ornare consectetur scelerisque.
-Rio Grande da Serra,1,Sed eget ante vitae libero tempus malesuada.
-Salto,2,Integer condimentum enim eu felis ultricies finibus.
-Salto de Pirapora,3,Cras condimentum enim nec dictum malesuada.
-Santa Bárbara D'Oeste,0,Vestibulum aliquam nibh eget dolor cursus elementum.
-Santo André,1,Nam eu libero eget diam convallis fermentum ut sit amet sem.
-Santo Antônio de Posse,2,In suscipit lacus sit amet metus euismod ornare.
-São Bernardo do Campo,3,Ut quis mi id velit maximus imperdiet.
-São Caetano do Sul,0,"Etiam fermentum lacus non nisi molestie, vel consequat augue mollis."
-São Miguel Arcanjo,1,Praesent condimentum metus id mauris commodo blandit.
-São Roque,2,Vestibulum quis justo nec ante pretium tempus.
-Sarapuí,3,Morbi quis neque at arcu pretium convallis vitae dictum arcu.
-Sorocaba,0,"Proin malesuada diam sit amet arcu mattis, sed lobortis dolor consequat."
-Sumaré,1,Morbi vulputate quam non mollis sollicitudin.
-Tapiraí,2,Duis at sapien ut sapien vehicula tristique.
-Tatuí,3,Donec in ligula sed sapien dignissim vestibulum.
-Tietê,0,"Vestibulum ac sem tristique, sodales arcu vitae, volutpat dui."
-Valinhos,1,Nam in libero sit amet quam placerat consectetur.
-Vinhedo,2,Fusce sed nibh ut quam imperdiet feugiat.
-Votorantim,3,Cras vel elit ac erat vestibulum tincidunt in sit amet ex.
-Alambari,2,Phasellus vel purus non dui tempor commodo ut vitae nunc.
-Alumínio,3,Vivamus consequat dui vel elit dapibus consectetur.
-Americana,0,"Suspendisse dignissim felis blandit, pulvinar dolor vitae, varius velit."
-Araçariguama,1,Maecenas dignissim enim ut arcu bibendum finibus.
-Araçoiaba da Serra,2,Mauris placerat quam ut dictum auctor.
-Artur Nogueira,3,Praesent aliquam enim vitae ipsum vulputate dictum.
-Boituva,0,Nullam iaculis purus ut eleifend dapibus.
-Campinas,1,Donec fringilla ligula in eros hendrerit maximus.
-Capela do Alto,2,Maecenas sagittis quam et imperdiet vulputate.
-Cerquilho,3,Praesent mattis ipsum nec commodo imperdiet.
-Cesário Lange,0,"Duis in lorem volutpat, pretium ex ut, scelerisque lectus."
-Cosmópolis,1,Phasellus quis mauris ac felis semper commodo.
-Diadema,2,Vivamus dapibus dolor eget varius faucibus.
-Engenheiro Coelho,3,In ultrices nunc in velit luctus ultrices.
-Holambra,0,Etiam vulputate nisi eget metus sagittis pretium.
-Hortolândia,1,Nulla sed dui nec massa tempor eleifend.
-Ibiúna,2,Phasellus ac diam eu nisi sagittis aliquet porta nec risus.
-Indaiatuba,3,Suspendisse viverra quam sit amet tellus maximus ultricies.
-Iperó,0,Sed mollis magna sit amet tellus gravida aliquam.
-Itapetininga,1,Phasellus at sem id magna ullamcorper posuere a eu est.
-Itatiba,2,Nullam semper enim lobortis efficitur imperdiet.
-Itu,3,"Sed quis metus tempor, gravida turpis ut, ultrices ex."
-Jaguariúna,0,Fusce ornare enim id velit iaculis dignissim.
-Jumirim,1,"Quisque et nibh efficitur, convallis justo vitae, porta sem."
-Mairinque,2,"Aenean tristique lectus in tortor posuere, quis bibendum sapien dapibus."
-Mauá,3,"Duis ut erat mattis, vestibulum enim mattis, ultricies ligula."
-Monte Mor,0,Vestibulum nec leo sed purus egestas malesuada fringilla venenatis odio.
-Morungaba,1,Nulla venenatis ante at mauris consectetur tempor.
-Nova Odessa,2,Ut sodales urna in tortor mattis euismod.
-Paulínia,3,"Duis feugiat libero a nunc maximus, porttitor molestie elit sodales."
-Pedreira,0,Donec sit amet turpis ac libero feugiat pellentesque.
-Piedade,1,"Suspendisse scelerisque erat a odio ultricies, at eleifend nisi imperdiet."
-Pilar do Sul,2,Duis fermentum sem non sodales dignissim.
-Porto Feliz,3,Pellentesque vitae purus bibendum erat ultricies aliquet.
-Ribeirão Pires,0,Maecenas hendrerit leo ornare consectetur scelerisque.
-Rio Grande da Serra,1,Sed eget ante vitae libero tempus malesuada.
-Salto,2,Integer condimentum enim eu felis ultricies finibus.
-Salto de Pirapora,3,Cras condimentum enim nec dictum malesuada.
-Santa Bárbara D'Oeste,0,Vestibulum aliquam nibh eget dolor cursus elementum.
-Santo André,1,Nam eu libero eget diam convallis fermentum ut sit amet sem.
-Santo Antônio de Posse,2,In suscipit lacus sit amet metus euismod ornare.
-São Bernardo do Campo,3,Ut quis mi id velit maximus imperdiet.
-São Caetano do Sul,0,"Etiam fermentum lacus non nisi molestie, vel consequat augue mollis."
-São Miguel Arcanjo,1,Praesent condimentum metus id mauris commodo blandit.
-São Roque,2,Vestibulum quis justo nec ante pretium tempus.
-Sarapuí,3,Morbi quis neque at arcu pretium convallis vitae dictum arcu.
-Sorocaba,0,"Proin malesuada diam sit amet arcu mattis, sed lobortis dolor consequat."
-Sumaré,1,Morbi vulputate quam non mollis sollicitudin.
-Tapiraí,2,Duis at sapien ut sapien vehicula tristique.
-Tatuí,3,Donec in ligula sed sapien dignissim vestibulum.
-Tietê,0,"Vestibulum ac sem tristique, sodales arcu vitae, volutpat dui."
-Valinhos,1,Nam in libero sit amet quam placerat consectetur.
-Vinhedo,2,Fusce sed nibh ut quam imperdiet feugiat.
-Votorantim,3,Cras vel elit ac erat vestibulum tincidunt in sit amet ex.
+Alambari,0,"Apoiar o desenvolvimento de redes de monitoramento climático comunitário, articulado à Defesa Civil, aprimorando sistemas de alerta e desenvolvendo capacitações para a gestão de emergências na cidade, realizando com regularidade simulações para preparação do público em geral, nas quais participem todos os habitantes."
+Alambari,1,"Enfrentar a destinação adequada dos resíduos sólidos urbanos, ampliar a coleta seletiva com incentivo a cooperativas, para reduzir emissões de resíduos e aumentar a reciclagem (meta de 20% em 2040) "
+Alambari,2,"Gestão de incêndios na interface urbano-florestal, incentivar programas municipais e intermunicipais de controle de queimadas, criando brigadas regionais e sistemas de monitoramento por satélite e ampliando a fiscalização das rodovias e a construção de aceiros"
+Alumínio,2,"Apoiar o desenvolvimento de redes de monitoramento climático comunitário, articulado à Defesa Civil, aprimorando sistemas de alerta e desenvolvendo capacitações para a gestão de emergências na cidade, realizando com regularidade simulações para preparação do público em geral, nas quais participem todos os habitantes."
+Alumínio,3,"Enfrentar a destinação adequada dos resíduos sólidos urbanos, ampliar a coleta seletiva com incentivo a cooperativas, para reduzir emissões de resíduos e aumentar a reciclagem (meta de 20% em 2040) "
+Alumínio,0,"Gestão de incêndios na interface urbano-florestal, incentivar programas municipais e intermunicipais de controle de queimadas, criando brigadas regionais e sistemas de monitoramento por satélite e ampliando a fiscalização das rodovias e a construção de aceiros"
+Americana,0,"Apoiar o desenvolvimento de redes de monitoramento climático comunitário, articulado à Defesa Civil, aprimorando sistemas de alerta e desenvolvendo capacitações para a gestão de emergências na cidade, realizando com regularidade simulações para preparação do público em geral, nas quais participem todos os habitantes."
+Americana,0,"Fortalecer as iniciativas de segurança alimentar e nutricional, contribuindo e ampliando os programas que oferecem alimentos e refeições saudáveis às populações vulnerabilizadas — com especial atenção a gestantes, crianças, adolescentes e idosos — por meio da promoção de banco de alimentos, quintais agroecológicos, apoio a cozinhas comunitárias e ampliação da rede de restaurantes populares."
+Americana,3,"Enfrentar a destinação adequada dos resíduos sólidos urbanos, ampliar a coleta seletiva com incentivo a cooperativas, para reduzir emissões de resíduos e aumentar a reciclagem (meta de 20% em 2040) "
+Americana,0,"Nos projetos de restauração, atentar para as disposições do Plano Diretor para Recomposição Florestal visando à Conservação da Água na Bacia Hidrográfica do Rio Piracicaba."
+Americana,1,"Integrar dados climáticos nos sistemas de saúde municipais, com modelos preditivos para surtos associados a eventos extremos, tendo em vista a expansão da transmissão de doenças com o aquecimento, e fortalecer a vigilância epidemiológica para doenças sensíveis ao clima (dengue, chikungunya, zika, malária, leptospirose e doenças de veiculação hídrica)."
+Americana,1,"Gestão de incêndios na interface urbano-florestal, incentivar programas municipais e intermunicipais de controle de queimadas, criando brigadas regionais e sistemas de monitoramento por satélite e ampliando a fiscalização das rodovias e a construção de aceiros"
+Araçariguama,3,"Fortalecer as iniciativas de segurança alimentar e nutricional, contribuindo e ampliando os programas que oferecem alimentos e refeições saudáveis às populações vulnerabilizadas — com especial atenção a gestantes, crianças, adolescentes e idosos — por meio da promoção de banco de alimentos, quintais agroecológicos, apoio a cozinhas comunitárias e ampliação da rede de restaurantes populares."
+Araçariguama,2,"Enfrentar a destinação adequada dos resíduos sólidos urbanos, ampliar a coleta seletiva com incentivo a cooperativas, para reduzir emissões de resíduos e aumentar a reciclagem (meta de 20% em 2040) "
+Araçariguama,3,"Gestão de incêndios na interface urbano-florestal, incentivar programas municipais e intermunicipais de controle de queimadas, criando brigadas regionais e sistemas de monitoramento por satélite e ampliando a fiscalização das rodovias e a construção de aceiros"
+Araçoiaba da Serra,0,"Apoiar o desenvolvimento de redes de monitoramento climático comunitário, articulado à Defesa Civil, aprimorando sistemas de alerta e desenvolvendo capacitações para a gestão de emergências na cidade, realizando com regularidade simulações para preparação do público em geral, nas quais participem todos os habitantes."
+Araçoiaba da Serra,1,"Fortalecer as iniciativas de segurança alimentar e nutricional, contribuindo e ampliando os programas que oferecem alimentos e refeições saudáveis às populações vulnerabilizadas — com especial atenção a gestantes, crianças, adolescentes e idosos — por meio da promoção de banco de alimentos, quintais agroecológicos, apoio a cozinhas comunitárias e ampliação da rede de restaurantes populares."
+Araçoiaba da Serra,2,"Enfrentar a destinação adequada dos resíduos sólidos urbanos, ampliar a coleta seletiva com incentivo a cooperativas, para reduzir emissões de resíduos e aumentar a reciclagem (meta de 20% em 2040) "
+Araçoiaba da Serra,3,"Gestão de incêndios na interface urbano-florestal, incentivar programas municipais e intermunicipais de controle de queimadas, criando brigadas regionais e sistemas de monitoramento por satélite e ampliando a fiscalização das rodovias e a construção de aceiros"
+Artur Nogueira,2,"Enfrentar a destinação adequada dos resíduos sólidos urbanos, ampliar a coleta seletiva com incentivo a cooperativas, para reduzir emissões de resíduos e aumentar a reciclagem (meta de 20% em 2040) "
+Artur Nogueira,3,"Nos projetos de restauração, atentar para as disposições do Plano Diretor para Recomposição Florestal visando à Conservação da Água na Bacia Hidrográfica do Rio Piracicaba (sub-bacia do Rio Jaguari)"
+Artur Nogueira,2,"Gestão de incêndios na interface urbano-florestal, incentivar programas municipais e intermunicipais de controle de queimadas, criando brigadas regionais e sistemas de monitoramento por satélite e ampliando a fiscalização das rodovias e a construção de aceiros"
+Boituva,22,"Apoiar o desenvolvimento de redes de monitoramento climático comunitário, articulado à Defesa Civil, aprimorando sistemas de alerta e desenvolvendo capacitações para a gestão de emergências na cidade, realizando com regularidade simulações para preparação do público em geral, nas quais participem todos os habitantes."
+Boituva,0,"Gestão de incêndios na interface urbano-florestal, incentivar programas municipais e intermunicipais de controle de queimadas, criando brigadas regionais e sistemas de monitoramento por satélite e ampliando a fiscalização das rodovias e a construção de aceiros"
+Campinas,1,"Apoiar o desenvolvimento de redes de monitoramento climático comunitário, articulado à Defesa Civil, aprimorando sistemas de alerta e desenvolvendo capacitações para a gestão de emergências na cidade, realizando com regularidade simulações para preparação do público em geral, nas quais participem todos os habitantes."
+Campinas,2,"Fortalecer as iniciativas de segurança alimentar e nutricional, contribuindo e ampliando os programas que oferecem alimentos e refeições saudáveis às populações vulnerabilizadas — com especial atenção a gestantes, crianças, adolescentes e idosos — por meio da promoção de banco de alimentos, quintais agroecológicos, apoio a cozinhas comunitárias e ampliação da rede de restaurantes populares."
+Campinas,0,"Nos projetos de restauração, atentar para as disposições do Plano Diretor para Recomposição Florestal visando à Conservação da Água na Bacia Hidrográfica dos Rios Piracicaba, Capivari e Jundiaí"
+Campinas,1,"Gestão de incêndios na interface urbano-florestal, incentivar programas municipais e intermunicipais de controle de queimadas, criando brigadas regionais e sistemas de monitoramento por satélite e ampliando a fiscalização das rodovias e a construção de aceiros"
+Capela do Alto,2,"Enfrentar a destinação adequada dos resíduos sólidos urbanos, ampliar a coleta seletiva com incentivo a cooperativas, para reduzir emissões de resíduos e aumentar a reciclagem (meta de 20% em 2040) "
+Capela do Alto,0,"Gestão de incêndios na interface urbano-florestal, incentivar programas municipais e intermunicipais de controle de queimadas, criando brigadas regionais e sistemas de monitoramento por satélite e ampliando a fiscalização das rodovias e a construção de aceiros"
+Cerquilho,1,"Enfrentar a destinação adequada dos resíduos sólidos urbanos, ampliar a coleta seletiva com incentivo a cooperativas, para reduzir emissões de resíduos e aumentar a reciclagem (meta de 20% em 2040) "
+Cesário Lange,1,"Apoiar o desenvolvimento de redes de monitoramento climático comunitário, articulado à Defesa Civil, aprimorando sistemas de alerta e desenvolvendo capacitações para a gestão de emergências na cidade, realizando com regularidade simulações para preparação do público em geral, nas quais participem todos os habitantes."
+Cesário Lange,3,"Enfrentar a destinação adequada dos resíduos sólidos urbanos, ampliar a coleta seletiva com incentivo a cooperativas, para reduzir emissões de resíduos e aumentar a reciclagem (meta de 20% em 2040) "
+Cosmópolis,0,"Fortalecer as iniciativas de segurança alimentar e nutricional, contribuindo e ampliando os programas que oferecem alimentos e refeições saudáveis às populações vulnerabilizadas — com especial atenção a gestantes, crianças, adolescentes e idosos — por meio da promoção de banco de alimentos, quintais agroecológicos, apoio a cozinhas comunitárias e ampliação da rede de restaurantes populares."
+Cosmópolis,1,"Enfrentar a destinação adequada dos resíduos sólidos urbanos, ampliar a coleta seletiva com incentivo a cooperativas, para reduzir emissões de resíduos e aumentar a reciclagem (meta de 20% em 2040) "
+Cosmópolis,2,"Nos projetos de restauração, atentar para as disposições do Plano Diretor para Recomposição Florestal visando à Conservação da Água na Bacia Hidrográfica do Rio Piracicaba (sub-bacia do Rio Jaguari)"
+Diadema,3,"Apoiar o desenvolvimento de redes de monitoramento climático comunitário, articulado à Defesa Civil, aprimorando sistemas de alerta e desenvolvendo capacitações para a gestão de emergências na cidade, realizando com regularidade simulações para preparação do público em geral, nas quais participem todos os habitantes."
+Diadema,0,"Fortalecer as iniciativas de segurança alimentar e nutricional, contribuindo e ampliando os programas que oferecem alimentos e refeições saudáveis às populações vulnerabilizadas — com especial atenção a gestantes, crianças, adolescentes e idosos — por meio da promoção de banco de alimentos, quintais agroecológicos, apoio a cozinhas comunitárias e ampliação da rede de restaurantes populares."
+Diadema,3,"Promover hortas comunitárias como sumidouros de carbono e estratégias de descarbonização urbana, colaborando com organizações da sociedade civil na manutenção de hortas urbanas e práticas sustentáveis, e dando suporte à agricultura familiar e estimulando práticas agroecológicas"
+Diadema,0,"Enfrentar a destinação adequada dos resíduos sólidos urbanos, ampliar a coleta seletiva com incentivo a cooperativas, para reduzir emissões de resíduos e aumentar a reciclagem (meta de 20% em 2040) "
+Diadema,1,"Incentivar projetos de arborização urbana, com espécies nativas de ocorrência regional, e realizar retrofit verde das edificações existentes, incorporando sistemas construtivos verdes (telhados e paredes verdes), integrando captura de carbono, vegetação e isolamento."
+Engenheiro Coelho,0,"Apoiar o desenvolvimento de redes de monitoramento climático comunitário, articulado à Defesa Civil, aprimorando sistemas de alerta e desenvolvendo capacitações para a gestão de emergências na cidade, realizando com regularidade simulações para preparação do público em geral, nas quais participem todos os habitantes."
+Engenheiro Coelho,3,"Enfrentar a destinação adequada dos resíduos sólidos urbanos, ampliar a coleta seletiva com incentivo a cooperativas, para reduzir emissões de resíduos e aumentar a reciclagem (meta de 20% em 2040) "
+Engenheiro Coelho,2,"Gestão de incêndios na interface urbano-florestal, incentivar programas municipais e intermunicipais de controle de queimadas, criando brigadas regionais e sistemas de monitoramento por satélite e ampliando a fiscalização das rodovias e a construção de aceiros"
+Holambra,3,"Apoiar o desenvolvimento de redes de monitoramento climático comunitário, articulado à Defesa Civil, aprimorando sistemas de alerta e desenvolvendo capacitações para a gestão de emergências na cidade, realizando com regularidade simulações para preparação do público em geral, nas quais participem todos os habitantes."
+Holambra,1,"Nos projetos de restauração, atentar para as disposições do Plano Diretor para Recomposição Florestal visando à Conservação da Água na Bacia Hidrográfica do Rio Piracicaba (sub-bacia do Rio Jaguari)"
+Holambra,2,"Gestão de incêndios na interface urbano-florestal, incentivar programas municipais e intermunicipais de controle de queimadas, criando brigadas regionais e sistemas de monitoramento por satélite e ampliando a fiscalização das rodovias e a construção de aceiros"
+Hortolândia,0,"Apoiar o desenvolvimento de redes de monitoramento climático comunitário, articulado à Defesa Civil, aprimorando sistemas de alerta e desenvolvendo capacitações para a gestão de emergências na cidade, realizando com regularidade simulações para preparação do público em geral, nas quais participem todos os habitantes."
+Hortolândia,1,"Fortalecer as iniciativas de segurança alimentar e nutricional, contribuindo e ampliando os programas que oferecem alimentos e refeições saudáveis às populações vulnerabilizadas — com especial atenção a gestantes, crianças, adolescentes e idosos — por meio da promoção de banco de alimentos, quintais agroecológicos, apoio a cozinhas comunitárias e ampliação da rede de restaurantes populares."
+Hortolândia,2,"Promover hortas comunitárias como sumidouros de carbono e estratégias de descarbonização urbana, colaborando com organizações da sociedade civil na manutenção de hortas urbanas e práticas sustentáveis, e dando suporte à agricultura familiar e estimulando práticas agroecológicas"
+Hortolândia,3,"Nos projetos de restauração, atentar para as disposições do Plano Diretor para Recomposição Florestal visando à Conservação da Água na Bacia Hidrográfica do Rio Piracicaba"
+Hortolândia,1,"Incentivar projetos de arborização urbana, com espécies nativas de ocorrência regional, e realizar retrofit verde das edificações existentes, incorporando sistemas construtivos verdes (telhados e paredes verdes), integrando captura de carbono, vegetação e isolamento."
+Hortolândia,23,"Gestão de incêndios na interface urbano-florestal, incentivar programas municipais e intermunicipais de controle de queimadas, criando brigadas regionais e sistemas de monitoramento por satélite e ampliando a fiscalização das rodovias e a construção de aceiros"
+Ibiúna,0,"Apoiar o desenvolvimento de redes de monitoramento climático comunitário, articulado à Defesa Civil, aprimorando sistemas de alerta e desenvolvendo capacitações para a gestão de emergências na cidade, realizando com regularidade simulações para preparação do público em geral, nas quais participem todos os habitantes."
+Ibiúna,1,"Enfrentar a destinação adequada dos resíduos sólidos urbanos, ampliar a coleta seletiva com incentivo a cooperativas, para reduzir emissões de resíduos e aumentar a reciclagem (meta de 20% em 2040) "
+Ibiúna,2,"Gestão de incêndios na interface urbano-florestal, incentivar programas municipais e intermunicipais de controle de queimadas, criando brigadas regionais e sistemas de monitoramento por satélite e ampliando a fiscalização das rodovias e a construção de aceiros"
+Indaiatuba,0,"Apoiar o desenvolvimento de redes de monitoramento climático comunitário, articulado à Defesa Civil, aprimorando sistemas de alerta e desenvolvendo capacitações para a gestão de emergências na cidade, realizando com regularidade simulações para preparação do público em geral, nas quais participem todos os habitantes."
+Indaiatuba,2,"Fortalecer as iniciativas de segurança alimentar e nutricional, contribuindo e ampliando os programas que oferecem alimentos e refeições saudáveis às populações vulnerabilizadas — com especial atenção a gestantes, crianças, adolescentes e idosos — por meio da promoção de banco de alimentos, quintais agroecológicos, apoio a cozinhas comunitárias e ampliação da rede de restaurantes populares."
+Indaiatuba,3,"Enfrentar a destinação adequada dos resíduos sólidos urbanos, ampliar a coleta seletiva com incentivo a cooperativas, para reduzir emissões de resíduos e aumentar a reciclagem (meta de 20% em 2040) "
+Indaiatuba,3,"Nos projetos de restauração, atentar para as disposições do Plano Diretor para Recomposição Florestal visando à Conservação da Água na Bacia Hidrográfica do Rio Jundiaí"
+Indaiatuba,0,"Integrar dados climáticos nos sistemas de saúde municipais, com modelos preditivos para surtos associados a eventos extremos, tendo em vista a expansão da transmissão de doenças com o aquecimento, e fortalecer a vigilância epidemiológica para doenças sensíveis ao clima (dengue, chikungunya, zika, malária, leptospirose e doenças de veiculação hídrica)."
+Iperó,2,"Apoiar o desenvolvimento de redes de monitoramento climático comunitário, articulado à Defesa Civil, aprimorando sistemas de alerta e desenvolvendo capacitações para a gestão de emergências na cidade, realizando com regularidade simulações para preparação do público em geral, nas quais participem todos os habitantes."
+Iperó,3,"Fortalecer as iniciativas de segurança alimentar e nutricional, contribuindo e ampliando os programas que oferecem alimentos e refeições saudáveis às populações vulnerabilizadas — com especial atenção a gestantes, crianças, adolescentes e idosos — por meio da promoção de banco de alimentos, quintais agroecológicos, apoio a cozinhas comunitárias e ampliação da rede de restaurantes populares."
+Iperó,3,"Enfrentar a destinação adequada dos resíduos sólidos urbanos, ampliar a coleta seletiva com incentivo a cooperativas, para reduzir emissões de resíduos e aumentar a reciclagem (meta de 20% em 2040) "
+Iperó,2,Promover a integração do transporte intermunicipal de passageiros.
+Iperó,1,"Gestão de incêndios na interface urbano-florestal, incentivar programas municipais e intermunicipais de controle de queimadas, criando brigadas regionais e sistemas de monitoramento por satélite e ampliando a fiscalização das rodovias e a construção de aceiros"
+Itapetininga,2,"Apoiar o desenvolvimento de redes de monitoramento climático comunitário, articulado à Defesa Civil, aprimorando sistemas de alerta e desenvolvendo capacitações para a gestão de emergências na cidade, realizando com regularidade simulações para preparação do público em geral, nas quais participem todos os habitantes."
+Itapetininga,3,"Fortalecer as iniciativas de segurança alimentar e nutricional, contribuindo e ampliando os programas que oferecem alimentos e refeições saudáveis às populações vulnerabilizadas — com especial atenção a gestantes, crianças, adolescentes e idosos — por meio da promoção de banco de alimentos, quintais agroecológicos, apoio a cozinhas comunitárias e ampliação da rede de restaurantes populares."
+Itapetininga,1,"Enfrentar a destinação adequada dos resíduos sólidos urbanos, ampliar a coleta seletiva com incentivo a cooperativas, para reduzir emissões de resíduos e aumentar a reciclagem (meta de 20% em 2040) "
+Itatiba,0,"Enfrentar a destinação adequada dos resíduos sólidos urbanos, ampliar a coleta seletiva com incentivo a cooperativas, para reduzir emissões de resíduos e aumentar a reciclagem (meta de 20% em 2040) "
+Itatiba,1,"Nos projetos de restauração, atentar para as disposições do Plano Diretor para Recomposição Florestal visando à Conservação da Água na Bacia Hidrográfica do Rio Piracicaba (sub-bacia do Rio Atibaia)"
+Itatiba,2,"Gestão de incêndios na interface urbano-florestal, incentivar programas municipais e intermunicipais de controle de queimadas, criando brigadas regionais e sistemas de monitoramento por satélite e ampliando a fiscalização das rodovias e a construção de aceiros"
+Itu,3,"Apoiar o desenvolvimento de redes de monitoramento climático comunitário, articulado à Defesa Civil, aprimorando sistemas de alerta e desenvolvendo capacitações para a gestão de emergências na cidade, realizando com regularidade simulações para preparação do público em geral, nas quais participem todos os habitantes."
+Itu,0,"Enfrentar a destinação adequada dos resíduos sólidos urbanos, ampliar a coleta seletiva com incentivo a cooperativas, para reduzir emissões de resíduos e aumentar a reciclagem (meta de 20% em 2040) "
+Itu,2,"Nos projetos de restauração, atentar para as disposições do Plano Diretor para Recomposição Florestal visando à Conservação da Água na Bacia Hidrográfica do Rio Jundiaí"
+Itu,1,"Gestão de incêndios na interface urbano-florestal, incentivar programas municipais e intermunicipais de controle de queimadas, criando brigadas regionais e sistemas de monitoramento por satélite e ampliando a fiscalização das rodovias e a construção de aceiros"
+Jaguariúna,2,"Enfrentar a destinação adequada dos resíduos sólidos urbanos, ampliar a coleta seletiva com incentivo a cooperativas, para reduzir emissões de resíduos e aumentar a reciclagem (meta de 20% em 2040) "
+Jaguariúna,3,"Integrar dados climáticos nos sistemas de saúde municipais, com modelos preditivos para surtos associados a eventos extremos, tendo em vista a expansão da transmissão de doenças com o aquecimento, e fortalecer a vigilância epidemiológica para doenças sensíveis ao clima (dengue, chikungunya, zika, malária, leptospirose e doenças de veiculação hídrica)."
+Jaguariúna,3,"Gestão de incêndios na interface urbano-florestal, incentivar programas municipais e intermunicipais de controle de queimadas, criando brigadas regionais e sistemas de monitoramento por satélite e ampliando a fiscalização das rodovias e a construção de aceiros"
+Jumirim,2,"Apoiar o desenvolvimento de redes de monitoramento climático comunitário, articulado à Defesa Civil, aprimorando sistemas de alerta e desenvolvendo capacitações para a gestão de emergências na cidade, realizando com regularidade simulações para preparação do público em geral, nas quais participem todos os habitantes."
+Mairinque,3,"Enfrentar a destinação adequada dos resíduos sólidos urbanos, ampliar a coleta seletiva com incentivo a cooperativas, para reduzir emissões de resíduos e aumentar a reciclagem (meta de 20% em 2040) "
+Mairinque,0,Promover a integração do transporte intermunicipal de passageiros.
+Mairinque,1,"Gestão de incêndios na interface urbano-florestal, incentivar programas municipais e intermunicipais de controle de queimadas, criando brigadas regionais e sistemas de monitoramento por satélite e ampliando a fiscalização das rodovias e a construção de aceiros"
+Mauá,1,"Apoiar o desenvolvimento de redes de monitoramento climático comunitário, articulado à Defesa Civil, aprimorando sistemas de alerta e desenvolvendo capacitações para a gestão de emergências na cidade, realizando com regularidade simulações para preparação do público em geral, nas quais participem todos os habitantes."
+Mauá,0,"Promover hortas comunitárias como sumidouros de carbono e estratégias de descarbonização urbana, colaborando com organizações da sociedade civil na manutenção de hortas urbanas e práticas sustentáveis, e dando suporte à agricultura familiar e estimulando práticas agroecológicas"
+Mauá,1,"Enfrentar a destinação adequada dos resíduos sólidos urbanos, ampliar a coleta seletiva com incentivo a cooperativas, para reduzir emissões de resíduos e aumentar a reciclagem (meta de 20% em 2040) "
+Monte Mor,2,"Fortalecer as iniciativas de segurança alimentar e nutricional, contribuindo e ampliando os programas que oferecem alimentos e refeições saudáveis às populações vulnerabilizadas — com especial atenção a gestantes, crianças, adolescentes e idosos — por meio da promoção de banco de alimentos, quintais agroecológicos, apoio a cozinhas comunitárias e ampliação da rede de restaurantes populares."
+Monte Mor,0,"Enfrentar a destinação adequada dos resíduos sólidos urbanos, ampliar a coleta seletiva com incentivo a cooperativas, para reduzir emissões de resíduos e aumentar a reciclagem (meta de 20% em 2040) "
+Monte Mor,1,"Nos projetos de restauração, atentar para as disposições do Plano Diretor para Recomposição Florestal visando à Conservação da Água na Bacia Hidrográfica do Rio Capivari"
+Monte Mor,0,"Gestão de incêndios na interface urbano-florestal, incentivar programas municipais e intermunicipais de controle de queimadas, criando brigadas regionais e sistemas de monitoramento por satélite e ampliando a fiscalização das rodovias e a construção de aceiros"
+Morungaba,0,"Apoiar o desenvolvimento de redes de monitoramento climático comunitário, articulado à Defesa Civil, aprimorando sistemas de alerta e desenvolvendo capacitações para a gestão de emergências na cidade, realizando com regularidade simulações para preparação do público em geral, nas quais participem todos os habitantes."
+Morungaba,25,"Nos projetos de restauração, atentar para as disposições do Plano Diretor para Recomposição Florestal visando à Conservação da Água na Bacia Hidrográfica do Rio Piracicaba (sub-bacia do Rio Jaguari)"
+Nova Odessa,3,"Apoiar o desenvolvimento de redes de monitoramento climático comunitário, articulado à Defesa Civil, aprimorando sistemas de alerta e desenvolvendo capacitações para a gestão de emergências na cidade, realizando com regularidade simulações para preparação do público em geral, nas quais participem todos os habitantes."
+Nova Odessa,0,"Enfrentar a destinação adequada dos resíduos sólidos urbanos, ampliar a coleta seletiva com incentivo a cooperativas, para reduzir emissões de resíduos e aumentar a reciclagem (meta de 20% em 2040) "
+Nova Odessa,1,"Nos projetos de restauração, atentar para as disposições do Plano Diretor para Recomposição Florestal visando à Conservação da Água na Bacia Hidrográfica do Rio Piracicaba"
+Nova Odessa,2,"Gestão de incêndios na interface urbano-florestal, incentivar programas municipais e intermunicipais de controle de queimadas, criando brigadas regionais e sistemas de monitoramento por satélite e ampliando a fiscalização das rodovias e a construção de aceiros"
+Paulínia,3,"Enfrentar a destinação adequada dos resíduos sólidos urbanos, ampliar a coleta seletiva com incentivo a cooperativas, para reduzir emissões de resíduos e aumentar a reciclagem (meta de 20% em 2040) "
+Paulínia,0,"Nos projetos de restauração, atentar para as disposições do Plano Diretor para Recomposição Florestal visando à Conservação da Água na Bacia Hidrográfica do Rio Piracicaba (sub-bacia do Rio Atibaia)"
+Paulínia,3,"Integrar dados climáticos nos sistemas de saúde municipais, com modelos preditivos para surtos associados a eventos extremos, tendo em vista a expansão da transmissão de doenças com o aquecimento, e fortalecer a vigilância epidemiológica para doenças sensíveis ao clima (dengue, chikungunya, zika, malária, leptospirose e doenças de veiculação hídrica)."
+Paulínia,1,"Gestão de incêndios na interface urbano-florestal, incentivar programas municipais e intermunicipais de controle de queimadas, criando brigadas regionais e sistemas de monitoramento por satélite e ampliando a fiscalização das rodovias e a construção de aceiros"
+Pedreira,2,"Enfrentar a destinação adequada dos resíduos sólidos urbanos, ampliar a coleta seletiva com incentivo a cooperativas, para reduzir emissões de resíduos e aumentar a reciclagem (meta de 20% em 2040) "
+Pedreira,3,"Nos projetos de restauração, atentar para as disposições do Plano Diretor para Recomposição Florestal visando à Conservação da Água na Bacia Hidrográfica do Rio Piracicaba (sub-bacia do Rio Jaguari)"
+Pedreira,2,"Gestão de incêndios na interface urbano-florestal, incentivar programas municipais e intermunicipais de controle de queimadas, criando brigadas regionais e sistemas de monitoramento por satélite e ampliando a fiscalização das rodovias e a construção de aceiros"
+Piedade,3,"Apoiar o desenvolvimento de redes de monitoramento climático comunitário, articulado à Defesa Civil, aprimorando sistemas de alerta e desenvolvendo capacitações para a gestão de emergências na cidade, realizando com regularidade simulações para preparação do público em geral, nas quais participem todos os habitantes."
+Piedade,1,"Fortalecer as iniciativas de segurança alimentar e nutricional, contribuindo e ampliando os programas que oferecem alimentos e refeições saudáveis às populações vulnerabilizadas — com especial atenção a gestantes, crianças, adolescentes e idosos — por meio da promoção de banco de alimentos, quintais agroecológicos, apoio a cozinhas comunitárias e ampliação da rede de restaurantes populares."
+Piedade,2,"Enfrentar a destinação adequada dos resíduos sólidos urbanos, ampliar a coleta seletiva com incentivo a cooperativas, para reduzir emissões de resíduos e aumentar a reciclagem (meta de 20% em 2040) "
+Piedade,2,"Integrar dados climáticos nos sistemas de saúde municipais, com modelos preditivos para surtos associados a eventos extremos, tendo em vista a expansão da transmissão de doenças com o aquecimento, e fortalecer a vigilância epidemiológica para doenças sensíveis ao clima (dengue, chikungunya, zika, malária, leptospirose e doenças de veiculação hídrica)."
+Piedade,0,"Gestão de incêndios na interface urbano-florestal, incentivar programas municipais e intermunicipais de controle de queimadas, criando brigadas regionais e sistemas de monitoramento por satélite e ampliando a fiscalização das rodovias e a construção de aceiros"
+Pilar do Sul,1,"Apoiar o desenvolvimento de redes de monitoramento climático comunitário, articulado à Defesa Civil, aprimorando sistemas de alerta e desenvolvendo capacitações para a gestão de emergências na cidade, realizando com regularidade simulações para preparação do público em geral, nas quais participem todos os habitantes."
+Pilar do Sul,2,"Enfrentar a destinação adequada dos resíduos sólidos urbanos, ampliar a coleta seletiva com incentivo a cooperativas, para reduzir emissões de resíduos e aumentar a reciclagem (meta de 20% em 2040) "
+Porto Feliz,3,"Enfrentar a destinação adequada dos resíduos sólidos urbanos, ampliar a coleta seletiva com incentivo a cooperativas, para reduzir emissões de resíduos e aumentar a reciclagem (meta de 20% em 2040) "
+Porto Feliz,0,"Gestão de incêndios na interface urbano-florestal, incentivar programas municipais e intermunicipais de controle de queimadas, criando brigadas regionais e sistemas de monitoramento por satélite e ampliando a fiscalização das rodovias e a construção de aceiros"
+Ribeirão Pires,2,"Promover hortas comunitárias como sumidouros de carbono e estratégias de descarbonização urbana, colaborando com organizações da sociedade civil na manutenção de hortas urbanas e práticas sustentáveis, e dando suporte à agricultura familiar e estimulando práticas agroecológicas"
+Ribeirão Pires,3,"Enfrentar a destinação adequada dos resíduos sólidos urbanos, ampliar a coleta seletiva com incentivo a cooperativas, para reduzir emissões de resíduos e aumentar a reciclagem (meta de 20% em 2040) "
+Ribeirão Pires,1,"Gestão de incêndios na interface urbano-florestal, incentivar programas municipais e intermunicipais de controle de queimadas, criando brigadas regionais e sistemas de monitoramento por satélite e ampliando a fiscalização das rodovias e a construção de aceiros"
+Rio Grande da Serra,27,"Apoiar o desenvolvimento de redes de monitoramento climático comunitário, articulado à Defesa Civil, aprimorando sistemas de alerta e desenvolvendo capacitações para a gestão de emergências na cidade, realizando com regularidade simulações para preparação do público em geral, nas quais participem todos os habitantes."
+Rio Grande da Serra,1,"Fortalecer as iniciativas de segurança alimentar e nutricional, contribuindo e ampliando os programas que oferecem alimentos e refeições saudáveis às populações vulnerabilizadas — com especial atenção a gestantes, crianças, adolescentes e idosos — por meio da promoção de banco de alimentos, quintais agroecológicos, apoio a cozinhas comunitárias e ampliação da rede de restaurantes populares."
+Rio Grande da Serra,2,"Promover hortas comunitárias como sumidouros de carbono e estratégias de descarbonização urbana, colaborando com organizações da sociedade civil na manutenção de hortas urbanas e práticas sustentáveis, e dando suporte à agricultura familiar e estimulando práticas agroecológicas"
+Rio Grande da Serra,3,"Enfrentar a destinação adequada dos resíduos sólidos urbanos, ampliar a coleta seletiva com incentivo a cooperativas, para reduzir emissões de resíduos e aumentar a reciclagem (meta de 20% em 2040) "
+Salto,0,"Apoiar o desenvolvimento de redes de monitoramento climático comunitário, articulado à Defesa Civil, aprimorando sistemas de alerta e desenvolvendo capacitações para a gestão de emergências na cidade, realizando com regularidade simulações para preparação do público em geral, nas quais participem todos os habitantes."
+Salto,1,"Enfrentar a destinação adequada dos resíduos sólidos urbanos, ampliar a coleta seletiva com incentivo a cooperativas, para reduzir emissões de resíduos e aumentar a reciclagem (meta de 20% em 2040) "
+Salto,0,"Nos projetos de restauração, atentar para as disposições do Plano Diretor para Recomposição Florestal visando à Conservação da Água na Bacia Hidrográfica do Rio Jundiaí"
+Salto,1,"Gestão de incêndios na interface urbano-florestal, incentivar programas municipais e intermunicipais de controle de queimadas, criando brigadas regionais e sistemas de monitoramento por satélite e ampliando a fiscalização das rodovias e a construção de aceiros"
+Salto de Pirapora,2,"Fortalecer as iniciativas de segurança alimentar e nutricional, contribuindo e ampliando os programas que oferecem alimentos e refeições saudáveis às populações vulnerabilizadas — com especial atenção a gestantes, crianças, adolescentes e idosos — por meio da promoção de banco de alimentos, quintais agroecológicos, apoio a cozinhas comunitárias e ampliação da rede de restaurantes populares."
+Salto de Pirapora,3,"Enfrentar a destinação adequada dos resíduos sólidos urbanos, ampliar a coleta seletiva com incentivo a cooperativas, para reduzir emissões de resíduos e aumentar a reciclagem (meta de 20% em 2040) "
+Salto de Pirapora,0,Promover a integração do transporte intermunicipal de passageiros.
+Salto de Pirapora,2,"Integrar dados climáticos nos sistemas de saúde municipais, com modelos preditivos para surtos associados a eventos extremos, tendo em vista a expansão da transmissão de doenças com o aquecimento, e fortalecer a vigilância epidemiológica para doenças sensíveis ao clima (dengue, chikungunya, zika, malária, leptospirose e doenças de veiculação hídrica)."
+Salto de Pirapora,3,"Gestão de incêndios na interface urbano-florestal, incentivar programas municipais e intermunicipais de controle de queimadas, criando brigadas regionais e sistemas de monitoramento por satélite e ampliando a fiscalização das rodovias e a construção de aceiros"
+Santa Bárbara D'Oeste,0,"Apoiar o desenvolvimento de redes de monitoramento climático comunitário, articulado à Defesa Civil, aprimorando sistemas de alerta e desenvolvendo capacitações para a gestão de emergências na cidade, realizando com regularidade simulações para preparação do público em geral, nas quais participem todos os habitantes."
+Santa Bárbara D'Oeste,3,"Enfrentar a destinação adequada dos resíduos sólidos urbanos, ampliar a coleta seletiva com incentivo a cooperativas, para reduzir emissões de resíduos e aumentar a reciclagem (meta de 20% em 2040) "
+Santa Bárbara D'Oeste,1,"Nos projetos de restauração, atentar para as disposições do Plano Diretor para Recomposição Florestal visando à Conservação da Água na Bacia Hidrográfica do Rio Piracicaba"
+Santa Bárbara D'Oeste,2,"Gestão de incêndios na interface urbano-florestal, incentivar programas municipais e intermunicipais de controle de queimadas, criando brigadas regionais e sistemas de monitoramento por satélite e ampliando a fiscalização das rodovias e a construção de aceiros"
+Santo André,3,"Apoiar o desenvolvimento de redes de monitoramento climático comunitário, articulado à Defesa Civil, aprimorando sistemas de alerta e desenvolvendo capacitações para a gestão de emergências na cidade, realizando com regularidade simulações para preparação do público em geral, nas quais participem todos os habitantes."
+Santo André,3,"Promover hortas comunitárias como sumidouros de carbono e estratégias de descarbonização urbana, colaborando com organizações da sociedade civil na manutenção de hortas urbanas e práticas sustentáveis, e dando suporte à agricultura familiar e estimulando práticas agroecológicas"
+Santo André,2,"Enfrentar a destinação adequada dos resíduos sólidos urbanos, ampliar a coleta seletiva com incentivo a cooperativas, para reduzir emissões de resíduos e aumentar a reciclagem (meta de 20% em 2040) "
+Santo André,29,Cumprir metas regionais de redução de emissões: 22% até 2030
+Santo André,44,"Reduzir emissões do setor Transporte (60% do total): implantar corredores BRT (130 km até 2030), substituir gasolina por etanol, ampliar biodiesel e mobilidade ativa."
+Santo André,0,"Incentivar a elaboração de Plano Municipal de Mata Atlântica, para promover e incrementar a conservação de cobertura vegetal nativa, por meio de implementação de ações."
+Santo Antônio de Posse,1,"Apoiar o desenvolvimento de redes de monitoramento climático comunitário, articulado à Defesa Civil, aprimorando sistemas de alerta e desenvolvendo capacitações para a gestão de emergências na cidade, realizando com regularidade simulações para preparação do público em geral, nas quais participem todos os habitantes."
+Santo Antônio de Posse,2,"Enfrentar a destinação adequada dos resíduos sólidos urbanos, ampliar a coleta seletiva com incentivo a cooperativas, para reduzir emissões de resíduos e aumentar a reciclagem (meta de 20% em 2040) "
+Santo Antônio de Posse,3,"Nos projetos de restauração, atentar para as disposições do Plano Diretor para Recomposição Florestal visando à Conservação da Água na Bacia Hidrográfica do Rio Piracicaba (sub-bacia do Rio Jaguari)"
+Santo Antônio de Posse,0,"Gestão de incêndios na interface urbano-florestal, incentivar programas municipais e intermunicipais de controle de queimadas, criando brigadas regionais e sistemas de monitoramento por satélite e ampliando a fiscalização das rodovias e a construção de aceiros"
+São Bernardo do Campo,2,"Apoiar o desenvolvimento de redes de monitoramento climático comunitário, articulado à Defesa Civil, aprimorando sistemas de alerta e desenvolvendo capacitações para a gestão de emergências na cidade, realizando com regularidade simulações para preparação do público em geral, nas quais participem todos os habitantes."
+São Bernardo do Campo,3,"Fortalecer as iniciativas de segurança alimentar e nutricional, contribuindo e ampliando os programas que oferecem alimentos e refeições saudáveis às populações vulnerabilizadas — com especial atenção a gestantes, crianças, adolescentes e idosos — por meio da promoção de banco de alimentos, quintais agroecológicos, apoio a cozinhas comunitárias e ampliação da rede de restaurantes populares."
+São Bernardo do Campo,0,"Promover hortas comunitárias como sumidouros de carbono e estratégias de descarbonização urbana, colaborando com organizações da sociedade civil na manutenção de hortas urbanas e práticas sustentáveis, e dando suporte à agricultura familiar e estimulando práticas agroecológicas"
+São Bernardo do Campo,2,"Enfrentar a destinação adequada dos resíduos sólidos urbanos, ampliar a coleta seletiva com incentivo a cooperativas, para reduzir emissões de resíduos e aumentar a reciclagem (meta de 20% em 2040) "
+São Bernardo do Campo,3,"Reduzir emissões do setor Transporte (60% do total): implantar corredores BRT (130 km até 2030), substituir gasolina por etanol, ampliar biodiesel e mobilidade ativa."
+São Bernardo do Campo,1,Cumprir metas regionais de redução de emissões: 22% até 2030
+São Caetano do Sul,31,"Apoiar o desenvolvimento de redes de monitoramento climático comunitário, articulado à Defesa Civil, aprimorando sistemas de alerta e desenvolvendo capacitações para a gestão de emergências na cidade, realizando com regularidade simulações para preparação do público em geral, nas quais participem todos os habitantes."
+São Caetano do Sul,0,"Promover hortas comunitárias como sumidouros de carbono e estratégias de descarbonização urbana, colaborando com organizações da sociedade civil na manutenção de hortas urbanas e práticas sustentáveis, e dando suporte à agricultura familiar e estimulando práticas agroecológicas"
+São Caetano do Sul,1,"Enfrentar a destinação adequada dos resíduos sólidos urbanos, ampliar a coleta seletiva com incentivo a cooperativas, para reduzir emissões de resíduos e aumentar a reciclagem (meta de 20% em 2040) "
+São Caetano do Sul,2,Cumprir metas regionais de redução de emissões: 22% até 2030
+São Caetano do Sul,0,"Reduzir emissões do setor Transporte (60% do total): implantar corredores BRT (130 km até 2030), substituir gasolina por etanol, ampliar biodiesel e mobilidade ativa."
+São Caetano do Sul,1,"Incentivar projetos de arborização urbana, com espécies nativas de ocorrência regional, e realizar retrofit verde das edificações existentes, incorporando sistemas construtivos verdes (telhados e paredes verdes), integrando captura de carbono, vegetação e isolamento."
+São Miguel Arcanjo,0,"Apoiar o desenvolvimento de redes de monitoramento climático comunitário, articulado à Defesa Civil, aprimorando sistemas de alerta e desenvolvendo capacitações para a gestão de emergências na cidade, realizando com regularidade simulações para preparação do público em geral, nas quais participem todos os habitantes."
+São Miguel Arcanjo,3,"Enfrentar a destinação adequada dos resíduos sólidos urbanos, ampliar a coleta seletiva com incentivo a cooperativas, para reduzir emissões de resíduos e aumentar a reciclagem (meta de 20% em 2040) "
+São Miguel Arcanjo,2,"Gestão de incêndios na interface urbano-florestal, incentivar programas municipais e intermunicipais de controle de queimadas, criando brigadas regionais e sistemas de monitoramento por satélite e ampliando a fiscalização das rodovias e a construção de aceiros"
+São Roque,3,"Fortalecer as iniciativas de segurança alimentar e nutricional, contribuindo e ampliando os programas que oferecem alimentos e refeições saudáveis às populações vulnerabilizadas — com especial atenção a gestantes, crianças, adolescentes e idosos — por meio da promoção de banco de alimentos, quintais agroecológicos, apoio a cozinhas comunitárias e ampliação da rede de restaurantes populares."
+São Roque,0,"Enfrentar a destinação adequada dos resíduos sólidos urbanos, ampliar a coleta seletiva com incentivo a cooperativas, para reduzir emissões de resíduos e aumentar a reciclagem (meta de 20% em 2040) "
+São Roque,1,"Integrar dados climáticos nos sistemas de saúde municipais, com modelos preditivos para surtos associados a eventos extremos, tendo em vista a expansão da transmissão de doenças com o aquecimento, e fortalecer a vigilância epidemiológica para doenças sensíveis ao clima (dengue, chikungunya, zika, malária, leptospirose e doenças de veiculação hídrica)."
+São Roque,3,"Gestão de incêndios na interface urbano-florestal, incentivar programas municipais e intermunicipais de controle de queimadas, criando brigadas regionais e sistemas de monitoramento por satélite e ampliando a fiscalização das rodovias e a construção de aceiros"
+Sarapuí,0,"Enfrentar a destinação adequada dos resíduos sólidos urbanos, ampliar a coleta seletiva com incentivo a cooperativas, para reduzir emissões de resíduos e aumentar a reciclagem (meta de 20% em 2040) "
+Sorocaba,1,"Apoiar o desenvolvimento de redes de monitoramento climático comunitário, articulado à Defesa Civil, aprimorando sistemas de alerta e desenvolvendo capacitações para a gestão de emergências na cidade, realizando com regularidade simulações para preparação do público em geral, nas quais participem todos os habitantes."
+Sorocaba,2,"Enfrentar a destinação adequada dos resíduos sólidos urbanos, ampliar a coleta seletiva com incentivo a cooperativas, para reduzir emissões de resíduos e aumentar a reciclagem (meta de 20% em 2040) "
+Sorocaba,2,Promover a integração do transporte intermunicipal de passageiros.
+Sorocaba,1,"Gestão de incêndios na interface urbano-florestal, incentivar programas municipais e intermunicipais de controle de queimadas, criando brigadas regionais e sistemas de monitoramento por satélite e ampliando a fiscalização das rodovias e a construção de aceiros"
+Sumaré,2,"Apoiar o desenvolvimento de redes de monitoramento climático comunitário, articulado à Defesa Civil, aprimorando sistemas de alerta e desenvolvendo capacitações para a gestão de emergências na cidade, realizando com regularidade simulações para preparação do público em geral, nas quais participem todos os habitantes."
+Sumaré,3,"Fortalecer as iniciativas de segurança alimentar e nutricional, contribuindo e ampliando os programas que oferecem alimentos e refeições saudáveis às populações vulnerabilizadas — com especial atenção a gestantes, crianças, adolescentes e idosos — por meio da promoção de banco de alimentos, quintais agroecológicos, apoio a cozinhas comunitárias e ampliação da rede de restaurantes populares."
+Sumaré,0,"Enfrentar a destinação adequada dos resíduos sólidos urbanos, ampliar a coleta seletiva com incentivo a cooperativas, para reduzir emissões de resíduos e aumentar a reciclagem (meta de 20% em 2040) "
+Sumaré,1,"Nos projetos de restauração, atentar para as disposições do Plano Diretor para Recomposição Florestal visando à Conservação da Água na Bacia Hidrográfica do Rio Piracicaba"
+Sumaré,1,"Incentivar projetos de arborização urbana, com espécies nativas de ocorrência regional, e realizar retrofit verde das edificações existentes, incorporando sistemas construtivos verdes (telhados e paredes verdes), integrando captura de carbono, vegetação e isolamento."
+Sumaré,2,"Gestão de incêndios na interface urbano-florestal, incentivar programas municipais e intermunicipais de controle de queimadas, criando brigadas regionais e sistemas de monitoramento por satélite e ampliando a fiscalização das rodovias e a construção de aceiros"
+Tapiraí,3,"Enfrentar a destinação adequada dos resíduos sólidos urbanos, ampliar a coleta seletiva com incentivo a cooperativas, para reduzir emissões de resíduos e aumentar a reciclagem (meta de 20% em 2040) "
+Tapiraí,0,"Gestão de incêndios na interface urbano-florestal, incentivar programas municipais e intermunicipais de controle de queimadas, criando brigadas regionais e sistemas de monitoramento por satélite e ampliando a fiscalização das rodovias e a construção de aceiros"
+Tatuí,1,"Enfrentar a destinação adequada dos resíduos sólidos urbanos, ampliar a coleta seletiva com incentivo a cooperativas, para reduzir emissões de resíduos e aumentar a reciclagem (meta de 20% em 2040) "
+Tatuí,3,"Gestão de incêndios na interface urbano-florestal, incentivar programas municipais e intermunicipais de controle de queimadas, criando brigadas regionais e sistemas de monitoramento por satélite e ampliando a fiscalização das rodovias e a construção de aceiros"
+Tietê,0,"Apoiar o desenvolvimento de redes de monitoramento climático comunitário, articulado à Defesa Civil, aprimorando sistemas de alerta e desenvolvendo capacitações para a gestão de emergências na cidade, realizando com regularidade simulações para preparação do público em geral, nas quais participem todos os habitantes."
+Tietê,2,"Enfrentar a destinação adequada dos resíduos sólidos urbanos, ampliar a coleta seletiva com incentivo a cooperativas, para reduzir emissões de resíduos e aumentar a reciclagem (meta de 20% em 2040) "
+Tietê,3,"Nos projetos de restauração, atentar para as disposições do Plano Diretor para Recomposição Florestal visando à Conservação da Água na Bacia Hidrográfica do Rio Capivari"
+Valinhos,0,"Apoiar o desenvolvimento de redes de monitoramento climático comunitário, articulado à Defesa Civil, aprimorando sistemas de alerta e desenvolvendo capacitações para a gestão de emergências na cidade, realizando com regularidade simulações para preparação do público em geral, nas quais participem todos os habitantes."
+Valinhos,3,"Nos projetos de restauração, atentar para as disposições do Plano Diretor para Recomposição Florestal visando à Conservação da Água na Bacia Hidrográfica do Rio Piracicaba (sub-bacia do Rio Atibaia)"
+Valinhos,0,"Gestão de incêndios na interface urbano-florestal, incentivar programas municipais e intermunicipais de controle de queimadas, criando brigadas regionais e sistemas de monitoramento por satélite e ampliando a fiscalização das rodovias e a construção de aceiros"
+Vinhedo,1,"Apoiar o desenvolvimento de redes de monitoramento climático comunitário, articulado à Defesa Civil, aprimorando sistemas de alerta e desenvolvendo capacitações para a gestão de emergências na cidade, realizando com regularidade simulações para preparação do público em geral, nas quais participem todos os habitantes."
+Vinhedo,2,"Nos projetos de restauração, atentar para as disposições do Plano Diretor para Recomposição Florestal visando à Conservação da Água na Bacia Hidrográfica do Rio Capivari"
+Vinhedo,3,"Integrar dados climáticos nos sistemas de saúde municipais, com modelos preditivos para surtos associados a eventos extremos, tendo em vista a expansão da transmissão de doenças com o aquecimento, e fortalecer a vigilância epidemiológica para doenças sensíveis ao clima (dengue, chikungunya, zika, malária, leptospirose e doenças de veiculação hídrica)."
+Vinhedo,2,"Gestão de incêndios na interface urbano-florestal, incentivar programas municipais e intermunicipais de controle de queimadas, criando brigadas regionais e sistemas de monitoramento por satélite e ampliando a fiscalização das rodovias e a construção de aceiros"
+Votorantim,33,"Apoiar o desenvolvimento de redes de monitoramento climático comunitário, articulado à Defesa Civil, aprimorando sistemas de alerta e desenvolvendo capacitações para a gestão de emergências na cidade, realizando com regularidade simulações para preparação do público em geral, nas quais participem todos os habitantes."
+Votorantim,0,"Enfrentar a destinação adequada dos resíduos sólidos urbanos, ampliar a coleta seletiva com incentivo a cooperativas, para reduzir emissões de resíduos e aumentar a reciclagem (meta de 20% em 2040) "
+Votorantim,1,Promover a integração do transporte intermunicipal de passageiros.
+Votorantim,2,"Gestão de incêndios na interface urbano-florestal, incentivar programas municipais e intermunicipais de controle de queimadas, criando brigadas regionais e sistemas de monitoramento por satélite e ampliando a fiscalização das rodovias e a construção de aceiros"
+Alambari,3,"Cruzar dados de saneamento básico com indicadores de informalidade habitacional em nível intraurbano para orientar a alocação de recursos e a implementação de programas de regularização fundiária, recuperação de assentamentos precários, requalificação urbana e habitacional e ampliação da infraestrutura urbana."
+Alambari,2,"Promover a gestão participativa e a fiscalização ativa do uso do solo, com efetivo exercício do poder de polícia, para orientar a expansão urbana e prevenir o surgimento de assentamentos irregulares e precários."
+Araçariguama,3,"Cruzar dados de saneamento básico com indicadores de informalidade habitacional em nível intraurbano para orientar a alocação de recursos e a implementação de programas de regularização fundiária, recuperação de assentamentos precários, requalificação urbana e habitacional e ampliação da infraestrutura urbana."
+Araçariguama,1,"Promover a gestão participativa e a fiscalização ativa do uso do solo, com efetivo exercício do poder de polícia, para orientar a expansão urbana e prevenir o surgimento de assentamentos irregulares e precários."
+Cesário Lange,0,"Cruzar dados de saneamento básico com indicadores de informalidade habitacional em nível intraurbano para orientar a alocação de recursos e a implementação de programas de regularização fundiária, recuperação de assentamentos precários, requalificação urbana e habitacional e ampliação da infraestrutura urbana."
+Cesário Lange,1,"Promover a gestão participativa e a fiscalização ativa do uso do solo, com efetivo exercício do poder de polícia, para orientar a expansão urbana e prevenir o surgimento de assentamentos irregulares e precários."
+Holambra,2,"Cruzar dados de saneamento básico com indicadores de informalidade habitacional em nível intraurbano para orientar a alocação de recursos e a implementação de programas de regularização fundiária, recuperação de assentamentos precários, requalificação urbana e habitacional e ampliação da infraestrutura urbana."
+Holambra,2,"Promover a gestão participativa e a fiscalização ativa do uso do solo, com efetivo exercício do poder de polícia, para orientar a expansão urbana e prevenir o surgimento de assentamentos irregulares e precários."
+Ibiúna,3,"Cruzar dados de saneamento básico com indicadores de informalidade habitacional em nível intraurbano para orientar a alocação de recursos e a implementação de programas de regularização fundiária, recuperação de assentamentos precários, requalificação urbana e habitacional e ampliação da infraestrutura urbana."
+Ibiúna,0,"Promover a gestão participativa e a fiscalização ativa do uso do solo, com efetivo exercício do poder de polícia, para orientar a expansão urbana e prevenir o surgimento de assentamentos irregulares e precários."
+Iperó,1,"Cruzar dados de saneamento básico com indicadores de informalidade habitacional em nível intraurbano para orientar a alocação de recursos e a implementação de programas de regularização fundiária, recuperação de assentamentos precários, requalificação urbana e habitacional e ampliação da infraestrutura urbana."
+Iperó,2,"Promover a gestão participativa e a fiscalização ativa do uso do solo, com efetivo exercício do poder de polícia, para orientar a expansão urbana e prevenir o surgimento de assentamentos irregulares e precários."
+Jumirim,3,"Cruzar dados de saneamento básico com indicadores de informalidade habitacional em nível intraurbano para orientar a alocação de recursos e a implementação de programas de regularização fundiária, recuperação de assentamentos precários, requalificação urbana e habitacional e ampliação da infraestrutura urbana."
+Jumirim,1,Universalizar coleta e tratamento de esgoto até 2033 (90%).
+Jumirim,2,"Promover a gestão participativa e a fiscalização ativa do uso do solo, com efetivo exercício do poder de polícia, para orientar a expansão urbana e prevenir o surgimento de assentamentos irregulares e precários."
+Piedade,1,"Cruzar dados de saneamento básico com indicadores de informalidade habitacional em nível intraurbano para orientar a alocação de recursos e a implementação de programas de regularização fundiária, recuperação de assentamentos precários, requalificação urbana e habitacional e ampliação da infraestrutura urbana."
+Piedade,1,"Promover a gestão participativa e a fiscalização ativa do uso do solo, com efetivo exercício do poder de polícia, para orientar a expansão urbana e prevenir o surgimento de assentamentos irregulares e precários."
+Porto Feliz,0,"Cruzar dados de saneamento básico com indicadores de informalidade habitacional em nível intraurbano para orientar a alocação de recursos e a implementação de programas de regularização fundiária, recuperação de assentamentos precários, requalificação urbana e habitacional e ampliação da infraestrutura urbana."
+Porto Feliz,1,"Promover a gestão participativa e a fiscalização ativa do uso do solo, com efetivo exercício do poder de polícia, para orientar a expansão urbana e prevenir o surgimento de assentamentos irregulares e precários."
+São Miguel Arcanjo,2,"Cruzar dados de saneamento básico com indicadores de informalidade habitacional em nível intraurbano para orientar a alocação de recursos e a implementação de programas de regularização fundiária, recuperação de assentamentos precários, requalificação urbana e habitacional e ampliação da infraestrutura urbana."
+São Miguel Arcanjo,0,"Promover a gestão participativa e a fiscalização ativa do uso do solo, com efetivo exercício do poder de polícia, para orientar a expansão urbana e prevenir o surgimento de assentamentos irregulares e precários."
+São Roque,0,"Cruzar dados de saneamento básico com indicadores de informalidade habitacional em nível intraurbano para orientar a alocação de recursos e a implementação de programas de regularização fundiária, recuperação de assentamentos precários, requalificação urbana e habitacional e ampliação da infraestrutura urbana."
+São Roque,45,"Promover a gestão participativa e a fiscalização ativa do uso do solo, com efetivo exercício do poder de polícia, para orientar a expansão urbana e prevenir o surgimento de assentamentos irregulares e precários."
+Tapiraí,2,"Cruzar dados de saneamento básico com indicadores de informalidade habitacional em nível intraurbano para orientar a alocação de recursos e a implementação de programas de regularização fundiária, recuperação de assentamentos precários, requalificação urbana e habitacional e ampliação da infraestrutura urbana."
+Tapiraí,3,"Promover a gestão participativa e a fiscalização ativa do uso do solo, com efetivo exercício do poder de polícia, para orientar a expansão urbana e prevenir o surgimento de assentamentos irregulares e precários."
+Engenheiro Coelho,3,"Cruzar dados de saneamento básico com indicadores de informalidade habitacional em nível intraurbano para orientar a alocação de recursos e a implementação de programas de regularização fundiária, recuperação de assentamentos precários, requalificação urbana e habitacional e ampliação da infraestrutura urbana."
+Engenheiro Coelho,0,"Promover a gestão participativa e a fiscalização ativa do uso do solo, com efetivo exercício do poder de polícia, para orientar a expansão urbana e prevenir o surgimento de assentamentos irregulares e precários."
+Engenheiro Coelho,3,"Universalizar a coleta e o tratamento de esgoto até 2033, alcançando 90% de cobertura, e fortalecer a fiscalização integrada e a articulação institucional para prevenir o descarte inadequado de esgoto e resíduos, bem como a degradação e a ocupação irregular de APPs hídricas e áreas de mananciais."
+Alambari,3,"Encerrar lixões e universalizar a coleta de resíduos até 2032, fortalecendo a fiscalização integrada e a articulação institucional para prevenir o descarte inadequado de esgoto e resíduos, bem como a degradação e a ocupação irregular de APPs hídricas e áreas de mananciais."
+Alumínio,0,"Encerrar lixões e universalizar a coleta de resíduos até 2032, fortalecendo a fiscalização integrada e a articulação institucional para prevenir o descarte inadequado de esgoto e resíduos, bem como a degradação e a ocupação irregular de APPs hídricas e áreas de mananciais."
+Araçariguama,1,"Encerrar lixões e universalizar a coleta de resíduos até 2032, fortalecendo a fiscalização integrada e a articulação institucional para prevenir o descarte inadequado de esgoto e resíduos, bem como a degradação e a ocupação irregular de APPs hídricas e áreas de mananciais."
+Araçoiaba da Serra,2,"Encerrar lixões e universalizar a coleta de resíduos até 2032, fortalecendo a fiscalização integrada e a articulação institucional para prevenir o descarte inadequado de esgoto e resíduos, bem como a degradação e a ocupação irregular de APPs hídricas e áreas de mananciais."
+Artur Nogueira,0,"Encerrar lixões e universalizar a coleta de resíduos até 2032, fortalecendo a fiscalização integrada e a articulação institucional para prevenir o descarte inadequado de esgoto e resíduos, bem como a degradação e a ocupação irregular de APPs hídricas e áreas de mananciais."
+Boituva,1,"Encerrar lixões e universalizar a coleta de resíduos até 2032, fortalecendo a fiscalização integrada e a articulação institucional para prevenir o descarte inadequado de esgoto e resíduos, bem como a degradação e a ocupação irregular de APPs hídricas e áreas de mananciais."
+Capela do Alto,2,"Encerrar lixões e universalizar a coleta de resíduos até 2032, fortalecendo a fiscalização integrada e a articulação institucional para prevenir o descarte inadequado de esgoto e resíduos, bem como a degradação e a ocupação irregular de APPs hídricas e áreas de mananciais."
+Cesário Lange,3,"Encerrar lixões e universalizar a coleta de resíduos até 2032, fortalecendo a fiscalização integrada e a articulação institucional para prevenir o descarte inadequado de esgoto e resíduos, bem como a degradação e a ocupação irregular de APPs hídricas e áreas de mananciais."
+Holambra,2,"Encerrar lixões e universalizar a coleta de resíduos até 2032, fortalecendo a fiscalização integrada e a articulação institucional para prevenir o descarte inadequado de esgoto e resíduos, bem como a degradação e a ocupação irregular de APPs hídricas e áreas de mananciais."
+Ibiúna,34,"Encerrar lixões e universalizar a coleta de resíduos até 2032, fortalecendo a fiscalização integrada e a articulação institucional para prevenir o descarte inadequado de esgoto e resíduos, bem como a degradação e a ocupação irregular de APPs hídricas e áreas de mananciais."
+Iperó,3,"Encerrar lixões e universalizar a coleta de resíduos até 2032, fortalecendo a fiscalização integrada e a articulação institucional para prevenir o descarte inadequado de esgoto e resíduos, bem como a degradação e a ocupação irregular de APPs hídricas e áreas de mananciais."
+Itatiba,0,"Encerrar lixões e universalizar a coleta de resíduos até 2032, fortalecendo a fiscalização integrada e a articulação institucional para prevenir o descarte inadequado de esgoto e resíduos, bem como a degradação e a ocupação irregular de APPs hídricas e áreas de mananciais."
+Itu,1,"Encerrar lixões e universalizar a coleta de resíduos até 2032, fortalecendo a fiscalização integrada e a articulação institucional para prevenir o descarte inadequado de esgoto e resíduos, bem como a degradação e a ocupação irregular de APPs hídricas e áreas de mananciais."
+Jumirim,2,"Encerrar lixões e universalizar a coleta de resíduos até 2032, fortalecendo a fiscalização integrada e a articulação institucional para prevenir o descarte inadequado de esgoto e resíduos, bem como a degradação e a ocupação irregular de APPs hídricas e áreas de mananciais."
+Mairinque,1,"Encerrar lixões e universalizar a coleta de resíduos até 2032, fortalecendo a fiscalização integrada e a articulação institucional para prevenir o descarte inadequado de esgoto e resíduos, bem como a degradação e a ocupação irregular de APPs hídricas e áreas de mananciais."
+Monte Mor,0,"Encerrar lixões e universalizar a coleta de resíduos até 2032, fortalecendo a fiscalização integrada e a articulação institucional para prevenir o descarte inadequado de esgoto e resíduos, bem como a degradação e a ocupação irregular de APPs hídricas e áreas de mananciais."
+Morungaba,1,"Encerrar lixões e universalizar a coleta de resíduos até 2032, fortalecendo a fiscalização integrada e a articulação institucional para prevenir o descarte inadequado de esgoto e resíduos, bem como a degradação e a ocupação irregular de APPs hídricas e áreas de mananciais."
+Piedade,1,"Encerrar lixões e universalizar a coleta de resíduos até 2032, fortalecendo a fiscalização integrada e a articulação institucional para prevenir o descarte inadequado de esgoto e resíduos, bem como a degradação e a ocupação irregular de APPs hídricas e áreas de mananciais."
+Pilar do Sul,35,"Encerrar lixões e universalizar a coleta de resíduos até 2032, fortalecendo a fiscalização integrada e a articulação institucional para prevenir o descarte inadequado de esgoto e resíduos, bem como a degradação e a ocupação irregular de APPs hídricas e áreas de mananciais."
+Porto Feliz,3,"Encerrar lixões e universalizar a coleta de resíduos até 2032, fortalecendo a fiscalização integrada e a articulação institucional para prevenir o descarte inadequado de esgoto e resíduos, bem como a degradação e a ocupação irregular de APPs hídricas e áreas de mananciais."
+Ribeirão Pires,0,"Encerrar lixões e universalizar a coleta de resíduos até 2032, fortalecendo a fiscalização integrada e a articulação institucional para prevenir o descarte inadequado de esgoto e resíduos, bem como a degradação e a ocupação irregular de APPs hídricas e áreas de mananciais."
+Rio Grande da Serra,1,"Encerrar lixões e universalizar a coleta de resíduos até 2032, fortalecendo a fiscalização integrada e a articulação institucional para prevenir o descarte inadequado de esgoto e resíduos, bem como a degradação e a ocupação irregular de APPs hídricas e áreas de mananciais."
+Salto de Pirapora,2,"Encerrar lixões e universalizar a coleta de resíduos até 2032, fortalecendo a fiscalização integrada e a articulação institucional para prevenir o descarte inadequado de esgoto e resíduos, bem como a degradação e a ocupação irregular de APPs hídricas e áreas de mananciais."
+São Miguel Arcanjo,0,"Encerrar lixões e universalizar a coleta de resíduos até 2032, fortalecendo a fiscalização integrada e a articulação institucional para prevenir o descarte inadequado de esgoto e resíduos, bem como a degradação e a ocupação irregular de APPs hídricas e áreas de mananciais."
+São Roque,36,"Encerrar lixões e universalizar a coleta de resíduos até 2032, fortalecendo a fiscalização integrada e a articulação institucional para prevenir o descarte inadequado de esgoto e resíduos, bem como a degradação e a ocupação irregular de APPs hídricas e áreas de mananciais."
+Sarapuí,3,"Encerrar lixões e universalizar a coleta de resíduos até 2032, fortalecendo a fiscalização integrada e a articulação institucional para prevenir o descarte inadequado de esgoto e resíduos, bem como a degradação e a ocupação irregular de APPs hídricas e áreas de mananciais."
+Tapiraí,0,"Encerrar lixões e universalizar a coleta de resíduos até 2032, fortalecendo a fiscalização integrada e a articulação institucional para prevenir o descarte inadequado de esgoto e resíduos, bem como a degradação e a ocupação irregular de APPs hídricas e áreas de mananciais."
+Tatuí,1,"Encerrar lixões e universalizar a coleta de resíduos até 2032, fortalecendo a fiscalização integrada e a articulação institucional para prevenir o descarte inadequado de esgoto e resíduos, bem como a degradação e a ocupação irregular de APPs hídricas e áreas de mananciais."
+Tietê,2,"Encerrar lixões e universalizar a coleta de resíduos até 2032, fortalecendo a fiscalização integrada e a articulação institucional para prevenir o descarte inadequado de esgoto e resíduos, bem como a degradação e a ocupação irregular de APPs hídricas e áreas de mananciais."
+Vinhedo,3,"Encerrar lixões e universalizar a coleta de resíduos até 2032, fortalecendo a fiscalização integrada e a articulação institucional para prevenir o descarte inadequado de esgoto e resíduos, bem como a degradação e a ocupação irregular de APPs hídricas e áreas de mananciais."
+Itu,2,"Integrar as políticas habitacionais ao planejamento territorial, com projetos urbanos voltados à população de baixa renda que priorizem acessibilidade, mobilidade do pedestre, conforto térmico e áreas permeáveis."
+Itu,0,"Priorizar áreas urbanas consolidadas e subutilizadas para a implantação de empreendimentos de Habitação de Interesse Social (HIS), utilizando instrumentos do Estatuto da Cidade (ZEIS, consórcios imobiliários, outorga onerosa) para promover a ocupação de vazios urbanos, captar recursos para a requalificação de empreendimentos existentes e garantir moradias integradas à malha urbana, com acesso a infraestrutura, serviços públicos, mobilidade, equipamentos sociais e oportunidades de emprego."
+Itu,1,"Estabelecer buffers de 1 a 2 km como raio de análise do entorno dos empreendimentos de HIS para avaliar acesso a transporte público, equipamentos sociais e oportunidades de emprego."
+Ribeirão Pires,1,"Integrar as políticas habitacionais ao planejamento territorial, com projetos urbanos voltados à população de baixa renda que priorizem acessibilidade, mobilidade do pedestre, conforto térmico e áreas permeáveis."
+Ribeirão Pires,3,"Priorizar áreas urbanas consolidadas e subutilizadas para a implantação de empreendimentos de Habitação de Interesse Social (HIS), utilizando instrumentos do Estatuto da Cidade (ZEIS, consórcios imobiliários, outorga onerosa) para promover a ocupação de vazios urbanos, captar recursos para a requalificação de empreendimentos existentes e garantir moradias integradas à malha urbana, com acesso a infraestrutura, serviços públicos, mobilidade, equipamentos sociais e oportunidades de emprego."
+Ribeirão Pires,46,"Estabelecer buffers de 1 a 2 km como raio de análise do entorno dos empreendimentos de HIS para avaliar acesso a transporte público, equipamentos sociais e oportunidades de emprego."
+Engenheiro Coelho,0,"Priorizar melhorias habitacionais no estoque existente em vez de focar apenas em novas unidades, articulados a intervenções de urbanização, melhorias urbanas e regularização fundiária em assentamentos e núcleos urbanos."
+Engenheiro Coelho,1,"Regulamentar e efetivar a Assistência Técnica em Habitação de Interesse Social (ATHIS) nos municípios, conforme a Lei nº 11.888/2008, para apoiar as comunidades na requalificação, manutenção e gestão de suas moradias e empreendimentos."
+Itu,2,"Priorizar melhorias habitacionais no estoque existente em vez de focar apenas em novas unidades, articulados a intervenções de urbanização, melhorias urbanas e regularização fundiária em assentamentos e núcleos urbanos."
+Itu,3,"Regulamentar e efetivar a Assistência Técnica em Habitação de Interesse Social (ATHIS) nos municípios, conforme a Lei nº 11.888/2008, para apoiar as comunidades na requalificação, manutenção e gestão de suas moradias e empreendimentos."
+Rio Grande da Serra,2,"Priorizar melhorias habitacionais no estoque existente em vez de focar apenas em novas unidades, articulados a intervenções de urbanização, melhorias urbanas e regularização fundiária em assentamentos e núcleos urbanos."
+Rio Grande da Serra,0,"Regulamentar e efetivar a Assistência Técnica em Habitação de Interesse Social (ATHIS) nos municípios, conforme a Lei nº 11.888/2008, para apoiar as comunidades na requalificação, manutenção e gestão de suas moradias e empreendimentos."
+Santo André,1,"Priorizar melhorias habitacionais no estoque existente em vez de focar apenas em novas unidades, articulados a intervenções de urbanização, melhorias urbanas e regularização fundiária em assentamentos e núcleos urbanos."
+Santo André,2,"Regulamentar e efetivar a Assistência Técnica em Habitação de Interesse Social (ATHIS) nos municípios, conforme a Lei nº 11.888/2008, para apoiar as comunidades na requalificação, manutenção e gestão de suas moradias e empreendimentos."
+São Roque,3,"Priorizar melhorias habitacionais no estoque existente em vez de focar apenas em novas unidades, articulados a intervenções de urbanização, melhorias urbanas e regularização fundiária em assentamentos e núcleos urbanos."
+São Roque,0,"Regulamentar e efetivar a Assistência Técnica em Habitação de Interesse Social (ATHIS) nos municípios, conforme a Lei nº 11.888/2008, para apoiar as comunidades na requalificação, manutenção e gestão de suas moradias e empreendimentos."
+Tapiraí,1,"Priorizar melhorias habitacionais no estoque existente em vez de focar apenas em novas unidades, articulados a intervenções de urbanização, melhorias urbanas e regularização fundiária em assentamentos e núcleos urbanos."
+Tapiraí,2,"Regulamentar e efetivar a Assistência Técnica em Habitação de Interesse Social (ATHIS) nos municípios, conforme a Lei nº 11.888/2008, para apoiar as comunidades na requalificação, manutenção e gestão de suas moradias e empreendimentos."
+Araçariguama,3,"Ampliar e qualificar a rede e a infraestrutura de atenção básica à saúde, com aumento da oferta de médicos e leitos hospitalares, expansão da Estratégia Saúde da Família (ESF) e fortalecimento da capacitação continuada dos agentes comunitários de saúde, considerando o desempenho crítico da dimensão Longevidade no IPRS."
+Mairinque,1,"Ampliar e qualificar a rede e a infraestrutura de atenção básica à saúde, com aumento da oferta de médicos e leitos hospitalares, expansão da Estratégia Saúde da Família (ESF) e fortalecimento da capacitação continuada dos agentes comunitários de saúde, considerando o desempenho crítico da dimensão Longevidade no IPRS."
+Americana,43,"Ampliar programas contínuos de educação e conscientização ambiental, articulados à universalização dos serviços de saneamento básico, incluindo a coleta e o tratamento de resíduos e efluentes e a eliminação de formas inadequadas de disposição, com metas de universalização até 2032/2033."
+Americana,2,"Ampliar e qualificar a rede e a infraestrutura de atenção básica à saúde, com aumento da oferta de médicos e leitos hospitalares, expansão da Estratégia Saúde da Família (ESF) e fortalecimento da capacitação continuada dos agentes comunitários de saúde, considerando o desempenho crítico da dimensão Longevidade no IPRS."
+Indaiatuba,3,"Ampliar programas contínuos de educação e conscientização ambiental, articulados à universalização dos serviços de saneamento básico, incluindo a coleta e o tratamento de resíduos e efluentes e a eliminação de formas inadequadas de disposição, com metas de universalização até 2032/2033."
+Indaiatuba,0,"Ampliar e qualificar a rede e a infraestrutura de atenção básica à saúde, com aumento da oferta de médicos e leitos hospitalares, expansão da Estratégia Saúde da Família (ESF) e fortalecimento da capacitação continuada dos agentes comunitários de saúde, considerando o desempenho crítico da dimensão Longevidade no IPRS."
+Jaguariúna,1,"Ampliar programas contínuos de educação e conscientização ambiental, articulados à universalização dos serviços de saneamento básico, incluindo a coleta e o tratamento de resíduos e efluentes e a eliminação de formas inadequadas de disposição, com metas de universalização até 2032/2033."
+Jaguariúna,0,"Ampliar e qualificar a rede e a infraestrutura de atenção básica à saúde, com aumento da oferta de médicos e leitos hospitalares, expansão da Estratégia Saúde da Família (ESF) e fortalecimento da capacitação continuada dos agentes comunitários de saúde, considerando o desempenho crítico da dimensão Longevidade no IPRS."
+Paulínia,37,"Ampliar programas contínuos de educação e conscientização ambiental, articulados à universalização dos serviços de saneamento básico, incluindo a coleta e o tratamento de resíduos e efluentes e a eliminação de formas inadequadas de disposição, com metas de universalização até 2032/2033."
+Paulínia,2,"Ampliar e qualificar a rede e a infraestrutura de atenção básica à saúde, com aumento da oferta de médicos e leitos hospitalares, expansão da Estratégia Saúde da Família (ESF) e fortalecimento da capacitação continuada dos agentes comunitários de saúde, considerando o desempenho crítico da dimensão Longevidade no IPRS."
+Salto de Pirapora,3,"Ampliar programas contínuos de educação e conscientização ambiental, articulados à universalização dos serviços de saneamento básico, incluindo a coleta e o tratamento de resíduos e efluentes e a eliminação de formas inadequadas de disposição, com metas de universalização até 2032/2033."
+Salto de Pirapora,0,"Ampliar e qualificar a rede e a infraestrutura de atenção básica à saúde, com aumento da oferta de médicos e leitos hospitalares, expansão da Estratégia Saúde da Família (ESF) e fortalecimento da capacitação continuada dos agentes comunitários de saúde, considerando o desempenho crítico da dimensão Longevidade no IPRS."
+São Roque,1,"Ampliar programas contínuos de educação e conscientização ambiental, articulados à universalização dos serviços de saneamento básico, incluindo a coleta e o tratamento de resíduos e efluentes e a eliminação de formas inadequadas de disposição, com metas de universalização até 2032/2033."
+São Roque,2,"Ampliar e qualificar a rede e a infraestrutura de atenção básica à saúde, com aumento da oferta de médicos e leitos hospitalares, expansão da Estratégia Saúde da Família (ESF) e fortalecimento da capacitação continuada dos agentes comunitários de saúde, considerando o desempenho crítico da dimensão Longevidade no IPRS."
+Alambari,3,"Assegurar que a incorporação tecnológica nas políticas habitacionais e ambientais seja orientada à melhoria da qualidade de vida e à garantia de direitos básicos, com atuação transdisciplinar e intersetorial e atenção às necessidades e à acessibilidade das pessoas com deficiência (PcD)."
+Araçariguama,3,"Assegurar que a incorporação tecnológica nas políticas habitacionais e ambientais seja orientada à melhoria da qualidade de vida e à garantia de direitos básicos, com atuação transdisciplinar e intersetorial e atenção às necessidades e à acessibilidade das pessoas com deficiência (PcD)."
+Ibiúna,0,"Assegurar que a incorporação tecnológica nas políticas habitacionais e ambientais seja orientada à melhoria da qualidade de vida e à garantia de direitos básicos, com atuação transdisciplinar e intersetorial e atenção às necessidades e à acessibilidade das pessoas com deficiência (PcD)."
+Iperó,1,"Assegurar que a incorporação tecnológica nas políticas habitacionais e ambientais seja orientada à melhoria da qualidade de vida e à garantia de direitos básicos, com atuação transdisciplinar e intersetorial e atenção às necessidades e à acessibilidade das pessoas com deficiência (PcD)."
+Pilar do Sul,2,"Assegurar que a incorporação tecnológica nas políticas habitacionais e ambientais seja orientada à melhoria da qualidade de vida e à garantia de direitos básicos, com atuação transdisciplinar e intersetorial e atenção às necessidades e à acessibilidade das pessoas com deficiência (PcD)."
+Salto de Pirapora,3,"Assegurar que a incorporação tecnológica nas políticas habitacionais e ambientais seja orientada à melhoria da qualidade de vida e à garantia de direitos básicos, com atuação transdisciplinar e intersetorial e atenção às necessidades e à acessibilidade das pessoas com deficiência (PcD)."
+São Miguel Arcanjo,0,"Assegurar que a incorporação tecnológica nas políticas habitacionais e ambientais seja orientada à melhoria da qualidade de vida e à garantia de direitos básicos, com atuação transdisciplinar e intersetorial e atenção às necessidades e à acessibilidade das pessoas com deficiência (PcD)."
+Tapiraí,1,"Assegurar que a incorporação tecnológica nas políticas habitacionais e ambientais seja orientada à melhoria da qualidade de vida e à garantia de direitos básicos, com atuação transdisciplinar e intersetorial e atenção às necessidades e à acessibilidade das pessoas com deficiência (PcD)."
+Alambari ,2,"Ampliar o acesso e a permanência no ensino técnico e superior, por meio de cotas, auxílios financeiros e programas de formação alinhados às cadeias produtivas locais, articulando estágios e oportunidades de inserção da mão de obra local e promovendo a inclusão digital por meio de centros de capacitação tecnológica, especialmente para jovens."
+Alambari ,2,"Desenvolver estudos para identificar lacunas na oferta de qualificação profissional em relação às cadeias produtivas locais, existentes e potenciais, orientando programas de geração de emprego e renda, políticas de inclusão e redistribuição de renda e a estruturação de Arranjos Produtivos Locais (APLs)."
+Alambari ,3,"Promover capacitação e assistência técnica ao microempreendedor, às cooperativas e aos pequenos produtores; incentivar políticas de microcrédito e demais linhas de crédito."
+Alumínio,0,"Ampliar o acesso e a permanência no ensino técnico e superior, por meio de cotas, auxílios financeiros e programas de formação alinhados às cadeias produtivas locais, articulando estágios e oportunidades de inserção da mão de obra local e promovendo a inclusão digital por meio de centros de capacitação tecnológica, especialmente para jovens."
+Alumínio,1,"Desenvolver estudos para identificar lacunas na oferta de qualificação profissional em relação às cadeias produtivas locais, existentes e potenciais, orientando programas de geração de emprego e renda, políticas de inclusão e redistribuição de renda e a estruturação de Arranjos Produtivos Locais (APLs)."
+Alumínio,2,"Promover capacitação e assistência técnica ao microempreendedor, às cooperativas e aos pequenos produtores; incentivar políticas de microcrédito e demais linhas de crédito."
+Americana,3,"Ampliar o acesso e a permanência no ensino técnico e superior, por meio de cotas, auxílios financeiros e programas de formação alinhados às cadeias produtivas locais, articulando estágios e oportunidades de inserção da mão de obra local e promovendo a inclusão digital por meio de centros de capacitação tecnológica, especialmente para jovens."
+Americana,2,"Desenvolver estudos para identificar lacunas na oferta de qualificação profissional em relação às cadeias produtivas locais, existentes e potenciais, orientando programas de geração de emprego e renda, políticas de inclusão e redistribuição de renda e a estruturação de Arranjos Produtivos Locais (APLs)."
+Americana,1,"Promover capacitação e assistência técnica ao microempreendedor, às cooperativas e aos pequenos produtores; incentivar políticas de microcrédito e demais linhas de crédito."
+Araçariguama,1,"Ampliar o acesso e a permanência no ensino técnico e superior, por meio de cotas, auxílios financeiros e programas de formação alinhados às cadeias produtivas locais, articulando estágios e oportunidades de inserção da mão de obra local e promovendo a inclusão digital por meio de centros de capacitação tecnológica, especialmente para jovens."
+Araçariguama,2,"Desenvolver estudos para identificar lacunas na oferta de qualificação profissional em relação às cadeias produtivas locais, existentes e potenciais, orientando programas de geração de emprego e renda, políticas de inclusão e redistribuição de renda e a estruturação de Arranjos Produtivos Locais (APLs)."
+Araçariguama,3,"Promover capacitação e assistência técnica ao microempreendedor, às cooperativas e aos pequenos produtores; incentivar políticas de microcrédito e demais linhas de crédito."
+Araçoiaba da Serra,0,"Ampliar o acesso e a permanência no ensino técnico e superior, por meio de cotas, auxílios financeiros e programas de formação alinhados às cadeias produtivas locais, articulando estágios e oportunidades de inserção da mão de obra local e promovendo a inclusão digital por meio de centros de capacitação tecnológica, especialmente para jovens."
+Araçoiaba da Serra,3,"Desenvolver estudos para identificar lacunas na oferta de qualificação profissional em relação às cadeias produtivas locais, existentes e potenciais, orientando programas de geração de emprego e renda, políticas de inclusão e redistribuição de renda e a estruturação de Arranjos Produtivos Locais (APLs)."
+Araçoiaba da Serra,0,"Promover capacitação e assistência técnica ao microempreendedor, às cooperativas e aos pequenos produtores; incentivar políticas de microcrédito e demais linhas de crédito."
+Artur Nogueira,0,"Ampliar o acesso e a permanência no ensino técnico e superior, por meio de cotas, auxílios financeiros e programas de formação alinhados às cadeias produtivas locais, articulando estágios e oportunidades de inserção da mão de obra local e promovendo a inclusão digital por meio de centros de capacitação tecnológica, especialmente para jovens."
+Artur Nogueira,0,"Desenvolver estudos para identificar lacunas na oferta de qualificação profissional em relação às cadeias produtivas locais, existentes e potenciais, orientando programas de geração de emprego e renda, políticas de inclusão e redistribuição de renda e a estruturação de Arranjos Produtivos Locais (APLs)."
+Artur Nogueira,1,"Promover capacitação e assistência técnica ao microempreendedor, às cooperativas e aos pequenos produtores; incentivar políticas de microcrédito e demais linhas de crédito."
+Boituva,2,"Ampliar o acesso e a permanência no ensino técnico e superior, por meio de cotas, auxílios financeiros e programas de formação alinhados às cadeias produtivas locais, articulando estágios e oportunidades de inserção da mão de obra local e promovendo a inclusão digital por meio de centros de capacitação tecnológica, especialmente para jovens."
+Boituva,3,"Desenvolver estudos para identificar lacunas na oferta de qualificação profissional em relação às cadeias produtivas locais, existentes e potenciais, orientando programas de geração de emprego e renda, políticas de inclusão e redistribuição de renda e a estruturação de Arranjos Produtivos Locais (APLs)."
+Boituva,0,"Promover capacitação e assistência técnica ao microempreendedor, às cooperativas e aos pequenos produtores; incentivar políticas de microcrédito e demais linhas de crédito."
+Campinas,48,"Ampliar o acesso e a permanência no ensino técnico e superior, por meio de cotas, auxílios financeiros e programas de formação alinhados às cadeias produtivas locais, articulando estágios e oportunidades de inserção da mão de obra local e promovendo a inclusão digital por meio de centros de capacitação tecnológica, especialmente para jovens."
+Campinas,1,"Desenvolver estudos para identificar lacunas na oferta de qualificação profissional em relação às cadeias produtivas locais, existentes e potenciais, orientando programas de geração de emprego e renda, políticas de inclusão e redistribuição de renda e a estruturação de Arranjos Produtivos Locais (APLs)."
+Campinas,1,"Promover capacitação e assistência técnica ao microempreendedor, às cooperativas e aos pequenos produtores; incentivar políticas de microcrédito e demais linhas de crédito."
+Capela do Alto,3,"Ampliar o acesso e a permanência no ensino técnico e superior, por meio de cotas, auxílios financeiros e programas de formação alinhados às cadeias produtivas locais, articulando estágios e oportunidades de inserção da mão de obra local e promovendo a inclusão digital por meio de centros de capacitação tecnológica, especialmente para jovens."
+Capela do Alto,49,"Desenvolver estudos para identificar lacunas na oferta de qualificação profissional em relação às cadeias produtivas locais, existentes e potenciais, orientando programas de geração de emprego e renda, políticas de inclusão e redistribuição de renda e a estruturação de Arranjos Produtivos Locais (APLs)."
+Capela do Alto,2,"Promover capacitação e assistência técnica ao microempreendedor, às cooperativas e aos pequenos produtores; incentivar políticas de microcrédito e demais linhas de crédito."
+Cerquilho,3,"Ampliar o acesso e a permanência no ensino técnico e superior, por meio de cotas, auxílios financeiros e programas de formação alinhados às cadeias produtivas locais, articulando estágios e oportunidades de inserção da mão de obra local e promovendo a inclusão digital por meio de centros de capacitação tecnológica, especialmente para jovens."
+Cerquilho,0,"Desenvolver estudos para identificar lacunas na oferta de qualificação profissional em relação às cadeias produtivas locais, existentes e potenciais, orientando programas de geração de emprego e renda, políticas de inclusão e redistribuição de renda e a estruturação de Arranjos Produtivos Locais (APLs)."
+Cerquilho,1,"Promover capacitação e assistência técnica ao microempreendedor, às cooperativas e aos pequenos produtores; incentivar políticas de microcrédito e demais linhas de crédito."
+Cesário Lange,2,"Ampliar a formação e a qualificação profissional da população, promovendo o acesso e a permanência no ensino básico, técnico e superior por meio de cotas, bolsas e auxílios financeiros, com programas alinhados às cadeias produtivas locais e articulados à oferta de estágios e oportunidades de inserção da mão de obra local. Fortalecer também a inclusão digital, especialmente entre os jovens, por meio de centros de capacitação tecnológica, considerando o indicador crítico de matrículas presenciais no ensino superior."
+Cesário Lange,39,"Desenvolver estudos para identificar lacunas na oferta de qualificação profissional em relação às cadeias produtivas locais, existentes e potenciais, orientando programas de geração de emprego e renda, políticas de inclusão e redistribuição de renda e a estruturação de Arranjos Produtivos Locais (APLs)."
+Cesário Lange,2,"Promover capacitação e assistência técnica ao microempreendedor, às cooperativas e aos pequenos produtores; incentivar políticas de microcrédito e demais linhas de crédito."
+Cosmópolis,3,"Ampliar o acesso e a permanência no ensino técnico e superior, por meio de cotas, auxílios financeiros e programas de formação alinhados às cadeias produtivas locais, articulando estágios e oportunidades de inserção da mão de obra local e promovendo a inclusão digital por meio de centros de capacitação tecnológica, especialmente para jovens."
+Cosmópolis,0,"Desenvolver estudos para identificar lacunas na oferta de qualificação profissional em relação às cadeias produtivas locais, existentes e potenciais, orientando programas de geração de emprego e renda, políticas de inclusão e redistribuição de renda e a estruturação de Arranjos Produtivos Locais (APLs)."
+Cosmópolis,1,"Promover capacitação e assistência técnica ao microempreendedor, às cooperativas e aos pequenos produtores; incentivar políticas de microcrédito e demais linhas de crédito."
+Diadema,2,"Ampliar o acesso e a permanência no ensino técnico e superior, por meio de cotas, auxílios financeiros e programas de formação alinhados às cadeias produtivas locais, articulando estágios e oportunidades de inserção da mão de obra local e promovendo a inclusão digital por meio de centros de capacitação tecnológica, especialmente para jovens."
+Diadema,3,"Desenvolver estudos para identificar lacunas na oferta de qualificação profissional em relação às cadeias produtivas locais, existentes e potenciais, orientando programas de geração de emprego e renda, políticas de inclusão e redistribuição de renda e a estruturação de Arranjos Produtivos Locais (APLs)."
+Diadema,1,"Promover capacitação e assistência técnica ao microempreendedor, às cooperativas e aos pequenos produtores; incentivar políticas de microcrédito e demais linhas de crédito."
+Engenheiro Coelho,40,"Ampliar o acesso e a permanência no ensino técnico e superior, por meio de cotas, auxílios financeiros e programas de formação alinhados às cadeias produtivas locais, articulando estágios e oportunidades de inserção da mão de obra local e promovendo a inclusão digital por meio de centros de capacitação tecnológica, especialmente para jovens."
+Engenheiro Coelho,0,"Desenvolver estudos para identificar lacunas na oferta de qualificação profissional em relação às cadeias produtivas locais, existentes e potenciais, orientando programas de geração de emprego e renda, políticas de inclusão e redistribuição de renda e a estruturação de Arranjos Produtivos Locais (APLs)."
+Engenheiro Coelho,1,"Promover capacitação e assistência técnica ao microempreendedor, às cooperativas e aos pequenos produtores; incentivar políticas de microcrédito e demais linhas de crédito."
+Holambra,1,"Ampliar o acesso e a permanência no ensino técnico e superior, por meio de cotas, auxílios financeiros e programas de formação alinhados às cadeias produtivas locais, articulando estágios e oportunidades de inserção da mão de obra local e promovendo a inclusão digital por meio de centros de capacitação tecnológica, especialmente para jovens."
+Holambra,2,"Desenvolver estudos para identificar lacunas na oferta de qualificação profissional em relação às cadeias produtivas locais, existentes e potenciais, orientando programas de geração de emprego e renda, políticas de inclusão e redistribuição de renda e a estruturação de Arranjos Produtivos Locais (APLs)."
+Holambra,2,"Promover capacitação e assistência técnica ao microempreendedor, às cooperativas e aos pequenos produtores; incentivar políticas de microcrédito e demais linhas de crédito."
+Hortolândia,2,"Ampliar o acesso e a permanência no ensino técnico e superior, por meio de cotas, auxílios financeiros e programas de formação alinhados às cadeias produtivas locais, articulando estágios e oportunidades de inserção da mão de obra local e promovendo a inclusão digital por meio de centros de capacitação tecnológica, especialmente para jovens."
+Hortolândia,3,"Desenvolver estudos para identificar lacunas na oferta de qualificação profissional em relação às cadeias produtivas locais, existentes e potenciais, orientando programas de geração de emprego e renda, políticas de inclusão e redistribuição de renda e a estruturação de Arranjos Produtivos Locais (APLs)."
+Hortolândia,3,"Promover capacitação e assistência técnica ao microempreendedor, às cooperativas e aos pequenos produtores; incentivar políticas de microcrédito e demais linhas de crédito."
+Ibiúna,4,"Ampliar a formação e a qualificação profissional da população, promovendo o acesso e a permanência no ensino básico, técnico e superior por meio de cotas, bolsas e auxílios financeiros, com programas alinhados às cadeias produtivas locais e articulados à oferta de estágios e oportunidades de inserção da mão de obra local. Fortalecer também a inclusão digital, especialmente entre os jovens, por meio de centros de capacitação tecnológica, considerando o indicador crítico de matrículas presenciais no ensino superior."
+Ibiúna,2,"Desenvolver estudos para identificar lacunas na oferta de qualificação profissional em relação às cadeias produtivas locais, existentes e potenciais, orientando programas de geração de emprego e renda, políticas de inclusão e redistribuição de renda e a estruturação de Arranjos Produtivos Locais (APLs)."
+Ibiúna,3,"Promover capacitação e assistência técnica ao microempreendedor, às cooperativas e aos pequenos produtores; incentivar políticas de microcrédito e demais linhas de crédito."
+Indaiatuba,3,"Ampliar o acesso e a permanência no ensino técnico e superior, por meio de cotas, auxílios financeiros e programas de formação alinhados às cadeias produtivas locais, articulando estágios e oportunidades de inserção da mão de obra local e promovendo a inclusão digital por meio de centros de capacitação tecnológica, especialmente para jovens."
+Indaiatuba,7,"Desenvolver estudos para identificar lacunas na oferta de qualificação profissional em relação às cadeias produtivas locais, existentes e potenciais, orientando programas de geração de emprego e renda, políticas de inclusão e redistribuição de renda e a estruturação de Arranjos Produtivos Locais (APLs)."
+Indaiatuba,0,"Promover capacitação e assistência técnica ao microempreendedor, às cooperativas e aos pequenos produtores; incentivar políticas de microcrédito e demais linhas de crédito."
+Iperó,1,"Ampliar o acesso e a permanência no ensino técnico e superior, por meio de cotas, auxílios financeiros e programas de formação alinhados às cadeias produtivas locais, articulando estágios e oportunidades de inserção da mão de obra local e promovendo a inclusão digital por meio de centros de capacitação tecnológica, especialmente para jovens."
+Iperó,2,"Desenvolver estudos para identificar lacunas na oferta de qualificação profissional em relação às cadeias produtivas locais, existentes e potenciais, orientando programas de geração de emprego e renda, políticas de inclusão e redistribuição de renda e a estruturação de Arranjos Produtivos Locais (APLs)."
+Iperó,0,"Promover capacitação e assistência técnica ao microempreendedor, às cooperativas e aos pequenos produtores; incentivar políticas de microcrédito e demais linhas de crédito."
+Itapetininga,10,"Ampliar o acesso e a permanência no ensino técnico e superior, por meio de cotas, auxílios financeiros e programas de formação alinhados às cadeias produtivas locais, articulando estágios e oportunidades de inserção da mão de obra local e promovendo a inclusão digital por meio de centros de capacitação tecnológica, especialmente para jovens."
+Itapetininga,3,"Desenvolver estudos para identificar lacunas na oferta de qualificação profissional em relação às cadeias produtivas locais, existentes e potenciais, orientando programas de geração de emprego e renda, políticas de inclusão e redistribuição de renda e a estruturação de Arranjos Produtivos Locais (APLs)."
+Itapetininga,0,"Promover capacitação e assistência técnica ao microempreendedor, às cooperativas e aos pequenos produtores; incentivar políticas de microcrédito e demais linhas de crédito."
+Itatiba,1,"Ampliar o acesso e a permanência no ensino técnico e superior, por meio de cotas, auxílios financeiros e programas de formação alinhados às cadeias produtivas locais, articulando estágios e oportunidades de inserção da mão de obra local e promovendo a inclusão digital por meio de centros de capacitação tecnológica, especialmente para jovens."
+Itatiba,13,"Desenvolver estudos para identificar lacunas na oferta de qualificação profissional em relação às cadeias produtivas locais, existentes e potenciais, orientando programas de geração de emprego e renda, políticas de inclusão e redistribuição de renda e a estruturação de Arranjos Produtivos Locais (APLs)."
+Itatiba,41,"Promover capacitação e assistência técnica ao microempreendedor, às cooperativas e aos pequenos produtores; incentivar políticas de microcrédito e demais linhas de crédito."
+Itu,2,"Ampliar o acesso e a permanência no ensino técnico e superior, por meio de cotas, auxílios financeiros e programas de formação alinhados às cadeias produtivas locais, articulando estágios e oportunidades de inserção da mão de obra local e promovendo a inclusão digital por meio de centros de capacitação tecnológica, especialmente para jovens."
+Itu,3,"Desenvolver estudos para identificar lacunas na oferta de qualificação profissional em relação às cadeias produtivas locais, existentes e potenciais, orientando programas de geração de emprego e renda, políticas de inclusão e redistribuição de renda e a estruturação de Arranjos Produtivos Locais (APLs)."
+Itu,0,"Promover capacitação e assistência técnica ao microempreendedor, às cooperativas e aos pequenos produtores; incentivar políticas de microcrédito e demais linhas de crédito."
+Jaguariúna,1,"Ampliar o acesso e a permanência no ensino técnico e superior, por meio de cotas, auxílios financeiros e programas de formação alinhados às cadeias produtivas locais, articulando estágios e oportunidades de inserção da mão de obra local e promovendo a inclusão digital por meio de centros de capacitação tecnológica, especialmente para jovens."
+Jaguariúna,1,"Desenvolver estudos para identificar lacunas na oferta de qualificação profissional em relação às cadeias produtivas locais, existentes e potenciais, orientando programas de geração de emprego e renda, políticas de inclusão e redistribuição de renda e a estruturação de Arranjos Produtivos Locais (APLs)."
+Jaguariúna,16,"Promover capacitação e assistência técnica ao microempreendedor, às cooperativas e aos pequenos produtores; incentivar políticas de microcrédito e demais linhas de crédito."
+Jumirim,2,"Ampliar o acesso e a permanência no ensino técnico e superior, por meio de cotas, auxílios financeiros e programas de formação alinhados às cadeias produtivas locais, articulando estágios e oportunidades de inserção da mão de obra local e promovendo a inclusão digital por meio de centros de capacitação tecnológica, especialmente para jovens."
+Jumirim,3,"Desenvolver estudos para identificar lacunas na oferta de qualificação profissional em relação às cadeias produtivas locais, existentes e potenciais, orientando programas de geração de emprego e renda, políticas de inclusão e redistribuição de renda e a estruturação de Arranjos Produtivos Locais (APLs)."
+Jumirim,0,"Promover capacitação e assistência técnica ao microempreendedor, às cooperativas e aos pequenos produtores; incentivar políticas de microcrédito e demais linhas de crédito."
+Mairinque,1,"Ampliar o acesso e a permanência no ensino técnico e superior, por meio de cotas, auxílios financeiros e programas de formação alinhados às cadeias produtivas locais, articulando estágios e oportunidades de inserção da mão de obra local e promovendo a inclusão digital por meio de centros de capacitação tecnológica, especialmente para jovens."
+Mairinque,19,"Desenvolver estudos para identificar lacunas na oferta de qualificação profissional em relação às cadeias produtivas locais, existentes e potenciais, orientando programas de geração de emprego e renda, políticas de inclusão e redistribuição de renda e a estruturação de Arranjos Produtivos Locais (APLs)."
+Mairinque,47,"Promover capacitação e assistência técnica ao microempreendedor, às cooperativas e aos pequenos produtores; incentivar políticas de microcrédito e demais linhas de crédito."
+Mauá,,"Ampliar o acesso e a permanência no ensino técnico e superior, por meio de cotas, auxílios financeiros e programas de formação alinhados às cadeias produtivas locais, articulando estágios e oportunidades de inserção da mão de obra local e promovendo a inclusão digital por meio de centros de capacitação tecnológica, especialmente para jovens."
+Mauá,,"Desenvolver estudos para identificar lacunas na oferta de qualificação profissional em relação às cadeias produtivas locais, existentes e potenciais, orientando programas de geração de emprego e renda, políticas de inclusão e redistribuição de renda e a estruturação de Arranjos Produtivos Locais (APLs)."
+Mauá,,"Promover capacitação e assistência técnica ao microempreendedor, às cooperativas e aos pequenos produtores; incentivar políticas de microcrédito e demais linhas de crédito."
+Monte Mor,,"Ampliar a formação e a qualificação profissional da população, promovendo o acesso e a permanência no ensino básico, técnico e superior por meio de cotas, bolsas e auxílios financeiros, com programas alinhados às cadeias produtivas locais e articulados à oferta de estágios e oportunidades de inserção da mão de obra local. Fortalecer também a inclusão digital, especialmente entre os jovens, por meio de centros de capacitação tecnológica, considerando o indicador crítico de matrículas presenciais no ensino superior."
+Monte Mor,,"Desenvolver estudos para identificar lacunas na oferta de qualificação profissional em relação às cadeias produtivas locais, existentes e potenciais, orientando programas de geração de emprego e renda, políticas de inclusão e redistribuição de renda e a estruturação de Arranjos Produtivos Locais (APLs)."
+Monte Mor,,"Promover capacitação e assistência técnica ao microempreendedor, às cooperativas e aos pequenos produtores; incentivar políticas de microcrédito e demais linhas de crédito."
+Morungaba,,"Ampliar o acesso e a permanência no ensino técnico e superior, por meio de cotas, auxílios financeiros e programas de formação alinhados às cadeias produtivas locais, articulando estágios e oportunidades de inserção da mão de obra local e promovendo a inclusão digital por meio de centros de capacitação tecnológica, especialmente para jovens."
+Morungaba,,"Desenvolver estudos para identificar lacunas na oferta de qualificação profissional em relação às cadeias produtivas locais, existentes e potenciais, orientando programas de geração de emprego e renda, políticas de inclusão e redistribuição de renda e a estruturação de Arranjos Produtivos Locais (APLs)."
+Morungaba,,"Promover capacitação e assistência técnica ao microempreendedor, às cooperativas e aos pequenos produtores; incentivar políticas de microcrédito e demais linhas de crédito."
+Nova Odessa,,"Ampliar o acesso e a permanência no ensino técnico e superior, por meio de cotas, auxílios financeiros e programas de formação alinhados às cadeias produtivas locais, articulando estágios e oportunidades de inserção da mão de obra local e promovendo a inclusão digital por meio de centros de capacitação tecnológica, especialmente para jovens."
+Nova Odessa,,"Desenvolver estudos para identificar lacunas na oferta de qualificação profissional em relação às cadeias produtivas locais, existentes e potenciais, orientando programas de geração de emprego e renda, políticas de inclusão e redistribuição de renda e a estruturação de Arranjos Produtivos Locais (APLs)."
+Nova Odessa,,"Promover capacitação e assistência técnica ao microempreendedor, às cooperativas e aos pequenos produtores; incentivar políticas de microcrédito e demais linhas de crédito."
+Paulínia,,"Ampliar o acesso e a permanência no ensino técnico e superior, por meio de cotas, auxílios financeiros e programas de formação alinhados às cadeias produtivas locais, articulando estágios e oportunidades de inserção da mão de obra local e promovendo a inclusão digital por meio de centros de capacitação tecnológica, especialmente para jovens."
+Paulínia,,"Desenvolver estudos para identificar lacunas na oferta de qualificação profissional em relação às cadeias produtivas locais, existentes e potenciais, orientando programas de geração de emprego e renda, políticas de inclusão e redistribuição de renda e a estruturação de Arranjos Produtivos Locais (APLs)."
+Paulínia,,"Promover capacitação e assistência técnica ao microempreendedor, às cooperativas e aos pequenos produtores; incentivar políticas de microcrédito e demais linhas de crédito."
+Pedreira,,"Ampliar o acesso e a permanência no ensino técnico e superior, por meio de cotas, auxílios financeiros e programas de formação alinhados às cadeias produtivas locais, articulando estágios e oportunidades de inserção da mão de obra local e promovendo a inclusão digital por meio de centros de capacitação tecnológica, especialmente para jovens."
+Pedreira,,"Desenvolver estudos para identificar lacunas na oferta de qualificação profissional em relação às cadeias produtivas locais, existentes e potenciais, orientando programas de geração de emprego e renda, políticas de inclusão e redistribuição de renda e a estruturação de Arranjos Produtivos Locais (APLs)."
+Pedreira,,"Promover capacitação e assistência técnica ao microempreendedor, às cooperativas e aos pequenos produtores; incentivar políticas de microcrédito e demais linhas de crédito."
+Piedade,,"Ampliar o acesso e a permanência no ensino técnico e superior, por meio de cotas, auxílios financeiros e programas de formação alinhados às cadeias produtivas locais, articulando estágios e oportunidades de inserção da mão de obra local e promovendo a inclusão digital por meio de centros de capacitação tecnológica, especialmente para jovens."
+Piedade,,"Desenvolver estudos para identificar lacunas na oferta de qualificação profissional em relação às cadeias produtivas locais, existentes e potenciais, orientando programas de geração de emprego e renda, políticas de inclusão e redistribuição de renda e a estruturação de Arranjos Produtivos Locais (APLs)."
+Piedade,,"Promover capacitação e assistência técnica ao microempreendedor, às cooperativas e aos pequenos produtores; incentivar políticas de microcrédito e demais linhas de crédito."
+Pilar do Sul,,"Ampliar o acesso e a permanência no ensino técnico e superior, por meio de cotas, auxílios financeiros e programas de formação alinhados às cadeias produtivas locais, articulando estágios e oportunidades de inserção da mão de obra local e promovendo a inclusão digital por meio de centros de capacitação tecnológica, especialmente para jovens."
+Pilar do Sul,,"Desenvolver estudos para identificar lacunas na oferta de qualificação profissional em relação às cadeias produtivas locais, existentes e potenciais, orientando programas de geração de emprego e renda, políticas de inclusão e redistribuição de renda e a estruturação de Arranjos Produtivos Locais (APLs)."
+Pilar do Sul,,"Promover capacitação e assistência técnica ao microempreendedor, às cooperativas e aos pequenos produtores; incentivar políticas de microcrédito e demais linhas de crédito."
+Porto Feliz,,"Ampliar o acesso e a permanência no ensino técnico e superior, por meio de cotas, auxílios financeiros e programas de formação alinhados às cadeias produtivas locais, articulando estágios e oportunidades de inserção da mão de obra local e promovendo a inclusão digital por meio de centros de capacitação tecnológica, especialmente para jovens."
+Porto Feliz,,"Desenvolver estudos para identificar lacunas na oferta de qualificação profissional em relação às cadeias produtivas locais, existentes e potenciais, orientando programas de geração de emprego e renda, políticas de inclusão e redistribuição de renda e a estruturação de Arranjos Produtivos Locais (APLs)."
+Porto Feliz,,"Promover capacitação e assistência técnica ao microempreendedor, às cooperativas e aos pequenos produtores; incentivar políticas de microcrédito e demais linhas de crédito."
+Ribeirão Pires,,"Ampliar o acesso e a permanência no ensino técnico e superior, por meio de cotas, auxílios financeiros e programas de formação alinhados às cadeias produtivas locais, articulando estágios e oportunidades de inserção da mão de obra local e promovendo a inclusão digital por meio de centros de capacitação tecnológica, especialmente para jovens."
+Ribeirão Pires,,"Desenvolver estudos para identificar lacunas na oferta de qualificação profissional em relação às cadeias produtivas locais, existentes e potenciais, orientando programas de geração de emprego e renda, políticas de inclusão e redistribuição de renda e a estruturação de Arranjos Produtivos Locais (APLs)."
+Ribeirão Pires,,"Promover capacitação e assistência técnica ao microempreendedor, às cooperativas e aos pequenos produtores; incentivar políticas de microcrédito e demais linhas de crédito."
+Rio Grande da Serra,,"Ampliar o acesso e a permanência no ensino técnico e superior, por meio de cotas, auxílios financeiros e programas de formação alinhados às cadeias produtivas locais, articulando estágios e oportunidades de inserção da mão de obra local e promovendo a inclusão digital por meio de centros de capacitação tecnológica, especialmente para jovens."
+Rio Grande da Serra,,"Desenvolver estudos para identificar lacunas na oferta de qualificação profissional em relação às cadeias produtivas locais, existentes e potenciais, orientando programas de geração de emprego e renda, políticas de inclusão e redistribuição de renda e a estruturação de Arranjos Produtivos Locais (APLs)."
+Rio Grande da Serra,,"Promover capacitação e assistência técnica ao microempreendedor, às cooperativas e aos pequenos produtores; incentivar políticas de microcrédito e demais linhas de crédito."
+Salto,,"Ampliar o acesso e a permanência no ensino técnico e superior, por meio de cotas, auxílios financeiros e programas de formação alinhados às cadeias produtivas locais, articulando estágios e oportunidades de inserção da mão de obra local e promovendo a inclusão digital por meio de centros de capacitação tecnológica, especialmente para jovens."
+Salto,,"Desenvolver estudos para identificar lacunas na oferta de qualificação profissional em relação às cadeias produtivas locais, existentes e potenciais, orientando programas de geração de emprego e renda, políticas de inclusão e redistribuição de renda e a estruturação de Arranjos Produtivos Locais (APLs)."
+Salto,,"Promover capacitação e assistência técnica ao microempreendedor, às cooperativas e aos pequenos produtores; incentivar políticas de microcrédito e demais linhas de crédito."
+Salto de Pirapora,,"Ampliar o acesso e a permanência no ensino técnico e superior, por meio de cotas, auxílios financeiros e programas de formação alinhados às cadeias produtivas locais, articulando estágios e oportunidades de inserção da mão de obra local e promovendo a inclusão digital por meio de centros de capacitação tecnológica, especialmente para jovens."
+Salto de Pirapora,,"Desenvolver estudos para identificar lacunas na oferta de qualificação profissional em relação às cadeias produtivas locais, existentes e potenciais, orientando programas de geração de emprego e renda, políticas de inclusão e redistribuição de renda e a estruturação de Arranjos Produtivos Locais (APLs)."
+Salto de Pirapora,,"Promover capacitação e assistência técnica ao microempreendedor, às cooperativas e aos pequenos produtores; incentivar políticas de microcrédito e demais linhas de crédito."
+Santa Bárbara d'Oeste,,"Ampliar o acesso e a permanência no ensino técnico e superior, por meio de cotas, auxílios financeiros e programas de formação alinhados às cadeias produtivas locais, articulando estágios e oportunidades de inserção da mão de obra local e promovendo a inclusão digital por meio de centros de capacitação tecnológica, especialmente para jovens."
+Santa Bárbara d'Oeste,,"Desenvolver estudos para identificar lacunas na oferta de qualificação profissional em relação às cadeias produtivas locais, existentes e potenciais, orientando programas de geração de emprego e renda, políticas de inclusão e redistribuição de renda e a estruturação de Arranjos Produtivos Locais (APLs)."
+Santa Bárbara d'Oeste,,"Promover capacitação e assistência técnica ao microempreendedor, às cooperativas e aos pequenos produtores; incentivar políticas de microcrédito e demais linhas de crédito."
+Santo André,,"Ampliar o acesso e a permanência no ensino técnico e superior, por meio de cotas, auxílios financeiros e programas de formação alinhados às cadeias produtivas locais, articulando estágios e oportunidades de inserção da mão de obra local e promovendo a inclusão digital por meio de centros de capacitação tecnológica, especialmente para jovens."
+Santo André,,"Desenvolver estudos para identificar lacunas na oferta de qualificação profissional em relação às cadeias produtivas locais, existentes e potenciais, orientando programas de geração de emprego e renda, políticas de inclusão e redistribuição de renda e a estruturação de Arranjos Produtivos Locais (APLs)."
+Santo André,,"Promover capacitação e assistência técnica ao microempreendedor, às cooperativas e aos pequenos produtores; incentivar políticas de microcrédito e demais linhas de crédito."
+Santo Antônio de Posse,,"Ampliar a formação e a qualificação profissional da população, promovendo o acesso e a permanência no ensino básico, técnico e superior por meio de cotas, bolsas e auxílios financeiros, com programas alinhados às cadeias produtivas locais e articulados à oferta de estágios e oportunidades de inserção da mão de obra local. Fortalecer também a inclusão digital, especialmente entre os jovens, por meio de centros de capacitação tecnológica, considerando o indicador crítico de matrículas presenciais no ensino superior."
+Santo Antônio de Posse,,"Desenvolver estudos para identificar lacunas na oferta de qualificação profissional em relação às cadeias produtivas locais, existentes e potenciais, orientando programas de geração de emprego e renda, políticas de inclusão e redistribuição de renda e a estruturação de Arranjos Produtivos Locais (APLs)."
+Santo Antônio de Posse,,"Promover capacitação e assistência técnica ao microempreendedor, às cooperativas e aos pequenos produtores; incentivar políticas de microcrédito e demais linhas de crédito."
+São Bernardo do Campo,,"Ampliar o acesso e a permanência no ensino técnico e superior, por meio de cotas, auxílios financeiros e programas de formação alinhados às cadeias produtivas locais, articulando estágios e oportunidades de inserção da mão de obra local e promovendo a inclusão digital por meio de centros de capacitação tecnológica, especialmente para jovens."
+São Bernardo do Campo,,"Desenvolver estudos para identificar lacunas na oferta de qualificação profissional em relação às cadeias produtivas locais, existentes e potenciais, orientando programas de geração de emprego e renda, políticas de inclusão e redistribuição de renda e a estruturação de Arranjos Produtivos Locais (APLs)."
+São Bernardo do Campo,,"Promover capacitação e assistência técnica ao microempreendedor, às cooperativas e aos pequenos produtores; incentivar políticas de microcrédito e demais linhas de crédito."
+São Caetano do Sul,,"Ampliar o acesso e a permanência no ensino técnico e superior, por meio de cotas, auxílios financeiros e programas de formação alinhados às cadeias produtivas locais, articulando estágios e oportunidades de inserção da mão de obra local e promovendo a inclusão digital por meio de centros de capacitação tecnológica, especialmente para jovens."
+São Caetano do Sul,,"Desenvolver estudos para identificar lacunas na oferta de qualificação profissional em relação às cadeias produtivas locais, existentes e potenciais, orientando programas de geração de emprego e renda, políticas de inclusão e redistribuição de renda e a estruturação de Arranjos Produtivos Locais (APLs)."
+São Caetano do Sul,,"Promover capacitação e assistência técnica ao microempreendedor, às cooperativas e aos pequenos produtores; incentivar políticas de microcrédito e demais linhas de crédito."
+São Miguel Arcanjo,,"Ampliar o acesso e a permanência no ensino técnico e superior, por meio de cotas, auxílios financeiros e programas de formação alinhados às cadeias produtivas locais, articulando estágios e oportunidades de inserção da mão de obra local e promovendo a inclusão digital por meio de centros de capacitação tecnológica, especialmente para jovens."
+São Miguel Arcanjo,,"Desenvolver estudos para identificar lacunas na oferta de qualificação profissional em relação às cadeias produtivas locais, existentes e potenciais, orientando programas de geração de emprego e renda, políticas de inclusão e redistribuição de renda e a estruturação de Arranjos Produtivos Locais (APLs)."
+São Miguel Arcanjo,,"Promover capacitação e assistência técnica ao microempreendedor, às cooperativas e aos pequenos produtores; incentivar políticas de microcrédito e demais linhas de crédito."
+São Roque,,"Ampliar o acesso e a permanência no ensino técnico e superior, por meio de cotas, auxílios financeiros e programas de formação alinhados às cadeias produtivas locais, articulando estágios e oportunidades de inserção da mão de obra local e promovendo a inclusão digital por meio de centros de capacitação tecnológica, especialmente para jovens."
+São Roque,,"Desenvolver estudos para identificar lacunas na oferta de qualificação profissional em relação às cadeias produtivas locais, existentes e potenciais, orientando programas de geração de emprego e renda, políticas de inclusão e redistribuição de renda e a estruturação de Arranjos Produtivos Locais (APLs)."
+São Roque,,"Promover capacitação e assistência técnica ao microempreendedor, às cooperativas e aos pequenos produtores; incentivar políticas de microcrédito e demais linhas de crédito."
+Sarapuí,,"Ampliar a formação e a qualificação profissional da população, promovendo o acesso e a permanência no ensino básico, técnico e superior por meio de cotas, bolsas e auxílios financeiros, com programas alinhados às cadeias produtivas locais e articulados à oferta de estágios e oportunidades de inserção da mão de obra local. Fortalecer também a inclusão digital, especialmente entre os jovens, por meio de centros de capacitação tecnológica, considerando o indicador crítico de matrículas presenciais no ensino superior."
+Sarapuí,,"Desenvolver estudos para identificar lacunas na oferta de qualificação profissional em relação às cadeias produtivas locais, existentes e potenciais, orientando programas de geração de emprego e renda, políticas de inclusão e redistribuição de renda e a estruturação de Arranjos Produtivos Locais (APLs)."
+Sarapuí,,"Promover capacitação e assistência técnica ao microempreendedor, às cooperativas e aos pequenos produtores; incentivar políticas de microcrédito e demais linhas de crédito."
+Sorocaba,,"Ampliar o acesso e a permanência no ensino técnico e superior, por meio de cotas, auxílios financeiros e programas de formação alinhados às cadeias produtivas locais, articulando estágios e oportunidades de inserção da mão de obra local e promovendo a inclusão digital por meio de centros de capacitação tecnológica, especialmente para jovens."
+Sorocaba,,"Desenvolver estudos para identificar lacunas na oferta de qualificação profissional em relação às cadeias produtivas locais, existentes e potenciais, orientando programas de geração de emprego e renda, políticas de inclusão e redistribuição de renda e a estruturação de Arranjos Produtivos Locais (APLs)."
+Sorocaba,,"Promover capacitação e assistência técnica ao microempreendedor, às cooperativas e aos pequenos produtores; incentivar políticas de microcrédito e demais linhas de crédito."
+Sumaré,,"Ampliar o acesso e a permanência no ensino técnico e superior, por meio de cotas, auxílios financeiros e programas de formação alinhados às cadeias produtivas locais, articulando estágios e oportunidades de inserção da mão de obra local e promovendo a inclusão digital por meio de centros de capacitação tecnológica, especialmente para jovens."
+Sumaré,,"Desenvolver estudos para identificar lacunas na oferta de qualificação profissional em relação às cadeias produtivas locais, existentes e potenciais, orientando programas de geração de emprego e renda, políticas de inclusão e redistribuição de renda e a estruturação de Arranjos Produtivos Locais (APLs)."
+Sumaré,,"Promover capacitação e assistência técnica ao microempreendedor, às cooperativas e aos pequenos produtores; incentivar políticas de microcrédito e demais linhas de crédito."
+Tapiraí,,"Ampliar a formação e a qualificação profissional da população, promovendo o acesso e a permanência no ensino básico, técnico e superior por meio de cotas, bolsas e auxílios financeiros, com programas alinhados às cadeias produtivas locais e articulados à oferta de estágios e oportunidades de inserção da mão de obra local. Fortalecer também a inclusão digital, especialmente entre os jovens, por meio de centros de capacitação tecnológica, considerando o indicador crítico de matrículas presenciais no ensino superior."
+Tapiraí,,"Desenvolver estudos para identificar lacunas na oferta de qualificação profissional em relação às cadeias produtivas locais, existentes e potenciais, orientando programas de geração de emprego e renda, políticas de inclusão e redistribuição de renda e a estruturação de Arranjos Produtivos Locais (APLs)."
+Tapiraí,,"Promover capacitação e assistência técnica ao microempreendedor, às cooperativas e aos pequenos produtores; incentivar políticas de microcrédito e demais linhas de crédito."
+Tatuí,,"Ampliar o acesso e a permanência no ensino técnico e superior, por meio de cotas, auxílios financeiros e programas de formação alinhados às cadeias produtivas locais, articulando estágios e oportunidades de inserção da mão de obra local e promovendo a inclusão digital por meio de centros de capacitação tecnológica, especialmente para jovens."
+Tatuí,,"Desenvolver estudos para identificar lacunas na oferta de qualificação profissional em relação às cadeias produtivas locais, existentes e potenciais, orientando programas de geração de emprego e renda, políticas de inclusão e redistribuição de renda e a estruturação de Arranjos Produtivos Locais (APLs)."
+Tatuí,,"Promover capacitação e assistência técnica ao microempreendedor, às cooperativas e aos pequenos produtores; incentivar políticas de microcrédito e demais linhas de crédito."
+Tietê,,"Ampliar o acesso e a permanência no ensino técnico e superior, por meio de cotas, auxílios financeiros e programas de formação alinhados às cadeias produtivas locais, articulando estágios e oportunidades de inserção da mão de obra local e promovendo a inclusão digital por meio de centros de capacitação tecnológica, especialmente para jovens."
+Tietê,,"Desenvolver estudos para identificar lacunas na oferta de qualificação profissional em relação às cadeias produtivas locais, existentes e potenciais, orientando programas de geração de emprego e renda, políticas de inclusão e redistribuição de renda e a estruturação de Arranjos Produtivos Locais (APLs)."
+Tietê,,"Promover capacitação e assistência técnica ao microempreendedor, às cooperativas e aos pequenos produtores; incentivar políticas de microcrédito e demais linhas de crédito."
+Valinhos,,"Ampliar o acesso e a permanência no ensino técnico e superior, por meio de cotas, auxílios financeiros e programas de formação alinhados às cadeias produtivas locais, articulando estágios e oportunidades de inserção da mão de obra local e promovendo a inclusão digital por meio de centros de capacitação tecnológica, especialmente para jovens."
+Valinhos,,"Desenvolver estudos para identificar lacunas na oferta de qualificação profissional em relação às cadeias produtivas locais, existentes e potenciais, orientando programas de geração de emprego e renda, políticas de inclusão e redistribuição de renda e a estruturação de Arranjos Produtivos Locais (APLs)."
+Valinhos,,"Promover capacitação e assistência técnica ao microempreendedor, às cooperativas e aos pequenos produtores; incentivar políticas de microcrédito e demais linhas de crédito."
+Vinhedo,,"Ampliar o acesso e a permanência no ensino técnico e superior, por meio de cotas, auxílios financeiros e programas de formação alinhados às cadeias produtivas locais, articulando estágios e oportunidades de inserção da mão de obra local e promovendo a inclusão digital por meio de centros de capacitação tecnológica, especialmente para jovens."
+Vinhedo,,"Desenvolver estudos para identificar lacunas na oferta de qualificação profissional em relação às cadeias produtivas locais, existentes e potenciais, orientando programas de geração de emprego e renda, políticas de inclusão e redistribuição de renda e a estruturação de Arranjos Produtivos Locais (APLs)."
+Vinhedo,,"Promover capacitação e assistência técnica ao microempreendedor, às cooperativas e aos pequenos produtores; incentivar políticas de microcrédito e demais linhas de crédito."
+Votorantim,,"Ampliar o acesso e a permanência no ensino técnico e superior, por meio de cotas, auxílios financeiros e programas de formação alinhados às cadeias produtivas locais, articulando estágios e oportunidades de inserção da mão de obra local e promovendo a inclusão digital por meio de centros de capacitação tecnológica, especialmente para jovens."
+Votorantim,,"Desenvolver estudos para identificar lacunas na oferta de qualificação profissional em relação às cadeias produtivas locais, existentes e potenciais, orientando programas de geração de emprego e renda, políticas de inclusão e redistribuição de renda e a estruturação de Arranjos Produtivos Locais (APLs)."
+Votorantim,,"Promover capacitação e assistência técnica ao microempreendedor, às cooperativas e aos pequenos produtores; incentivar políticas de microcrédito e demais linhas de crédito."
+Americana,,"Adotar modelos habitacionais e bairros de uso misto que promovam cidades mais justas e inclusivas, assegurando oferta habitacional suficiente e contribuindo para a vitalidade econômica, a participação comunitária e a manutenção do valor imobiliário."
+Campinas,,"Adotar modelos habitacionais e bairros de uso misto que promovam cidades mais justas e inclusivas, assegurando oferta habitacional suficiente e contribuindo para a vitalidade econômica, a participação comunitária e a manutenção do valor imobiliário."
+Campinas,,"Promover e fomentar as ações do Plano Público de Valorização e Aproveitamento de Recursos Fundiários, de modo a ampliar a regularização fundiária e ambiental rural e fortalecer o pequeno agricultor familiar e os territórios quilombolas."
+Holambra,,"Adotar modelos habitacionais e bairros de uso misto que promovam cidades mais justas e inclusivas, assegurando oferta habitacional suficiente e contribuindo para a vitalidade econômica, a participação comunitária e a manutenção do valor imobiliário."
+Holambra,,"Promover e fomentar as ações do Plano Público de Valorização e Aproveitamento de Recursos Fundiários, de modo a ampliar a regularização fundiária e ambiental rural e fortalecer o pequeno agricultor familiar e os territórios quilombolas."
+Indaiatuba,,"Adotar modelos habitacionais e bairros de uso misto que promovam cidades mais justas e inclusivas, assegurando oferta habitacional suficiente e contribuindo para a vitalidade econômica, a participação comunitária e a manutenção do valor imobiliário."
+Indaiatuba,,"Promover e fomentar as ações do Plano Público de Valorização e Aproveitamento de Recursos Fundiários, de modo a ampliar a regularização fundiária e ambiental rural e fortalecer o pequeno agricultor familiar e os territórios quilombolas."
+Itatiba,,"Adotar modelos habitacionais e bairros de uso misto que promovam cidades mais justas e inclusivas, assegurando oferta habitacional suficiente e contribuindo para a vitalidade econômica, a participação comunitária e a manutenção do valor imobiliário."
+Itatiba,,"Promover e fomentar as ações do Plano Público de Valorização e Aproveitamento de Recursos Fundiários, de modo a ampliar a regularização fundiária e ambiental rural e fortalecer o pequeno agricultor familiar e os territórios quilombolas."
+Itu,,"Adotar modelos habitacionais e bairros de uso misto que promovam cidades mais justas e inclusivas, assegurando oferta habitacional suficiente e contribuindo para a vitalidade econômica, a participação comunitária e a manutenção do valor imobiliário."
+Itu,,"Promover e fomentar as ações do Plano Público de Valorização e Aproveitamento de Recursos Fundiários, de modo a ampliar a regularização fundiária e ambiental rural e fortalecer o pequeno agricultor familiar e os territórios quilombolas."
+Nova Odessa,,"Adotar modelos habitacionais e bairros de uso misto que promovam cidades mais justas e inclusivas, assegurando oferta habitacional suficiente e contribuindo para a vitalidade econômica, a participação comunitária e a manutenção do valor imobiliário."
+Ribeirão Pires,,"Adotar modelos habitacionais e bairros de uso misto que promovam cidades mais justas e inclusivas, assegurando oferta habitacional suficiente e contribuindo para a vitalidade econômica, a participação comunitária e a manutenção do valor imobiliário."
+Rio Grande da Serra,,"Adotar modelos habitacionais e bairros de uso misto que promovam cidades mais justas e inclusivas, assegurando oferta habitacional suficiente e contribuindo para a vitalidade econômica, a participação comunitária e a manutenção do valor imobiliário."
+Salto,,"Adotar modelos habitacionais e bairros de uso misto que promovam cidades mais justas e inclusivas, assegurando oferta habitacional suficiente e contribuindo para a vitalidade econômica, a participação comunitária e a manutenção do valor imobiliário."
+Santo Antônio de Posse,,"Adotar modelos habitacionais e bairros de uso misto que promovam cidades mais justas e inclusivas, assegurando oferta habitacional suficiente e contribuindo para a vitalidade econômica, a participação comunitária e a manutenção do valor imobiliário."
+Santo Antônio de Posse,,"Promover e fomentar as ações do Plano Público de Valorização e Aproveitamento de Recursos Fundiários, de modo a ampliar a regularização fundiária e ambiental rural e fortalecer o pequeno agricultor familiar e os territórios quilombolas."
+Sorocaba,,"Adotar modelos habitacionais e bairros de uso misto que promovam cidades mais justas e inclusivas, assegurando oferta habitacional suficiente e contribuindo para a vitalidade econômica, a participação comunitária e a manutenção do valor imobiliário."
+Sumaré,,"Adotar modelos habitacionais e bairros de uso misto que promovam cidades mais justas e inclusivas, assegurando oferta habitacional suficiente e contribuindo para a vitalidade econômica, a participação comunitária e a manutenção do valor imobiliário."
+Valinhos,,"Adotar modelos habitacionais e bairros de uso misto que promovam cidades mais justas e inclusivas, assegurando oferta habitacional suficiente e contribuindo para a vitalidade econômica, a participação comunitária e a manutenção do valor imobiliário."
+Valinhos,,"Promover e fomentar as ações do Plano Público de Valorização e Aproveitamento de Recursos Fundiários, de modo a ampliar a regularização fundiária e ambiental rural e fortalecer o pequeno agricultor familiar e os territórios quilombolas."
+Santo André,,"Promover e fomentar as ações do Plano Público de Valorização e Aproveitamento de Recursos Fundiários, de modo a ampliar a regularização fundiária e ambiental rural e fortalecer o pequeno agricultor familiar e os territórios quilombolas."
+Itatiba,,"Promover e fomentar as ações do Plano Público de Valorização e Aproveitamento de Recursos Fundiários, de modo a ampliar a regularização fundiária e ambiental rural e fortalecer o pequeno agricultor familiar e os territórios quilombolas."
+Pilar do Sul,,"Promover e fomentar as ações do Plano Público de Valorização e Aproveitamento de Recursos Fundiários, de modo a ampliar a regularização fundiária e ambiental rural e fortalecer o pequeno agricultor familiar e os territórios quilombolas."
+Salto de Pirapora,,"Promover e fomentar as ações do Plano Público de Valorização e Aproveitamento de Recursos Fundiários, de modo a ampliar a regularização fundiária e ambiental rural e fortalecer o pequeno agricultor familiar e os territórios quilombolas."
+Votorantim,,"Promover e fomentar as ações do Plano Público de Valorização e Aproveitamento de Recursos Fundiários, de modo a ampliar a regularização fundiária e ambiental rural e fortalecer o pequeno agricultor familiar e os territórios quilombolas."
+São Roque,,"Promover e fomentar as ações do Plano Público de Valorização e Aproveitamento de Recursos Fundiários, de modo a ampliar a regularização fundiária e ambiental rural e fortalecer o pequeno agricultor familiar e os territórios quilombolas."
+Sarapuí,,"Promover e fomentar as ações do Plano Público de Valorização e Aproveitamento de Recursos Fundiários, de modo a ampliar a regularização fundiária e ambiental rural e fortalecer o pequeno agricultor familiar e os territórios quilombolas."

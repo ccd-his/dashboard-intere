@@ -1,9 +1,12 @@
 import dash
 import plotly.express as px
 from dash import Input, Output, callback, dcc, html
+import plotly.graph_objects as go
 
 from data_source import (
     get_simplified_geometry_clusters,
+    get_simplified_geometry_background,
+    load_gdf,
     load_clusters,
     load_df_clusters_filtrado,
     load_df_textos_agrupamentos,
@@ -86,8 +89,9 @@ layout = [
 ]
 
 
-def mapa_indice_cluster(indice):
+def mapa_indice_cluster(indice, light = False):
     df = load_clusters()
+    gdf = load_gdf()
     gdf_filtrado = load_df_clusters_filtrado()
 
     if indice == "Índice de Resiliência Climática e Territorial":
@@ -106,15 +110,62 @@ def mapa_indice_cluster(indice):
     # Trata os clusters como categorias
     dados["cluster"] = dados[indice].astype(str)
 
-    fig = px.choropleth(
-        dados,
-        geojson=get_simplified_geometry_clusters(),
-        locations=dados.index,
-        color="cluster",
-        color_discrete_map=cores,
-        category_orders={"cluster": ["0", "1", "2", "3"]},
-        hover_name="NM_MUN",
+    fig = go.Figure()
+
+    fig.add_trace(
+        go.Choropleth(
+            geojson=get_simplified_geometry_background(light=light),
+            locations=gdf.index,
+            z=[1] * len(gdf),
+            colorscale=[[0, "lightgray"], [1, "lightgray"]],
+            showscale=False,
+            marker_line_color="white",
+            marker_line_width=0.5,
+            hoverinfo="skip",
+            name="background",
+            showlegend=False,
     )
+)
+    geojson_clusters = get_simplified_geometry_clusters()
+
+    for cluster in ["0", "1", "2", "3"]:
+
+        dados_cluster = dados[
+            dados["cluster"].astype(str) == cluster
+        ]
+
+        fig.add_trace(
+            go.Choropleth(
+                geojson=geojson_clusters,
+                locations=dados_cluster.index,
+                z=[1] * len(dados_cluster),
+                colorscale=[
+                    [0, cores[cluster]],
+                    [1, cores[cluster]],
+                ],
+                showscale=False,
+                marker_line_color="white",
+                marker_line_width=0.5,
+                text=dados_cluster["NM_MUN"],
+                hovertemplate=(
+                    "<b>%{text}</b><br>"
+                    f"Cluster: {cluster}"
+                    "<extra></extra>"
+                ),
+                # Isso cria o item da legenda
+                name=cluster,
+                showlegend=True,
+            )
+        )
+    #fig = px.choropleth(
+    #        dados,
+    #        geojson=get_simplified_geometry_clusters(),
+    #       locations=dados.index,
+    #       color="cluster",
+    #        color_discrete_map=cores,
+    #        category_orders={"cluster": ["0", "1", "2", "3"]},
+    #        hover_name="NM_MUN",
+    #    )
 
     fig.update_traces(
         hovertemplate=("<b>%{hovertext}</b><br>Cluster: %{customdata}<extra></extra>"),
@@ -123,13 +174,25 @@ def mapa_indice_cluster(indice):
         marker_line_width=0.5,
     )
 
-    fig.update_geos(visible=False, fitbounds="locations")
+    #fig.update_geos(visible=False, fitbounds="locations")
+
+    xmin, ymin, xmax, ymax = gdf_filtrado.total_bounds
+
+    dx = (xmax - xmin) * 0.10
+    dy = (ymax - ymin) * 0.20
+
+    fig.update_geos(
+        visible=False,
+        lonaxis_range=[xmin - dx, xmax + dx],
+        lataxis_range=[ymin - dy, ymax + dy],
+    )
 
     fig.update_layout(
         margin=dict(l=0, r=0, t=0, b=0),
         paper_bgcolor="white",
         plot_bgcolor="white",
         height=650,
+
         legend=dict(
             title="Agrupamento",
             orientation="h",
@@ -137,8 +200,8 @@ def mapa_indice_cluster(indice):
             y=-0.05,
             xanchor="center",
             x=0.5,
-        ),
-    )
+    ),
+)
 
     return fig
 

@@ -572,9 +572,7 @@ def update_graph(value):
     dados_indicadores = dados_indicadores.merge(
         df_unidades, left_on="Indicador", right_on="Indicador"
     )
-    dados_indicadores = dados_indicadores[
-        ["Indicador", "Unidade", "Valor", "Período do dado", "Fonte"]
-    ]
+    dados_indicadores = dados_indicadores[["Indicador", "Valor", "Unidade", "Período do dado", "Fonte"]]
 
     indicadores = dag.AgGrid(
         id="get-started-example-basic-df",
@@ -590,19 +588,19 @@ def update_graph(value):
 
     indicadores2 = make_table(
         "indicadores",
-        ["Indicador", "Unidade", "Valor", "Período", "Fonte"],
+        ["Indicador", "Valor", "Unidade", "Período", "Fonte"],
         dados_indicadores.values.tolist(),
         [
             "w-75",
             "w-1",
-            "text-end w-2",
+            "text-center w-1",
             "text-center w-1",
             "text-center w-25",
         ],
         [
             "",
-            "text-secondary",
             "text-end fw-bold",
+            "text-secondary",
             "text-secondary text-center",
             "text-center text-secondary",
         ],

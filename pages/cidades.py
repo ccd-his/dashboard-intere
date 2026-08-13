@@ -25,7 +25,7 @@ layout = [
     make_title(
         "Conheça a situação da sua cidade",
         "Cidades",
-        dcc.Dropdown(load_df_cidades(), "Sorocaba", clearable=False, id="dropdown-cidade"),
+        dcc.Dropdown(load_df_cidades(), "", clearable=False, id="dropdown-cidade"),
     ),
     html.Div(
         className="row mb-3",
@@ -520,7 +520,7 @@ def update_graph(value):
     df = load_df_indicadores()
     df_recomendacoes = load_df_recomendacoes()
     df_unidades = load_df_unidades()
-    valor = value if value else "Sorocaba"
+    valor = value #if value else "Sorocaba"
     dff: DataFrame = df[df["Município"] == valor]
     
 

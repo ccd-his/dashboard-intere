@@ -1,0 +1,491 @@
+Município,Regional,Tipo,Área de atuação,2020,2021,2022,2023,2024,2025
+Diadema,ABC,RRT Inicial,Meio Ambiente,10,22,20,3,27,21
+Diadema,ABC,RRT Inicial,Conforto Ambiental,14,29,24,18,12,14
+Diadema,ABC,RRT Inicial,Urbanismo e Desenho Urbano,41,37,43,21,48,21
+Diadema,ABC,RRT Inicial,Arquitetura das Edificações,393,674,492,578,548,479
+Diadema,ABC,RRT Inicial,Planejamento Urbano e Regional,1,0,1,0,0,1
+Diadema,ABC,RRT Inicial,Instalações e Equipamentos Referentes ao Urbanismo,15,37,28,18,55,51
+Diadema,ABC,RRT Inicial,"Patrimônio Arquitetônico, Urbanístico e Paisagístico",0,3,3,2,0,4
+Mauá,ABC,RRT Inicial,Meio Ambiente,3,2,3,12,5,14
+Mauá,ABC,RRT Inicial,Conforto Ambiental,13,12,17,14,13,14
+Mauá,ABC,RRT Inicial,Urbanismo e Desenho Urbano,16,17,10,10,11,38
+Mauá,ABC,RRT Inicial,Arquitetura das Edificações,479,590,609,585,547,641
+Mauá,ABC,RRT Inicial,Planejamento Urbano e Regional,2,0,1,6,0,2
+Mauá,ABC,RRT Inicial,Instalações e Equipamentos Referentes ao Urbanismo,52,72,54,58,72,81
+Mauá,ABC,RRT Inicial,"Patrimônio Arquitetônico, Urbanístico e Paisagístico",0,0,0,4,0,0
+Ribeirão Pires,ABC,RRT Inicial,Conforto Ambiental,1,2,0,3,2,5
+Ribeirão Pires,ABC,RRT Inicial,"Patrimônio Arquitetônico, Urbanístico e Paisagístico",0,0,0,1,0,2
+Ribeirão Pires,ABC,RRT Inicial,Urbanismo e Desenho Urbano,78,45,57,86,57,94
+Ribeirão Pires,ABC,RRT Inicial,Arquitetura das Edificações,339,333,346,397,475,410
+Ribeirão Pires,ABC,RRT Inicial,Meio Ambiente,4,0,3,4,4,3
+Ribeirão Pires,ABC,RRT Inicial,Instalações e Equipamentos Referentes ao Urbanismo,12,5,10,26,28,10
+Rio Grande da Serra,ABC,RRT Inicial,"Patrimônio Arquitetônico, Urbanístico e Paisagístico",0,0,0,0,1,0
+Rio Grande da Serra,ABC,RRT Inicial,Conforto Ambiental,0,0,0,0,0,1
+Rio Grande da Serra,ABC,RRT Inicial,Arquitetura das Edificações,72,58,28,51,46,45
+Rio Grande da Serra,ABC,RRT Inicial,Urbanismo e Desenho Urbano,26,22,15,17,9,7
+Rio Grande da Serra,ABC,RRT Inicial,Instalações e Equipamentos Referentes ao Urbanismo,19,6,10,10,8,6
+Santo André,ABC,RRT Inicial,Planejamento Urbano e Regional,3,5,4,6,4,5
+Santo André,ABC,RRT Inicial,Instalações e Equipamentos Referentes ao Urbanismo,32,67,73,68,80,56
+Santo André,ABC,RRT Inicial,Urbanismo e Desenho Urbano,97,100,73,92,97,109
+Santo André,ABC,RRT Inicial,Arquitetura das Edificações,2658,3822,3041,2623,2845,2875
+Santo André,ABC,RRT Inicial,"Patrimônio Arquitetônico, Urbanístico e Paisagístico",5,16,9,8,4,7
+Santo André,ABC,RRT Inicial,Conforto Ambiental,75,85,94,86,105,114
+Santo André,ABC,RRT Inicial,Meio Ambiente,27,55,46,58,63,34
+São Bernardo do Campo,ABC,RRT Inicial,Urbanismo e Desenho Urbano,76,80,103,98,149,69
+São Bernardo do Campo,ABC,RRT Inicial,Arquitetura das Edificações,2559,3041,2314,2631,3032,2057
+São Bernardo do Campo,ABC,RRT Inicial,Conforto Ambiental,59,89,160,84,125,61
+São Bernardo do Campo,ABC,RRT Inicial,Meio Ambiente,16,35,37,22,24,9
+São Bernardo do Campo,ABC,RRT Inicial,Planejamento Urbano e Regional,1,2,2,1,6,3
+São Bernardo do Campo,ABC,RRT Inicial,"Patrimônio Arquitetônico, Urbanístico e Paisagístico",1,4,4,7,9,7
+São Bernardo do Campo,ABC,RRT Inicial,Instalações e Equipamentos Referentes ao Urbanismo,11,18,24,24,30,24
+São Caetano do Sul,ABC,RRT Inicial,"Patrimônio Arquitetônico, Urbanístico e Paisagístico",1,0,0,2,5,4
+São Caetano do Sul,ABC,RRT Inicial,Instalações e Equipamentos Referentes ao Urbanismo,3,4,2,3,5,4
+São Caetano do Sul,ABC,RRT Inicial,Meio Ambiente,2,2,1,7,3,0
+São Caetano do Sul,ABC,RRT Inicial,Urbanismo e Desenho Urbano,34,30,23,36,23,23
+São Caetano do Sul,ABC,RRT Inicial,Arquitetura das Edificações,769,1294,1130,1293,1274,1058
+São Caetano do Sul,ABC,RRT Inicial,Planejamento Urbano e Regional,0,0,2,0,0,1
+São Caetano do Sul,ABC,RRT Inicial,Conforto Ambiental,48,60,44,60,65,71
+Americana,Campinas,RRT Inicial,"Patrimônio Arquitetônico, Urbanístico e Paisagístico",0,1,7,2,0,4
+Americana,Campinas,RRT Inicial,Instalações e Equipamentos Referentes ao Urbanismo,6,12,11,11,13,6
+Americana,Campinas,RRT Inicial,Meio Ambiente,3,10,6,4,9,5
+Americana,Campinas,RRT Inicial,Urbanismo e Desenho Urbano,57,52,84,60,62,58
+Americana,Campinas,RRT Inicial,Arquitetura das Edificações,1121,1247,1308,969,1172,1200
+Americana,Campinas,RRT Inicial,Planejamento Urbano e Regional,0,0,1,1,0,0
+Americana,Campinas,RRT Inicial,Conforto Ambiental,10,14,16,20,25,41
+Artur Nogueira,Campinas,RRT Inicial,"Patrimônio Arquitetônico, Urbanístico e Paisagístico",0,0,0,0,2,0
+Artur Nogueira,Campinas,RRT Inicial,Conforto Ambiental,0,0,1,2,3,0
+Artur Nogueira,Campinas,RRT Inicial,Urbanismo e Desenho Urbano,23,17,12,15,12,16
+Artur Nogueira,Campinas,RRT Inicial,Arquitetura das Edificações,356,297,231,210,297,236
+Artur Nogueira,Campinas,RRT Inicial,Instalações e Equipamentos Referentes ao Urbanismo,1,0,0,0,0,1
+Artur Nogueira,Campinas,RRT Inicial,Planejamento Urbano e Regional,0,1,0,0,1,0
+Artur Nogueira,Campinas,RRT Inicial,Meio Ambiente,0,0,0,1,2,0
+Campinas,Campinas,RRT Inicial,"Patrimônio Arquitetônico, Urbanístico e Paisagístico",6,12,9,20,14,18
+Campinas,Campinas,RRT Inicial,Meio Ambiente,20,52,57,57,44,35
+Campinas,Campinas,RRT Inicial,Planejamento Urbano e Regional,1,4,12,8,6,7
+Campinas,Campinas,RRT Inicial,Instalações e Equipamentos Referentes ao Urbanismo,60,50,79,84,122,150
+Campinas,Campinas,RRT Inicial,Conforto Ambiental,159,182,199,204,261,314
+Campinas,Campinas,RRT Inicial,Urbanismo e Desenho Urbano,200,123,149,140,151,133
+Campinas,Campinas,RRT Inicial,Arquitetura das Edificações,3392,4475,4495,4543,4711,4537
+Cosmópolis,Campinas,RRT Inicial,Conforto Ambiental,1,0,0,0,1,1
+Cosmópolis,Campinas,RRT Inicial,Urbanismo e Desenho Urbano,5,5,7,6,8,10
+Cosmópolis,Campinas,RRT Inicial,Arquitetura das Edificações,93,71,60,84,91,76
+Cosmópolis,Campinas,RRT Inicial,Planejamento Urbano e Regional,0,0,0,1,0,0
+Cosmópolis,Campinas,RRT Inicial,Instalações e Equipamentos Referentes ao Urbanismo,1,0,1,1,2,2
+Engenheiro Coelho,Campinas,RRT Inicial,Conforto Ambiental,0,1,0,3,1,0
+Engenheiro Coelho,Campinas,RRT Inicial,Planejamento Urbano e Regional,1,0,0,0,0,0
+Engenheiro Coelho,Campinas,RRT Inicial,"Patrimônio Arquitetônico, Urbanístico e Paisagístico",2,1,0,0,1,0
+Engenheiro Coelho,Campinas,RRT Inicial,Urbanismo e Desenho Urbano,19,13,14,2,7,8
+Engenheiro Coelho,Campinas,RRT Inicial,Arquitetura das Edificações,176,140,93,109,174,115
+Engenheiro Coelho,Campinas,RRT Inicial,Meio Ambiente,1,1,0,0,0,0
+Engenheiro Coelho,Campinas,RRT Inicial,Instalações e Equipamentos Referentes ao Urbanismo,0,1,0,0,0,0
+Holambra,Campinas,RRT Inicial,Meio Ambiente,0,2,0,1,0,0
+Holambra,Campinas,RRT Inicial,Instalações e Equipamentos Referentes ao Urbanismo,5,0,1,1,0,1
+Holambra,Campinas,RRT Inicial,Urbanismo e Desenho Urbano,6,12,12,8,3,9
+Holambra,Campinas,RRT Inicial,Arquitetura das Edificações,229,285,433,420,354,393
+Holambra,Campinas,RRT Inicial,Conforto Ambiental,1,2,6,7,4,33
+Holambra,Campinas,RRT Inicial,Planejamento Urbano e Regional,1,0,0,1,1,1
+Hortolândia,Campinas,RRT Inicial,Conforto Ambiental,7,12,9,7,24,28
+Hortolândia,Campinas,RRT Inicial,Planejamento Urbano e Regional,0,0,0,1,0,0
+Hortolândia,Campinas,RRT Inicial,Urbanismo e Desenho Urbano,62,19,30,125,146,28
+Hortolândia,Campinas,RRT Inicial,Arquitetura das Edificações,872,878,867,922,1055,764
+Hortolândia,Campinas,RRT Inicial,Meio Ambiente,0,1,1,0,2,4
+Hortolândia,Campinas,RRT Inicial,Instalações e Equipamentos Referentes ao Urbanismo,17,4,6,4,9,10
+Indaiatuba,Campinas,RRT Inicial,Instalações e Equipamentos Referentes ao Urbanismo,5,7,6,7,7,12
+Indaiatuba,Campinas,RRT Inicial,Conforto Ambiental,30,54,63,63,85,101
+Indaiatuba,Campinas,RRT Inicial,Meio Ambiente,6,5,7,7,12,8
+Indaiatuba,Campinas,RRT Inicial,"Patrimônio Arquitetônico, Urbanístico e Paisagístico",1,1,2,2,1,0
+Indaiatuba,Campinas,RRT Inicial,Urbanismo e Desenho Urbano,45,53,50,36,49,42
+Indaiatuba,Campinas,RRT Inicial,Arquitetura das Edificações,2551,3159,2431,2141,2441,2449
+Itatiba,Campinas,RRT Inicial,Urbanismo e Desenho Urbano,34,40,41,32,20,23
+Itatiba,Campinas,RRT Inicial,Arquitetura das Edificações,600,1161,975,794,828,745
+Itatiba,Campinas,RRT Inicial,Planejamento Urbano e Regional,0,1,0,2,0,0
+Itatiba,Campinas,RRT Inicial,Meio Ambiente,12,35,21,12,23,12
+Itatiba,Campinas,RRT Inicial,Conforto Ambiental,10,5,8,4,15,20
+Itatiba,Campinas,RRT Inicial,Instalações e Equipamentos Referentes ao Urbanismo,6,5,6,2,5,3
+Itatiba,Campinas,RRT Inicial,"Patrimônio Arquitetônico, Urbanístico e Paisagístico",0,0,1,1,1,3
+Jaguariúna,Campinas,RRT Inicial,Planejamento Urbano e Regional,0,2,1,0,1,1
+Jaguariúna,Campinas,RRT Inicial,Instalações e Equipamentos Referentes ao Urbanismo,2,1,5,7,4,7
+Jaguariúna,Campinas,RRT Inicial,Urbanismo e Desenho Urbano,84,87,30,23,32,40
+Jaguariúna,Campinas,RRT Inicial,Arquitetura das Edificações,387,538,392,355,419,406
+Jaguariúna,Campinas,RRT Inicial,"Patrimônio Arquitetônico, Urbanístico e Paisagístico",0,0,2,4,4,0
+Jaguariúna,Campinas,RRT Inicial,Conforto Ambiental,3,2,2,7,7,15
+Jaguariúna,Campinas,RRT Inicial,Meio Ambiente,2,9,6,2,6,2
+Monte Mor,Campinas,RRT Inicial,Conforto Ambiental,0,1,3,2,2,4
+Monte Mor,Campinas,RRT Inicial,Urbanismo e Desenho Urbano,6,6,6,6,48,19
+Monte Mor,Campinas,RRT Inicial,Arquitetura das Edificações,241,257,208,222,253,241
+Monte Mor,Campinas,RRT Inicial,Instalações e Equipamentos Referentes ao Urbanismo,0,1,1,1,1,0
+Monte Mor,Campinas,RRT Inicial,Planejamento Urbano e Regional,0,0,1,0,0,0
+Morungaba,Campinas,RRT Inicial,Instalações e Equipamentos Referentes ao Urbanismo,0,0,0,0,1,0
+Morungaba,Campinas,RRT Inicial,Conforto Ambiental,2,4,6,6,8,7
+Morungaba,Campinas,RRT Inicial,Urbanismo e Desenho Urbano,1,2,5,3,2,1
+Morungaba,Campinas,RRT Inicial,Arquitetura das Edificações,17,31,31,31,35,38
+Nova Odessa,Campinas,RRT Inicial,Planejamento Urbano e Regional,0,0,1,0,0,0
+Nova Odessa,Campinas,RRT Inicial,Instalações e Equipamentos Referentes ao Urbanismo,0,1,0,1,1,5
+Nova Odessa,Campinas,RRT Inicial,"Patrimônio Arquitetônico, Urbanístico e Paisagístico",0,0,0,0,0,1
+Nova Odessa,Campinas,RRT Inicial,Meio Ambiente,3,0,1,0,0,0
+Nova Odessa,Campinas,RRT Inicial,Conforto Ambiental,2,5,4,7,5,5
+Nova Odessa,Campinas,RRT Inicial,Urbanismo e Desenho Urbano,6,12,11,10,14,5
+Nova Odessa,Campinas,RRT Inicial,Arquitetura das Edificações,232,494,443,455,416,414
+Paulínia,Campinas,RRT Inicial,Instalações e Equipamentos Referentes ao Urbanismo,2,9,14,18,12,3
+Paulínia,Campinas,RRT Inicial,Urbanismo e Desenho Urbano,17,31,11,20,13,18
+Paulínia,Campinas,RRT Inicial,Arquitetura das Edificações,858,1240,847,929,1025,1001
+Paulínia,Campinas,RRT Inicial,"Patrimônio Arquitetônico, Urbanístico e Paisagístico",0,1,0,0,1,0
+Paulínia,Campinas,RRT Inicial,Meio Ambiente,3,2,3,3,4,2
+Paulínia,Campinas,RRT Inicial,Conforto Ambiental,10,11,5,14,13,10
+Pedreira,Campinas,RRT Inicial,Urbanismo e Desenho Urbano,12,22,9,6,30,18
+Pedreira,Campinas,RRT Inicial,Arquitetura das Edificações,121,144,131,125,126,131
+Pedreira,Campinas,RRT Inicial,Conforto Ambiental,0,4,3,2,0,2
+Pedreira,Campinas,RRT Inicial,"Patrimônio Arquitetônico, Urbanístico e Paisagístico",0,0,1,1,0,1
+Pedreira,Campinas,RRT Inicial,Instalações e Equipamentos Referentes ao Urbanismo,2,1,2,2,0,4
+Pedreira,Campinas,RRT Inicial,Planejamento Urbano e Regional,0,0,1,0,0,0
+Santa Bárbara d'Oeste,Campinas,RRT Inicial,"Patrimônio Arquitetônico, Urbanístico e Paisagístico",0,0,0,1,2,3
+Santa Bárbara d'Oeste,Campinas,RRT Inicial,Urbanismo e Desenho Urbano,29,21,28,26,25,25
+Santa Bárbara d'Oeste,Campinas,RRT Inicial,Arquitetura das Edificações,497,674,544,468,537,621
+Santa Bárbara d'Oeste,Campinas,RRT Inicial,Conforto Ambiental,6,21,9,15,20,14
+Santa Bárbara d'Oeste,Campinas,RRT Inicial,Instalações e Equipamentos Referentes ao Urbanismo,8,8,3,4,2,1
+Santa Bárbara d'Oeste,Campinas,RRT Inicial,Meio Ambiente,7,7,7,1,6,5
+Santo Antônio de Posse,Campinas,RRT Inicial,Planejamento Urbano e Regional,0,0,0,2,0,0
+Santo Antônio de Posse,Campinas,RRT Inicial,Instalações e Equipamentos Referentes ao Urbanismo,1,0,1,0,1,3
+Santo Antônio de Posse,Campinas,RRT Inicial,Urbanismo e Desenho Urbano,6,1,3,6,4,3
+Santo Antônio de Posse,Campinas,RRT Inicial,Arquitetura das Edificações,49,75,53,41,45,62
+Santo Antônio de Posse,Campinas,RRT Inicial,Conforto Ambiental,0,0,0,2,3,3
+Sumaré,Campinas,RRT Inicial,Meio Ambiente,2,1,1,1,3,2
+Sumaré,Campinas,RRT Inicial,"Patrimônio Arquitetônico, Urbanístico e Paisagístico",0,0,0,1,0,0
+Sumaré,Campinas,RRT Inicial,Instalações e Equipamentos Referentes ao Urbanismo,3,2,8,9,6,5
+Sumaré,Campinas,RRT Inicial,Urbanismo e Desenho Urbano,22,16,16,17,14,40
+Sumaré,Campinas,RRT Inicial,Arquitetura das Edificações,239,309,279,341,261,346
+Sumaré,Campinas,RRT Inicial,Conforto Ambiental,9,13,11,19,6,12
+Sumaré,Campinas,RRT Inicial,Planejamento Urbano e Regional,1,1,0,0,0,0
+Valinhos,Campinas,RRT Inicial,Instalações e Equipamentos Referentes ao Urbanismo,8,16,7,11,13,5
+Valinhos,Campinas,RRT Inicial,Conforto Ambiental,21,30,24,27,27,20
+Valinhos,Campinas,RRT Inicial,Meio Ambiente,0,1,2,0,2,2
+Valinhos,Campinas,RRT Inicial,"Patrimônio Arquitetônico, Urbanístico e Paisagístico",0,0,0,0,0,1
+Valinhos,Campinas,RRT Inicial,Planejamento Urbano e Regional,0,0,0,0,6,5
+Valinhos,Campinas,RRT Inicial,Urbanismo e Desenho Urbano,35,22,24,46,24,14
+Valinhos,Campinas,RRT Inicial,Arquitetura das Edificações,661,1032,872,690,688,601
+Vinhedo,Campinas,RRT Inicial,Instalações e Equipamentos Referentes ao Urbanismo,15,21,12,7,31,26
+Vinhedo,Campinas,RRT Inicial,Conforto Ambiental,15,16,10,11,11,8
+Vinhedo,Campinas,RRT Inicial,Meio Ambiente,1,1,0,0,1,0
+Vinhedo,Campinas,RRT Inicial,"Patrimônio Arquitetônico, Urbanístico e Paisagístico",1,0,0,1,1,0
+Vinhedo,Campinas,RRT Inicial,Urbanismo e Desenho Urbano,15,12,12,17,15,17
+Vinhedo,Campinas,RRT Inicial,Arquitetura das Edificações,653,908,640,596,763,714
+Alambari,Sorocaba,RRT Inicial,Planejamento Urbano e Regional,0,3,0,0,0,0
+Alambari,Sorocaba,RRT Inicial,Instalações e Equipamentos Referentes ao Urbanismo,0,1,0,0,0,0
+Alambari,Sorocaba,RRT Inicial,Urbanismo e Desenho Urbano,6,4,7,3,0,2
+Alambari,Sorocaba,RRT Inicial,Arquitetura das Edificações,16,20,11,12,12,14
+Alumínio,Sorocaba,RRT Inicial,"Patrimônio Arquitetônico, Urbanístico e Paisagístico",0,0,0,0,0,1
+Alumínio,Sorocaba,RRT Inicial,Instalações e Equipamentos Referentes ao Urbanismo,2,0,0,0,0,1
+Alumínio,Sorocaba,RRT Inicial,Conforto Ambiental,0,0,1,0,0,0
+Alumínio,Sorocaba,RRT Inicial,Urbanismo e Desenho Urbano,13,7,5,3,3,3
+Alumínio,Sorocaba,RRT Inicial,Arquitetura das Edificações,57,47,42,37,54,94
+Araçariguama,Sorocaba,RRT Inicial,"Patrimônio Arquitetônico, Urbanístico e Paisagístico",0,2,1,0,0,0
+Araçariguama,Sorocaba,RRT Inicial,Instalações e Equipamentos Referentes ao Urbanismo,18,40,8,11,4,3
+Araçariguama,Sorocaba,RRT Inicial,Meio Ambiente,0,1,0,1,1,0
+Araçariguama,Sorocaba,RRT Inicial,Urbanismo e Desenho Urbano,6,8,9,8,7,6
+Araçariguama,Sorocaba,RRT Inicial,Arquitetura das Edificações,123,188,93,147,121,105
+Araçariguama,Sorocaba,RRT Inicial,Planejamento Urbano e Regional,2,0,0,0,0,0
+Araçariguama,Sorocaba,RRT Inicial,Conforto Ambiental,2,2,0,17,4,3
+Araçoiaba da Serra,Sorocaba,RRT Inicial,"Patrimônio Arquitetônico, Urbanístico e Paisagístico",0,1,5,2,0,1
+Araçoiaba da Serra,Sorocaba,RRT Inicial,Planejamento Urbano e Regional,0,0,0,3,0,0
+Araçoiaba da Serra,Sorocaba,RRT Inicial,Urbanismo e Desenho Urbano,35,55,42,35,53,26
+Araçoiaba da Serra,Sorocaba,RRT Inicial,Arquitetura das Edificações,293,400,340,347,314,362
+Araçoiaba da Serra,Sorocaba,RRT Inicial,Conforto Ambiental,0,2,3,2,1,0
+Araçoiaba da Serra,Sorocaba,RRT Inicial,Instalações e Equipamentos Referentes ao Urbanismo,1,2,3,3,1,3
+Araçoiaba da Serra,Sorocaba,RRT Inicial,Meio Ambiente,0,0,0,0,0,1
+Boituva,Sorocaba,RRT Inicial,Instalações e Equipamentos Referentes ao Urbanismo,2,2,2,2,4,8
+Boituva,Sorocaba,RRT Inicial,Conforto Ambiental,0,1,1,3,1,2
+Boituva,Sorocaba,RRT Inicial,Meio Ambiente,4,1,5,1,3,3
+Boituva,Sorocaba,RRT Inicial,"Patrimônio Arquitetônico, Urbanístico e Paisagístico",0,0,1,1,2,0
+Boituva,Sorocaba,RRT Inicial,Urbanismo e Desenho Urbano,47,39,46,28,46,36
+Boituva,Sorocaba,RRT Inicial,Arquitetura das Edificações,683,709,635,591,759,779
+Capela do Alto,Sorocaba,RRT Inicial,Urbanismo e Desenho Urbano,9,5,8,3,4,1
+Capela do Alto,Sorocaba,RRT Inicial,Arquitetura das Edificações,37,63,49,64,61,51
+Capela do Alto,Sorocaba,RRT Inicial,Planejamento Urbano e Regional,0,0,0,1,0,0
+Capela do Alto,Sorocaba,RRT Inicial,Instalações e Equipamentos Referentes ao Urbanismo,0,0,1,0,1,0
+Capela do Alto,Sorocaba,RRT Inicial,"Patrimônio Arquitetônico, Urbanístico e Paisagístico",0,0,0,2,0,0
+Cerquilho,Sorocaba,RRT Inicial,"Patrimônio Arquitetônico, Urbanístico e Paisagístico",0,0,0,2,0,0
+Cerquilho,Sorocaba,RRT Inicial,Planejamento Urbano e Regional,1,1,1,0,0,0
+Cerquilho,Sorocaba,RRT Inicial,Urbanismo e Desenho Urbano,29,37,27,15,17,14
+Cerquilho,Sorocaba,RRT Inicial,Arquitetura das Edificações,328,369,296,233,249,217
+Cerquilho,Sorocaba,RRT Inicial,Conforto Ambiental,2,1,0,0,1,0
+Cerquilho,Sorocaba,RRT Inicial,Instalações e Equipamentos Referentes ao Urbanismo,9,1,2,0,0,4
+Cerquilho,Sorocaba,RRT Inicial,Meio Ambiente,0,0,1,1,0,0
+Cesário Lange,Sorocaba,RRT Inicial,Urbanismo e Desenho Urbano,10,7,10,8,2,7
+Cesário Lange,Sorocaba,RRT Inicial,Arquitetura das Edificações,83,110,108,88,76,95
+Cesário Lange,Sorocaba,RRT Inicial,Conforto Ambiental,1,0,0,1,2,1
+Cesário Lange,Sorocaba,RRT Inicial,Instalações e Equipamentos Referentes ao Urbanismo,1,6,3,1,3,4
+Ibiúna,Sorocaba,RRT Inicial,"Patrimônio Arquitetônico, Urbanístico e Paisagístico",0,0,3,1,2,1
+Ibiúna,Sorocaba,RRT Inicial,Conforto Ambiental,0,1,0,3,7,4
+Ibiúna,Sorocaba,RRT Inicial,Urbanismo e Desenho Urbano,6,10,12,8,8,15
+Ibiúna,Sorocaba,RRT Inicial,Arquitetura das Edificações,195,219,198,175,202,170
+Ibiúna,Sorocaba,RRT Inicial,Instalações e Equipamentos Referentes ao Urbanismo,2,1,1,3,1,2
+Iperó,Sorocaba,RRT Inicial,Conforto Ambiental,0,0,1,0,1,0
+Iperó,Sorocaba,RRT Inicial,Urbanismo e Desenho Urbano,19,26,40,12,26,24
+Iperó,Sorocaba,RRT Inicial,Arquitetura das Edificações,115,130,113,76,94,80
+Iperó,Sorocaba,RRT Inicial,Instalações e Equipamentos Referentes ao Urbanismo,2,0,0,0,0,0
+Iperó,Sorocaba,RRT Inicial,"Patrimônio Arquitetônico, Urbanístico e Paisagístico",4,0,0,0,0,0
+Iperó,Sorocaba,RRT Inicial,Planejamento Urbano e Regional,2,1,0,0,0,0
+Itapetininga,Sorocaba,RRT Inicial,Instalações e Equipamentos Referentes ao Urbanismo,0,4,7,3,1,5
+Itapetininga,Sorocaba,RRT Inicial,"Patrimônio Arquitetônico, Urbanístico e Paisagístico",0,2,1,0,0,1
+Itapetininga,Sorocaba,RRT Inicial,Meio Ambiente,1,1,2,0,0,1
+Itapetininga,Sorocaba,RRT Inicial,Conforto Ambiental,3,12,4,1,4,7
+Itapetininga,Sorocaba,RRT Inicial,Urbanismo e Desenho Urbano,40,38,27,25,27,31
+Itapetininga,Sorocaba,RRT Inicial,Arquitetura das Edificações,588,686,491,455,465,480
+Itu,Sorocaba,RRT Inicial,"Patrimônio Arquitetônico, Urbanístico e Paisagístico",4,6,8,6,6,8
+Itu,Sorocaba,RRT Inicial,Instalações e Equipamentos Referentes ao Urbanismo,35,17,21,16,15,13
+Itu,Sorocaba,RRT Inicial,Meio Ambiente,2,1,2,3,2,4
+Itu,Sorocaba,RRT Inicial,Urbanismo e Desenho Urbano,63,48,70,51,62,54
+Itu,Sorocaba,RRT Inicial,Arquitetura das Edificações,1479,1742,1319,1022,1086,1344
+Itu,Sorocaba,RRT Inicial,Planejamento Urbano e Regional,2,0,5,3,2,2
+Itu,Sorocaba,RRT Inicial,Conforto Ambiental,8,13,17,9,52,28
+Jumirim,Sorocaba,RRT Inicial,Instalações e Equipamentos Referentes ao Urbanismo,0,0,0,1,0,0
+Jumirim,Sorocaba,RRT Inicial,Conforto Ambiental,0,0,0,2,1,0
+Jumirim,Sorocaba,RRT Inicial,Urbanismo e Desenho Urbano,2,3,4,0,1,0
+Jumirim,Sorocaba,RRT Inicial,Arquitetura das Edificações,24,15,15,26,13,19
+Jumirim,Sorocaba,RRT Inicial,"Patrimônio Arquitetônico, Urbanístico e Paisagístico",0,1,0,1,0,0
+Mairinque,Sorocaba,RRT Inicial,"Patrimônio Arquitetônico, Urbanístico e Paisagístico",0,2,0,0,0,0
+Mairinque,Sorocaba,RRT Inicial,Instalações e Equipamentos Referentes ao Urbanismo,9,27,10,9,4,5
+Mairinque,Sorocaba,RRT Inicial,Meio Ambiente,4,6,8,10,1,0
+Mairinque,Sorocaba,RRT Inicial,Urbanismo e Desenho Urbano,51,61,51,31,29,29
+Mairinque,Sorocaba,RRT Inicial,Arquitetura das Edificações,205,235,180,190,181,166
+Mairinque,Sorocaba,RRT Inicial,Planejamento Urbano e Regional,0,0,0,0,1,1
+Mairinque,Sorocaba,RRT Inicial,Conforto Ambiental,0,0,1,2,1,1
+Piedade,Sorocaba,RRT Inicial,Urbanismo e Desenho Urbano,7,13,24,11,8,14
+Piedade,Sorocaba,RRT Inicial,Arquitetura das Edificações,48,83,119,143,145,115
+Piedade,Sorocaba,RRT Inicial,Meio Ambiente,0,0,0,0,1,0
+Piedade,Sorocaba,RRT Inicial,Conforto Ambiental,0,1,0,1,3,3
+Piedade,Sorocaba,RRT Inicial,"Patrimônio Arquitetônico, Urbanístico e Paisagístico",0,0,1,0,0,0
+Piedade,Sorocaba,RRT Inicial,Instalações e Equipamentos Referentes ao Urbanismo,3,3,2,7,3,3
+Pilar do Sul,Sorocaba,RRT Inicial,"Patrimônio Arquitetônico, Urbanístico e Paisagístico",0,0,1,1,0,1
+Pilar do Sul,Sorocaba,RRT Inicial,Meio Ambiente,0,0,0,0,1,0
+Pilar do Sul,Sorocaba,RRT Inicial,Planejamento Urbano e Regional,0,0,1,0,0,0
+Pilar do Sul,Sorocaba,RRT Inicial,Instalações e Equipamentos Referentes ao Urbanismo,1,1,0,0,0,0
+Pilar do Sul,Sorocaba,RRT Inicial,Conforto Ambiental,2,0,0,3,0,1
+Pilar do Sul,Sorocaba,RRT Inicial,Urbanismo e Desenho Urbano,12,5,4,11,1,2
+Pilar do Sul,Sorocaba,RRT Inicial,Arquitetura das Edificações,56,52,49,46,67,73
+Porto Feliz,Sorocaba,RRT Inicial,Urbanismo e Desenho Urbano,20,30,24,20,26,38
+Porto Feliz,Sorocaba,RRT Inicial,Arquitetura das Edificações,671,861,583,560,563,604
+Porto Feliz,Sorocaba,RRT Inicial,Meio Ambiente,1,0,1,2,2,0
+Porto Feliz,Sorocaba,RRT Inicial,Conforto Ambiental,6,13,10,14,3,24
+Porto Feliz,Sorocaba,RRT Inicial,"Patrimônio Arquitetônico, Urbanístico e Paisagístico",1,2,4,1,1,0
+Porto Feliz,Sorocaba,RRT Inicial,Instalações e Equipamentos Referentes ao Urbanismo,2,2,2,2,4,1
+Porto Feliz,Sorocaba,RRT Inicial,Planejamento Urbano e Regional,0,0,1,1,0,0
+Salto,Sorocaba,RRT Inicial,Urbanismo e Desenho Urbano,68,56,38,61,75,54
+Salto,Sorocaba,RRT Inicial,Arquitetura das Edificações,1355,1297,1287,1119,1408,1278
+Salto,Sorocaba,RRT Inicial,Conforto Ambiental,3,6,3,2,12,9
+Salto,Sorocaba,RRT Inicial,Meio Ambiente,2,0,0,0,0,1
+Salto,Sorocaba,RRT Inicial,"Patrimônio Arquitetônico, Urbanístico e Paisagístico",3,4,4,2,0,1
+Salto,Sorocaba,RRT Inicial,Instalações e Equipamentos Referentes ao Urbanismo,2,2,0,0,3,1
+Salto de Pirapora,Sorocaba,RRT Inicial,"Patrimônio Arquitetônico, Urbanístico e Paisagístico",0,0,0,1,0,4
+Salto de Pirapora,Sorocaba,RRT Inicial,Instalações e Equipamentos Referentes ao Urbanismo,0,4,4,1,0,2
+Salto de Pirapora,Sorocaba,RRT Inicial,Urbanismo e Desenho Urbano,4,8,2,4,2,14
+Salto de Pirapora,Sorocaba,RRT Inicial,Arquitetura das Edificações,250,251,168,172,207,238
+Salto de Pirapora,Sorocaba,RRT Inicial,Conforto Ambiental,0,0,1,1,0,1
+São Miguel Arcanjo,Sorocaba,RRT Inicial,Conforto Ambiental,0,0,0,1,0,0
+São Miguel Arcanjo,Sorocaba,RRT Inicial,Meio Ambiente,0,1,0,0,0,0
+São Miguel Arcanjo,Sorocaba,RRT Inicial,Urbanismo e Desenho Urbano,5,7,6,6,2,1
+São Miguel Arcanjo,Sorocaba,RRT Inicial,Arquitetura das Edificações,59,61,50,43,120,88
+São Miguel Arcanjo,Sorocaba,RRT Inicial,Instalações e Equipamentos Referentes ao Urbanismo,0,0,0,1,1,0
+São Roque,Sorocaba,RRT Inicial,Instalações e Equipamentos Referentes ao Urbanismo,9,8,9,10,7,18
+São Roque,Sorocaba,RRT Inicial,Planejamento Urbano e Regional,2,1,3,1,2,3
+São Roque,Sorocaba,RRT Inicial,Conforto Ambiental,3,6,7,61,15,14
+São Roque,Sorocaba,RRT Inicial,Meio Ambiente,21,21,6,7,3,6
+São Roque,Sorocaba,RRT Inicial,Urbanismo e Desenho Urbano,38,40,39,29,35,24
+São Roque,Sorocaba,RRT Inicial,Arquitetura das Edificações,303,392,393,507,437,507
+São Roque,Sorocaba,RRT Inicial,"Patrimônio Arquitetônico, Urbanístico e Paisagístico",0,1,0,2,1,1
+Sarapuí,Sorocaba,RRT Inicial,Planejamento Urbano e Regional,1,0,0,0,0,0
+Sarapuí,Sorocaba,RRT Inicial,Urbanismo e Desenho Urbano,57,59,58,65,51,59
+Sarapuí,Sorocaba,RRT Inicial,Arquitetura das Edificações,69,87,76,69,65,49
+Sarapuí,Sorocaba,RRT Inicial,Instalações e Equipamentos Referentes ao Urbanismo,0,0,3,0,0,1
+Sorocaba,Sorocaba,RRT Inicial,Conforto Ambiental,64,63,53,74,97,106
+Sorocaba,Sorocaba,RRT Inicial,Meio Ambiente,6,4,2,3,10,11
+Sorocaba,Sorocaba,RRT Inicial,Urbanismo e Desenho Urbano,81,65,87,73,82,67
+Sorocaba,Sorocaba,RRT Inicial,Arquitetura das Edificações,3206,3727,3205,3479,3686,3350
+Sorocaba,Sorocaba,RRT Inicial,Instalações e Equipamentos Referentes ao Urbanismo,14,27,27,15,20,22
+Sorocaba,Sorocaba,RRT Inicial,"Patrimônio Arquitetônico, Urbanístico e Paisagístico",1,1,2,3,4,3
+Sorocaba,Sorocaba,RRT Inicial,Planejamento Urbano e Regional,1,2,1,0,1,1
+Tapiraí,Sorocaba,RRT Inicial,Urbanismo e Desenho Urbano,0,5,3,0,1,0
+Tapiraí,Sorocaba,RRT Inicial,Arquitetura das Edificações,5,9,10,6,10,0
+Tapiraí,Sorocaba,RRT Inicial,Instalações e Equipamentos Referentes ao Urbanismo,0,1,0,1,1,0
+Tatuí,Sorocaba,RRT Inicial,Meio Ambiente,1,3,5,8,1,5
+Tatuí,Sorocaba,RRT Inicial,Conforto Ambiental,3,5,5,1,2,1
+Tatuí,Sorocaba,RRT Inicial,Urbanismo e Desenho Urbano,20,22,14,19,18,15
+Tatuí,Sorocaba,RRT Inicial,Arquitetura das Edificações,390,562,579,487,463,430
+Tatuí,Sorocaba,RRT Inicial,Planejamento Urbano e Regional,0,0,0,0,1,1
+Tatuí,Sorocaba,RRT Inicial,Instalações e Equipamentos Referentes ao Urbanismo,0,2,0,2,1,3
+Tatuí,Sorocaba,RRT Inicial,"Patrimônio Arquitetônico, Urbanístico e Paisagístico",0,0,0,1,0,1
+Tietê,Sorocaba,RRT Inicial,Urbanismo e Desenho Urbano,16,16,14,27,26,7
+Tietê,Sorocaba,RRT Inicial,Arquitetura das Edificações,116,161,161,170,182,199
+Tietê,Sorocaba,RRT Inicial,Meio Ambiente,0,0,1,0,0,0
+Tietê,Sorocaba,RRT Inicial,Conforto Ambiental,0,0,0,4,0,1
+Tietê,Sorocaba,RRT Inicial,"Patrimônio Arquitetônico, Urbanístico e Paisagístico",0,0,0,3,0,0
+Tietê,Sorocaba,RRT Inicial,Instalações e Equipamentos Referentes ao Urbanismo,0,3,1,4,1,1
+Tietê,Sorocaba,RRT Inicial,Planejamento Urbano e Regional,0,1,0,0,0,0
+Votorantim,Sorocaba,RRT Inicial,Conforto Ambiental,7,15,7,22,18,21
+Votorantim,Sorocaba,RRT Inicial,Meio Ambiente,2,1,1,0,5,2
+Votorantim,Sorocaba,RRT Inicial,Urbanismo e Desenho Urbano,39,35,29,40,25,35
+Votorantim,Sorocaba,RRT Inicial,Arquitetura das Edificações,680,863,681,637,746,747
+Votorantim,Sorocaba,RRT Inicial,Instalações e Equipamentos Referentes ao Urbanismo,0,5,2,3,5,1
+Votorantim,Sorocaba,RRT Inicial,Planejamento Urbano e Regional,0,0,4,1,0,0
+Diadema,ABC,RRT Social,,2,1,7,1,24,0
+Diadema,ABC,Empresa,,13,15,16,18,23,25
+Diadema,ABC,Profissional,,180,198,194,210,210,248
+Mauá,ABC,RRT Social,,0,3,2,1,2,0
+Mauá,ABC,Empresa,,12,19,27,31,36,38
+Mauá,ABC,Profissional,,185,196,195,225,227,276
+Ribeirão Pires,ABC,RRT Social,,0,0,1,0,2,0
+Ribeirão Pires,ABC,Empresa,,12,14,18,17,19,20
+Ribeirão Pires,ABC,Profissional,,128,137,132,136,136,158
+Rio Grande da Serra,ABC,RRT Social,,0,1,0,1,0,0
+Rio Grande da Serra,ABC,Empresa,,1,1,2,2,2,2
+Rio Grande da Serra,ABC,Profissional,,16,17,20,16,19,20
+Santo André,ABC,RRT Social,,6,7,6,5,3,6
+Santo André,ABC,Empresa,,160,168,177,175,193,218
+Santo André,ABC,Profissional,,1215,1273,1302,1364,1351,1447
+São Bernardo do Campo,ABC,RRT Social,,2,7,10,3,1,3
+São Bernardo do Campo,ABC,Empresa,,80,93,102,111,130,143
+São Bernardo do Campo,ABC,Profissional,,1145,1140,1203,1186,1223,1283
+São Caetano do Sul,ABC,RRT Social,,0,2,3,3,1,2
+São Caetano do Sul,ABC,Empresa,,82,92,105,113,123,138
+São Caetano do Sul,ABC,Profissional,,550,546,572,576,599,607
+Americana,Campinas,RRT Social,,0,0,4,2,1,0
+Americana,Campinas,Empresa,,39,39,40,44,49,61
+Americana,Campinas,Profissional,,288,326,333,353,348,413
+Artur Nogueira,Campinas,RRT Social,,0,1,0,4,2,1
+Artur Nogueira,Campinas,Empresa,,5,6,6,6,6,12
+Artur Nogueira,Campinas,Profissional,,44,46,51,44,47,77
+Campinas,Campinas,RRT Social,,0,34,13,3,5,11
+Campinas,Campinas,Empresa,,218,256,275,275,336,446
+Campinas,Campinas,Profissional,,1936,2013,2018,2137,2162,2262
+Cosmópolis,Campinas,RRT Social,,0,0,0,0,0,0
+Cosmópolis,Campinas,Empresa,,2,2,2,2,1,1
+Cosmópolis,Campinas,Profissional,,20,19,16,18,25,28
+Engenheiro Coelho,Campinas,RRT Social,,0,0,0,0,1,0
+Engenheiro Coelho,Campinas,Empresa,,2,2,2,2,2,1
+Engenheiro Coelho,Campinas,Profissional,,15,13,19,17,15,36
+Holambra,Campinas,RRT Social,,0,1,0,0,0,5
+Holambra,Campinas,Empresa,,3,3,4,4,5,7
+Holambra,Campinas,Profissional,,21,24,24,24,28,33
+Hortolândia,Campinas,RRT Social,,12,22,14,9,14,9
+Hortolândia,Campinas,Empresa,,7,10,9,9,13,13
+Hortolândia,Campinas,Profissional,,63,74,81,93,107,129
+Indaiatuba,Campinas,RRT Social,,1,2,4,4,3,4
+Indaiatuba,Campinas,Empresa,,39,47,50,42,52,69
+Indaiatuba,Campinas,Profissional,,393,433,462,481,530,593
+Itatiba,Campinas,RRT Social,,0,1,3,6,0,0
+Itatiba,Campinas,Empresa,,20,25,28,28,32,35
+Itatiba,Campinas,Profissional,,209,198,222,221,238,247
+Jaguariúna,Campinas,RRT Social,,4,14,8,4,6,14
+Jaguariúna,Campinas,Empresa,,3,3,3,5,5,5
+Jaguariúna,Campinas,Profissional,,34,41,48,54,55,73
+Monte Mor,Campinas,RRT Social,,0,1,1,1,0,2
+Monte Mor,Campinas,Empresa,,2,3,4,3,5,6
+Monte Mor,Campinas,Profissional,,19,22,21,22,25,35
+Morungaba,Campinas,RRT Social,,0,0,0,0,0,0
+Morungaba,Campinas,Empresa,,2,2,2,2,2,2
+Morungaba,Campinas,Profissional,,7,10,9,11,7,8
+Nova Odessa,Campinas,RRT Social,,0,0,0,1,0,0
+Nova Odessa,Campinas,Empresa,,0,0,0,1,4,6
+Nova Odessa,Campinas,Profissional,,18,19,27,35,37,50
+Paulínia,Campinas,RRT Social,,1,1,3,1,2,1
+Paulínia,Campinas,Empresa,,10,11,14,13,16,21
+Paulínia,Campinas,Profissional,,118,121,129,134,149,169
+Pedreira,Campinas,RRT Social,,0,0,3,0,0,0
+Pedreira,Campinas,Empresa,,1,1,1,1,1,2
+Pedreira,Campinas,Profissional,,31,37,29,40,31,39
+Santa Bárbara d'Oeste,Campinas,RRT Social,,0,3,4,1,0,0
+Santa Bárbara d'Oeste,Campinas,Empresa,,11,11,12,11,14,14
+Santa Bárbara d'Oeste,Campinas,Profissional,,126,134,146,149,158,175
+Santo Antônio de Posse,Campinas,RRT Social,,0,0,0,0,0,0
+Santo Antônio de Posse,Campinas,Empresa,,2,3,3,3,3,3
+Santo Antônio de Posse,Campinas,Profissional,,12,12,13,14,17,16
+Sumaré,Campinas,RRT Social,,1,0,8,3,1,0
+Sumaré,Campinas,Empresa,,9,8,9,13,12,16
+Sumaré,Campinas,Profissional,,80,83,87,105,96,118
+Valinhos,Campinas,RRT Social,,0,2,5,2,1,1
+Valinhos,Campinas,Empresa,,21,26,27,29,36,39
+Valinhos,Campinas,Profissional,,207,237,235,233,242,260
+Vinhedo,Campinas,RRT Social,,0,0,0,0,0,0
+Vinhedo,Campinas,Empresa,,10,16,16,19,22,23
+Vinhedo,Campinas,Profissional,,189,198,196,210,208,234
+Alambari,Sorocaba,RRT Social,,0,0,0,0,0,0
+Alambari,Sorocaba,Empresa,,2,2,1,1,1,1
+Alambari,Sorocaba,Profissional,,1,2,1,0,1,1
+Alumínio,Sorocaba,RRT Social,,0,0,0,0,0,0
+Alumínio,Sorocaba,Empresa,,0,0,0,0,0,1
+Alumínio,Sorocaba,Profissional,,5,7,7,6,7,7
+Araçariguama,Sorocaba,RRT Social,,0,0,1,1,0,0
+Araçariguama,Sorocaba,Empresa,,4,4,5,6,6,9
+Araçariguama,Sorocaba,Profissional,,8,9,11,15,15,16
+Araçoiaba da Serra,Sorocaba,RRT Social,,0,0,0,0,0,0
+Araçoiaba da Serra,Sorocaba,Empresa,,2,1,2,1,1,2
+Araçoiaba da Serra,Sorocaba,Profissional,,30,34,32,30,38,42
+Boituva,Sorocaba,RRT Social,,0,5,1,1,0,1
+Boituva,Sorocaba,Empresa,,6,8,8,10,11,15
+Boituva,Sorocaba,Profissional,,59,64,69,78,79,100
+Capela do Alto,Sorocaba,RRT Social,,0,0,1,1,0,0
+Capela do Alto,Sorocaba,Empresa,,1,1,2,2,2,2
+Capela do Alto,Sorocaba,Profissional,,3,8,10,6,10,12
+Cerquilho,Sorocaba,RRT Social,,0,1,4,4,3,4
+Cerquilho,Sorocaba,Empresa,,4,5,6,6,6,8
+Cerquilho,Sorocaba,Profissional,,43,44,43,46,46,59
+Cesário Lange,Sorocaba,RRT Social,,0,1,0,0,0,0
+Cesário Lange,Sorocaba,Empresa,,0,0,0,0,0,0
+Cesário Lange,Sorocaba,Profissional,,6,5,6,5,5,7
+Ibiúna,Sorocaba,RRT Social,,0,0,2,1,0,0
+Ibiúna,Sorocaba,Empresa,,1,1,3,4,6,6
+Ibiúna,Sorocaba,Profissional,,24,30,25,29,32,41
+Iperó,Sorocaba,RRT Social,,0,0,0,1,3,0
+Iperó,Sorocaba,Empresa,,2,2,2,2,2,3
+Iperó,Sorocaba,Profissional,,7,6,6,11,15,15
+Itapetininga,Sorocaba,RRT Social,,0,1,5,0,0,0
+Itapetininga,Sorocaba,Empresa,,14,15,16,19,21,20
+Itapetininga,Sorocaba,Profissional,,83,86,91,91,106,126
+Itu,Sorocaba,RRT Social,,0,3,5,1,2,0
+Itu,Sorocaba,Empresa,,30,37,39,43,48,56
+Itu,Sorocaba,Profissional,,221,246,258,257,291,330
+Jumirim,Sorocaba,RRT Social,,1,0,1,0,1,1
+Jumirim,Sorocaba,Empresa,,1,2,2,2,2,2
+Jumirim,Sorocaba,Profissional,,2,1,2,3,1,3
+Mairinque,Sorocaba,RRT Social,,0,0,0,0,0,0
+Mairinque,Sorocaba,Empresa,,1,1,1,1,2,2
+Mairinque,Sorocaba,Profissional,,21,21,26,23,26,27
+Piedade,Sorocaba,RRT Social,,0,0,0,0,0,0
+Piedade,Sorocaba,Empresa,,1,1,2,3,3,3
+Piedade,Sorocaba,Profissional,,24,26,25,25,25,28
+Pilar do Sul,Sorocaba,RRT Social,,0,0,0,2,0,0
+Pilar do Sul,Sorocaba,Empresa,,2,2,1,3,3,3
+Pilar do Sul,Sorocaba,Profissional,,12,18,16,16,18,19
+Porto Feliz,Sorocaba,RRT Social,,0,10,33,33,15,17
+Porto Feliz,Sorocaba,Empresa,,8,8,8,10,11,14
+Porto Feliz,Sorocaba,Profissional,,56,62,67,66,74,74
+Salto,Sorocaba,RRT Social,,1,0,5,3,7,1
+Salto,Sorocaba,Empresa,,14,16,18,18,23,26
+Salto,Sorocaba,Profissional,,138,170,169,175,170,213
+Salto de Pirapora,Sorocaba,RRT Social,,0,1,0,0,0,0
+Salto de Pirapora,Sorocaba,Empresa,,0,0,1,4,4,6
+Salto de Pirapora,Sorocaba,Profissional,,13,18,16,26,22,32
+São Miguel Arcanjo,Sorocaba,RRT Social,,0,2,0,0,0,0
+São Miguel Arcanjo,Sorocaba,Empresa,,2,2,2,2,2,2
+São Miguel Arcanjo,Sorocaba,Profissional,,10,12,15,16,14,16
+São Roque,Sorocaba,RRT Social,,0,1,1,0,2,1
+São Roque,Sorocaba,Empresa,,13,15,17,17,20,25
+São Roque,Sorocaba,Profissional,,102,97,106,113,107,113
+Sarapuí,Sorocaba,RRT Social,,0,0,1,0,0,0
+Sarapuí,Sorocaba,Empresa,,0,0,0,0,0,0
+Sarapuí,Sorocaba,Profissional,,6,7,7,5,6,9
+Sorocaba,Sorocaba,RRT Social,,3,8,17,15,12,7
+Sorocaba,Sorocaba,Empresa,,114,122,130,133,158,200
+Sorocaba,Sorocaba,Profissional,,906,992,1019,1068,1097,1260
+Tapiraí,Sorocaba,RRT Social,,0,0,0,0,0,0
+Tapiraí,Sorocaba,Empresa,,0,0,0,0,0,0
+Tapiraí,Sorocaba,Profissional,,3,4,3,0,3,4
+Tatuí,Sorocaba,RRT Social,,0,2,1,0,0,0
+Tatuí,Sorocaba,Empresa,,6,8,10,12,11,14
+Tatuí,Sorocaba,Profissional,,66,75,70,76,84,92
+Tietê,Sorocaba,RRT Social,,0,2,0,0,0,0
+Tietê,Sorocaba,Empresa,,2,3,3,3,3,4
+Tietê,Sorocaba,Profissional,,47,52,43,48,50,54
+Votorantim,Sorocaba,RRT Social,,0,1,1,4,3,4
+Votorantim,Sorocaba,Empresa,,9,11,15,15,14,13
+Votorantim,Sorocaba,Profissional,,86,94,98,113,117,139

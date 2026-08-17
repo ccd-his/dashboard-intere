@@ -161,3 +161,9 @@ def load_equipe():
     url = "https://raw.githubusercontent.com/ccd-his/dashboard-intere/refs/heads/main/data/equipe.md"
     with urllib.request.urlopen(url) as response:
             return response.read().decode('utf-8')
+
+@memory.cache
+def load_df_arquitetos():
+    return pd.read_csv(
+        "https://raw.githubusercontent.com/ccd-his/dashboard-intere/refs/heads/main/data/arquitetos.csv"
+    )

@@ -1,10 +1,8 @@
-import urllib.parse
 import plotly.express as px
 from functools import cache
 
 import dash
-import dash_ag_grid as dag
-import plotly.graph_objects as go
+
 from dash import Input, Output, callback, ctx, dcc, html
 import dash_bootstrap_components as dbc
 from pandas import DataFrame
@@ -338,9 +336,9 @@ def plota_graficos(cidade):
     dados = dados[dados['Município']==cidade]
 
     df = dados[dados['Tipo']=='Profissional']
-    profissionais  = grafico_linhas(df,'')
+    profissionais  = grafico_linhas(df,'variable','value',title='Profissionais Ativos',nome_x="Ano",nome_y="")
 
-    return profissionais, empresas, sociais, selecionados
+    return profissionais, profissionais, profissionais, profissionais
 
 
 

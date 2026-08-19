@@ -381,7 +381,7 @@ def plota_graficos(cidade):
     card_rrtssociais = card_pequeno("RRTs Sociais",valor)
 
     df = dados[dados['Tipo']=='RRT Inicial']
-    iniciais  = grafico_linhas(df,'variable','value',titulo='Empresas Ativas',serie="Área de atuação",nome_x="Ano",nome_y="Quantidade")  
+    iniciais  = grafico_linhas(df,'variable','value',titulo='RRTs Selecionadas',serie="Área de atuação",nome_x="Ano",nome_y="Quantidade")  
     valor = df[df['variable']==2025]['value'].values[0]
     card_rrtsselecionadas = card_pequeno("RRTs Selecionadas",valor)
     

@@ -1,0 +1,20 @@
+[Unit]
+Description=Dashboard Intere - Gunicorn WSGI
+After=network.target
+
+[Service]
+User=ubuntu
+Group=ubuntu
+WorkingDirectory=/home/ubuntu/dashboard-intere
+Environment="ENV=production"
+ExecStart=/home/ubuntu/dashboard-intere/venv/bin/gunicorn \
+    --bind 0.0.0.0:8050 \
+    app:server \
+    --workers 1 \
+    --timeout 360 \
+    --preload
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

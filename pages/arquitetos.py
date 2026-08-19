@@ -19,7 +19,7 @@ layout = [
     # html.H3(children="IRCT", style={"textAlign": "right"}),
     dcc.Location(id="url", refresh=True),
     make_title(
-        "Conheça a cidade no que diz respeito aos dados do CAU",
+        "Conheça a situação dos Arquitetos Urbanistas na cidade",
         "Arquitetos",
         dcc.Dropdown(load_df_cidades(), "", clearable=False, id="dropdown-cidade"),
     ),
@@ -316,6 +316,10 @@ def grafico_linhas(
                 x: nome_x if nome_x else x,
                 y: nome_y if nome_y else y
             }
+        )
+
+        fig.update_traces(
+            fill="tozeroy",
         )
 
     fig.update_layout(

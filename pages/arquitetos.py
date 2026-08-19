@@ -203,21 +203,21 @@ html.Div(
 ]
 
 
-def card_progress_pequeno(indice, valor):
+def card_pequeno(indice, valor):
 
 
     explicacoes = {
         "Profissionais": "Número de profissionais ativos em 2025",
         "Empresas": "Número de empresas ativas em 2025",
         "RRTs Sociais": "RRTs Sociais em 2025",
-        "RRTs Selecionados": "RRTs Selecionados em 2025",
+        "RRTs Selecionadas": "RRTs Selecionadas em 2025",
     }
 
     ids = {
         "Profissionais": "card-profissionais",
         "Empresas": "card-empresas",
         "RRTs Sociais": "card-rrtssociais",
-        "RRTs Selecionados": "card-rrtsselecionados",
+        "RRTs Selecionadas": "card-rrtsselecionados",
     }
 
     info_id = ids[indice]
@@ -266,7 +266,7 @@ def card_progress_pequeno(indice, valor):
                 html.Div(
                     className="col-auto",
                     children=[
-                        html.H2(valor)
+                        html.H1(valor)
                     ],
                 ),
             ],
@@ -295,6 +295,7 @@ def grafico_linhas(
             color=serie,
             markers=True,
             title=titulo,
+            color_discrete_sequence=px.colors.qualitative.Dark2,
             labels={
                 x: nome_x if nome_x else x,
                 y: nome_y if nome_y else y,
@@ -310,6 +311,7 @@ def grafico_linhas(
             y=y,
             markers=True,
             title=titulo,
+            color_discrete_sequence=px.colors.qualitative.Dark2,
             labels={
                 x: nome_x if nome_x else x,
                 y: nome_y if nome_y else y
@@ -318,14 +320,42 @@ def grafico_linhas(
 
     fig.update_layout(
         margin=dict(l=20, r=20, t=50, b=20),
-        hovermode="x unified"
+        hovermode="x unified",
+
+        plot_bgcolor="white",
+        paper_bgcolor="white",
+
+        title=dict(
+            text=titulo,
+            font=dict(
+                size=20,
+                color="black",
+                family="Arial"
+            )
+        ),
+
+        legend=dict(
+            orientation="h",
+            yanchor="top",
+            y=-0.15,
+            xanchor="center",
+            x=0.5
+        )
+    )
+
+    fig.update_yaxes(
+        tickformat=".0f"
     )
 
     return fig
 
 
 @callback(
-    Output("grafico-profisssionais","figure"),
+    Output("card-profissionais","children"),
+    Output("card-empresas","children"),
+    Output("card-rrtssociais","children"),
+    Output("card-rrtsselecionados","children"),
+    Output("grafico-profissionais","figure"),
     Output("grafico-empresas","figure"),
     Output("grafico-rrtssociais","figure"),
     Output("grafico-rrtsselecionados","figure"),
@@ -336,9 +366,26 @@ def plota_graficos(cidade):
     dados = dados[dados['Município']==cidade]
 
     df = dados[dados['Tipo']=='Profissional']
-    profissionais  = grafico_linhas(df,'variable','value',title='Profissionais Ativos',nome_x="Ano",nome_y="")
+    profissionais  = grafico_linhas(df,'variable','value',titulo='Profissionais Ativos',nome_x="Ano",nome_y="Quantidade")
+    valor = df[df['variable']==2025]['value'].values[0]
+    card_profissionais = card_pequeno("Profissionais",valor)
 
-    return profissionais, profissionais, profissionais, profissionais
+    df = dados[dados['Tipo']=='Empresa']
+    empresas  = grafico_linhas(df,'variable','value',titulo='Empresas Ativas',nome_x="Ano",nome_y="Quantidade")
+    valor = df[df['variable']==2025]['value'].values[0]
+    card_empresas = card_pequeno("Empresas",valor)
+  
+    df = dados[dados['Tipo']=='RRT Social']
+    sociais  = grafico_linhas(df,'variable','value',titulo='RRTs Sociais',nome_x="Ano",nome_y="Quantidade")  
+    valor = df[df['variable']==2025]['value'].values[0]
+    card_rrtssociais = card_pequeno("RRTs Sociais",valor)
+
+    df = dados[dados['Tipo']=='RRT Inicial']
+    iniciais  = grafico_linhas(df,'variable','value',titulo='Empresas Ativas',serie="Área de atuação",nome_x="Ano",nome_y="Quantidade")  
+    valor = df[df['variable']==2025]['value'].values[0]
+    card_rrtsselecionadas = card_pequeno("RRTs Selecionadas",valor)
+    
+    return card_profissionais, card_empresas, card_rrtssociais, card_rrtsselecionadas, profissionais, empresas, sociais, iniciais
 
 
 

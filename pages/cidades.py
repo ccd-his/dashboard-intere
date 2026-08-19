@@ -304,7 +304,7 @@ layout = [
                     dcc.Loading(
                         html.Div(
                             className="card overflow-x-auto",
-                            id="card-tabela-indicadores",
+                            id="card-tabela-indicadores-mitigacao",
                             children="Indicadores",
                         )
                     )
@@ -312,6 +312,57 @@ layout = [
             )
         ],
     ),
+    html.Div(
+            className="row g-2 mb-2",
+            children=[
+                html.Div(
+                    className="col",
+                    children=[
+                        dcc.Loading(
+                            html.Div(
+                                className="card overflow-x-auto",
+                                id="card-tabela-indicadores-adaptacao",
+                                children="Indicadores",
+                            )
+                        )
+                    ],
+                )
+            ],
+        ),
+    html.Div(
+                className="row g-2 mb-2",
+                children=[
+                    html.Div(
+                        className="col",
+                        children=[
+                            dcc.Loading(
+                                html.Div(
+                                    className="card overflow-x-auto",
+                                    id="card-tabela-indicadores-deficit",
+                                    children="Indicadores",
+                                )
+                            )
+                        ],
+                    )
+                ],
+            ),
+    html.Div(
+                className="row g-2 mb-2",
+                children=[
+                    html.Div(
+                        className="col",
+                        children=[
+                            dcc.Loading(
+                                html.Div(
+                                    className="card overflow-x-auto",
+                                    id="card-tabela-indicadores-vulnerabilidade",
+                                    children="Indicadores",
+                                )
+                            )
+                        ],
+                    )
+                ],
+            ),            
 ]
 
 
@@ -512,7 +563,10 @@ def mapa_cidade(nome_municipio):
     Output("card-deficithabitacional", "children"),
     Output("card-vulnerabilidadesocial", "children"),
     Output("card-tabela-acoes", "children"),
-    Output("card-tabela-indicadores", "children"),
+    Output("card-tabela-indicadores-mitigacao", "children"),
+    Output("card-tabela-indicadores-adaptacao", "children"),
+    Output("card-tabela-indicadores-deficit", "children"),
+    Output("card-tabela-indicadores-vulnerabilidade", "children"),
     Output("url", "hash"),
     Input("dropdown-cidade", "value"),
 )
@@ -545,17 +599,7 @@ def update_graph(value):
     tabela_acoes = df_recomendacoes[df_recomendacoes["Município"] == valor][
         ["Sugestões e Recomendações para Melhorias"]
     ]
-    acoes = dag.AgGrid(
-        id="get-started-example-basic-df",
-        rowData=tabela_acoes.to_dict("records"),
-        columnDefs=[{"field": i} for i in tabela_acoes.columns],
-        style={"height": "250px"},
-        columnSize="sizeToFit",
-        columnSizeOptions={
-            "defaultMinWidth": 100,
-            "columnLimits": [{"key": "Indicador", "minWidth": 200}],
-        },
-    )
+
     acoes = make_table(
         "sugestoes",
         ["Sugestões e recomendações para melhorias"],
@@ -572,39 +616,31 @@ def update_graph(value):
     dados_indicadores = dados_indicadores.merge(
         df_unidades, left_on="Indicador", right_on="Indicador"
     )
-    dados_indicadores = dados_indicadores[["Indicador", "Valor", "Unidade", "Período do dado", "Fonte"]]
 
-    indicadores = dag.AgGrid(
-        id="get-started-example-basic-df",
-        rowData=dados_indicadores.to_dict("records"),
-        columnDefs=[{"field": i} for i in dados_indicadores.columns],
-        style={"width": "100%"},
-        columnSize="sizeToFit",
-        columnSizeOptions={
-            "defaultMinWidth": 100,
-            "columnLimits": [{"key": "Indicador", "minWidth": 200}],
-        },
-    )
+    indicadores = []
+    for dimensao in ['Mitigação','Adaptação','Déficit Habitacional','Vulnerabilidade Social']:
+        dados_indicadores_dimensao = dados_indicadores[dados_indicadores['Dimensão']==dimensao][["Indicador", "Valor", "Unidade", "Período do dado", "Fonte"]]
+    
 
-    indicadores2 = make_table(
-        "indicadores",
-        ["Indicador", "Valor", "Unidade", "Período", "Fonte"],
-        dados_indicadores.values.tolist(),
-        [
-            "w-75",
-            "w-1",
-            "text-center w-1",
-            "text-center w-1",
-            "text-center w-25",
-        ],
-        [
-            "",
-            "text-end fw-bold",
-            "text-secondary",
-            "text-secondary text-center",
-            "text-center text-secondary",
-        ],
-    )
+        indicadores.append(make_table(
+            "indicadores " + dimensao,
+            ["Indicador de " + dimensao, "Valor", "Unidade", "Período", "Fonte"],
+            dados_indicadores_dimensao.values.tolist(),
+            [
+                "w-75",
+                "w-1",
+                "text-center w-1",
+                "text-center w-1",
+                "text-center w-25",
+            ],
+            [
+                "",
+                "text-end fw-bold",
+                "text-secondary",
+                "text-secondary text-center",
+                "text-center text-secondary",
+            ],
+        ))
 
     return (
         mapa,
@@ -614,7 +650,10 @@ def update_graph(value):
         deficit,
         vulnerabilidade,
         acoes,
-        indicadores2,
+        indicadores[0],
+        indicadores[1],
+        indicadores[2],
+        indicadores[3],
         "#" + valor,
     )
 

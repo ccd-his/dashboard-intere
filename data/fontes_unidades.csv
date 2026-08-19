@@ -1,47 +1,45 @@
-Indicador,Unidade,Fonte,Período do dado
-Área (Km²),km²,IBGE,2025
-População,hab,IBGE - Projeção,2025
-Áreas verdes (m²/habitante),m²/habitante,MapBiomas,2024
-Uso total de energia elétrica residencial per capita (kWh/dia),kWh/(hab*dia),Anuário de Energéticos por Municípios do Estado de São Paulo 2025,2024
-Consumo doméstico total de água per capita (litros/dia),L/(hab*dia),SINISA - Indicador IAG2007,2024
-Emissão de gases de efeito de estufa medida em toneladas per capita,ton/(hab*ano),SEEG,2024
-Porcentagem do orçamento municipal anual destinada às infraestruturas verde e azul ,%,Siconfi,2025
-Porcentagem de áreas designadas para proteção natural,%,CNUC,2024
-"Porcentagem da área da cidade coberta com materiais com alto índice de albedo, o que contribui para a mitigação das ilhas de calor urbanas",%,Sentinel-2,2024
-Porcentagem de resíduos sólidos urbanos que são reciclados,%,SINISA,2024
-Número anual de focos de incêndio por km²,Focos/Km²,Inpe Queimadas,2024
-Porcentagem do orçamento municipal anual destinado ao planejamento do gerenciamento de emergências,%,Siconfi,2025
-Alocação total de fundos de reserva para desastres como porcentagem do orçamento total da cidade,%,Tesouro Nacional Transparente,2025
-Porcentagem do orçamento municipal anual destinada à atualização e manutenção de infraestrutura de águas pluviais,%,SINISA,2024
-Número anual de propriedades residenciais inundadas como porcentagem do total de propriedades residenciais na cidade,%,SINISA,2024
-Porcentagem da área urbana exposta a risco de ameaças naturais,%,MapBiomas,2024
-Porcentagem anual da população da cidade diretamente afetada por ameaças naturais,%,MIDR,2025
-Porcentagem do orçamento municipal anual destinada a iniciativas de agricultura urbana,%,Siconfi,2025
-Porcentagem da população em domicílios em risco de insegurança alimentar,%,MS - TRIA,nov/2023 - dez/2025
-Total da área agrícola por habitante,ha/hab,MApbiomas,2024
-Frequência anual dos eventos de tempestades extremas,dias,CHIRPS Preciptation Daily,2025
-Frequência anual de eventos de calor extremo,dias,ECMWF CLimate Reanalysis,2025
-Frequência anual de eventos de frio extremo,dias,ECMWF CLimate Reanalysis,2025
-Frequência anual de eventos de seca meteorológica,meses,CHIRPS Preciptation Daily,2025
-Intensidade dos eventos de tempestades extremas,-,CHIRPS Preciptation Daily,2025
-Intensidade dos eventos de calor extremo,-,ECMWF CLimate Reanalysis,2025
-Intensidade dos eventos de frio extremo,-,ECMWF CLimate Reanalysis,2025
-Porcentagem da população da cidade com serviço de abastecimento de água potável,%,SINISA,2024
-Porcentagem da população da cidade atendida por sistemas de coleta e afastamento de esgoto,%,SINISA,2024
-Porcentagem da população da cidade com coleta regular de resíduos sólidos (domiciliar),%,SINISA,2024
-Inexistência de banheiro exclusivo,%,IBGE - Censo 2022,2022
-Número de cômodos igual ao número de dormitórios,%,IBGE - Censo 2022,2022
-Adensamento excessivo de domicílios alugados,%,IBGE - Censo 2022,2022
-Domicílio cômodo,%,IBGE - Censo 2022,2022
-Adensamento excessivo de domicílios (exceto alugados),%,IBGE - Censo 2022,2022
-Domicílios rústicos,%,IBGE - Censo 2022,2022
-Domicílios improvisados em favelas e comunidades urbanas,%,IBGE - Censo 2022,2022
-Taxa de mortalidade de crianças menores de cinco anos a cada 1.000 nascidos vivos,mortes/1000 nascidos vivos,DataSUS,2024
-Número de internações hospitalares por Doenças Relacionadas ao Saneamento Ambiental Inadequado – DRSAI por 100.000 habitantes,Internações/100.000 hab,DataSUS,2025
-Presença de pessoas com deficiência (PCD),%,IBGE - Censo 2022,2022
-Renda per capita,R$/(hab*mês),IBGE - Censo 2022,2022
-Média do valor da terra nua rural,R$/ha,Receita Federal,2025
-Taxa de distorção idade-série no Ensino Fundamental,%,INEP - Censo Escolar 2025,2025
-Porcentagem de mães solo chefes de família,%,IBGE - Censo 2022,2022
-Taxa de alfabetização de pessoas economicamente ativas,%,IBGE - Censo 2022,2022
-Gravidez na adolescência (<19 anos),%,IBGE - Censo 2022 e DataSUS,2022
+Indicador,Unidade,Fonte,Período do dado,Dimensão
+Áreas verdes (m²/habitante),m²/habitante,MapBiomas,2024,Mitigação
+Uso total de energia elétrica residencial per capita (kWh/dia),kWh/(hab*dia),Anuário de Energéticos por Municípios do Estado de São Paulo 2025,2024,Mitigação
+Consumo doméstico total de água per capita (litros/dia),L/(hab*dia),SINISA - Indicador IAG2007,2024,Mitigação
+Emissão de gases de efeito de estufa medida em toneladas per capita,ton/(hab*ano),SEEG,2024,Mitigação
+Porcentagem do orçamento municipal anual destinada às infraestruturas verde e azul ,%,Siconfi,2025,Mitigação
+Porcentagem de áreas designadas para proteção natural,%,CNUC,2024,Mitigação
+"Porcentagem da área da cidade coberta com materiais com alto índice de albedo, o que contribui para a mitigação das ilhas de calor urbanas",%,Sentinel-2,2024,Mitigação
+Porcentagem de resíduos sólidos urbanos que são reciclados,%,SINISA,2024,Mitigação
+Número anual de focos de incêndio por km²,Focos/Km²,Inpe Queimadas,2024,Mitigação
+Porcentagem do orçamento municipal anual destinado ao planejamento do gerenciamento de emergências,%,Siconfi,2025,Adaptação
+Alocação total de fundos de reserva para desastres como porcentagem do orçamento total da cidade,%,Tesouro Nacional Transparente,2025,Adaptação
+Porcentagem do orçamento municipal anual destinada à atualização e manutenção de infraestrutura de águas pluviais,%,SINISA,2024,Adaptação
+Número anual de propriedades residenciais inundadas como porcentagem do total de propriedades residenciais na cidade,%,SINISA,2024,Adaptação
+Porcentagem da área urbana exposta a risco de ameaças naturais,%,MapBiomas,2024,Adaptação
+Porcentagem anual da população da cidade diretamente afetada por ameaças naturais,%,MIDR,2025,Adaptação
+Porcentagem do orçamento municipal anual destinada a iniciativas de agricultura urbana,%,Siconfi,2025,Adaptação
+Porcentagem da população em domicílios em risco de insegurança alimentar,%,MS - TRIA,nov/2023 - dez/2025,Adaptação
+Total da área agrícola por habitante,ha/hab,MApbiomas,2024,Adaptação
+Frequência anual dos eventos de tempestades extremas,dias,CHIRPS Preciptation Daily,2025,Adaptação
+Frequência anual de eventos de calor extremo,dias,ECMWF CLimate Reanalysis,2025,Adaptação
+Frequência anual de eventos de frio extremo,dias,ECMWF CLimate Reanalysis,2025,Adaptação
+Frequência anual de eventos de seca meteorológica,meses,CHIRPS Preciptation Daily,2025,Adaptação
+Intensidade dos eventos de tempestades extremas,-,CHIRPS Preciptation Daily,2025,Adaptação
+Intensidade dos eventos de calor extremo,-,ECMWF CLimate Reanalysis,2025,Adaptação
+Intensidade dos eventos de frio extremo,-,ECMWF CLimate Reanalysis,2025,Adaptação
+Porcentagem da população da cidade com serviço de abastecimento de água potável,%,SINISA,2024,Déficit Habitacional
+Porcentagem da população da cidade atendida por sistemas de coleta e afastamento de esgoto,%,SINISA,2024,Déficit Habitacional
+Porcentagem da população da cidade com coleta regular de resíduos sólidos (domiciliar),%,SINISA,2024,Déficit Habitacional
+Inexistência de banheiro exclusivo,%,IBGE - Censo 2022,2022,Déficit Habitacional
+Número de cômodos igual ao número de dormitórios,%,IBGE - Censo 2022,2022,Déficit Habitacional
+Adensamento excessivo de domicílios alugados,%,IBGE - Censo 2022,2022,Déficit Habitacional
+Domicílio cômodo,%,IBGE - Censo 2022,2022,Déficit Habitacional
+Adensamento excessivo de domicílios (exceto alugados),%,IBGE - Censo 2022,2022,Déficit Habitacional
+Domicílios rústicos,%,IBGE - Censo 2022,2022,Déficit Habitacional
+Domicílios improvisados em favelas e comunidades urbanas,%,IBGE - Censo 2022,2022,Déficit Habitacional
+Taxa de mortalidade de crianças menores de cinco anos a cada 1.000 nascidos vivos,mortes/1000 nascidos vivos,DataSUS,2024,Vulnerabilidade Social
+Número de internações hospitalares por Doenças Relacionadas ao Saneamento Ambiental Inadequado – DRSAI por 100.000 habitantes,Internações/100.000 hab,DataSUS,2025,Vulnerabilidade Social
+Presença de pessoas com deficiência (PCD),%,IBGE - Censo 2022,2022,Vulnerabilidade Social
+Renda per capita,R$/(hab*mês),IBGE - Censo 2022,2022,Vulnerabilidade Social
+Média do valor da terra nua rural,R$/ha,Receita Federal,2025,Vulnerabilidade Social
+Taxa de distorção idade-série no Ensino Fundamental,%,INEP - Censo Escolar 2025,2025,Vulnerabilidade Social
+Porcentagem de mães solo chefes de família,%,IBGE - Censo 2022,2022,Vulnerabilidade Social
+Taxa de alfabetização de pessoas economicamente ativas,%,IBGE - Censo 2022,2022,Vulnerabilidade Social
+Gravidez na adolescência (<19 anos),%,IBGE - Censo 2022 e DataSUS,2022,Vulnerabilidade Social

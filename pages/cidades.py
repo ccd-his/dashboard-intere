@@ -56,7 +56,7 @@ layout = [
                         className="row",
                         children=[
                             html.Div(
-                                className="col-md-5 col-sm-12 mb-3",
+                                className="col-md-5 col-sm-12",
                                 children=[
                                     html.Div(
                                         className="card p-3 h-100 card card-active",
@@ -393,38 +393,39 @@ def card_progress_pequeno(indice, valor):
             },
             children=[
                 html.H4(
-                    className="card-title mb-1",
+                    className="card-title mb-1 text-center",
                     children=indice,
+                    
                 ),
-                html.Button(
-                    "ⓘ",
-                    id=f"info-{indice}",
-                    className="btn btn-link p-0",
-                    style={
-                        "position": "absolute",
-                        "top": "1",
-                        "right": "0",
-                        "fontSize": "1rem",
-                        "color": "#6c757d",
-                        "textDecoration": "none",
-                        "lineHeight": "1",
-                    },
-                ),
+                # html.Button(
+                #     "ⓘ",
+                #     id=f"info-{indice}",
+                #     className="btn btn-link p-0",
+                #     style={
+                #         "position": "absolute",
+                #         "top": "1",
+                #         "right": "0",
+                #         "fontSize": "1rem",
+                #         "color": "#6c757d",
+                #         "textDecoration": "none",
+                #         "lineHeight": "1",
+                #     },
+                # ),
 
-                dbc.Popover(
-                    dbc.PopoverBody(
-                        explicacoes[indice]
-                    ),
-                    target=f"info-{indice}",
-                    placement="bottom",
-                    trigger="click",
-                ),
+                # dbc.Popover(
+                #     dbc.PopoverBody(
+                #         explicacoes[indice]
+                #     ),
+                #     target=f"info-{indice}",
+                #     placement="bottom",
+                #     trigger="click",
+                # ),
 
             ],
         ),
 
         html.Div(
-            className="g-2 align-items-center",
+            className="g-2 align-items-center text-center",
             children=[
                 html.Div(
                     className="col-auto",
@@ -444,6 +445,17 @@ def card_progress_pequeno(indice, valor):
                         )
                     ],
                 ),
+
+                html.Div(
+                    className="col-auto mt-0 mb-0",
+                    children=[
+                     html.P(
+                            explicacoes[indice],
+                            style={"fontSize": "9px"}
+                        )
+
+                    ],
+                ),
             ],
         ),
     ]
@@ -455,22 +467,22 @@ def card_progress_irct(valor):
         html.Div(
             className="d-flex justify-content-between align-items-start",
             children=[
-                html.H4(
-                    className="card-title mb-1",
+                html.H3(
+                    className="card-title mb-1 text-center",
                     children="Índice de Resiliência Climática Territorial",
                 ),
 
-                html.Button(
-                    "ⓘ",
-                    id="info-irct",
-                    className="btn btn-link p-0",
-                    style={
-                        "fontSize": "1.1rem",
-                        "color": "#6c757d",
-                        "textDecoration": "none",
-                        "lineHeight": "1",
-                    },
-                ),
+                # html.Button(
+                #     "ⓘ",
+                #     id="info-irct",
+                #     className="btn btn-link p-0",
+                #     style={
+                #         "fontSize": "1.1rem",
+                #         "color": "#6c757d",
+                #         "textDecoration": "none",
+                #         "lineHeight": "1",
+                #     },
+                # ),
             ],
         ),
 
@@ -487,7 +499,7 @@ def card_progress_irct(valor):
             className="g-2 align-items-center",
             children=[
                 html.Div(
-                    className="col-auto mt-5 mb-5",
+                    className="col-auto mt-5 mb-5 text-center",
                     children=[
                         html.H1(
                             valor,
@@ -504,6 +516,17 @@ def card_progress_irct(valor):
                             style={"width": f"{valor * 10}%"},
                             role="progressbar",
                         )
+                    ],
+                ),
+
+                html.Div(
+                    className="col-auto mt-0 mb-0",
+                    children=[
+                     html.P(
+                            "Valores maiores indicam melhor Resiliência",
+                            style={"fontSize": "11px"}
+                        )
+
                     ],
                 ),
             ],
@@ -617,6 +640,7 @@ def update_graph(value):
         df_unidades, left_on="Indicador", right_on="Indicador"
     )
 
+    print(dados_indicadores)
     indicadores = []
     for dimensao in ['Mitigação','Adaptação','Déficit Habitacional','Vulnerabilidade Social']:
         dados_indicadores_dimensao = dados_indicadores[dados_indicadores['Dimensão']==dimensao][["Indicador", "Valor", "Unidade", "Período do dado", "Fonte"]]

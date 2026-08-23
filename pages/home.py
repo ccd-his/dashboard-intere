@@ -185,5 +185,5 @@ def update_graph(value, local_storage):
 )
 def update_click(clickData):
 
-    return f"./cidades#{clickData['points'][0]['text']}"
+    return f"./municipios#{clickData['points'][0]['text']}"
 

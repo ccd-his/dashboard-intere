@@ -17,14 +17,14 @@ from data_source import (
 )
 from ui import make_table, make_title
 
-dash.register_page(__name__, path="/cidades")
+dash.register_page(__name__, path="/municipios")
 
 layout = [
     # html.H3(children="IRCT", style={"textAlign": "right"}),
     dcc.Location(id="url", refresh=True),
     make_title(
-        "Conheça a situação da sua cidade",
-        "Cidades",
+        "Conheça a situação do seu município",
+        "Município",
         dcc.Dropdown(load_df_cidades(), "", clearable=False, id="dropdown-cidade"),
     ),
     html.Div(
